@@ -12,31 +12,39 @@ body{
     color:#ffffff;
 }
 
-.yellow_back{
+/*サイドバーの設定*/
+#sideflex {
+    display:flex;
+    justify-content: center;
+    position: relative;
+}
+
+#navigation{
+    background-color: #000000;
+    border: 2px solid #f0c17d;
+    box-shadow: 2px 2px 10px #f0c17d;
+    padding: 2px;
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#navigation p{
+    text-align: center;
+    color: #ffffff;
+}
+
+/*招待状*/
+#inv-back{
 	text-align: center;
     background-color: #000000;
     border: 2px solid #f0c17d;
     box-shadow: 2px 2px 10px #f0c17d;
     padding: 12px;
     max-width: 50%;
-    margin: 0 auto;
-    height: auto;
-}
-
-/*サイドバーの設定*/
-article {
-    display:flex;
-}
-
-#navigation{
-    text-align: center;
-    background-color: #000000;
-    margin-top:40px;
-    border: 2px solid #f0c17d;
-    box-shadow: 2px 2px 10px #f0c17d;
-    padding: 12px;
-    width: 120px;
-    height: auto;
 }
 
 .invitation{
@@ -47,6 +55,9 @@ article {
     padding-top: 10px;
 }
 
+#inv-title{
+    font-size: 200%;
+}
 
 p.invitation{
     font-size: 100%;
@@ -60,7 +71,7 @@ p.invitation{
     box-shadow: 2px 2px 10px #f0c17d;
     padding: 12px;
     max-width: 50%;
-    margin: 0 auto;
+    margin-inline: auto;
     height: auto;
 }
 
@@ -71,6 +82,7 @@ p.invitation{
     text-shadow: 1px 1px 10px #f0c17d;
     padding-top: 10px;
 }
+
 footer .discord {display: block;}
 
 footer {
