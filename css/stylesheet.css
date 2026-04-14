@@ -100,3 +100,28 @@ footer {
 	text-align: center; /*センターへ変更*/
 	padding-top: 5rem; 
 }
+
+/*スタッフ紹介*/
+#staff{
+    
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #0000003a;
+    box-shadow: 2px 2px 10px #0000003a;
+    padding: 12px;
+    max-width: 50%;
+    margin-inline: auto;
+    width:500px;
+    height: 300px;
+}
+
+#staff-flex{
+    display:flex;
+}
+#staff-flex img{
+    width:50px;
+    height: 50px;
+    margin-inline:auto;
+}
