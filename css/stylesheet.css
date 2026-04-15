@@ -22,6 +22,7 @@ body{
 
 .navigation{
 
+    
     background-color: #000000;
     border: 2px solid #f0c17d;
     box-shadow: 2px 2px 10px #f0c17d;
@@ -63,6 +64,15 @@ body{
 }
 #navigation6{
     margin-top: 850px;
+}
+#navigation7{
+    margin-top: 1050px;
+}
+#navigation8{
+    margin-top: 1250px;
+}
+#navigation9{
+    margin-top: 1450px;
 }
 /*招待状*/
 #inv-back{
@@ -113,7 +123,7 @@ p.invitation{
 footer .discord {display: block;}
 
 footer {
-    margin-top: 600px;
+    margin-top: 1200px;
     background-color:black;
     color:#ffffff;
 	font-size: 0.8rem; 
