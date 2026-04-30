@@ -19,84 +19,24 @@
 
     <main>
         <div id="sideflex">
-            <div id="sidebar"> <!--サイドバー-->
-                <details class="navigation">
-                    <summary>サイドバー</summary>
-                    <hr />
-                    <a href="index.html">メインページ</a>
-                    <a href="staffs.html">スタッフ・開発者</a>
-                    <a href="">当WIKI更新ログ</a>
-                </details>
-                <details class="navigation">
-                    <summary>キャラクター</summary>
-                    <hr />
-                    <a href="">特性</a>
-                    <a href="">罪</a>
-                    <a href="">血鬼</a>
-                    <a href="">アクセサリー</a>
-                    <a href="">理髪師</a>
-                </details>
-                <details class="navigation">
-                    <summary>アーセナル</summary>
-                    <hr />
-                    <a href="">武器</a>
-                    <a href="">服</a>
-                    <a href="">ページ</a>
-                    <a href="">E.G.O</a>
-                    <a href="">心と望</a>
-                </details>
-                <details class="navigation">
-                    <summary>システム</summary>
-                    <hr />
-                    <a href="">協会</a>
-                    <a href="">シンジケート</a>
-                    <a href="">クラフト</a>
-                    <a href="">料理</a>
-                    <a href="">ランク</a>
-                </details>
-                <details class="navigation">
-                    <summary>ガイド</summary>
-                    <hr />
-                    <a href="">起源</a>
-                    <a href="">操作ガイド</a>
-                    <a href="">戦闘ガイド</a>
-                    <a href="">グレード</a>
-                    <a href="">プレイヤーとの関わり方</a>
-                </details>
-                <details class="navigation">
-                    <summary>ワールド</summary>
-                    <hr />
-                    <a href="">地図</a>
-                    <a href="">アイテム</a>
-                    <a href="">戦利品プール</a>
-                    <a href="">ダンジョン</a>
-                    <a href="">イベント</a>
-                </details>
-                <details class="navigation">
-                    <summary>住人</summary>
-                    <hr />
-                    <a href="">npc</a>
-                    <a href="">モブ敵</a>
-                    <a href="">ボス</a>
-                </details>
-                <details class="navigation">
-                    <summary>その他</summary>
-                    <hr />
-                    <a href="">状態異常</a>
-                    <a href="">けが</a>
-                    <a href="">豆知識</a>
-                    <a href="">ビルド</a>
-                </details>
-            </div>
+            <div id="sidebar-container"></div>
             <div id="main-content">
                 <div id="main-inner">
                     <div id="staff"> <!--wiki紹介文-->
-                        <h1>WIKI開発者・スタッフ</h1>
-                        <div id="staff-flex">
+                        <div class="staff-card">
                             <img src="css/image/sizenicon.jpg" alt="Nature_Icon">
-                            <p>n4ture27(Developer)</p>
+                            <div class="staff-text-line">
+                                <p class="staff-role" data-role="DeveloperはWikiのコーディング、バグ修正を行います。">[Developer]</p>
+                                <a class="staff-name" href="https://github.com/n4ture27s" target="_blank" rel="noopener noreferrer">n4ture27</a>
+                            </div>
+                            
+                        </div>
+                        <div class="staff-card">
                             <img src="css/image/grapon.png" alt="Grapon_Icon">
-                            <p>grapon1(Developer)</p>
+                            <div class="staff-text-line">
+                                <p class="staff-role" data-role="DeveloperはWikiのコーディング、バグ修正を行います。">[Developer]</p>
+                                <a class="staff-name" >grapon1</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,6 +54,8 @@
         <span class="discord"> <small>Created by grapon1& <a href="https://github.com/n4ture27s"
                     target="_blank">n4ture27s</a></small></span>
     </footer>
+
+    <script src="javascript/main.js"></script>
 </body>
 
 </html>

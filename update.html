@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchivedJPWiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div id="header">
+        <header>
+            <h1 id="logo"><a id="AtagLogo" href="index.html">Archived JP Wiki</a></h1>
+
+        </header>
+    </div>
+
+
+    <main>
+        <div id="sideflex">
+            <div id="sidebar-container"></div>
+            <div id="main-content">
+                <div id="main-inner">
+                    <div class="update-log">
+                        <div class="filter-buttons">
+                            <button class="pressed" onclick="LogFilter('all')">すべて</button>
+                            <button onclick="LogFilter('add')">追加</button>
+                            <button onclick="LogFilter('fix')">修正</button>
+                            <button onclick="LogFilter('change')">変更</button>
+                            <button onclick="LogFilter('remove')">削除</button>
+                        </div>
+                        <details open>
+                            <summary>2026/04/30 <span class="new">NEW!</span></summary>
+                            <p class="log add">[追加]TEST</p>
+                            <p class="log fix">[修正]TEST</p>
+                            <p class="log change">[変更]TEST</p>
+                            <p class="log remove">[削除]TEST</p>
+                        </details>
+                        <details>
+                            <summary>2026/04/25</summary>
+                            <p class="log add">[追加]TEST</p>
+                        </details>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!--この下に書くとライセンス表記の下に出てきちゃうので注意-->
+    <footer>
+        <small>2026 No license</small>
+        <span class="discord"> <small>Created by grapon1& <a href="https://github.com/n4ture27s"
+                    target="_blank">n4ture27s</a></small></span>
+    </footer>
+
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
