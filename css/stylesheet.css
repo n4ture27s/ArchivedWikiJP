@@ -16,80 +16,65 @@ body{
 /*サイドバーの設定*/
 #sideflex {
     display:flex;
-    justify-content: center;
-    position: relative;
+    align-items: flex-start;
 }
 
-.navigation{
+#main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
 
-    
+#main-inner {
+    width: 700px;
+}
+
+#sidebar{
+    width: 170px;
+}
+
+/* 各サイドバー ボックス */
+.navigation{
+    margin-bottom: 20px;
     background-color: #000000;
     border: 2px solid #f0c17d;
     box-shadow: 2px 2px 10px #f0c17d;
-    padding: 2px;
-    width: 140px;
-    height: 190px;
-    position: absolute;
-    left: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 10px;
 }
 
+/* title */
 .navigation p{
     text-align: center;
     color: #ffffff;
-    display: block;
+    font-weight: bold;
 }
+
+/* 中のリンク */
 .navigation a{
+    display: block;
     text-align: center;
     color: #ffffff;
-    display: block;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-#navigation1{
-    margin-top: 50px;
-}
 
-#navigation2{
-    margin-top: 250px;
-}
-#navigation3{
-    margin-top: 250px;
-}
-#navigation4{
-    margin-top: 450px;
-}
-#navigation5{
-    margin-top: 650px;
-}
-#navigation6{
-    margin-top: 850px;
-}
-#navigation7{
-    margin-top: 1050px;
-}
-#navigation8{
-    margin-top: 1250px;
-}
-#navigation9{
-    margin-top: 1450px;
-}
 /*招待状*/
+
 #inv-back{
 	text-align: center;
     background-color: #000000;
     border: 2px solid #f0c17d;
     box-shadow: 2px 2px 10px #f0c17d;
-    padding: 12px;
-    max-width: 50%;
+    padding: 5px;
 }
 
 .invitation{
-    margin-bottom: 20px;
 	color: #f0c17d;
     text-align: center;
     text-shadow: 1px 1px 10px #f0c17d;
-    padding-top: 10px;
+    
 }
 
 #inv-title{
@@ -103,13 +88,9 @@ p.invitation{
 #game_overview{
     text-align: center;
     background-color: #000000;
-    margin-bottom: 20px;
     border: 2px solid #f0c17d;
     box-shadow: 2px 2px 10px #f0c17d;
-    padding: 12px;
-    max-width: 50%;
-    margin-inline: auto;
-    height: auto;
+    padding: 5px;
 }
 
 .game_overview{
@@ -117,7 +98,7 @@ p.invitation{
 	color: #ffffff;
     text-align: center;
     text-shadow: 1px 1px 10px #f0c17d;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 footer .discord {display: block;}
