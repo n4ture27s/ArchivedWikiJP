@@ -2,7 +2,7 @@
 
 body {
     background-color: #000000;
-    background-image: url("image/background.png");
+    background-image: url("/assets/image/background.png");
     background-attachment: fixed;
 }
 
@@ -130,7 +130,7 @@ footer {
 }
 
 .staff-card .staff-name {
-    color:#ffffff;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -175,7 +175,7 @@ footer {
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
-    
+
     transition: 0.2s;
 }
 
@@ -201,7 +201,7 @@ footer {
     max-width: 700px;
     margin: 20px auto;
     background-color: rgba(0, 0, 0, 200);
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .update-log details {
@@ -216,10 +216,22 @@ footer {
     color: #fff;
 }
 
-.add { color: #4caf50; }
-.fix { color: #2196f3; }
-.change { color: #ff00ff; }
-.remove { color: #ff0000; }
+.add {
+    color: #4caf50;
+}
+
+.fix {
+    color: #2196f3;
+}
+
+.change {
+    color: #ff00ff;
+}
+
+.remove {
+    color: #ff0000;
+}
+
 .new {
     color: gold;
 }
@@ -240,6 +252,7 @@ footer {
     padding: 6px 10px;
     cursor: pointer;
 }
+
 /*ログsortのボタンアニメーション*/
 .filter-buttons button::after {
     content: "";
@@ -261,9 +274,69 @@ footer {
 
 .filter-buttons button.pressed {
     color: #f0c17d;
-   
+
 }
 
 .filter-buttons button.pressed:after {
     transform: scaleX(1);
+}
+
+/*標準テンプレート*/
+#w-title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.w-back {
+    background: #000;
+    border: 2px solid #f0c17d;
+    box-shadow: 0 0 10px #f0c17d;
+    padding: 15px;
+    transition: 0.3s;
+    color: #ffffff;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#text-area {
+    display: inline-flex;
+}
+/*tooltip*/
+.tooltip-target {
+    display: inline-flex;
+    align-items: center;
+    cursor: default;
+}
+
+.status-icon {
+  width: 24px;
+  height: 24px;
+}
+
+#tooltip {
+  position: fixed;
+  display: none;
+  background: rgba(0,0,0,0.85);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 9999;
+  max-width: 200px;
+}
+
+/* バフ */
+.buff {
+  color: #fac400; 
+}
+
+/* デバフ */
+.debuff {
+  color: #e20000;
+}
+
+/* リソース */
+.resource {
+  color: #9f6a3a;
 }
