@@ -15,11 +15,11 @@ body{
 
 /*サイドバーの設定*/
 #sideflex {
-    display:flex;
     align-items: flex-start;
 }
 
 #main-content {
+    margin-left: 220px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -29,8 +29,17 @@ body{
     width: 700px;
 }
 
-#sidebar{
+#sidebar {
+    position: fixed;
+    top: var(--header-height);
+    max-height: calc(100vh - var(--header-height) - 20px);
+    left: 10px;
     width: 170px;
+    overflow-y: auto;
+}
+
+:root {
+    --header-height: 80px;
 }
 
 /* 各サイドバー ボックス */
@@ -43,10 +52,12 @@ body{
 }
 
 /* title */
-.navigation p{
+.navigation summary{
+    user-select: none;
     text-align: center;
     color: #ffffff;
     font-weight: bold;
+    cursor: pointer;
 }
 
 /* 中のリンク */
@@ -56,7 +67,7 @@ body{
     color: #ffffff;
     padding: 5px;
     text-decoration: none;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 
@@ -104,7 +115,7 @@ p.invitation{
 footer .discord {display: block;}
 
 footer {
-    margin-top: 1200px;
+    margin-top: 50px;
     background-color:black;
     color:#ffffff;
 	font-size: 0.8rem; 
