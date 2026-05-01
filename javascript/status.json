@@ -48,5 +48,10 @@
         "text": "体力回復の値倍増加させる。",
         "type": "buff",
         "icon": "HP_Healing_Boost"
+    },
+    "Value power up": {
+        "text": "ダイス威力を値だけ増加させる。",
+        "type": "buff",
+        "icon": "Clash_Power_Up"
     }
 }
