@@ -1,3 +1,5 @@
+
+//filter
 function LogFilter(type) {
     const details = document.querySelectorAll(".update-log details")
 
@@ -17,7 +19,7 @@ function LogFilter(type) {
         d.style.display = view > 0 ? "block" : "none";
     })
 }
-
+//filter-2
 const buttons = document.querySelectorAll('.filter-buttons button');
 buttons.forEach(button => {
     button.addEventListener('click', (ev) => {
@@ -28,6 +30,7 @@ buttons.forEach(button => {
     })
 })
 
+//sidebarの一斉更新
 fetch("/sidebar.html")
     .then(res => res.text())
     .then(data => {
@@ -47,6 +50,7 @@ document.querySelectorAll('.staff-card').forEach(card => {
 });
 
 
+//tooltips
 const tooltip = document.getElementById("tooltip");
 let tooltipData = {};
 
