@@ -1,3 +1,17 @@
 {
-    "light" : {"text":"ページなどで消費するステータス。","type": "resource"}
+    "value_up": {
+        "text": "ダイス値を数値分増加させます。",
+        "type": "buff",
+        "icon": "value_up"
+    },
+    "permadeath": {
+        "text": "死亡もしくは戦闘状態で抜けると、そのスロットのデータが消滅します。",
+        "type": "debuff",
+        "icon": "permadeath"
+    },
+    "light": {
+        "text": "ページなどで消費するステータス。",
+        "type": "resource",
+        "icon": "light"
+    }
 }

@@ -52,27 +52,40 @@ document.querySelectorAll('.staff-card').forEach(card => {
 
 //tooltips
 const tooltip = document.getElementById("tooltip");
-let tooltipData = {};
-
-fetch("/javascript/status.json")
-    .then(res => res.json())
-    .then(data => {
-        tooltipData = data;
-        applyTooltipStyles();
-    });
 document.addEventListener("mousemove", (e) => {
     tooltip.style.left = (e.clientX + 12) + "px";
     tooltip.style.top = (e.clientY + 12) + "px";
+});
+let tooltipData = {};
+let combat_module = {};
+
+Promise.all([
+    fetch("/javascript/status.json").then(res => res.json()),
+    fetch("/javascript/combat_module.json").then(res => res.json())
+]).then(([statusData, moduleData]) => {
+    tooltipData = statusData;
+    combat_module = moduleData;
+
+    applyAllStyles();
 });
 
 document.querySelectorAll(".tooltip-target").forEach(el => {
     el.addEventListener("mouseenter", (e) => {
         const key = e.target.dataset.key;
+
         const data = tooltipData[key];
+        const moduleData = combat_module[key];
 
-        if (!data) return;
+        // どっちにも無いなら何もしない
+        if (!data && !moduleData) return;
 
-        tooltip.textContent = data.text;
+        // 表示するテキスト決定（優先順位つける）
+        const text =
+            moduleData?.text ||  // combat_moduleにtextあれば優先
+            data?.text ||        // なければtooltipData
+            "";
+
+        tooltip.textContent = text;
         tooltip.style.display = "block";
     });
 
@@ -81,14 +94,30 @@ document.querySelectorAll(".tooltip-target").forEach(el => {
     });
 });
 
-function applyTooltipStyles() {
+function applyAllStyles() {
     document.querySelectorAll(".tooltip-target").forEach(el => {
         const key = el.dataset.key;
+
         const data = tooltipData[key];
+        const moduleData = combat_module[key];
 
-        if (!data) return;
+        if (data?.type) {
+            el.classList.add(data.type);
+        }
 
-        // typeをクラスとして付与
-        el.classList.add(data.type);
+        if (moduleData?.type) {
+            el.classList.add(moduleData.type);
+        }
+
+        if (moduleData?.color) {
+            el.style.color = `#${moduleData.color}`;
+        }
+
+        if (data?.icon) {
+            const img = document.createElement("img");
+            img.src = `/assets/status_icon/${data.icon}.png`;
+            img.classList.add("status-icon");
+            el.prepend(img);
+        }
     });
 }
