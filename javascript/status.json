@@ -53,5 +53,10 @@
         "text": "ダイス威力を値だけ増加させる。",
         "type": "buff",
         "icon": "Clash_Power_Up"
+    },
+    "charge barrier": {
+        "text": "被ダメージを10%減らし、値を1減ら",
+        "type": "buff",
+        "icon": "Charge_Barrier"
     }
 }
