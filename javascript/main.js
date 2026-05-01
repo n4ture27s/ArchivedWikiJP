@@ -1,35 +1,3 @@
-
-//filter
-function LogFilter(type) {
-    const details = document.querySelectorAll(".update-log details")
-
-    details.forEach(d => {
-        const logs = d.querySelectorAll(".log");
-        let view = 0;
-
-        logs.forEach(log => {
-            if (type === "all" || log.classList.contains(type)) {
-                log.style.display = "block"
-                view++;
-            } else {
-                log.style.display = "none"
-            }
-        })
-
-        d.style.display = view > 0 ? "block" : "none";
-    })
-}
-//filter-2
-const buttons = document.querySelectorAll('.filter-buttons button');
-buttons.forEach(button => {
-    button.addEventListener('click', (ev) => {
-        buttons.forEach(allb => {
-            allb.classList.remove('pressed')
-        })
-        button.classList.add("pressed")
-    })
-})
-
 //sidebarの一斉更新
 fetch("/sidebar.html")
     .then(res => res.text())
@@ -60,8 +28,8 @@ let tooltipData = {};
 let combat_module = {};
 
 Promise.all([
-    fetch("/javascript/status.json").then(res => res.json()),
-    fetch("/javascript/combat_module.json").then(res => res.json())
+    fetch("/javascript/json/status.json").then(res => res.json()),
+    fetch("/javascript/json/combat_module.json").then(res => res.json())
 ]).then(([statusData, moduleData]) => {
     tooltipData = statusData;
     combat_module = moduleData;
