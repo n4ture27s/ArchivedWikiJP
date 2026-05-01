@@ -83,5 +83,10 @@
         "text": "[被ダメージ時]値に等しい分だけダメージを軽減 / [的中時]値1につきダメージ+10%。",
         "type": "buff",
         "icon": ""
+    },
+    "fluorescence shard": {
+        "text": "時間経過で値が1減った時、呼吸を4得る。",
+        "type": "buff",
+        "icon": "Fluorescence_Shard"
     }
 }
