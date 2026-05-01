@@ -69,9 +69,14 @@
         "type": "debuff",
         "icon": "Sinking"
     },
-    "volatile_passion": {
+    "volatile passion": {
         "text": "蝋の翼(ワックスピニオン)E.G.Oに紐づくページ、クリティカルを強化する。",
         "type": "buff",
         "icon": "Volatile_Passion"
+    },
+    "kcorp ample": {
+        "text": "このバフが時間経過で1消耗された場合、50の回復と再生、脆弱10を付与します。",
+        "type": "buff",
+        "icon": "Decay_Ampule"
     }
 }
