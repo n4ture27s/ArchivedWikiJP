@@ -23,5 +23,10 @@
         "text": "特定のページや武器などで使われるステータス。",
         "type": "resource",
         "icon": "Charge"
+    },
+    "fragile": {
+        "text": "被ダメージ時に値/2%分のダメージが増加する。",
+        "type": "debuff",
+        "icon": "Fragile"
     }
 }
