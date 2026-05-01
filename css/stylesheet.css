@@ -298,45 +298,47 @@ footer {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
-#text-area {
-    display: inline-flex;
+.text-area {
+    white-space: nowrap;
 }
+
 /*tooltip*/
 .tooltip-target {
-    display: inline-flex;
-    align-items: center;
+
     cursor: default;
 }
 
 .status-icon {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 #tooltip {
-  position: fixed;
-  display: none;
-  background: rgba(0,0,0,0.85);
-  color: white;
-  padding: 6px 10px;
-  border-radius: 6px;
-  font-size: 12px;
-  pointer-events: none;
-  z-index: 9999;
-  max-width: 200px;
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #f0c17d;
+    box-shadow: 0 0 10px #f0c17d;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    pointer-events: none;
+    max-width: 200px;
+
 }
 
 /* バフ */
 .buff {
-  color: #fac400; 
+    color: #fac400;
 }
 
 /* デバフ */
 .debuff {
-  color: #e20000;
+    color: #e20000;
 }
 
 /* リソース */
 .resource {
-  color: #9f6a3a;
+    color: #9f6a3a;
 }
