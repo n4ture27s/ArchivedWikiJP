@@ -13,5 +13,11 @@
         "text": "ページなどで消費するステータス。",
         "type": "resource",
         "icon": "light"
+    },
+    "bleed": {
+        "text": "ダイスを振るたびにその値の1/3に相当するダメージを与えてその後、値が半分になる",
+        "type": "debuff",
+        "icon": "Bleed"
+    
     }
 }
