@@ -49,14 +49,74 @@
         "type": "buff",
         "icon": "HP_Healing_Boost"
     },
-    "Value power up": {
+    "value power up": {
         "text": "ダイス威力を値だけ増加させる。",
         "type": "buff",
         "icon": "Clash_Power_Up"
     },
     "charge barrier": {
-        "text": "被ダメージを10%減らし、値を1減ら",
+        "text": "被ダメージを10%減らし、値を1減らす。",
         "type": "buff",
         "icon": "Charge_Barrier"
+    },
+    "burn": {
+        "text": "値を2で割った値に等しいダメージ2秒ごとに与え、その後値が半分になる。",
+        "type": "debuff",
+        "icon": "Burn"
+    },
+    "sinking": {
+        "text": "被弾時に精神力を-2減少させ、その後値を1減少させる。対象の精神力-45の場合、沈潜殺到を発動し対象の全ての沈潜の値を消費して、その値に等しいダメージを与える。沈潜を持つnpcは、被弾しても精神力を失わない。",
+        "type": "debuff",
+        "icon": "Sinking"
+    },
+    "volatile passion": {
+        "text": "蝋の翼(ワックスピニオン)E.G.Oに紐づくページ、クリティカルを強化する。",
+        "type": "buff",
+        "icon": "Volatile_Passion"
+    },
+    "kcorp ample": {
+        "text": "このバフが時間経過で1消耗された場合、50の回復と再生、脆弱10を付与します。",
+        "type": "buff",
+        "icon": "Decay_Ampule"
+    },
+    "enhancement tatoos": {
+        "text": "[被ダメージ時]値に等しい分だけダメージを軽減 / [的中時]値1につきダメージ+10%。",
+        "type": "buff",
+        "icon": ""
+    },
+    "fluorescence shard": {
+        "text": "時間経過で値が1減った時、呼吸を4得る。",
+        "type": "buff",
+        "icon": "Fluorescence_Shard"
+    },
+    "defense up": {
+        "text": "ブロック時のスタミナダメージを、値1につき5%減少させる。",
+        "type": "buff",
+        "icon": "Defense_Level_Up"
+    },
+    "dorp rate up": {
+        "text": "運を1上げる",
+        "type": "buff",
+        "icon": "Drop_Rate_Up"
+    },
+    "fanatic": {
+        "text": "握る者の服によって付与されるステータス効果で、N社の尋問官の服を着用している味方に対して与ダメージ+15%のバフを付与する。",
+        "type": "buff",
+        "icon": "Fnatic"
+    },
+    "heated gas harpoon": {
+        "text": "捕鯨船長の服を着ている場合に適用される。ガスハープーンかセラフィックランスのクリティカルを使用時ダイスの威力が4上がる",
+        "type": "buff",
+        "icon": "Heated_Gas_Harpoon"
+    },
+    "coagulated blood": {
+        "text": "血鬼専用のバフで特定のページや武器から得られる。値10/20で+1/+2のダイスアップを得る。",
+        "type": "buff",
+        "icon": "Coagulated_Blood"
+    },
+    "shimmering blood": {
+        "text": "血鬼専用のバフで特定のページや武器から得られる。被ダメージ時に攻撃者に出血1を付与する。",
+        "type": "buff",
+        "icon": "Presence_of_a_Second_Kindred"
     }
 }
