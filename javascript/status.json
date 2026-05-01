@@ -28,5 +28,11 @@
         "text": "被ダメージ時に値/2%分のダメージが増加する。",
         "type": "debuff",
         "icon": "Fragile"
+    },
+    "paralyze": {
+        "text": "プレイヤーの次のダイスを最小値に設定する。",
+        "type": "debuff",
+        "icon": "Paralyze"
     }
+    
 }
