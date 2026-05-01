@@ -1,4 +1,7 @@
 {
     "auto-execute" : {"text":"この攻撃的中した時、その攻撃ダメージでHPが0以下になったなら、対象を自動で処刑する。","color": "e5a7a6"},
-    "guard-break" : {"text":"この攻撃が的中した時、対象が防御中なら、混乱させる。","color": "e5a7a6"}
+    "guard-break" : {"text":"この攻撃が的中した時、対象が防御中なら、混乱させる。","color": "e5a7a6"},
+    "Unparriable" : {"text":"この攻撃はパリィができない","color": "e5a7a6"},
+    "undogeable" : {"text":"この攻撃は回避ができない","color": "e5a7a6"},
+    "Unblockable" : {"text":"この攻撃はガードで防げない","color": "e5a7a6"}
 }
