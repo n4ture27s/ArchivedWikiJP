@@ -88,5 +88,10 @@
         "text": "時間経過で値が1減った時、呼吸を4得る。",
         "type": "buff",
         "icon": "Fluorescence_Shard"
+    },
+    "defense up": {
+        "text": "ブロック時のスタミナダメージを、値1につき5%減少させる。",
+        "type": "buff",
+        "icon": "Defense_Level_Up"
     }
 }
