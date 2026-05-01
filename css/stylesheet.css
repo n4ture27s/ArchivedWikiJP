@@ -314,6 +314,11 @@ footer {
     max-width: 75%;
     padding: 30px;
 }
+
+#w-comment {
+    color: #eac082;
+}
+
 .text-area {
     font-size: 90%;
 }
@@ -479,4 +484,56 @@ footer {
 /* リソース */
 .resource {
     color: #9f6a3a;
+}
+
+/*weapons*/
+.weapon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.weapon-card {
+    border: 2px solid #f0c17d;
+    padding: 10px;
+    background: #000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.weapon-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #f0c17d;
+}
+
+.filter-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.filter-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #f0c17d;
+    transition: 0.3s;
+}
+
+.filter-btn:hover::after {
+    width: 100%;
+}
+
+.filter-btn.active {
+    color: #f0c17d;
+}
+
+.filter-btn.active::after {
+    width: 100%;
 }
