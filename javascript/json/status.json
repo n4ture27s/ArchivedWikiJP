@@ -49,7 +49,7 @@
         "type": "buff",
         "icon": "HP_Healing_Boost"
     },
-    "Value power up": {
+    "value power up": {
         "text": "ダイス威力を値だけ増加させる。",
         "type": "buff",
         "icon": "Clash_Power_Up"
@@ -59,9 +59,14 @@
         "type": "buff",
         "icon": "Charge_Barrier"
     },
-    "Burn": {
-        "text": "値を2で割った値に等しいダメージ2秒ごとに与え、その後値が半分になる・",
+    "burn": {
+        "text": "値を2で割った値に等しいダメージ2秒ごとに与え、その後値が半分になる。",
         "type": "debuff",
         "icon": "Burn"
+    },
+    "sinking": {
+        "text": "被弾時に精神力を-2減少させ、その後値を1減少させる。対象の精神力-45の場合、沈潜殺到を発動し対象の全ての沈潜の値を消費して、その値に等しいダメージを与える。沈潜を持つnpcは、被弾しても精神力を失わない。",
+        "type": "debuff",
+        "icon": "Sinking"
     }
 }
