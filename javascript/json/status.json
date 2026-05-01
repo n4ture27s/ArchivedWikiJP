@@ -55,8 +55,13 @@
         "icon": "Clash_Power_Up"
     },
     "charge barrier": {
-        "text": "被ダメージを10%減らし、値を1減らす",
+        "text": "被ダメージを10%減らし、値を1減らす。",
         "type": "buff",
         "icon": "Charge_Barrier"
+    },
+    "Burn": {
+        "text": "値を2で割った値に等しいダメージ2秒ごとに与え、その後値が半分になる・",
+        "type": "debuff",
+        "icon": "Burn"
     }
 }
