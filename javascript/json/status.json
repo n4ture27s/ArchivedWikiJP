@@ -93,5 +93,10 @@
         "text": "ブロック時のスタミナダメージを、値1につき5%減少させる。",
         "type": "buff",
         "icon": "Defense_Level_Up"
+    },
+    "dorp rate up": {
+        "text": "運を1上げる",
+        "type": "buff",
+        "icon": "Drop_Rate_Up"
     }
 }
