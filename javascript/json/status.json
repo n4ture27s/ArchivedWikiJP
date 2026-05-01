@@ -113,5 +113,10 @@
         "text": "血鬼専用のバフで特定のページや武器から得られる。値10/20で+1/+2のダイスアップを得る。",
         "type": "buff",
         "icon": "Coagulated_Blood"
+    },
+    "shimmering blood": {
+        "text": "血鬼専用のバフで特定のページや武器から得られる。被ダメージ時に攻撃者に出血1を付与する。",
+        "type": "buff",
+        "icon": "Presence_of_a_Second_Kindred"
     }
 }
