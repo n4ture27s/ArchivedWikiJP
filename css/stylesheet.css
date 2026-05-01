@@ -240,7 +240,6 @@ footer {
 
 .filter-buttons {
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -291,12 +290,10 @@ footer {
     margin: 30px 0;
     border: none;
     height: 2px;
-    background: linear-gradient(
-        to right,
-        transparent,
-        #f0c17d,
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            #f0c17d,
+            transparent);
     box-shadow: 0 0 10px #f0c17d;
 }
 
@@ -322,6 +319,7 @@ footer {
 .text-area {
     font-size: 90%;
 }
+
 .text-area .bold {
     font-weight: bold;
 
@@ -352,13 +350,11 @@ footer {
 .hr-main {
     border: none;
     height: 2px;
-    background: linear-gradient(
-        to right,
-        transparent,
-        #f0c17d,
-        #f0c17d,
-        transparent
-    );
+    background: linear-gradient(to right,
+            transparent,
+            #f0c17d,
+            #f0c17d,
+            transparent);
     position: relative;
     margin: 30px 0;
 }
@@ -377,7 +373,7 @@ footer {
 
 .heading {
     position: relative;
-    display: block; 
+    display: block;
 }
 
 .heading::after {
@@ -388,6 +384,7 @@ footer {
     height: 2px;
     background: #f0c17d;
 }
+
 .heading::after {
     width: 0;
     animation: lineGrow 0.75s ease forwards;
@@ -417,17 +414,19 @@ footer {
     list-style: none;
 }
 
-#content-list a{
+#content-list a {
     display: block;
-    color:#cccccc;
+    color: #cccccc;
     text-decoration: none;
     padding: 3px 0;
 }
-#content-list a:before{
+
+#content-list a:before {
     content: "・";
-    margin-right:5px;
+    margin-right: 5px;
     color: #f0c17d;
 }
+
 #content-list a:hover {
     color: #f0c17d;
 }
@@ -487,53 +486,125 @@ footer {
 }
 
 /*weapons*/
-.weapon-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
+
+.controls {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
 }
 
+#search {
+    width: 60%;
+    padding: 6px;
+    margin-bottom: 10px;
+    background: #000;
+    border: 1px solid #f0c17d;
+    color: #fff;
+}
+
+/* ボタン共通 */
+.controls button {
+    background: #000;
+    color: #fff;
+    border: 1px solid #f0c17d;
+    padding: 5px 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.controls button.active {
+    background: #f0c17d;
+    color: #000;
+}
+
+/* リスト */
+.weapon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* カード */
 .weapon-card {
-    border: 2px solid #f0c17d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     background: #000;
-    cursor: pointer;
-    transition: 0.2s;
+    border: 2px solid #f0c17d;
 }
 
 .weapon-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #f0c17d;
+    transform: translateY(-5px);
+    transition: 0.2s;
 }
 
-.filter-btn {
-    background: none;
-    border: none;
+.weapon-name {
+    flex: 1;
+}
+
+.name-en {
+    display: block;
+    font-size: 1rem;
+}
+
+.name-jp {
+    display: block;
+    font-size: 0.7rem;
     color: #aaa;
-    position: relative;
-    padding: 5px 10px;
-    cursor: pointer;
 }
 
-.filter-btn::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0%;
-    height: 2px;
-    background: #f0c17d;
-    transition: 0.3s;
+.weapon-stats {
+    display: flex;
+    gap: 20px;
+    font-size: 0.85rem;
 }
 
-.filter-btn:hover::after {
-    width: 100%;
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.filter-btn.active {
+.label {
+    font-size: 0.7rem;
+    color: #888;
+}
+
+.value {
     color: #f0c17d;
 }
 
-.filter-btn.active::after {
-    width: 100%;
+.sort button {
+    position: relative;
+    padding-right: 20px;
+}
+
+/* 矢印表示用 */
+.sort button::after {
+    content: "";
+    position: absolute;
+    right: 6px;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+/* 昇順 */
+.sort button.asc::after {
+    content: "▲";
+    opacity: 1;
+}
+
+/* 降順 */
+.sort button.desc::after {
+    content: "▼";
+    opacity: 1;
+}
+
+/* 選択中 */
+.sort button.active {
+    background: #f0c17d;
+    color: #000;
 }

@@ -59,17 +59,41 @@
                     </div>
 
                     <p id="weapons" class="w-subtitle heading">武器一覧</p>
-                    <div class="filters">
-                        <button class="filter-btn active" onclick="filterWeapon('all')">すべて</button>
-                        <button class="filter-btn" onclick="filterWeapon('slash')">斬撃</button>
-                        <button class="filter-btn" onclick="filterWeapon('pierce')">貫通</button>
-                        <button class="filter-btn" onclick="filterWeapon('blunt')">打撃</button>
+                    <div class="controls">
+
+                        <!-- 検索 -->
+                        <input type="text" id="search" placeholder="武器名検索...">
+
+                        <!-- フィルター -->
+                        <div class="filters">
+                            <button data-filter="all" class="active">すべて</button>
+                            <button data-filter="slash">斬撃</button>
+                            <button data-filter="pierce">貫通</button>
+                            <button data-filter="blunt">打撃</button>
+                        </div>
+
+                        <!-- ソート -->
+                        <div class="sort">
+                            <button data-sort="damage" class="active">ダメージ</button>
+                            <button data-sort="speed">速度</button>
+                            <button data-sort="type">属性</button>
+                        </div>
+
                     </div>
-                    <input type="text" id="search" placeholder="検索...">
                     <div class="weapon-list">
-                        <div class="weapon-card" data-grade="1" data-dmg="6" data-dmgtype="blunt">
-                            <ruby>Dragon's Bite <rt>ドラゴンの噛み</rt> </ruby>
-                            <p class="weapon-type">打撃</p>
+                        <div class="weapon-card" data-type="blunt" data-damage="11451" data-speed="0.8">
+                            <div class="weapon-name">
+                                <span class="name-en">Dragon's Bite</span>
+                                <span class="name-jp">ドラゴンの牙</span>
+                            </div>
+                            <div class="weapon-stats"></div>
+                        </div>
+                        <div class="weapon-card" data-type="slash" data-damage="11450" data-speed="0.7">
+                            <div class="weapon-name">
+                                <span class="name-en">Dragon's Bite</span>
+                                <span class="name-jp">ドラゴンの牙</span>
+                            </div>
+                            <div class="weapon-stats"></div>
                         </div>
                     </div>
                 </div>
