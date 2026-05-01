@@ -108,5 +108,10 @@
         "text": "捕鯨船長の服を着ている場合に適用される。ガスハープーンかセラフィックランスのクリティカルを使用時ダイスの威力が4上がる",
         "type": "buff",
         "icon": "Heated_Gas_Harpoon"
+    },
+    "coagulated blood": {
+        "text": "血鬼専用のバフで特定のページや武器から得られる。値10/20で+1/+2のダイスアップを得る。",
+        "type": "buff",
+        "icon": "Coagulated_Blood"
     }
 }
