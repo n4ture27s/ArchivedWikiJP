@@ -9,7 +9,7 @@
     "basic": {
       "image": "/assets/image/weapon/fixers_battleaxe_basic.gif",
       "desc":"",
-      "effect":"b"
+      "effect":"長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
       "image": "",
@@ -28,7 +28,7 @@
     "basic": {
       "image": "/assets/image/weapon/fixers_chansaw_basic.gif",
       "desc":"",
-      "effect":"b"
+      "effect":""
     },
     "critical": {
       "image": "/assets/image/weapon/fixers_chainsaw_critical.gif",
