@@ -22,7 +22,7 @@
     "req": "なし",
     "name_en": "Fixer's Chainsaw",
     "name_jp": "フィクサーのチェーンソー",
-    "type": "stab",
+    "type": "pierce",
     "damage": "3.3x3",
     "speed": 0.75,
     "basic": {
@@ -34,6 +34,25 @@
       "image": "/assets/image/weapon/fixers_chainsaw_critical.gif",
       "desc":"",
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\nⅠ [2~4] 貫通 {{guard_break|ガードブレイク}}とラストヒットに{{knock_back|ノックバック}}して{{multi_hit|マルチヒット}}",
+      "ct":15
+    }
+  },
+   "fixers_shortsword": {
+    "req": "なし",
+    "name_en": "Fixer's Shortsword",
+    "name_jp": "フィクサーのショートソード",
+    "type": "slash",
+    "damage": "5.5",
+    "speed": 0.55,
+    "basic": {
+      "image": "/assets/image/weapon/fixer's_shortsword_basic.gif",
+      "desc":"",
+      "effect":"b"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/fixer's_shortsword_critical.gif",
+      "desc":"",
+      "effect":"{{on_hit|的中時}} 各ダイスに体力回復3\n Ⅰ [5~8] 斬撃 {{undogeable|回避不可}} {{on_hit|的中時}}{{bleed|出血}}を2付与\n Ⅱ [6~8] 斬撃 {{on_hit|的中時}}{{bleed|出血}}を2付与",
       "ct":15
     }
   }
