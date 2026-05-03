@@ -4,13 +4,35 @@ const typeMap = {
     blunt: "打撃"
 };
 
-// 改行対応
-function setTextWithBreak(el, text) {
-    if (!el) return;
-    el.innerHTML = (text || "").replace(/\n/g, "<br>");
+/* =========================
+   テキスト整形
+   ========================= */
+
+// 改行 + tooltip変換
+function formatText(text) {
+    if (!text) return "";
+
+    // 改行
+    let formatted = text.replace(/\n/g, "<br>");
+
+    // {{key|label}} → tooltip
+    formatted = formatted.replace(/\{\{(.*?)\|(.*?)\}\}/g, (_, key, label) => {
+        return `<span class="tooltip-target" data-key="${key}">${label}</span>`;
+    });
+
+    return formatted;
 }
 
-// ステータス生成
+// 要素に適用
+function setFormattedText(el, text) {
+    if (!el) return;
+    el.innerHTML = formatText(text);
+}
+
+/* =========================
+   ステータス生成
+   ========================= */
+
 function createStat(label, value, className = "") {
     const row = document.createElement("div");
     row.classList.add("stat-row");
@@ -22,6 +44,10 @@ function createStat(label, value, className = "") {
 
     return row;
 }
+
+/* =========================
+   メイン処理
+   ========================= */
 
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -47,32 +73,81 @@ window.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            // ===== 基本情報 =====
+            /* ===== 基本情報 ===== */
             const nameEn = document.getElementById("name-en");
             const nameJp = document.getElementById("name-jp");
 
-            nameEn.textContent = w.name_en ?? "unknown";
-            nameJp.textContent = w.name_jp ?? "";
+            if (nameEn) nameEn.textContent = w.name_en ?? "unknown";
+            if (nameJp) nameJp.textContent = w.name_jp ?? "";
 
             document.title = w.name_en ?? "weapon";
 
-            // ===== ステータス統合 =====
+            /* ===== ステータス統合 ===== */
             const stats = document.getElementById("stats");
+
             if (stats) {
                 stats.innerHTML = "";
 
                 const typeText = typeMap[w.type] || w.type || "不明";
 
-                const typeRow = createStat("タイプ", typeText, w.type);
                 stats.append(
                     createStat("ダメージ", w.damage ?? "-"),
-                    typeRow,
+                    createStat("ダメージタイプ", typeText, w.type),
                     createStat("振り速", w.speed ?? "-")
                 );
             }
+
+            /* ===== Basic Attack ===== */
+            if (w.basic) {
+                const img = document.getElementById("basic-img");
+                const desc = document.getElementById("basic-desc");
+                const effect = document.getElementById("basic-effect");
+
+                if (img && w.basic.image) img.src = w.basic.image;
+
+                setFormattedText(desc, w.basic.desc);
+
+                if (w.basic.effect) {
+                    setFormattedText(effect, w.basic.effect);
+                } else if (effect) {
+                    effect.style.display = "none";
+                }
+            }
+
+            /* ===== Critical ===== */
+            if (w.critical) {
+                const img = document.getElementById("crit-img");
+                const desc = document.getElementById("crit-desc");
+                const effect = document.getElementById("crit-effect");
+                const ct = document.getElementById("crit-ct");
+
+                if (img && w.critical.image) img.src = w.critical.image;
+
+                setFormattedText(desc, w.critical.desc);
+
+                if (w.critical.ct) {
+                    ct.textContent = `CT: ${w.critical.ct}`;
+                } else if (ct) {
+                    ct.style.display = "none";
+                }
+                if (w.critical.effect) {
+                    setFormattedText(effect, w.critical.effect);
+                } else if (effect) {
+                    effect.style.display = "none";
+                }
+
+
+            }
+
+            /* ===== tooltip再適用 ===== */
+            if (typeof applyAllStyles === "function") {
+                applyAllStyles();
+            }
+            if (typeof applyCombatModuleColor === "function") applyCombatModuleColor();
 
         })
         .catch(err => {
             console.error(err);
         });
 });
+

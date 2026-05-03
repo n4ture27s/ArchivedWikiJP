@@ -6,10 +6,15 @@
     "damage": 8,
     "speed": 0.75,
     "basic": {
-      "image": ""
+      "image": "/assets/image/weapon/fixers_battleaxe_basic.gif",
+      "desc":"",
+      "effect":"b"
     },
     "critical": {
-      "image": ""
+      "image": "",
+      "desc":"",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\nⅠ [14~17] 斬撃 {{hit_ground|ヒットグラウンド}} {{hit_downed|ヒットダウン}}\n{{on_hit|的中時}} {{bleed|出血}}3を付与\n{{on_parryhit|パリィ的中時}} 少しダメージを与える",
+      "ct":20
     }
   }
 }

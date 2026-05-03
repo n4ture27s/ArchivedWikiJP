@@ -485,6 +485,14 @@ footer {
     color: #9f6a3a;
 }
 
+.combat-module::before {
+  content: "[";
+}
+
+.combat-module::after {
+  content: "]";
+}
+
 /*weapons*/
 
 .controls {
@@ -678,8 +686,8 @@ footer {
 }
 
 /* 画像 */
-.attack-box img {
-    width: 120px;
+.attack-gif {
+    width: 220px;
     height: auto;
     border: 1px solid #f0c17d;
 }
@@ -698,7 +706,7 @@ footer {
 
 /* 効果（ちょい強調） */
 .effect {
-    color: #f0c17d;
+    color: #ffffff;
     font-size: 0.9rem;
 }
 

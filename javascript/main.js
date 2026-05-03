@@ -21,8 +21,10 @@ document.querySelectorAll('.staff-card').forEach(card => {
 //tooltips
 const tooltip = document.getElementById("tooltip");
 document.addEventListener("mousemove", (e) => {
-    tooltip.style.left = (e.clientX + 12) + "px";
-    tooltip.style.top = (e.clientY + 12) + "px";
+    if (tooltip.style.display === "block") {
+        tooltip.style.left = (e.clientX + 12) + "px";
+        tooltip.style.top = (e.clientY + 12) + "px";
+    }
 });
 let tooltipData = {};
 let combat_module = {};
@@ -37,29 +39,39 @@ Promise.all([
     applyAllStyles();
 });
 
-document.querySelectorAll(".tooltip-target").forEach(el => {
-    el.addEventListener("mouseenter", (e) => {
-        const key = e.target.dataset.key;
 
-        const data = tooltipData[key];
-        const moduleData = combat_module[key];
+document.addEventListener("mouseover", (e) => {
+    const el = e.target.closest(".tooltip-target");
+    if (!el) return;
 
-        // どっちにも無いなら何もしない
-        if (!data && !moduleData) return;
+    const key = el.dataset.key;
 
-        // 表示するテキスト決定（優先順位つける）
-        const text =
-            moduleData?.text ||  // combat_moduleにtextあれば優先
-            data?.text ||        // なければtooltipData
-            "";
+    const status = tooltipData[key];
+    const module = combat_module[key];
 
-        tooltip.textContent = text;
-        tooltip.style.display = "block";
-    });
+    if (!status && !module) return;
 
-    el.addEventListener("mouseleave", () => {
+
+    let text = "";
+    if (status?.text) text += status.text;
+    if (module?.text) text += (text ? "\n" : "") + module.text;
+
+    tooltip.textContent = text;
+    tooltip.style.display = "block";
+
+});
+
+document.addEventListener("mouseout", (e) => {
+    if (e.target.closest(".tooltip-target")) {
         tooltip.style.display = "none";
-    });
+    }
+});
+
+document.addEventListener("mousemove", (e) => {
+    if (tooltip.style.display === "block") {
+        tooltip.style.left = (e.clientX + 12) + "px";
+        tooltip.style.top = (e.clientY + 12) + "px";
+    }
 });
 
 document.querySelectorAll(".weapon-card").forEach(card => {
@@ -71,6 +83,7 @@ document.querySelectorAll(".weapon-card").forEach(card => {
 
 function applyAllStyles() {
     document.querySelectorAll(".tooltip-target").forEach(el => {
+
         const key = el.dataset.key;
 
         const data = tooltipData[key];
@@ -80,11 +93,8 @@ function applyAllStyles() {
             el.classList.add(data.type);
         }
 
-        if (moduleData?.type) {
-            el.classList.add(moduleData.type);
-        }
-
         if (moduleData?.color) {
+            el.classList.add("combat-module");
             el.style.color = `#${moduleData.color}`;
         }
 
@@ -92,6 +102,9 @@ function applyAllStyles() {
             const img = document.createElement("img");
             img.src = `/assets/status_icon/${data.icon}.png`;
             img.classList.add("status-icon");
+
+            img.onerror = () => img.remove();
+
             el.prepend(img);
         }
     });
