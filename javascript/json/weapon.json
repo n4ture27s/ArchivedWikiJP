@@ -47,7 +47,7 @@
     "basic": {
       "image": "/assets/image/weapon/fixer's_shortsword_basic.gif",
       "desc":"",
-      "effect":"b"
+      "effect":""
     },
     "critical": {
       "image": "/assets/image/weapon/fixer's_shortsword_critical.gif",
@@ -58,7 +58,7 @@
   },
    "Superthermogenesis_gladius": {
     "req": "1",
-    "name_en": "Superthermogenesis_gladius",
+    "name_en": "Superthermogenesis gladius",
     "name_jp": "スーパーサーモジェネシス グラディウス",
     "type": "slash",
     "damage": "5",
@@ -66,7 +66,7 @@
     "basic": {
       "image": "/assets/image/weapon/gladius_basic.gif",
       "desc":"",
-      "effect":"b"
+      "effect":""
     },
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.gif",
