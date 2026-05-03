@@ -93,5 +93,24 @@
       "effect":"{{dice1|1ダイス目}} [3~12] 貫通 {{on_hit|的中時}} {{poise|呼吸}}を3得る{{dice2|2ダイス目}}を敵に追尾して使用する\n {{dice2|2ダイス目}} [3~14] 貫通 {{on_hit|的中時}} {{haste|クイック}}を4得る",
       "ct":18
     }
+  },
+   "udjat_khopesh": {
+    "req": "4",
+    "name_en": "Udjat Khopesh",
+    "name_jp": "センクレイピア",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.61,
+    "basic": {
+      "image": "/assets/image/weapon/udjat_khopesh_basic.gif",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/udjat_khopesh_critical.gif",
+      "desc":"",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}} {{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [10~12] 貫通 {{on_hit|的中時}} {{protect|保護}}を2得る\n {{dice2|2ダイス目}} {{guard_break|ガードブレイク}} [5~7] 斬撃 {{on_hit|的中時}} {{protect|保護}}を1得る\n {{dice3|3ダイス目}} {{guard_break|ガードブレイク}} [5~8] 斬撃",
+      "ct":17
+    }
   }
 }

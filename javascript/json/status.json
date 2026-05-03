@@ -173,5 +173,10 @@
         "text": "10ダイス目",
         "type": "resource",
         "icon": "CoinEffect10"
+    },
+    "protection": {
+        "text": "被ダメージ時のダメージを値の%分減らす。",
+        "type": "buff",
+        "icon": "Protection"
     }
 }
