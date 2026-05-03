@@ -12,9 +12,9 @@
       "effect":"長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
-      "image": "",
+      "image": "/assets/image/weapon/fixers_battleaxe_critical.gif",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\nⅠ [14~17] 斬撃 {{hit_ground|ヒットグラウンド}} {{hit_downed|ヒットダウン}}\n{{on_hit|的中時}} {{bleed|出血}}3を付与\n{{on_parryhit|パリィ的中時}} 少しダメージを与える",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\n{{dice1|1ダイス目}} [14~17] 斬撃 {{hit_ground|ヒットグラウンド}} {{hit_downed|ヒットダウン}}\n{{on_hit|的中時}} {{bleed|出血}}3を付与\n{{on_parryhit|パリィ的中時}} 少しダメージを与える",
       "ct":20
     }
   },
@@ -33,7 +33,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixers_chainsaw_critical.gif",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\nⅠ [2~4] 貫通 {{guard_break|ガードブレイク}}とラストヒットに{{knock_back|ノックバック}}して{{multi_hit|マルチヒット}}",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\n{{dice1|1ダイス目}} [2~4] 貫通 {{guard_break|ガードブレイク}}とラストヒットに{{knock_back|ノックバック}}して{{multi_hit|マルチヒット}}",
       "ct":15
     }
   },
@@ -52,7 +52,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixer's_shortsword_critical.gif",
       "desc":"",
-      "effect":"{{on_hit|的中時}} 各ダイスに体力回復3\n Ⅰ [5~8] 斬撃 {{undogeable|回避不可}} {{on_hit|的中時}}{{bleed|出血}}を2付与\n Ⅱ [6~8] 斬撃 {{on_hit|的中時}}{{bleed|出血}}を2付与",
+      "effect":"{{on_hit|的中時}} 各ダイスに体力回復3\n {{dice1|1ダイス目}} [5~8] 斬撃 {{undogeable|回避不可}} {{on_hit|的中時}}{{bleed|出血}}を2付与\n {{dice2|2ダイス目}} [6~8] 斬撃 {{on_hit|的中時}}{{bleed|出血}}を2付与",
       "ct":15
     }
   },
@@ -71,7 +71,7 @@
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.gif",
       "desc":"",
-      "effect":"Ⅰ [4~7] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n Ⅱ [7~10] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n Ⅲ [12~20] 斬撃 {{on_hit|的中時}} {{thermogenesis|熱発生}}を得て{{burn|火傷}}を6付与 ",
+      "effect":"{{dice1|1ダイス目}} [4~7] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice2|2ダイス目}} [7~10] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice3|3ダイス目}} [12~20] 斬撃 {{on_hit|的中時}} {{thermogenesis|熱発生}}を得て{{burn|火傷}}を6付与 ",
       "ct":15
     }
   }
