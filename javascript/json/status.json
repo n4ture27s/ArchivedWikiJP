@@ -123,5 +123,55 @@
         "text": "自身のM1が対象に火傷がある場合、そのダメージの0.01%分を追加の耐性無視のダメージとして与える。ただし、この効果は望によって強化されず、最大で元ダメージの0.5倍までに制限される。",
         "type": "buff",
         "icon": "Superthermogenesis"
+    },
+    "dice1": {
+        "text": "1ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect1"
+    },
+    "dice2": {
+        "text": "2ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect2"
+    },
+    "dice3": {
+        "text": "3ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect3"
+    },
+    "dice4": {
+        "text": "4ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect4"
+    },
+    "dice5": {
+        "text": "5ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect5"
+     },
+    "dice6": {
+        "text": "6ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect6"
+    },
+    "dice7": {
+        "text": "7ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect7"
+    },
+    "dice8": {
+        "text": "8ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect8"
+    },
+    "dice9": {
+        "text": "9ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect9"
+     },
+    "dice10": {
+        "text": "10ダイス目",
+        "type": "resource",
+        "icon": "CoinEffect10"
     }
 }
