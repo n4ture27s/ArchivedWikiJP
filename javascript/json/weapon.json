@@ -59,7 +59,7 @@
    "Superthermogenesis_gladius": {
     "req": "1",
     "name_en": "Superthermogenesis gladius",
-    "name_jp": "スーパーサーモジェネシス グラディウス",
+    "name_jp": "超熱発生 グラディウス",
     "type": "slash",
     "damage": "5",
     "speed": 0.61,
@@ -72,7 +72,26 @@
       "image": "/assets/image/weapon/gladius_critical.gif",
       "desc":"",
       "effect":"{{dice1|1ダイス目}} [4~7] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice2|2ダイス目}} [7~10] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice3|3ダイス目}} [12~20] 斬撃 {{on_hit|的中時}} {{thermogenesis|熱発生}}を得て{{burn|火傷}}を6付与 ",
-      "ct":15
+      "ct":18
+    }
+  },
+   "cinq_rapier": {
+    "req": "4",
+    "name_en": "Cinq rapier",
+    "name_jp": "センクレイピア",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/cinq_rapier_basic.gif",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/cinq_rapier_critical.gif",
+      "desc":"",
+      "effect":"{{dice1|1ダイス目}} [3~12] 貫通 {{on_hit|的中時}} {{poise|呼吸}}を3得る\n {{dice2|2ダイス目}} [3~14] 貫通 {{on_hit|的中時}} {{haste|クイック}}を4得る",
+      "ct":18
     }
   }
 }
