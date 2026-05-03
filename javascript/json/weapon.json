@@ -55,5 +55,24 @@
       "effect":"{{on_hit|的中時}} 各ダイスに体力回復3\n Ⅰ [5~8] 斬撃 {{undogeable|回避不可}} {{on_hit|的中時}}{{bleed|出血}}を2付与\n Ⅱ [6~8] 斬撃 {{on_hit|的中時}}{{bleed|出血}}を2付与",
       "ct":15
     }
+  },
+   "Superthermogenesis_gladius": {
+    "req": "1",
+    "name_en": "Superthermogenesis_gladius",
+    "name_jp": "スーパーサーモジェネシス グラディウス",
+    "type": "slash",
+    "damage": "5",
+    "speed": 0.61,
+    "basic": {
+      "image": "/assets/image/weapon/gladius_basic.gif",
+      "desc":"",
+      "effect":"b"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/gladius_critical.gif",
+      "desc":"",
+      "effect":"Ⅰ [4~7] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n Ⅱ [7~10] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n Ⅲ [12~20] 斬撃 {{on_hit|的中時}} {{thermogenesis|熱発生}}を得て{{burn|火傷}}を6付与 ",
+      "ct":15
+    }
   }
 }

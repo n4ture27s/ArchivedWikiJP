@@ -118,5 +118,10 @@
         "text": "血鬼専用のバフで特定のページや武器から得られる。被ダメージ時に攻撃者に出血1を付与する。",
         "type": "buff",
         "icon": "Presence_of_a_Second_Kindred"
+    },
+    "thermogenesis": {
+        "text": "自身のM1が対象に火傷がある場合、そのダメージの0.01%分を追加の耐性無視のダメージとして与える。ただし、この効果は望によって強化されず、最大で元ダメージの0.5倍までに制限される。",
+        "type": "buff",
+        "icon": "Superthermogenesis"
     }
 }
