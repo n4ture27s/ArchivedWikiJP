@@ -91,6 +91,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 const typeText = typeMap[w.type] || w.type || "不明";
 
                 stats.append(
+                    createStat("必要条件", w.req ?? "-"),
                     createStat("ダメージ", w.damage ?? "-"),
                     createStat("ダメージタイプ", typeText, w.type),
                     createStat("振り速", w.speed ?? "-")

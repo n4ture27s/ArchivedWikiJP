@@ -27,6 +27,7 @@ function createWeaponCard(id, data) {
     card.classList.add("weapon-card");
 
     card.dataset.id = id;
+    card.dataset.req = data.req;
     card.dataset.type = data.type;
     card.dataset.damage = data.damage;
     card.dataset.speed = data.speed;
@@ -175,6 +176,7 @@ function initWeapons() {
     cards.forEach(card => {
         const statsBox = card.querySelector(".weapon-stats");
 
+        const req = card.dataset.req;
         const dmg = card.dataset.damage;
         const type = typeMap[card.dataset.type];
         const speed = card.dataset.speed;
@@ -182,9 +184,10 @@ function initWeapons() {
         statsBox.innerHTML = "";
 
         statsBox.append(
+            createStat("必要条件", req, "req"),
             createStat("ダメージ", dmg, "damage"),
             createStat("ダメタイプ", type, "type"),
-            createStat("攻撃速度", speed, "speed")
+            createStat("振り速", speed, "speed")
         );
     });
 }
