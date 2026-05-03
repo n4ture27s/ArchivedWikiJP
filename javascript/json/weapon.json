@@ -1,5 +1,6 @@
 {
   "fixers_battleaxe": {
+    "req": "なし",
     "name_en": "Fixer's Battleaxe",
     "name_jp": "フィクサーの斧",
     "type": "slash",
@@ -7,14 +8,33 @@
     "speed": 0.75,
     "basic": {
       "image": "/assets/image/weapon/fixers_battleaxe_basic.gif",
-      "desc":"長押しすることでヒットボックスが出るタイミングを遅くすることができる",
-      "effect":""
+      "desc":"",
+      "effect":"b"
     },
     "critical": {
-      "image": "/assets/image/weapon/fixers_battleaxe_critical.gif",
+      "image": "",
       "desc":"",
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\nⅠ [14~17] 斬撃 {{hit_ground|ヒットグラウンド}} {{hit_downed|ヒットダウン}}\n{{on_hit|的中時}} {{bleed|出血}}3を付与\n{{on_parryhit|パリィ的中時}} 少しダメージを与える",
-      "ct":"20s"
+      "ct":20
+    }
+  },
+   "fixers_chainsaw": {
+    "req": "なし",
+    "name_en": "Fixer's Chainsaw",
+    "name_jp": "フィクサーのチェーンソー",
+    "type": "stab",
+    "damage": "3.3x3",
+    "speed": 0.75,
+    "basic": {
+      "image": "/assets/image/weapon/fixers_chansaw_basic.gif",
+      "desc":"",
+      "effect":"b"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/fixers_chainsaw_critical.gif",
+      "desc":"",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\nⅠ [2~4] 貫通 {{guard_break|ガードブレイク}}とラストヒットに{{knock_back|ノックバック}}して{{multi_hit|マルチヒット}}",
+      "ct":15
     }
   }
 }
