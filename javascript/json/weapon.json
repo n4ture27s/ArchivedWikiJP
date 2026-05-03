@@ -90,7 +90,7 @@
     "critical": {
       "image": "/assets/image/weapon/cinq_rapier_critical.gif",
       "desc":"",
-      "effect":"{{dice1|1ダイス目}} [3~12] 貫通 {{on_hit|的中時}} {{poise|呼吸}}を3得る\n {{dice2|2ダイス目}} [3~14] 貫通 {{on_hit|的中時}} {{haste|クイック}}を4得る",
+      "effect":"{{dice1|1ダイス目}} [3~12] 貫通 {{on_hit|的中時}} {{poise|呼吸}}を3得る{{dice2|2ダイス目}}を敵に追尾して使用する\n {{dice2|2ダイス目}} [3~14] 貫通 {{on_hit|的中時}} {{haste|クイック}}を4得る",
       "ct":18
     }
   }
