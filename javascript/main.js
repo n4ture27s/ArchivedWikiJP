@@ -4,6 +4,12 @@ fetch("/sidebar.html")
     .then(data => {
         document.getElementById("sidebar-container").innerHTML = data;
     });
+//sidebarの一斉更新
+fetch("/footer.html")
+    .then(res => res.text())
+    .then(data => {
+        document.getElementById("footer-container").innerHTML = data;
+    });
 
 
 document.querySelectorAll('.staff-card').forEach(card => {
