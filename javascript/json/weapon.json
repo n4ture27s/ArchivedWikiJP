@@ -109,7 +109,7 @@
     "critical": {
       "image": "/assets/image/weapon/udjat_khopesh_critical.gif",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}} {{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [10~12] 貫通 {{on_hit|的中時}} {{protection|保護}}を2得る\n {{dice2|2ダイス目}} {{guard_break|ガードブレイク}} [5~7] 斬撃 {{on_hit|的中時}} {{protection|保護}}を1得る\n {{dice3|3ダイス目}} {{guard_break|ガードブレイク}} [5~8] 斬撃",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [10~12] 貫通 {{on_hit|的中時}} {{protection|保護}}を2得る\n {{dice2|2ダイス目}} {{guard_break|ガードブレイク}} [5~7] 斬撃 {{on_hit|的中時}} {{protection|保護}}を1得る\n {{dice3|3ダイス目}} {{guard_break|ガードブレイク}} [5~8] 斬撃",
       "ct":17
     }
   }
