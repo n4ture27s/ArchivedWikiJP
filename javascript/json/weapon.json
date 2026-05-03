@@ -59,7 +59,7 @@
    "Superthermogenesis_gladius": {
     "req": "1",
     "name_en": "Superthermogenesis gladius",
-    "name_jp": "超熱発生 グラディウス",
+    "name_jp": "超高熱 グラディウス",
     "type": "slash",
     "damage": "5",
     "speed": 0.61,
