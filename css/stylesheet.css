@@ -608,3 +608,103 @@ footer {
     background: #f0c17d;
     color: #000;
 }
+
+/*weapon_detail*/
+.weapon-detail {
+    min-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid #f0c17d;
+    box-shadow: 0 0 15px #f0c17d33;
+    color: #fff;
+}
+
+/* ヘッダー */
+.weapon-header {
+    border-left: 5px solid #f0c17d;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#name-en {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+#name-jp {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin: 0;
+}
+
+/* ステータス */
+.weapon-stats-box {
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.label {
+    color: #aaa;
+}
+
+.value {
+    font-weight: bold;
+}
+
+/* 説明 */
+.weapon-section {
+    margin-top: 30px;
+}
+
+.weapon-section h2 {
+    border-bottom: 2px solid #f0c17d;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.attack-box {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* 画像 */
+.attack-box img {
+    width: 120px;
+    height: auto;
+    border: 1px solid #f0c17d;
+}
+
+/* テキスト */
+.attack-box p {
+    flex: 1;
+    line-height: 1.6;
+}
+
+.attack-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* 効果（ちょい強調） */
+.effect {
+    color: #f0c17d;
+    font-size: 0.9rem;
+}
+
+/* CT（目立たせる） */
+.ct {
+    color: #ff6b6b;
+    font-size: 0.85rem;
+    font-weight: bold;
+}

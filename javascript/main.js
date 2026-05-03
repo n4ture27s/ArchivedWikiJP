@@ -62,6 +62,13 @@ document.querySelectorAll(".tooltip-target").forEach(el => {
     });
 });
 
+document.querySelectorAll(".weapon-card").forEach(card => {
+    card.addEventListener("click", () => {
+        const id = card.dataset.id;
+        location.href = `/arsenal/weapon_detail.html?id=${id}`;
+    });
+});
+
 function applyAllStyles() {
     document.querySelectorAll(".tooltip-target").forEach(el => {
         const key = el.dataset.key;

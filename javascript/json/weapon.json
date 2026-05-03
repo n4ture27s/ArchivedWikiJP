@@ -1,0 +1,15 @@
+{
+  "fixers_battleaxe": {
+    "name_en": "Fixer's Battleaxe",
+    "name_jp": "フィクサーの斧",
+    "type": "slash",
+    "damage": 8,
+    "speed": 0.75,
+    "basic": {
+      "image": ""
+    },
+    "critical": {
+      "image": ""
+    }
+  }
+}
