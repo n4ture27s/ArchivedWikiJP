@@ -95,6 +95,10 @@ function applyAllStyles() {
         const data = tooltipData[key];
         const moduleData = combat_module[key];
 
+        if (data?.title) {
+            el.textContent = `${data.title}`
+        }
+        
         if (data?.type) {
             el.classList.add(data.type);
         }
