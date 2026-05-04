@@ -15,9 +15,9 @@ function formatText(text) {
     // 改行
     let formatted = text.replace(/\n/g, "<br>");
 
-    // {{key|label}} → tooltip
-    formatted = formatted.replace(/\{\{(.*?)\|(.*?)\}\}/g, (_, key, label) => {
-        return `<span class="tooltip-target" data-key="${key}">${label}</span>`;
+    // {key|label} → tooltip
+    formatted = formatted.replace(/\{(.*?)\}/g, (_, key) => {
+        return `<span class="tooltip-target" data-key="${key}"> </span>`;
     });
 
     return formatted;
@@ -116,30 +116,7 @@ window.addEventListener("DOMContentLoaded", () => {
             }
 
             /* ===== Critical ===== */
-            if (w.critical) {
-                const vid = document.getElementById("crit-vid");
-                const desc = document.getElementById("crit-desc");
-                const effect = document.getElementById("crit-effect");
-                const ct = document.getElementById("crit-ct");
-                
-
-                if (vid && w.critical.image) vid.src = w.critical.image;
-
-                setFormattedText(desc, w.critical.desc);
-
-                if (w.critical.ct) {
-                    ct.textContent = `CT: ${w.critical.ct}`;
-                } else if (ct) {
-                    ct.style.display = "none";
-                }
-                if (w.critical.effect) {
-                    setFormattedText(effect, w.critical.effect);
-                } else if (effect) {
-                    effect.style.display = "none";
-                }
-
-
-            }
+            renderCriticals(w);
 
             /* ===== tooltip再適用 ===== */
             if (typeof applyAllStyles === "function") {
@@ -153,3 +130,58 @@ window.addEventListener("DOMContentLoaded", () => {
         });
 });
 
+
+function renderCriticals(w) {
+    const container = document.getElementById("critical-container");
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    // critical, critical2, critical3... を全部取得
+    const criticals = Object.keys(w)
+        .filter(key => key.startsWith("critical"))
+        .sort(); // 順番保証
+
+    criticals.forEach((key, index) => {
+        const c = w[key];
+        if (!c) return;
+
+        const section = document.createElement("div");
+        section.classList.add("weapon-section");
+
+        section.innerHTML = `
+            <h2>Critical ${index + 1}</h2>
+            <div class="attack-box">
+                <video class="attack-vid" autoplay loop muted> </video>
+                <div class="attack-info">
+                    <p class="crit-desc"></p>
+                    <p class="crit-ct"></p>
+                    <p class="crit-effect effect"></p>
+                </div>
+            </div>
+        `;
+
+        const vid = section.querySelector(".attack-vid");
+        const desc = section.querySelector(".crit-desc");
+        const effect = section.querySelector(".crit-effect");
+        const ct = section.querySelector(".crit-ct");
+
+        if (vid && c.image) vid.src = c.image;
+
+        setFormattedText(desc, c.desc);
+
+        if (c.ct) {
+            ct.textContent = `CT: ${c.ct}`;
+        } else {
+            ct.style.display = "none";
+        }
+
+        if (c.effect) {
+            setFormattedText(effect, c.effect);
+        } else {
+            effect.style.display = "none";
+        }
+
+        container.appendChild(section);
+    });
+}
