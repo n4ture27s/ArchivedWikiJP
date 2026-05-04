@@ -164,9 +164,9 @@
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/augury_spear_critical.gif",
+      "image": "/assets/image/weapon/augury_spear_critical1.gif",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{trigram|卦}}を1得る\n {{on_use|使用時}} もし自身が{{trigram|卦}}が4だった場合3消費してクリティカルが変化する\n {{on_hit|的中時}} 対象が5以上の{{tremor|振動}}を持っている場合、5の{{hate|クイック}}を得て対象に3の{{tremor|振動}}を付与し\nさらに、{{tremor_burst|振動爆発}}を起こす。\n {{dice1|1ダイス目}} {{guard_break|ガードブレイク}} {{knock_back|ノックバック}} [6~16] 打撃 {{on_hit|的中時}} {{hyper_armor}}を得て、5の{{tremor|振動}}を付与",
+      "effect":"{{on_use|使用時}} {{trigram|卦}}を1得る\n {{on_use|使用時}} もし自身が{{trigram|卦}}が4だった場合3消費してクリティカルが変化する\n {{on_hit|的中時}} 対象が5以上の{{tremor|振動}}を持っている場合、5の{{hate|クイック}}を得て対象に3の{{tremor|振動}}を付与し\nさらに、{{tremor_burst|振動爆発}}を起こす。\n {{dice1|1ダイス目}} {{guard_break|ガードブレイク}} {{knock_back|ノックバック}} [6~16] 打撃 {{on_hit|的中時}} {{hyperarmor|ハイパーアーマー}}を得て、5の{{tremor|振動}}を付与",
       "ct":16
     }
   }

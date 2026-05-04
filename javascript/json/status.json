@@ -184,7 +184,7 @@
         "type": "debuff",
         "icon": "Tremor"
     },
-    "trigrum": {
+    "trigram": {
         "text": "予兆の槍のクリティカルにて使用する。",
         "type": "resource",
         "icon": "Trigram"
