@@ -131,5 +131,24 @@
       "effect":"{{guard_break|ガードブレイク}} {{hit_ground|ヒットグラウンド}} {{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [12~20] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を5付与",
       "ct":17
     }
+  },
+   "lamp": {
+    "req": "なし",
+    "name_en": "lamp",
+    "name_jp": "ランプ",
+    "type": "blunt",
+    "damage": "8",
+    "speed": 0.73,
+    "basic": {
+      "image": "/assets/image/weapon/lamp_basic.gif",
+      "desc":"",
+      "effect":"長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/lamp_critical.gif",
+      "desc":"",
+      "effect":"{{undogeable|回避不可}}\n{{dice1|1ダイス目}} [8~12] 打撃 {{on_hit|的中時}} 当たった対象を自分のほうに引き寄せて{{burn|火傷}}を5付与",
+      "ct":15
+    }
   }
 }
