@@ -14,7 +14,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixers_battleaxe_critical.webm",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\n{{dice1|1ダイス目}} [14~17] 斬撃 {{hit_ground|ヒットグラウンド}} {{hit_downed|ヒットダウン}}\n{{on_hit|的中時}} {{bleed|出血}}3を付与\n{{on_parryhit|パリィ的中時}} 少しダメージを与える",
+      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [14~17] 斬撃 {hit_ground} {hit_downed}\n{on_hit} {bleed}3を付与\n{on_parryhit} 少しダメージを与える",
       "ct":20
     }
   },
@@ -33,7 +33,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixers_chainsaw_critical.webm",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\n{{dice1|1ダイス目}} [2~4] 貫通 {{guard_break|ガードブレイク}}とラストヒットに{{knock_back|ノックバック}}して{{multi_hit|マルチヒット}}",
+      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [2~4] 貫通 {guard_break}とラストヒットに{knock_back}して{multi_hit}",
       "ct":15
     }
   },
@@ -52,7 +52,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixer's_shortsword_critical.webm",
       "desc":"",
-      "effect":"{{on_hit|的中時}} 各ダイスに体力回復3\n {{dice1|1ダイス目}} [5~8] 斬撃 {{undogeable|回避不可}} {{on_hit|的中時}}{{bleed|出血}}を2付与\n {{dice2|2ダイス目}} [6~8] 斬撃 {{on_hit|的中時}}{{bleed|出血}}を2付与",
+      "effect":"{on_hit} 各ダイスに体力回復3\n {dice1} [5~8] 斬撃 {undogeable} {on_hit} {bleed}を2付与\n {dice2} [6~8] 斬撃 {on_hit} {bleed}を2付与",
       "ct":15
     }
   },
@@ -71,7 +71,7 @@
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.webm",
       "desc":"",
-      "effect":"{{dice1|1ダイス目}} [4~7] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice2|2ダイス目}} [7~10] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice3|3ダイス目}} [12~20] 斬撃 {{on_hit|的中時}} {{thermogenesis|熱発生}}を得て{{burn|火傷}}を6付与 ",
+      "effect":"{dice1} [4~7] 斬撃 {on_hit} {burn}を2付与\n {dice2} [7~10] 斬撃 {on_hit} {burn}を2付与\n {dice3} [12~20] 斬撃 {on_hit} {thermogenesis}を得て{burn}を6付与 ",
       "ct":18
     }
   },
@@ -90,7 +90,7 @@
     "critical": {
       "image": "/assets/image/weapon/cinq_rapier_critical.webm",
       "desc":"",
-      "effect":"{{dice1|1ダイス目}} [3~12] 貫通 {{on_hit|的中時}} {{poise|呼吸}}を3得る{{dice2|2ダイス目}}を敵に追尾して使用する\n {{dice2|2ダイス目}} [3~14] 貫通 {{on_hit|的中時}} {{haste|クイック}}を4得る",
+      "effect":"{dice1} [3~12] 貫通 {on_hit} {poise}を3得る{dice2}を敵に追尾して使用する\n {dice2} [3~14] 貫通 {on_hit} {haste}を4得る",
       "ct":18
     }
   },
@@ -109,7 +109,7 @@
     "critical": {
       "image": "/assets/image/weapon/udjat_khopesh_critical.webm",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [10~12] 貫通 {{on_hit|的中時}} {{protection|保護}}を2得る\n {{dice2|2ダイス目}} {{guard_break|ガードブレイク}} [5~7] 斬撃 {{on_hit|的中時}} {{protection|保護}}を1得る\n {{dice3|3ダイス目}} {{guard_break|ガードブレイク}} {{knock_back}} [5~8] 斬撃",
+      "effect":"{on_use} {hyperarmor}}\n{dice1} {guard_break} [10~12] 貫通 {on_hit} {protection}を2得る\n {dice2} {guard_break} [5~7] 斬撃 {on_hit} {protection}を1得る\n {dice3} {guard_break} {knock_back} [5~8] 斬撃",
       "ct":17
     }
    },
@@ -128,7 +128,7 @@
     "critical": {
       "image": "/assets/image/weapon/liu guan dao_critical.webm",
       "desc":"",
-      "effect":"{{guard_break|ガードブレイク}} {{hit_ground|ヒットグラウンド}} {{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [12~20] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を5付与",
+      "effect":"{guard_break} {hit_ground} {on_use} {hyperarmor}\n{dice1} {guard_break} [12~20] 斬撃 {on_hit} {burn}を5付与",
       "ct":17
     }
   },
@@ -147,7 +147,7 @@
     "critical": {
       "image": "/assets/image/weapon/lamp_critical.webm",
       "desc":"",
-      "effect":"{{undogeable|回避不可}}\n{{dice1|1ダイス目}} [8~12] 打撃 {{on_hit|的中時}} 当たった対象を自分のほうに引き寄せて{{burn|火傷}}を5付与",
+      "effect":"{undogeable}\n{dice1} [8~12] 打撃 {on_hit} 当たった対象を自分のほうに引き寄せて{burn}を5付与",
       "ct":15
     }
   },
@@ -166,7 +166,7 @@
     "critical": {
       "image": "/assets/image/weapon/augury_spear_critical1.webm",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{trigram|卦}}を1得る\n {{on_use|使用時}} もし自身が{{trigram|卦}}が4だった場合3消費してクリティカルが変化する\n {{on_hit|的中時}} 対象が5以上の{{tremor|振動}}を持っている場合、5の{{hate|クイック}}を得て対象に3の{{tremor|振動}}を付与し\nさらに、{{tremor_burst|振動爆発}}を起こす。\n {{dice1|1ダイス目}} {{guard_break|ガードブレイク}} {{knock_back|ノックバック}} [6~16] 打撃 {{on_hit|的中時}} {{hyperarmor|ハイパーアーマー}}を得て、5の{{tremor|振動}}を付与",
+      "effect":"{on_use} {trigram}を1得る\n {on_use} もし自身が{trigram}が4だった場合3消費してクリティカルが変化する\n {on_hit} 対象が5以上の{tremor}を持っている場合、5の{hate}を得て対象に3の{tremor}を付与し\nさらに、{tremor_burst}を起こす。\n {dice1} {guard_break} {knock_back} [6~16] 打撃 {on_hit} {hyperarmor}を得て、5の{tremor}を付与",
       "ct":16
     }
   },
@@ -185,7 +185,7 @@
     "critical": {
       "image": "/assets/image/weapon/liu_martial_arts_critical1.webm",
       "desc":"",
-      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n {{dice1|1ダイス目}} [5~8] 打撃 {{on_hit|的中時}} {{burn|火傷}}を3付与\n {{dice2|2ダイス目}} [6~16] 打撃 {{undogeable|回避不可}} {{guard_break|ガードブレイク}} {{on_hit|的中時}} {{burn|火傷}}を6付与",
+      "effect":"{on_use} {hyperarmor}\n {dice1} [5~8] 打撃 {on_hit} {burn}を3付与\n {dice2} [6~16] 打撃 {undogeable} {guard_break} {on_hit} {burn}を6付与",
       "ct":16
     }
    },
@@ -204,7 +204,7 @@
     "critical": {
       "image": "/assets/image/weapon/sunshower_umbrella_critical.webm",
       "desc":"",
-      "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] 斬撃 {on_hit} {sinking}を1付与{ruptuer}を2付与\n {dice2} [4~7] 斬撃 {on_hit} {sinking}と{ruptuer}を1付与\n {dice3} [4~8] 斬撃 {on_hit} {sinking}と{ruptuer}を1付与\n {dice4} [4~9] 斬撃 {on_hit} {sinking}と{ruptuer}を1付与",
+      "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] 斬撃 {on_hit} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] 斬撃 {on_hit} {sinking}と{rupture}を1付与",
       "ct":16
     }
   }
