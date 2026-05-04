@@ -183,7 +183,7 @@
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/liu_martial_arts_critical1.webm",
+      "image": "/assets/image/weapon/liu_martial_arts_critical.webm",
       "desc":"",
       "effect":"{on_use} {hyperarmor}\n {dice1} [5~8] 打撃 {on_hit} {burn}を3付与\n {dice2} [6~16] 打撃 {undogeable} {guard_break} {on_hit} {burn}を6付与",
       "ct":16
@@ -197,7 +197,7 @@
     "damage": "6",
     "speed": 0.63,
     "basic": {
-      "image": "/assets/image/weapon/sunshower_umbrella_basci.webm",
+      "image": "/assets/image/weapon/sunshower_umbrella_basic.webm",
       "desc":"",
       "effect":""
     },
