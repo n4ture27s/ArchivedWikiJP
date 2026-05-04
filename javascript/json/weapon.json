@@ -319,7 +319,7 @@
     "critical1": {
       "image": "/assets/image/weapon/kira_weapon_critical1.webm",
       "desc":"",
-      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{dice1} 打撃 [4~7] {undogeable}\n {dice2} 打撃 [7~10] {undogeable}{mulit_hit}4回",
+      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{dice1} 打撃 [4~7] {undogeable}\n {dice2} 打撃 [7~10] {undogeable}{multi_hit}4回",
       "ct":16
     },
     "critical2": {
