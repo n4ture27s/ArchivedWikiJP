@@ -230,7 +230,26 @@
       "image": "/assets/image/weapon/fluid_sac_hammer_critical.webm",
       "desc":"",
       "effect":"{on_use} {hyperarmor} {undogeable}\n{dice1} [15~25] 打撃 {on_hit} {protection}を2得て{bleed}を11付与",
-      "ct":16
+      "ct":23
+    }
+  },
+   "Viriscent_Pyrojade_Ring": {
+    "req": "6",
+    "name_en": "Viriscent Pyrojade Ring",
+    "name_jp": "緑青の炎玉のリング",
+    "type": "pierce",
+    "damage": "5",
+    "speed": 0.67,
+    "basic": {
+      "image": "/assets/image/weapon/viriscent pyrojade ring_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/viriscent pyrojade ring_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 打撃 [5~8] このダイスはダメージを与えない\n {dice2} 打撃 [2~4] {undogeable} {on_hit} {burn}4を付与\n {dice3} 打撃 [10~12] {unblockable} {undogeable} {on_hit} {bleed}4を付与",
+      "ct":19
     }
   }
 }
