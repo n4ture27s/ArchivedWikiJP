@@ -213,5 +213,24 @@
       "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] 斬撃 {on_hit} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] 斬撃 {on_hit} {sinking}と{rupture}を1付与",
       "ct":16
     }
+  },
+   "Fluid_sac_Hammer": {
+    "req": "1",
+    "name_en": "Fluid Sac Hammer",
+    "name_jp": "水袋のハンマー",
+    "type": "blunt",
+    "damage": "8",
+    "speed": 0.79,
+    "basic": {
+      "image": "/assets/image/weapon/fluid_sac_hammer_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/fluid_sac_hammer_critical.webm",
+      "desc":"",
+      "effect":"{on_use} {hyperarmor} {undogeable}\n {dice1} [15~25] 打撃 {on_hit} {protection}を2得て{bleed}を11付与",
+      "ct":16
+    }
   }
 }
