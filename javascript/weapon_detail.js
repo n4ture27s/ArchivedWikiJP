@@ -100,11 +100,11 @@ window.addEventListener("DOMContentLoaded", () => {
 
             /* ===== Basic Attack ===== */
             if (w.basic) {
-                const img = document.getElementById("basic-img");
+                const vid = document.getElementById("basic-vid");
                 const desc = document.getElementById("basic-desc");
                 const effect = document.getElementById("basic-effect");
 
-                if (img && w.basic.image) img.src = w.basic.image;
+                if (vid && w.basic.image) vid.src = w.basic.image;
 
                 setFormattedText(desc, w.basic.desc);
 
@@ -117,12 +117,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
             /* ===== Critical ===== */
             if (w.critical) {
-                const img = document.getElementById("crit-img");
+                const vid = document.getElementById("crit-vid");
                 const desc = document.getElementById("crit-desc");
                 const effect = document.getElementById("crit-effect");
                 const ct = document.getElementById("crit-ct");
 
-                if (img && w.critical.image) img.src = w.critical.image;
+                if (vid && w.critical.image) vid.src = w.critical.image;
 
                 setFormattedText(desc, w.critical.desc);
 

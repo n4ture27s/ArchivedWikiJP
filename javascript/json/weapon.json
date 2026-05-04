@@ -7,12 +7,12 @@
     "damage": 8,
     "speed": 0.75,
     "basic": {
-      "image": "/assets/image/weapon/fixers_battleaxe_basic.gif",
+      "image": "/assets/image/weapon/fixers_battleaxe_basic.webm",
       "desc":"",
       "effect":"長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
-      "image": "/assets/image/weapon/fixers_battleaxe_critical.gif",
+      "image": "/assets/image/weapon/fixers_battleaxe_critical.webm",
       "desc":"",
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\n{{dice1|1ダイス目}} [14~17] 斬撃 {{hit_ground|ヒットグラウンド}} {{hit_downed|ヒットダウン}}\n{{on_hit|的中時}} {{bleed|出血}}3を付与\n{{on_parryhit|パリィ的中時}} 少しダメージを与える",
       "ct":20
@@ -26,12 +26,12 @@
     "damage": "3.3x3",
     "speed": 0.75,
     "basic": {
-      "image": "/assets/image/weapon/fixers_chansaw_basic.gif",
+      "image": "/assets/image/weapon/fixers_chansaw_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/fixers_chainsaw_critical.gif",
+      "image": "/assets/image/weapon/fixers_chainsaw_critical.webm",
       "desc":"",
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}を得る\n{{dice1|1ダイス目}} [2~4] 貫通 {{guard_break|ガードブレイク}}とラストヒットに{{knock_back|ノックバック}}して{{multi_hit|マルチヒット}}",
       "ct":15
@@ -45,12 +45,12 @@
     "damage": "5.5",
     "speed": 0.55,
     "basic": {
-      "image": "/assets/image/weapon/fixer's_shortsword_basic.gif",
+      "image": "/assets/image/weapon/fixer's_shortsword_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/fixer's_shortsword_critical.gif",
+      "image": "/assets/image/weapon/fixer's_shortsword_critical.webm",
       "desc":"",
       "effect":"{{on_hit|的中時}} 各ダイスに体力回復3\n {{dice1|1ダイス目}} [5~8] 斬撃 {{undogeable|回避不可}} {{on_hit|的中時}}{{bleed|出血}}を2付与\n {{dice2|2ダイス目}} [6~8] 斬撃 {{on_hit|的中時}}{{bleed|出血}}を2付与",
       "ct":15
@@ -64,12 +64,12 @@
     "damage": "5",
     "speed": 0.61,
     "basic": {
-      "image": "/assets/image/weapon/gladius_basic.gif",
+      "image": "/assets/image/weapon/gladius_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/gladius_critical.gif",
+      "image": "/assets/image/weapon/gladius_critical.webm",
       "desc":"",
       "effect":"{{dice1|1ダイス目}} [4~7] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice2|2ダイス目}} [7~10] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を2付与\n {{dice3|3ダイス目}} [12~20] 斬撃 {{on_hit|的中時}} {{thermogenesis|熱発生}}を得て{{burn|火傷}}を6付与 ",
       "ct":18
@@ -83,12 +83,12 @@
     "damage": "6",
     "speed": 0.57,
     "basic": {
-      "image": "/assets/image/weapon/cinq_rapier_basic.gif",
+      "image": "/assets/image/weapon/cinq_rapier_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/cinq_rapier_critical.gif",
+      "image": "/assets/image/weapon/cinq_rapier_critical.webm",
       "desc":"",
       "effect":"{{dice1|1ダイス目}} [3~12] 貫通 {{on_hit|的中時}} {{poise|呼吸}}を3得る{{dice2|2ダイス目}}を敵に追尾して使用する\n {{dice2|2ダイス目}} [3~14] 貫通 {{on_hit|的中時}} {{haste|クイック}}を4得る",
       "ct":18
@@ -102,12 +102,12 @@
     "damage": "6",
     "speed": 0.61,
     "basic": {
-      "image": "/assets/image/weapon/udjat_khopesh_basic.gif",
+      "image": "/assets/image/weapon/udjat_khopesh_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/udjat_khopesh_critical.gif",
+      "image": "/assets/image/weapon/udjat_khopesh_critical.webm",
       "desc":"",
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [10~12] 貫通 {{on_hit|的中時}} {{protection|保護}}を2得る\n {{dice2|2ダイス目}} {{guard_break|ガードブレイク}} [5~7] 斬撃 {{on_hit|的中時}} {{protection|保護}}を1得る\n {{dice3|3ダイス目}} {{guard_break|ガードブレイク}} [5~8] 斬撃",
       "ct":17
@@ -121,12 +121,12 @@
     "damage": "6",
     "speed": 0.65,
     "basic": {
-      "image": "/assets/image/weapon/liu guan dao_basic.gif",
+      "image": "/assets/image/weapon/liu guan dao_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/liu guan dao_critical.gif",
+      "image": "/assets/image/weapon/liu guan dao_critical.webm",
       "desc":"",
       "effect":"{{guard_break|ガードブレイク}} {{hit_ground|ヒットグラウンド}} {{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [12~20] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を5付与",
       "ct":17
@@ -140,12 +140,12 @@
     "damage": "8",
     "speed": 0.73,
     "basic": {
-      "image": "/assets/image/weapon/lamp_basic.gif",
+      "image": "/assets/image/weapon/lamp_basic.webm",
       "desc":"",
       "effect":"長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
-      "image": "/assets/image/weapon/lamp_critical.gif",
+      "image": "/assets/image/weapon/lamp_critical.webm",
       "desc":"",
       "effect":"{{undogeable|回避不可}}\n{{dice1|1ダイス目}} [8~12] 打撃 {{on_hit|的中時}} 当たった対象を自分のほうに引き寄せて{{burn|火傷}}を5付与",
       "ct":15
