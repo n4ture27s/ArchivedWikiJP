@@ -188,5 +188,24 @@
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n {{dice1|1ダイス目}} [5~8] 打撃 {{on_hit|的中時}} {{burn|火傷}}を3付与\n {{dice2|2ダイス目}} [6~16] 打撃 {{undogeable|回避不可}} {{guard_break|ガードブレイク}} {{on_hit|的中時}} {{burn|火傷}}を6付与",
       "ct":16
     }
+   },
+   "Sunshower_Umbrella": {
+    "req": "3",
+    "name_en": "Sushower Umbrella",
+    "name_jp": "狐雨の傘",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/sunshower_umbrella_basci.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/sunshower_umbrella_critical.webm",
+      "desc":"",
+      "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] 斬撃 {{on_hit|的中時}} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] 斬撃 {on_hit} {sinking}と{rupture}を1付与",
+      "ct":16
+    }
   }
 }

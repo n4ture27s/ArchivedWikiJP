@@ -188,5 +188,10 @@
         "text": "予兆の槍のクリティカルにて使用する。",
         "type": "resource",
         "icon": "Trigram"
-    }        
+    },
+    "ruptuer": {
+        "text": "的中時に相手の全ての耐性を1にする。",
+        "type": "debuff",
+        "icon": "Rupture"
+    }         
 }
