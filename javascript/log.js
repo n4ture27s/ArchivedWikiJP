@@ -1,3 +1,51 @@
+fetch("/javascript/json/logs.json")
+    .then(res => res.json())
+    .then(data => {
+        renderLogs(data);
+    });
+    
+function renderLogs(data) {
+    const container = document.querySelector(".update-log");
+    if (!container) return;
+
+    // 既存ログ削除（ボタンは残す）
+    container.querySelectorAll("details").forEach(d => d.remove());
+
+    data.logs.forEach(entry => {
+        const details = document.createElement("details");
+
+        if (entry.new) details.open = true;
+
+        const summary = document.createElement("summary");
+        summary.innerHTML = `
+            ${entry.date}
+            ${entry.new ? '<span class="new">NEW!</span>' : ''}
+        `;
+
+        details.appendChild(summary);
+
+        entry.items.forEach(item => {
+            const p = document.createElement("p");
+            p.classList.add("log", item.type);
+
+            p.textContent = `[${getLabel(item.type)}] ${item.text}`;
+
+            details.appendChild(p);
+        });
+
+        container.appendChild(details);
+    });
+}
+
+function getLabel(type) {
+    const map = {
+        add: "追加",
+        fix: "修正",
+        change: "変更",
+        remove: "削除"
+    };
+    return map[type] || type;
+}
 
 //filter
 function LogFilter(type) {

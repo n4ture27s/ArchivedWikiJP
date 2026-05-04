@@ -1,0 +1,33 @@
+{
+  "logs": [
+    {
+      "date": "2026/05/05",
+      "new": true,
+      "items": [
+        
+      ]
+    },
+    {
+      "date": "2026/05/05",
+      "new": false,
+      "items": [
+        { "type": "add", "text": "Traitページを追加" },
+        { "type": "add", "text": "武器解説を追加" },
+        { "type": "add", "text": "協会の解説を作りかけだが追加" }
+      ]
+    },
+    {
+      "date": "2026/05/04",
+      "new": false,
+      "items": [
+        { "type": "fix", "text": "コードバグによりクリティカルが表示されない問題を修正" }
+      ]
+    },
+    {
+      "date": "2026/05/03",
+      "items": [
+        { "type": "add", "text": "WIKI公開(CloudFlare)" }
+      ]
+    }
+  ]
+}
