@@ -112,5 +112,24 @@
       "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [10~12] 貫通 {{on_hit|的中時}} {{protection|保護}}を2得る\n {{dice2|2ダイス目}} {{guard_break|ガードブレイク}} [5~7] 斬撃 {{on_hit|的中時}} {{protection|保護}}を1得る\n {{dice3|3ダイス目}} {{guard_break|ガードブレイク}} [5~8] 斬撃",
       "ct":17
     }
+   },
+   "liu_guan_dao": {
+    "req": "4",
+    "name_en": "Liu Guan Dao",
+    "name_jp": "リウの大刀",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/liu guan dao_basic.gif",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/liu guan dao_critical.gif",
+      "desc":"",
+      "effect":"{{guard_break|ガードブレイク}} {{hit_ground|ヒットグラウンド}} {{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n{{dice1|1ダイス目}} {{guard_break|ガードブレイク}} [12~20] 斬撃 {{on_hit|的中時}} {{burn|火傷}}を5付与",
+      "ct":17
+    }
   }
 }
