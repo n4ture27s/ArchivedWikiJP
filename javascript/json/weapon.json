@@ -260,7 +260,7 @@
     "damage": "6",
     "speed": 0.65,
     "basic": {
-      "image": "/assets/image/weapon/solmen_rament_pistol_basic.webm",
+      "image": "/assets/image/weapon/solemn_rament_pistol_basic.webm",
       "desc":"",
       "effect":""
     },
