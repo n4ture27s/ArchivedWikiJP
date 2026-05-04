@@ -131,7 +131,7 @@ const trait_def_data = [
         name: "Methodical",
         alias: "Swift Execution",
         effect: "- 回避を黒い軌跡を残す、より長く不可視な物に置き換えます\n- 無敵時間がわずかに増加します\n- 回避時にスタミナを10消費します\n- {haste}の影響を受けます\n- 回避のクールダウンが増加します",
-        tips: "あるいは、キャラクター作成時に「グループを離脱して全力で逃げる」を選択することで、この特性を獲得することもできます。"
+        tips: "あるいは、キャラクター作成時に「Run as fast as you can, Abandoning your group」を選択することで、この特性を獲得することもできます。"
     },
     {
         name: "Resourceful",
@@ -142,7 +142,7 @@ const trait_def_data = [
     {
         name: "Maniacal",
         alias: "Manic",
-        effect: "- パリー時のスタミナ回復量増加\n- 正気度回復量減少",
+        effect: "- パリィ時のスタミナ回復量増加\n- 正気度回復量減少",
         tips: ""
     },
     {
@@ -160,7 +160,7 @@ const trait_def_data = [
     {
         name: "Immovable",
         alias: "",
-        effect: "- パリーした時、またはパリーされた時に、ノックバックしなくなります。",
+        effect: "- パリィした時、またはパリィされた時に、ノックバックしなくなります。",
         tips: ""
     },
     {
@@ -172,35 +172,50 @@ const trait_def_data = [
     {
         name: "Calm",
         alias: "Composed Guard",
-        effect: "- ガード時のスタミナダメージを軽減\n- パリーが空振りした際のスタミナ消費量を増加させる",
+        effect: "- ガード時のスタミナダメージを軽減\n- パリィが空振りした際のスタミナ消費量を増加させる",
         tips: "Hot-Headed/Hair-Triggeredと同時適応不可"
     },
 ];
 
 const trait_parry_data = [
     {
-        name: "Coldness",
-        alias: "Heartless Execution",
-        effect: "ラグドールしない限り、対象を掴む/運ぶ動作はキャンセル不可に",
+        name: "Bizzare",
+        alias: "Unorthodox Timing",
+        effect: "- パリィの色を紫に変更\n- パリィフレームを0.3秒短縮\n- パリィ空振り時のクールダウンを1秒短縮\n- パリィ失敗時のクールダウンを1秒短縮",
         tips: ""
     },
     {
-        name: "Energetic",
-        alias: "Happy Feet",
-        effect: "感情レベルを発動するための閾値を下げ、感情レベルの上昇を促進する",
+        name: "Hot-Headed",
+        alias: "Hair-Triggered",
+        effect: "- パリィの色を赤に変更\n- スタン時間の増加\n- ガード時のスタミナダメージの増加",
+        tips: "Calm/Composed Guardと同時適応不可\n- または、キャラクター作成をスキップすることでこの特性を取得できます。"
+    },
+    {
+        name: "Proficient",
+        alias: "Lightspeed Reflexes",
+        effect: "- パリィの色を青に変更\n- パリィフレームを0.3秒増加\n- 空振り時のパリークールダウンを3秒増加",
+        tips: "あるいは、キャラクター作成時に「How to become Book Smart」を選択することで、この特性を獲得することもできます。"
+    },
+];
+
+const trait_other_data = [
+    {
+        name: "Chromatic",
+        alias: "Chromatic Emotion",
+        effect: "- ほとんどの視覚効果をコスメティックカラーに変更します。\n- また、髪の色もコスメティックカラーに変更しますが、これは感情レベルが一定以下の場合に限ります。",
         tips: ""
     },
     {
-        name: "Methodical",
-        alias: "Swift Execution",
-        effect: "ダウンしている対象を処刑するまでの時間を短縮します",
-        tips: ""
+        name: "Garde Pardue",
+        alias: "",
+        effect: "食べ物を摂取した際のマイナスステータスが50%減少",
+        tips: "・この特性はShadouのクエストラインでのみ入手可能です。\n・この特性は特性上限3つにはカウントされません。"
     },
     {
-        name: "Paranoid",
-        alias: "Cautious Fury",
-        effect: "- {permadeath}サーバー以外（オーバーワールドを含む）での与ダメージを10%減少\n- {permadeath}内での与ダメージを10%増加",
-        tips: ""
+        name: "Rojima Alliance",
+        alias: "Token Of Rojima",
+        effect: "ネズミは攻撃されない限り自分から攻撃してこなくなる",
+        tips: "・この特性は、「Random Rat」のクエストラインでのみ入手可能です。\n・この特性は、特性の上限である3つにはカウントされません。"
     },
 ];
 
@@ -219,6 +234,7 @@ const trait_atk_columns = [
 createTable("atk_trait", trait_atk_data, trait_atk_columns);
 createTable("def_trait", trait_def_data, trait_columns);
 createTable("parry_trait", trait_parry_data, trait_columns);
+createTable("other_trait", trait_other_data, trait_columns);
 function formatText(text) {
     if (!text) return "";
 
