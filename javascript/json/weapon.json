@@ -224,7 +224,7 @@
     "basic": {
       "image": "/assets/image/weapon/Fluid_Sac_Hammer_basic.webm",
       "desc":"",
-      "effect":""
+      "effect":"長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
       "image": "/assets/image/weapon/Fluid_Sac_Hammer_critical.webm",
