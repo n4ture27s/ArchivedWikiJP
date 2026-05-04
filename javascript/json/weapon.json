@@ -229,7 +229,7 @@
     "critical": {
       "image": "/assets/image/weapon/fluid_sac_hammer_critical.webm",
       "desc":"",
-      "effect":"{on_use} {hyperarmor} {undogeable}\n {manifested_armor}{dice1} [15~25] 打撃 {on_hit} {protection}を2得て{bleed}を11付与",
+      "effect":"{on_use} {hyperarmor} {undogeable}\n{dice1} [15~25] 打撃 {on_hit} {protection}を2得て{bleed}を11付与",
       "ct":16
     }
   }
