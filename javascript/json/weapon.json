@@ -222,12 +222,12 @@
     "damage": "8",
     "speed": 0.79,
     "basic": {
-      "image": "/assets/image/weapon/fluid_sac_hammer_basic.webm",
+      "image": "/assets/image/weapon/Fluid_Sac_Hammer_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/fluid_sac_hammer_critical.webm",
+      "image": "/assets/image/weapon/Fluid_Sac_Hammer_critical.webm",
       "desc":"",
       "effect":"{on_use} {hyperarmor} {undogeable}\n{dice1} [15~25] 打撃 {on_hit} {protection}を2得て{bleed}を11付与",
       "ct":23
