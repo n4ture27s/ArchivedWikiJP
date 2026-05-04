@@ -99,7 +99,11 @@ function applyAllStyles() {
             el.classList.add(data.type);
         }
 
+        if (moduleData?.title) {
+            el.textContent = `${moduleData.title}`
+        }
         if (moduleData?.color) {
+            
             el.classList.add("combat-module");
             el.style.color = `#${moduleData.color}`;
         }
