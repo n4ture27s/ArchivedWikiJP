@@ -169,5 +169,24 @@
       "effect":"{{on_use|使用時}} {{trigram|卦}}を1得る\n {{on_use|使用時}} もし自身が{{trigram|卦}}が4だった場合3消費してクリティカルが変化する\n {{on_hit|的中時}} 対象が5以上の{{tremor|振動}}を持っている場合、5の{{hate|クイック}}を得て対象に3の{{tremor|振動}}を付与し\nさらに、{{tremor_burst|振動爆発}}を起こす。\n {{dice1|1ダイス目}} {{guard_break|ガードブレイク}} {{knock_back|ノックバック}} [6~16] 打撃 {{on_hit|的中時}} {{hyperarmor|ハイパーアーマー}}を得て、5の{{tremor|振動}}を付与",
       "ct":16
     }
+  },
+   "liu_martial_arts": {
+    "req": "2",
+    "name_en": "Liu Martial Arts",
+    "name_jp": "Liu式武術",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.64,
+    "basic": {
+      "image": "/assets/image/weapon/liu_martial_arts_basic.gif",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/liu_martial_arts_critical1.gif",
+      "desc":"",
+      "effect":"{{on_use|使用時}} {{hyperarmor|ハイパーアーマー}}\n {{dice1|1ダイス目}} [5~8] 打撃 {{on_hit|的中時}} {{burn|火傷}}を3付与\n {{dice2|2ダイス目}} [6~16] 打撃 {{undogeable|回避不可}} {{guard_break|ガードブレイク}} {{on_hit|的中時}} {{burn|火傷}}を6付与",
+      "ct":16
+    }
   }
 }
