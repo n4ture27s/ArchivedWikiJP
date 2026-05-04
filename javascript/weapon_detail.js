@@ -49,7 +49,7 @@ function createStat(label, value, className = "") {
    メイン処理
    ========================= */
 
-window.addEventListener("DOMContentLoaded", () => {
+(function () {
 
     const params = new URLSearchParams(location.search);
     const id = params.get("id");
@@ -133,7 +133,7 @@ window.addEventListener("DOMContentLoaded", () => {
         .catch(err => {
             console.error(err);
         });
-});
+})();
 
 
 function renderCriticals(w) {
