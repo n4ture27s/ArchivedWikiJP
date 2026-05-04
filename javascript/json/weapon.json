@@ -284,5 +284,24 @@
       "effect":"6ダメージを与える。",
       "ct":"1秒"
     }
+  },
+   "yesterdays_promise": {
+    "req": "1",
+    "name_en": "Yestedays Promise",
+    "name_jp": "昨日の約束",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.7,
+    "basic": {
+      "image": "/assets/image/weapon/yesterdays_promise_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/yesterdays promise_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 貫通 [14~20] {on_hit}{guard_break}",
+      "ct":16
+    }
   }
 }
