@@ -67,6 +67,11 @@ window.addEventListener("DOMContentLoaded", () => {
         .then(data => {
 
             const w = data[id];
+            console.log("w:", w);
+            const criticals = Object.keys(w)
+                .filter(key => key.startsWith("critical"));
+
+            console.log("criticals:", criticals);
 
             if (!w) {
                 console.warn("該当データなし:", id);
@@ -141,6 +146,7 @@ function renderCriticals(w) {
     const criticals = Object.keys(w)
         .filter(key => key.startsWith("critical"))
         .sort(); // 順番保証
+
 
     criticals.forEach((key, index) => {
         const c = w[key];
