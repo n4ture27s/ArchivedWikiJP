@@ -33,7 +33,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixers_chainsaw_critical.webm",
       "desc":"",
-      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [2~4] 貫通 {guard_break}とラストヒットに{knock_back}して{multi_hit}",
+      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [2~4] {guard_break} {multi_hit} 貫通 最後の攻撃が的中したとき{knock_back}する",
       "ct":15
     }
   },
@@ -97,7 +97,7 @@
    "udjat_khopesh": {
     "req": "4",
     "name_en": "Udjat Khopesh",
-    "name_jp": "ウアジェト コペシュ",
+    "name_jp": "ウアジェト ケペシュ",
     "type": "slash",
     "damage": "6",
     "speed": 0.61,
@@ -109,7 +109,7 @@
     "critical": {
       "image": "/assets/image/weapon/udjat_khopesh_critical.webm",
       "desc":"",
-      "effect":"{on_use} {hyperarmor}}\n{dice1} {guard_break} [10~12] 貫通 {on_hit} {protection}を2得る\n {dice2} {guard_break} [5~7] 斬撃 {on_hit} {protection}を1得る\n {dice3} {guard_break} {knock_back} [5~8] 斬撃",
+      "effect":"{on_use} {hyperarmor}\n{dice1} {guard_break} [10~12] 貫通 {on_hit} {protection}を2得る\n {dice2} {guard_break} [5~7] 斬撃 {on_hit} {protection}を1得る\n {dice3} {guard_break} {knock_back} [5~8] 斬撃",
       "ct":17
     }
    },
