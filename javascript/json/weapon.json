@@ -270,13 +270,13 @@
       "effect":"{on_use} {solmen_ammo}を各ダイス5消費する\n {dice1} {multi_hit} [6~8]x7 貫通\n {dice2}[10~15] 貫通 {on_hit}{sinking}を3付与。\nこのダイスが{solmen_ammo}を消耗した場合\n さらに{sinking}を付与し、さらに{sinking}に基づく状態異常を付与。\n {sinking}が1~19の場合: {sinking}-6分の{blind}\n {sinkig}が20以上の場合: {sinking}-6分の{fragile}を付与。",
       "ct":15
     },
-    "reload": {
+    "gun_reload": {
       "image": "/assets/image/weapon/solmen_rament_pistol_reload.webm",
       "desc":"",
       "effect":"{on_use} 精神力を12消費して{solmen_ammo}を12得る。",
       "ct":"8"
     },
-    "shoot": {
+    "gun_shoot": {
       "image": "/assets/image/weapon/solmen_rament_pistol_shoot.webm",
       "desc":"",
       "effect":"6ダメージを与える。",
