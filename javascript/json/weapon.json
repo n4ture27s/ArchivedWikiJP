@@ -204,7 +204,7 @@
     "critical": {
       "image": "/assets/image/weapon/sunshower_umbrella_critical.webm",
       "desc":"",
-      "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] 斬撃 {{on_hit|的中時}} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] 斬撃 {on_hit} {sinking}と{rupture}を1付与",
+      "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] 斬撃 {on_hit} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] 斬撃 {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] 斬撃 {on_hit} {sinking}と{rupture}を1付与",
       "ct":16
     }
   }
