@@ -178,5 +178,15 @@
         "text": "被ダメージ時のダメージを値の%分減らす。",
         "type": "buff",
         "icon": "Protection"
-    }
+    },
+    "tremor": {
+        "text": "振動爆発を受けた際にスタミナダメージの2倍の値を与える。",
+        "type": "debuff",
+        "icon": "Tremor"
+    },
+    "trigrum": {
+        "text": "予兆の槍のクリティカルにて使用する。",
+        "type": "resource",
+        "icon": "Trigram"
+    }        
 }
