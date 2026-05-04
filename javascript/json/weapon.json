@@ -168,6 +168,12 @@
       "desc":"",
       "effect":"{on_use} {trigram}を1得る\n {on_use} もし自身が{trigram}が4だった場合3消費してクリティカルが変化する\n {on_hit} 対象が5以上の{tremor}を持っている場合、5の{hate}を得て対象に3の{tremor}を付与し\nさらに、{tremor_burst}を起こす。\n {dice1} {guard_break} {knock_back} [6~16] 打撃 {on_hit} {hyperarmor}を得て、5の{tremor}を付与",
       "ct":16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/augury_spear_critical2.webm",
+      "desc":"",
+      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [8~14] 貫通 {unblockable} {on_hit} {tremor}4を付与する。対象の{tremor}が5以上なら{tremor_burst}\n {dice2} [9~18] 貫通 {unblockable} {knock_back} {on_hit} {paralyze}3を付与。さらに対象の{tremor}が7以上ならダイスロール分の{shield_hp}を得る",
+      "ct":""
     }
   },
    "liu_martial_arts": {
