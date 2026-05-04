@@ -121,6 +121,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 const desc = document.getElementById("crit-desc");
                 const effect = document.getElementById("crit-effect");
                 const ct = document.getElementById("crit-ct");
+                
 
                 if (vid && w.critical.image) vid.src = w.critical.image;
 
