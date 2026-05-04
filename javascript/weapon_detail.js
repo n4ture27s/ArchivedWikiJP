@@ -123,6 +123,9 @@ function createStat(label, value, className = "") {
             /* ===== Critical ===== */
             renderCriticals(w);
 
+            /* ===== Gun ===== */
+            renderGuns(w);
+
             /* ===== tooltip再適用 ===== */
             if (typeof applyAllStyles === "function") {
                 applyAllStyles();
@@ -181,6 +184,53 @@ function renderCriticals(w) {
         } else {
             ct.style.display = "none";
         }
+
+        if (c.effect) {
+            setFormattedText(effect, c.effect);
+        } else {
+            effect.style.display = "none";
+        }
+
+        container.appendChild(section);
+    });
+}
+
+function renderGuns(w) {
+    const container = document.getElementById("gun-container");
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    const guns = Object.keys(w)
+        .filter(key => key.startsWith("gun"))
+        .sort(); // 順番保証
+
+
+    guns.forEach((key, index) => {
+        const c = w[key];
+        if (!c) return;
+
+        const section = document.createElement("div");
+        section.classList.add("weapon-section");
+
+        section.innerHTML = `
+            <h2>Gun:${c.title}</h2>
+            <div class="attack-box">
+                <video class="attack-vid" autoplay loop muted> </video>
+                <div class="attack-info">
+                    <p class="gun-desc"></p>
+                    <p class="gun-effect effect"></p>
+                </div>
+            </div>
+        `;
+
+        const vid = section.querySelector(".attack-vid");
+        const desc = section.querySelector(".gun-desc");
+        const effect = section.querySelector(".gun-effect");
+
+        if (vid && c.image) vid.src = c.image;
+
+        setFormattedText(desc, c.desc);
 
         if (c.effect) {
             setFormattedText(effect, c.effect);
