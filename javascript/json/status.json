@@ -250,5 +250,17 @@
         "text": "常にダイスの出目が最低値になり、全ての攻撃が25%減少する。",
         "type": "debuff",
         "icon": "shatterd_ego"
-    }                     
+    },
+    "solmen_ammo": {
+        "title": "哀悼の弾丸",
+        "text": "厳粛な哀悼 ピストル専用の弾丸。",
+        "type": "resource",
+        "icon": "The_Living_&_The_Departed"
+    },
+    "blind": {
+        "title": "束縛",
+        "text": "走ると速度が4減少する。",
+        "type": "debuff",
+        "icon": "Blind"
+    }                           
 }

@@ -251,5 +251,36 @@
       "effect":"{dice1} 打撃 [5~8] このダイスはダメージを与えない\n {dice2} 打撃 [2~4] {undogeable} {on_hit} {burn}4を付与\n {dice3} 打撃 [10~12] {unblockable} {undogeable} {on_hit} {bleed}4を付与",
       "ct":19
     }
+  },
+   "solmen_rament_pistol": {
+    "req": "1",
+    "name_en": "Solmen Rament Pistol",
+    "name_jp": "厳粛な哀悼 ピストル",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/solmen_rament_pistol_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/solmen_rament_pistol_critical.webm",
+      "desc":"",
+      "effect":"{on_use} {solmen_ammo}を各ダイス5消費する\n {dice1} {multi_hit} [6~8]x7 貫通\n {dice2}[10~15] 貫通 {on_hit}{sinking}を3付与。\nこのダイスが{solmen_ammo}を消耗した場合\n さらに{sinking}を付与し、さらに{sinking}に基づく状態異常を付与。\n {sinking}が1~19の場合: {sinking}-6分の{blind}\n {sinkig}が20以上の場合: {sinking}-6分の{fragile}を付与。",
+      "ct":15
+    },
+    "reload": {
+      "image": "/assets/image/weapon/solmen_rament_pistol_reload.webm",
+      "desc":"",
+      "effect":"{on_use} 精神力を12消費して{solmen_ammo}を12得る。",
+      "ct":"8"
+    },
+    "shoot": {
+      "image": "/assets/image/weapon/solmen_rament_pistol_shoot.webm",
+      "desc":"",
+      "effect":"6ダメージを与える。",
+      "ct":"1秒"
+    }
   }
 }
