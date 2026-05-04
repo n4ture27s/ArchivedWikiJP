@@ -19,3 +19,7 @@ if (document.body.dataset.page === "weapon-list") {
 if (document.body.dataset.page === "weapon-detail") {
   loadScript("/javascript/weapon_detail.js");
 }
+
+if (document.body.dataset.page === "trait") {
+  loadScript("/javascript/table.js");
+}

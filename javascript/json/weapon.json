@@ -271,12 +271,14 @@
       "ct":15
     },
     "gun_reload": {
+      "title": "reload",
       "image": "/assets/image/weapon/solmen_rament_pistol_reload.webm",
       "desc":"",
       "effect":"{on_use} 精神力を12消費して{solmen_ammo}を12得る。",
       "ct":"8"
     },
     "gun_shoot": {
+      "title": "shoot",
       "image": "/assets/image/weapon/solmen_rament_pistol_shoot.webm",
       "desc":"",
       "effect":"6ダメージを与える。",
