@@ -303,5 +303,36 @@
       "effect":"{dice1} 貫通 [14~20] {on_hit}{guard_break}",
       "ct":16
     }
+  },
+   "thermal_blade_weapony": {
+    "req": "3",
+    "name_en": "Thermal Blade Weapony",
+    "name_jp": "熱線刃兵器",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.60,
+    "basic": {
+      "image": "/assets/image/weapon/kira_weapon_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/kira_weapon_critical1.webm",
+      "desc":"",
+      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する {dice1} 打撃 [4~7] {undogeable}\n {dice2} 打撃 [7~10] {undogeable}{mulit_hit}4回",
+      "ct":16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/kira_weapon_critical2.webm",
+      "desc":"",
+      "effect":"{dice1} 打撃 [4~7] {undogeable}\n {dice2} 打撃 [4~7] {undogeable} {on_hit} {bleed}を2付与\n {dice3} 打撃 [5~7] {undogeable}\n {dice4} 打撃 [5～7] {undogeable} {on_hit} {bleed}を2付与",
+      "ct":16
+    },
+    "critical3": {
+      "image": "/assets/image/weapon/kira_weapon_critical3.webm",
+      "desc":"",
+      "effect":"1ダイス目がパリィされても2ダイス目が実行される {dice1} 斬撃 [6~8] {on_hit}{bleed}を2付与\n {dice2} [6~10] {on_hit}{bleed}を2付与\n {dice2} [6~12] {guard_break} {on_hit}{bleed}を2付与",
+      "ct":15
+    }
   }
 }
