@@ -26,12 +26,47 @@ document.querySelectorAll('.staff-card').forEach(card => {
 
 //tooltips
 const tooltip = document.getElementById("tooltip");
-document.addEventListener("mousemove", (e) => {
-    if (tooltip.style.display === "block") {
-        tooltip.style.left = (e.clientX + 12) + "px";
-        tooltip.style.top = (e.clientY + 12) + "px";
-    }
-});
+if (tooltip) {
+    document.addEventListener("mousemove", (e) => {
+        if (tooltip.style.display === "block") {
+            tooltip.style.left = (e.clientX + 12) + "px";
+            tooltip.style.top = (e.clientY + 12) + "px";
+        }
+        document.addEventListener("mouseover", (e) => {
+            const el = e.target.closest(".tooltip-target");
+            if (!el) return;
+
+            const key = el.dataset.key;
+
+            const status = tooltipData[key];
+            const module = combat_module[key];
+
+            if (!status && !module) return;
+
+
+            let text = "";
+            if (status?.text) text += status.text;
+            if (module?.text) text += (text ? "\n" : "") + module.text;
+
+            tooltip.textContent = text;
+            tooltip.style.display = "block";
+
+        });
+
+        document.addEventListener("mouseout", (e) => {
+            if (e.target.closest(".tooltip-target")) {
+                tooltip.style.display = "none";
+            }
+        });
+
+        document.addEventListener("mousemove", (e) => {
+            if (tooltip.style.display === "block") {
+                tooltip.style.left = (e.clientX + 12) + "px";
+                tooltip.style.top = (e.clientY + 12) + "px";
+            }
+        });
+    });
+}
 let tooltipData = {};
 let combat_module = {};
 
@@ -43,41 +78,6 @@ Promise.all([
     combat_module = moduleData;
 
     applyAllStyles();
-});
-
-
-document.addEventListener("mouseover", (e) => {
-    const el = e.target.closest(".tooltip-target");
-    if (!el) return;
-
-    const key = el.dataset.key;
-
-    const status = tooltipData[key];
-    const module = combat_module[key];
-
-    if (!status && !module) return;
-
-
-    let text = "";
-    if (status?.text) text += status.text;
-    if (module?.text) text += (text ? "\n" : "") + module.text;
-
-    tooltip.textContent = text;
-    tooltip.style.display = "block";
-
-});
-
-document.addEventListener("mouseout", (e) => {
-    if (e.target.closest(".tooltip-target")) {
-        tooltip.style.display = "none";
-    }
-});
-
-document.addEventListener("mousemove", (e) => {
-    if (tooltip.style.display === "block") {
-        tooltip.style.left = (e.clientX + 12) + "px";
-        tooltip.style.top = (e.clientY + 12) + "px";
-    }
 });
 
 document.querySelectorAll(".weapon-card").forEach(card => {
