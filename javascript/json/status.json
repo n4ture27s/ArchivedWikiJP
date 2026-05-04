@@ -238,5 +238,17 @@
         "text": "振動爆発を起こす際のトリガー",
         "type": "debuff",
         "icon": "Tremor_Burst"
-    }            
+    },
+    "manifested_armorr": {
+        "title": "顕現した鎧",
+        "text": "常にダイスの出目が最大値になり、全ての攻撃が15%増加。精神力が-30以下になると{shatterd_ego}に変換する。",
+        "type": "buff",
+        "icon": "mani_armor"
+    },
+    "shatterd_ego": {
+        "title": "粉々になったEGO",
+        "text": "常にダイスの出目が最低値になり、全ての攻撃が25%減少する。",
+        "type": "debuff",
+        "icon": "shatterd_ego"
+    }                     
 }
