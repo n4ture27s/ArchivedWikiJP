@@ -232,5 +232,11 @@
         "text": "体力バーに青色のバーで表示される。あらゆるダメージタイプによる被ダメージを0.5倍軽減する。ページ、キーページ、武器などを通じて得られる。",
         "type": "buff",
         "icon": "protection"
-    }        
+    },
+    "tremor_burst": {
+        "title": "振動爆発",
+        "text": "振動爆発を起こす際のトリガー",
+        "type": "debuff",
+        "icon": "Tremor_Burst"
+    }            
 }
