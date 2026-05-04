@@ -1,195 +1,228 @@
 {
-    "value_up": {
-        "text": "ダイス値を数値分増加させます。",
-        "type": "buff",
-        "icon": "value_up"
-    },
     "permadeath": {
+        "title": "永久死",
         "text": "死亡もしくは戦闘状態で抜けると、そのスロットのデータが消滅します。",
         "type": "debuff",
         "icon": "permadeath"
     },
     "light": {
+        "title": "光",
         "text": "ページなどで消費するステータス。",
         "type": "resource",
         "icon": "light"
     },
     "bleed": {
+        "title": "出血",
         "text": "ダイスを振るたびにその値の1/3に相当するダメージを与えてその後、値が半分になる。",
         "type": "debuff",
         "icon": "Bleed"
     },
     "charge": {
+        "title": "充電",
         "text": "特定のページや武器などで使われるステータス。",
         "type": "resource",
         "icon": "Charge"
     },
     "fragile": {
+        "title": "脆弱",
         "text": "被ダメージ時に値/2%分のダメージが増加する。",
         "type": "debuff",
         "icon": "Fragile"
     },
     "paralyze": {
+        "title": "麻痺",
         "text": "プレイヤーの次のダイスを最小値に設定する。",
         "type": "debuff",
         "icon": "Paralyze"
     },
     "poise": {
+        "title": "呼吸",
         "text": "3x値%の確率で1.15倍のダメージを与える[クリティカルヒット]を発生させる。[クリティカルヒット]が発生した場合値が半分になる。",
         "type": "buff",
         "icon": "Poise"
     },
     "haste": {
+        "title": "クイック",
         "text": "回避時に1消耗してプレイヤーの機動力を高める。",
         "type": "buff",
         "icon": "Haste"
     },
-    "regen up": {
+    "regen_up": {
+        "title": "回復量増加",
         "text": "体力回復の値倍増加させる。",
         "type": "buff",
         "icon": "HP_Healing_Boost"
     },
-    "value power up": {
+    "value_up": {
+        "title": "ダイス値増加",
         "text": "ダイス威力を値だけ増加させる。",
         "type": "buff",
         "icon": "Clash_Power_Up"
     },
-    "charge barrier": {
+    "charge_barrier": {
+        "title": "充電力場",
         "text": "被ダメージを10%減らし、値を1減らす。",
         "type": "buff",
         "icon": "Charge_Barrier"
     },
     "burn": {
+        "title": "火傷",
         "text": "値を2で割った値に等しいダメージ2秒ごとに与え、その後値が半分になる。",
         "type": "debuff",
         "icon": "Burn"
     },
     "sinking": {
+        "title": "沈潜",
         "text": "被弾時に精神力を-2減少させ、その後値を1減少させる。対象の精神力-45の場合、沈潜殺到を発動し対象の全ての沈潜の値を消費して、その値に等しいダメージを与える。沈潜を持つnpcは、被弾しても精神力を失わない。",
         "type": "debuff",
         "icon": "Sinking"
     },
-    "volatile passion": {
+    "volatile_passion": {
+        "title": "不安定な激情",
         "text": "蝋の翼(ワックスピニオン)E.G.Oに紐づくページ、クリティカルを強化する。",
         "type": "buff",
         "icon": "Volatile_Passion"
     },
-    "kcorp ample": {
+    "kcorp_ample": {
+        "title": "K社アンプル",
         "text": "このバフが時間経過で1消耗された場合、50の回復と再生、脆弱10を付与します。",
         "type": "buff",
         "icon": "Decay_Ampule"
     },
-    "enhancement tatoos": {
+    "enhancement_tatoos": {
+        "title": "強化入れ墨",
         "text": "[被ダメージ時]値に等しい分だけダメージを軽減 / [的中時]値1につきダメージ+10%。",
         "type": "buff",
         "icon": ""
     },
-    "fluorescence shard": {
+    "fluorescence_shard": {
+        "title": "蛍光灯の破片",
         "text": "時間経過で値が1減った時、呼吸を4得る。",
         "type": "buff",
         "icon": "Fluorescence_Shard"
     },
-    "defense up": {
+    "defense_up": {
+        "title": "防御レベル増加",
         "text": "ブロック時のスタミナダメージを、値1につき5%減少させる。",
         "type": "buff",
         "icon": "Defense_Level_Up"
     },
-    "dorp rate up": {
+    "dorp_rate_up": {
+        "title": "ドロップ率増加",
         "text": "運を1上げる",
         "type": "buff",
         "icon": "Drop_Rate_Up"
     },
     "fanatic": {
+        "title": "狂信",
         "text": "握る者の服によって付与されるステータス効果で、N社の尋問官の服を着用している味方に対して与ダメージ+15%のバフを付与する。",
         "type": "buff",
         "icon": "Fnatic"
     },
-    "heated gas harpoon": {
+    "heated_gas_harpoon": {
+        "title": "加熱されたガス銛",
         "text": "捕鯨船長の服を着ている場合に適用される。ガスハープーンかセラフィックランスのクリティカルを使用時ダイスの威力が4上がる",
         "type": "buff",
         "icon": "Heated_Gas_Harpoon"
     },
     "coagulated blood": {
+        "title": "硬血",
         "text": "血鬼専用のバフで特定のページや武器から得られる。値10/20で+1/+2のダイスアップを得る。",
         "type": "buff",
         "icon": "Coagulated_Blood"
     },
     "shimmering blood": {
+        "title": "きらめく血",
         "text": "血鬼専用のバフで特定のページや武器から得られる。被ダメージ時に攻撃者に出血1を付与する。",
         "type": "buff",
         "icon": "Presence_of_a_Second_Kindred"
     },
     "thermogenesis": {
+        "title": "熱発生",
         "text": "自身のM1が対象に火傷がある場合、そのダメージの0.01%分を追加の耐性無視のダメージとして与える。ただし、この効果は望によって強化されず、最大で元ダメージの0.5倍までに制限される。",
         "type": "buff",
         "icon": "Superthermogenesis"
     },
     "dice1": {
+        "title": "",
         "text": "1ダイス目",
         "type": "resource",
         "icon": "CoinEffect1"
     },
     "dice2": {
+        "title": "",
         "text": "2ダイス目",
         "type": "resource",
         "icon": "CoinEffect2"
     },
     "dice3": {
+        "title": "",
         "text": "3ダイス目",
         "type": "resource",
         "icon": "CoinEffect3"
     },
     "dice4": {
+        "title": "",
         "text": "4ダイス目",
         "type": "resource",
         "icon": "CoinEffect4"
     },
     "dice5": {
+        "title": "",
         "text": "5ダイス目",
         "type": "resource",
         "icon": "CoinEffect5"
      },
     "dice6": {
+        "title": "",
         "text": "6ダイス目",
         "type": "resource",
         "icon": "CoinEffect6"
     },
     "dice7": {
+        "title": "",
         "text": "7ダイス目",
         "type": "resource",
         "icon": "CoinEffect7"
     },
     "dice8": {
+        "title": "",
         "text": "8ダイス目",
         "type": "resource",
         "icon": "CoinEffect8"
     },
     "dice9": {
+        "title": "",
         "text": "9ダイス目",
         "type": "resource",
         "icon": "CoinEffect9"
      },
     "dice10": {
+        "title": "",
         "text": "10ダイス目",
         "type": "resource",
         "icon": "CoinEffect10"
     },
     "protection": {
+        "title": "保護",
         "text": "被ダメージ時のダメージを値の%分減らす。",
         "type": "buff",
         "icon": "Protection"
     },
     "tremor": {
+        "title": "振動",
         "text": "振動爆発を受けた際にスタミナダメージの2倍の値を与える。",
         "type": "debuff",
         "icon": "Tremor"
     },
     "trigram": {
+        "title": "卦",
         "text": "予兆の槍のクリティカルにて使用する。",
         "type": "resource",
         "icon": "Trigram"
     },
-    "ruptuer": {
+    "rupture": {
+        "title": "破裂",
         "text": "的中時に相手の全ての耐性を1にする。",
         "type": "debuff",
         "icon": "Rupture"
