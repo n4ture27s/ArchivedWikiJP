@@ -61,8 +61,8 @@
     "name_en": "Superthermogenesis gladius",
     "name_jp": "超高熱 グラディウス",
     "type": "slash",
-    "damage": "5",
-    "speed": 0.61,
+    "damage": "6",
+    "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/gladius_basic.webm",
       "desc":"",
@@ -71,7 +71,7 @@
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.webm",
       "desc":"",
-      "effect":"{dice1} [4~7] 斬撃 {on_hit} {burn}を2付与\n {dice2} [7~10] 斬撃 {on_hit} {burn}を2付与\n {dice3} [12~20] 斬撃 {on_hit} {thermogenesis}を得て{burn}を6付与 ",
+      "effect":"{dice1} [4~5] 斬撃 {on_hit} {burn}を2付与\n {dice2} [4~5] 斬撃 {on_hit} {burn}を2付与\n {dice3} [8~10] 斬撃 {on_hit} {thermogenesis}を得て{burn}を6付与 ",
       "ct":18
     }
   },
@@ -390,6 +390,31 @@
       "desc":"",
       "effect":"{dice1} [5~7] 斬撃 {undogeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] 斬撃 {undogeable} {multi_hit}を3回\n {dice3} [7~9] 斬撃 {undogeable} {on_hit}{tremor}と{burn}を2付与",
       "ct":16
+    }
+  },
+   "onis_tekko": {
+    "req": "1",
+    "name_en": "Onis tekko",
+    "name_jp": "鬼の手鋼",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/onis_tekko_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/onis_tekko_critical1.webm",
+      "desc":"",
+      "effect":"{dice1} [10~15] 打撃 {undogeable}{multi_hit}5回 ",
+      "ct":16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/onis_tekko_critical2.webm",
+      "desc":"",
+      "effect":"{dice1} [10~12] 打撃 {in_air} 2回{tremor_burst}して{paralyze}を4付与\n 高さによってダメージが変化する",
+      "ct":""
     }
   }
 }
