@@ -348,7 +348,7 @@
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/yesterdays promise_critical.webm",
+      "image": "/assets/image/weapon/4th_match_critical.webm",
       "desc":"",
       "effect":"{dice1} 斬撃 [12~20] {on_hit}{guard_break} {burn}を7付与",
       "ct":18
