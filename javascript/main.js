@@ -9,6 +9,7 @@ fetch("/footer.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("footer-container").innerHTML = data;
+        document.getElementById("footer-detail").href = `/license.html#${window.location.pathname}`;
     });
 
 

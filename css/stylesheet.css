@@ -77,6 +77,11 @@ body {
     text-shadow: 1px 1px 10px #f0c17d;
 }
 
+.invitation a {
+    color: #2196f3;
+    text-decoration:underline;
+}
+
 #inv-title {
     font-size: 200%;
 }
@@ -111,6 +116,10 @@ footer {
     font-size: 0.8rem;
     text-align: center;
     padding-top: 5rem;
+}
+
+#licenses a{
+    color: #2196f3;
 }
 
 /*スタッフ紹介*/
@@ -307,7 +316,7 @@ footer {
     box-shadow: 0 0 10px #f0c17d;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.75);
-    min-width: 15%;
+    min-width: 50%;
     max-width: 75%;
     padding: 30px;
 }
