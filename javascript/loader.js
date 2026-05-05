@@ -23,3 +23,7 @@ if (document.body.dataset.page === "weapon-detail") {
 if (document.body.dataset.page === "trait") {
   loadScript("/javascript/table.js");
 }
+
+if (document.body.dataset.page === "license") {
+  loadScript("/javascript/license.js");
+}

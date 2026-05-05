@@ -416,5 +416,43 @@
       "effect":"{dice1} [10~12] 打撃 {in_air} 2回{tremor_burst}して{paralyze}を4付与\n 高さによってダメージが変化する",
       "ct":""
     }
+  },
+   "beak_bat": {
+    "req": "なし",
+    "name_en": "Beak Bat",
+    "name_jp": "くちばしのバット",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/beak_bat_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/beak_bat_critical.webm",
+      "desc":"",
+      "effect":"{auto_execute}\n {dice1} [9~29] 打撃 {on_hit}{bleed}5を付与し、自身に{paralyze}1を付与",
+      "ct":16
+    }
+  },
+   "Ncorp_mittel_hammer": {
+    "req": "6",
+    "name_en": "Ncorp mittel hammer",
+    "name_jp": "N社のミッテルハンマー",
+    "type": "blunt",
+    "damage": "9",
+    "speed": 0.73,
+    "basic": {
+      "image": "/assets/image/weapon/Ncorp_mittelhammer_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/Ncorp_mittelhammer_critical.webm",
+      "desc":"",
+      "effect":"各ダイス{on_hit}に{hyperarmor}\n {dice1} [3~4] 打撃 {on_hit}{bleed}2を付与する\n {dice2} [3~12] 打撃 {on_hit}{AoE}{bleed}を2付与して{nail}を3付与",
+      "ct":16
+    }
   }
 }
