@@ -61,8 +61,8 @@
     "name_en": "Superthermogenesis gladius",
     "name_jp": "超高熱 グラディウス",
     "type": "slash",
-    "damage": "5",
-    "speed": 0.61,
+    "damage": "6",
+    "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/gladius_basic.webm",
       "desc":"",
@@ -71,7 +71,7 @@
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.webm",
       "desc":"",
-      "effect":"{dice1} [4~7] 斬撃 {on_hit} {burn}を2付与\n {dice2} [7~10] 斬撃 {on_hit} {burn}を2付与\n {dice3} [12~20] 斬撃 {on_hit} {thermogenesis}を得て{burn}を6付与 ",
+      "effect":"{dice1} [4~5] 斬撃 {on_hit} {burn}を2付与\n {dice2} [4~5] 斬撃 {on_hit} {burn}を2付与\n {dice3} [8~10] 斬撃 {on_hit} {thermogenesis}を得て{burn}を6付与 ",
       "ct":18
     }
   },
@@ -371,6 +371,50 @@
       "desc":"",
       "effect":"{on_use} 対象にある{bleed}5につきこのページのダメージが5%増加(最大100%)\n {hit_ground}{unblockable} {dice1} 打撃 [3~5] {on_hit}{bleed}を3付与\n {dice2} 打撃 [3~5] {on_hit}{tremor}を1付与\n {dice3} 打撃 [3~5] {on_hit}{tremor}を1付与\n {dice4} 打撃 [3~5] {on_hit}{tremor}を1付与\n {dice5} 打撃 [3~7] {ground} {rupture}を1付与し後に、{tremor}を1付与し{tremor_burst}を起こす",
       "ct":18
+    }
+  },
+   "palermitian_style_blades": {
+    "req": "1",
+    "name_en": "Palermitian Style Blades",
+    "name_jp": "パレルミタン流の剣",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.67,
+    "basic": {
+      "image": "/assets/image/weapon/lucio_weapon_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/lucio_weapon_critical.webm",
+      "desc":"",
+      "effect":"{dice1} [5~7] 斬撃 {undogeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] 斬撃 {undogeable} {multi_hit}を3回\n {dice3} [7~9] 斬撃 {undogeable} {on_hit}{tremor}と{burn}を2付与",
+      "ct":16
+    }
+  },
+   "onis_tekko": {
+    "req": "1",
+    "name_en": "Onis tekko",
+    "name_jp": "鬼の手鋼",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/onis_tekko_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/onis_tekko_critical1.webm",
+      "desc":"",
+      "effect":"{dice1} [10~15] 打撃 {undogeable}{multi_hit}5回 ",
+      "ct":16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/onis_tekko_critical2.webm",
+      "desc":"",
+      "effect":"{dice1} [10~12] 打撃 {in_air} 2回{tremor_burst}して{paralyze}を4付与\n 高さによってダメージが変化する",
+      "ct":""
     }
   }
 }
