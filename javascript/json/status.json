@@ -262,5 +262,11 @@
         "text": "走ると速度が4減少する。",
         "type": "debuff",
         "icon": "Bind"
+    },
+    "nail": {
+        "title": "釘",
+        "text": "特殊出血\n ダメージを受けたとき釘の数に応じて{bleed}が増加して、その後釘の値が1/3になる。",
+        "type": "debuff",
+        "icon": "Nail"
     }                           
 }
