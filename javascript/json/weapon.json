@@ -334,5 +334,24 @@
       "effect":"1ダイス目がパリィされても2ダイス目が実行される {dice1} 斬撃 [6~8] {on_hit}{bleed}を2付与\n {dice2} [6~10] {on_hit}{bleed}を2付与\n {dice2} [6~12] {guard_break} {on_hit}{bleed}を2付与",
       "ct":15
     }
+  },
+   "4th_match_blade": {
+    "req": "3",
+    "name_en": "4th Match Blade",
+    "name_jp": "4本目のマッチのブレード",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/4th_match_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/yesterdays promise_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 斬撃 [12~20] {on_hit}{guard_break} {burn}を7付与",
+      "ct":18
+    }
   }
 }
