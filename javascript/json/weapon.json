@@ -353,5 +353,24 @@
       "effect":"{dice1} 斬撃 [12~20] {on_hit}{guard_break} {burn}を7付与",
       "ct":18
     }
+  },
+   "Knuckles_of_Discipline": {
+    "req": "3",
+    "name_en": "Knuckles of Discipline",
+    "name_jp": "規律のナックル",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.55,
+    "basic": {
+      "image": "/assets/image/weapon/thumb_nuckle_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/thumb_nuckle_critical.webm",
+      "desc":"",
+      "effect":"{on_use} 対象にある{bleed}5につきこのページのダメージが5%増加(最大100%)\n {hit_ground}{unblockable} {dice1} 打撃 [3~5] {on_hit}{bleed}を3付与\n {dice2} 打撃 [3~5] {on_hit}{tremor}を1付与\n {dice3} 打撃 [3~5] {on_hit}{tremor}を1付与\n {dice4} 打撃 [3~5] {on_hit}{tremor}を1付与\n {dice5} 打撃 [3~7] {ground} {rupture}を1付与し後に、{tremor}を1付与し{tremor_burst}を起こす",
+      "ct":18
+    }
   }
 }
