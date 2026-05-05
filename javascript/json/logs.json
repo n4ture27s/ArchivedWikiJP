@@ -1,10 +1,14 @@
 {
   "logs": [
     {
-      "date": "2026/05/05",
+      "date": "2026/05/05(2)",
       "new": true,
       "items": [
-        
+        { "type": "add", "text": "ライセンス詳細ページを追加" },
+        { "type": "add" ,"text": "武器の解説"},
+        { "type": "add" ,"text": "協会解説 ハナ ツヴァイ トレス"},
+        { "type": "change" ,"text": "メインページ等に微量の修正"},
+        { "type": "change" ,"text": "footer"}
       ]
     },
     {
