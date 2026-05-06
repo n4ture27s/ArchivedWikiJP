@@ -460,7 +460,7 @@
     "name_en": "Twin Hook",
     "name_jp": "双鉤",
     "type": "slash",
-    "damage": "5",
+    "damage": "5.5",
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/twinhook_basic.webm",
@@ -513,7 +513,7 @@
     "name_jp": "W社のダガー",
     "type": "pierce",
     "damage": "6",
-    "speed": 0.57,
+    "speed": 0.62,
     "basic": {
       "image": "/assets/image/weapon/warp_corp_dagger_basic.webm",
       "desc":"",
@@ -524,6 +524,39 @@
       "desc":"",
       "effect":"{unblockable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} 貫通 [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
       "ct":20
+    }
+  },
+   "full-stop_automatic": {
+    "req": "5",
+    "name_en": "Full-Stop Automatic",
+    "name_jp": "終止符のマシンガン",
+    "type": "blunt",
+    "damage": "5",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/full_stop_automatic_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/full_stop_automatic.webm",
+      "desc":"",
+      "effect":"{dice1} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice2} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice3} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与",
+      "ct":16
+    },
+    "gun_reload": {
+      "title":"reload",
+      "image": "/assets/image/weapon/full_stop_automatic_reload.webm",
+      "desc":"",
+      "effect":"画面右下にある弾丸から20つ消費して、{ammo}を20得る\n",
+      "ct":8
+    },
+    "gun_shoot": {
+      "title":"shoot",
+      "image": "/assets/image/weapon/full_stop_automatic_shoot.webm",
+      "desc":"",
+      "effect":"{ammo}を1消費して、4ダメージを与える",
+      "ct":0.1
     }
   }
 }
