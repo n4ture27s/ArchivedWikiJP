@@ -253,7 +253,7 @@
     },
     "solmen_ammo": {
         "title": "哀悼の弾丸",
-        "text": "厳粛な哀悼 ピストル専用の弾丸。",
+        "text": "厳粛な哀悼 ピストル専用の弾丸。銃の射撃やページの消費。",
         "type": "resource",
         "icon": "The_Living_&_The_Departed"
     },
@@ -271,13 +271,13 @@
     },
     "ammo": {
         "title": "弾丸",
-        "text": "銃の射撃に使う。",
+        "text": "銃の射撃やページの消費に使う。",
         "type": "resource",
         "icon": "Ammo"
     },
     "atelier_logic_ammo": {
         "title": "アトリエロジックの弾丸",
-        "text": "銃の射撃に使う",
+        "text": "銃の射撃やページの消費に使う",
         "type": "resource",
         "icon": "atelier_logic_ammo"
     }                              
