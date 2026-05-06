@@ -268,5 +268,11 @@
         "text": "特殊出血\n ダメージを受けたとき釘の数に応じて出血が増加して、その後釘の値が1/3になる。",
         "type": "debuff",
         "icon": "Nail"
+    },
+    "ammo": {
+        "title": "弾丸",
+        "text": "銃の射撃に使う。",
+        "type": "resource",
+        "icon": "Ammo"
     }                           
 }

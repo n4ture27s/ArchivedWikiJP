@@ -454,5 +454,36 @@
       "effect":"各ダイス{on_hit}に{hyperarmor}\n {dice1} [3~4] 打撃 {on_hit}{bleed}2を付与する\n {dice2} [3~12] 打撃 {on_hit}{AoE}{bleed}を2付与して{nail}を3付与",
       "ct":16
     }
+  },
+   "twin_hook": {
+    "req": "7",
+    "name_en": "Twin Hook",
+    "name_jp": "双鉤",
+    "type": "slash",
+    "damage": "5",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/twinhook_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/twinhook_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 貫通 [5~11] {hit_ground}{on_hit} 相手の{bleed}の1/3の呼吸を得て、6の{bleed}を付与\n {dice2} 貫通 [11~17] {auto_execute}",
+      "ct":16
+    },
+    "gun_reload": {
+      "image": "/assets/image/weapon/twinhook_reload.webm",
+      "desc":"",
+      "effect":"画面右下にある弾丸から1つ消費して、{ammo}を1得る",
+      "ct":8
+    },
+    "gun_shoot": {
+      "image": "/assets/image/weapon/twinhook_shoot.webm",
+      "desc":"",
+      "effect":"{ammo}を1消費して、15ダメージを与える",
+      "ct":1
+    }
   }
 }
