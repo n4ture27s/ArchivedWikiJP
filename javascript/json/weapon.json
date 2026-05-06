@@ -539,7 +539,7 @@
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/full_stop_automatic.webm",
+      "image": "/assets/image/weapon/full_stop_automatic_critical.webm",
       "desc":"",
       "effect":"{dice1} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice2} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice3} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与",
       "ct":16

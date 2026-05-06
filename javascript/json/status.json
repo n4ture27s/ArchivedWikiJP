@@ -275,7 +275,7 @@
         "type": "resource",
         "icon": "Ammo"
     },
-    "atlier_logic_ammo": {
+    "atelier_logic_ammo": {
         "title": "アトリエロジックの弾丸",
         "text": "銃の射撃に使う",
         "type": "resource",
