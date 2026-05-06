@@ -496,12 +496,12 @@
     "damage": "7",
     "speed": 0.63,
     "basic": {
-      "image": "/assets/image/weapon/warp_corp_odachi.webm",
+      "image": "/assets/image/weapon/warp_corp_odachi_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/wrap_corp_odachi.webm",
+      "image": "/assets/image/weapon/wrap_corp_odachi_critical.webm",
       "desc":"",
       "effect":"{on_use}{charge}が15未満の場合、{charge}x3のダメージを受ける\n {on_use}{charge}が7以上の場合、最大15消費する\n {on_use}もし{charge}を消費した場合ダイスが{dice1} [6~8],{dice2} [12~17],{dice3} [12~18]に変更する\n {on_use}にカーソルに対象を合わせている場合、無限射程の{tacking}になる\n {dice1} 斬撃 [6~8] {undogeable} {on_hit}{rupture}を1付与\n {dice2} 斬撃 [8~14]\n {dice3} 斬撃 [8~15] {on_hit}{charge}を3得る",
       "ct":20
@@ -515,12 +515,12 @@
     "damage": "6",
     "speed": 0.57,
     "basic": {
-      "image": "/assets/image/weapon/warp_corp_dagger.webm",
+      "image": "/assets/image/weapon/warp_corp_dagger_basic.webm",
       "desc":"",
       "effect":""
     },
     "critical": {
-      "image": "/assets/image/weapon/wrap_corp_dagger.webm",
+      "image": "/assets/image/weapon/wrap_corp_dagger_critical.webm",
       "desc":"",
       "effect":"{unblockable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} 貫通 [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
       "ct":20
