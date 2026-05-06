@@ -27,3 +27,7 @@ if (document.body.dataset.page === "trait") {
 if (document.body.dataset.page === "license") {
   loadScript("/javascript/license.js");
 }
+
+if (document.body.dataset.page === "sin") {
+  loadScript("/javascript/sin.js");
+}
