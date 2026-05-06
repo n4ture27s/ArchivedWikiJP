@@ -781,3 +781,92 @@ th.sort-desc::after {
     float:left;
     padding:20px;
 }
+
+/* 罪 */
+.skill-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+/* ===== ツリー ===== */
+.skill-tree {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  min-width: 400px;
+  flex-shrink: 0;
+  margin-top: 10px;
+}
+
+/* ノード共通 */
+.node {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #111111;
+  border: 2px solid gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.node:hover {
+  background: #333333;
+}
+
+/* 中央 */
+.center {
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ===== 右パネル ===== */
+.skill-detail {
+  width: 350px;
+  background: #0a0a0a;
+  border: 2px solid #a33;
+  padding: 20px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.skill-detail h2 {
+  color: #f44;
+}
+
+/* 個別スキル */
+.skill-item {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.skill-item summary {
+  color: #f66;
+  list-style: none;
+  cursor: pointer;
+  border-bottom: 1px solid #333;
+}
+
+.skill-item details {
+  border: 1px solid #333;
+}
+
+.skill-item summary::before {
+    content: "▼";
+    float: left;
+    transition: 0.3s;
+}
+
+.skill-item:not([open]) summary::before {
+    transform: rotate(-90deg);
+}
+
+.node img{
+  width: 64px;
+  height: 64px;
+}

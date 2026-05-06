@@ -15,5 +15,6 @@
     "multi_hit" : {"title":"マルチヒット","text":"この攻撃は複数回的中します","color": "94f140"},
     "ground" : {"title":"グラウンド","text":"この攻撃は相手をグラウンド/ラグドール状態にさせる","color": "94f140"},
     "in_air" : {"title":"空中","text":"この攻撃は空中にいる場合に発動する","color": "94f140"},
-    "AoE" : {"title":"範囲攻撃","text":"この攻撃は複数の対象に的中する","color": "d9ba29ff"}
+    "AoE" : {"title":"範囲攻撃","text":"この攻撃は複数の対象に的中する","color": "d9ba29ff"},
+    "tracking" : {"title":"追尾","text":"この攻撃は敵を追尾する","color": "94f140"}
 }

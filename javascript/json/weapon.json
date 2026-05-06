@@ -236,7 +236,7 @@
    "Viriscent_Pyrojade_Ring": {
     "req": "6",
     "name_en": "Viriscent Pyrojade Ring",
-    "name_jp": "緑青の炎玉のリング",
+    "name_jp": "緑がかった翡翠",
     "type": "pierce",
     "damage": "5",
     "speed": 0.67,
@@ -420,7 +420,7 @@
    "beak_bat": {
     "req": "なし",
     "name_en": "Beak Bat",
-    "name_jp": "くちばしのバット",
+    "name_jp": "くちばし",
     "type": "blunt",
     "damage": "6",
     "speed": 0.63,
@@ -436,10 +436,10 @@
       "ct":16
     }
   },
-   "Ncorp_mittel_hammer": {
+   "Ncorp_mittel_hammer_hammer": {
     "req": "6",
-    "name_en": "Ncorp mittel hammer",
-    "name_jp": "N社のミッテルハンマー",
+    "name_en": "Ncorp mittelhammer hammer",
+    "name_jp": "N社中槌の槌",
     "type": "blunt",
     "damage": "9",
     "speed": 0.73,
@@ -453,6 +453,110 @@
       "desc":"",
       "effect":"各ダイス{on_hit}に{hyperarmor}\n {dice1} [3~4] 打撃 {on_hit}{bleed}2を付与する\n {dice2} [3~12] 打撃 {on_hit}{AoE}{bleed}を2付与して{nail}を3付与",
       "ct":16
+    }
+  },
+   "twin_hook": {
+    "req": "7",
+    "name_en": "Twin Hook",
+    "name_jp": "双鉤",
+    "type": "slash",
+    "damage": "5.5",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/twinhook_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/twinhook_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 貫通 [5~11] {hit_ground}{on_hit} 相手の{bleed}の1/3の呼吸を得て、6の{bleed}を付与\n {dice2} 貫通 [11~17] {auto_execute}",
+      "ct":16
+    },
+    "gun_reload": {
+      "title":"reload",
+      "image": "/assets/image/weapon/twinhook_reload.webm",
+      "desc":"",
+      "effect":"画面右下にある弾丸から1つ消費して、{ammo}を1得る",
+      "ct":8
+    },
+    "gun_shoot": {
+      "title":"shoot",
+      "image": "/assets/image/weapon/twinhook_shoot.webm",
+      "desc":"",
+      "effect":"{ammo}を1消費して、15ダメージを与える",
+      "ct":1
+    }
+  },
+   "warp_corp_odachi": {
+    "req": "3",
+    "name_en": "WarpCorp Odachi",
+    "name_jp": "W社の大太刀",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/warp_corp_odachi_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/warp_corp_odachi_critical.webm",
+      "desc":"",
+      "effect":"{on_use}{charge}が15未満の場合、{charge}x3のダメージを受ける\n {on_use}{charge}が7以上の場合、最大15消費する\n {on_use}もし{charge}を消費した場合ダイスが{dice1} [6~8],{dice2} [12~17],{dice3} [12~18]に変更する\n {on_use}にカーソルに対象を合わせている場合、無限射程の{tracking}になる\n {dice1} 斬撃 [6~8] {undogeable} {on_hit}{rupture}を1付与\n {dice2} 斬撃 [8~14]\n {dice3} 斬撃 [8~15] {on_hit}{charge}を3得る",
+      "ct":20
+    }
+  },
+   "warp_corp_dagger": {
+    "req": "3",
+    "name_en": "WarpCorp Dagger",
+    "name_jp": "W社のダガー",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/warp_corp_dagger_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/warp_corp_dagger_critical.webm",
+      "desc":"",
+      "effect":"{unblockable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} 貫通 [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
+      "ct":20
+    }
+  },
+   "full-stop_automatic": {
+    "req": "5",
+    "name_en": "Full-Stop Automatic",
+    "name_jp": "終止符のマシンガン",
+    "type": "blunt",
+    "damage": "5",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/full_stop_automatic_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/full_stop_automatic_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice2} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice3} 貫通 [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与",
+      "ct":16
+    },
+    "gun_reload": {
+      "title":"reload",
+      "image": "/assets/image/weapon/full_stop_automatic_reload.webm",
+      "desc":"",
+      "effect":"画面右下にある弾丸から20つ消費して、{ammo}を20得る\n",
+      "ct":8
+    },
+    "gun_shoot": {
+      "title":"shoot",
+      "image": "/assets/image/weapon/full_stop_automatic_shoot.webm",
+      "desc":"",
+      "effect":"{ammo}を1消費して、4ダメージを与える",
+      "ct":0.1
     }
   }
 }
