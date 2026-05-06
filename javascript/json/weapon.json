@@ -420,7 +420,7 @@
    "beak_bat": {
     "req": "なし",
     "name_en": "Beak Bat",
-    "name_jp": "くちばしのバット",
+    "name_jp": "くちばし",
     "type": "blunt",
     "damage": "6",
     "speed": 0.63,
@@ -436,10 +436,10 @@
       "ct":16
     }
   },
-   "Ncorp_mittel_hammer": {
+   "Ncorp_mittel_hammer_hammer": {
     "req": "6",
-    "name_en": "Ncorp mittel hammer",
-    "name_jp": "N社のミッテルハンマー",
+    "name_en": "Ncorp mittelhammer hammer",
+    "name_jp": "N社中槌の槌",
     "type": "blunt",
     "damage": "9",
     "speed": 0.73,
