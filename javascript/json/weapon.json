@@ -522,7 +522,7 @@
     "critical": {
       "image": "/assets/image/weapon/wrap_corp_dagger.webm",
       "desc":"",
-      "effect":"{undogeable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} 貫通 [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
+      "effect":"{unblockable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} 貫通 [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
       "ct":20
     }
   }
