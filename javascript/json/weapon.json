@@ -474,12 +474,14 @@
       "ct":16
     },
     "gun_reload": {
+      "title":"reload",
       "image": "/assets/image/weapon/twinhook_reload.webm",
       "desc":"",
       "effect":"画面右下にある弾丸から1つ消費して、{ammo}を1得る",
       "ct":8
     },
     "gun_shoot": {
+      "title":"shoot",
       "image": "/assets/image/weapon/twinhook_shoot.webm",
       "desc":"",
       "effect":"{ammo}を1消費して、15ダメージを与える",
