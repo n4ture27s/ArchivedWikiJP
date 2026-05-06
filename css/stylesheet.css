@@ -865,3 +865,8 @@ th.sort-desc::after {
 .skill-item:not([open]) summary::before {
     transform: rotate(-90deg);
 }
+
+.node img{
+  width: 64px;
+  height: 64px;
+}

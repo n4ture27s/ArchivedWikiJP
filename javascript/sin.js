@@ -57,7 +57,7 @@ function createCircleNodes(containerId, nodes) {
 }
 window.addEventListener("load", () => {
     createCircleNodes("skill-tree", [
-        { key: "battle", label: "Bleed.png" },
+        { key: "battle", label: "Wrath.png" },
         { key: "wind", label: "" },
         { key: "resolve", label: "" },
         { key: "wrath", label: "Bleed.png" },
