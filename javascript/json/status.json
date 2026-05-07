@@ -280,5 +280,11 @@
         "text": "銃の射撃やページの消費に使う",
         "type": "resource",
         "icon": "atelier_logic_ammo"
-    }                              
+    },
+    "smoke": {
+        "title": "煙",
+        "text": "M1の攻撃による被ダメージが2.5%(上限32.5%)になる。",
+        "type": "debuff",
+        "icon": "smoke"
+    }                                   
 }

@@ -558,5 +558,24 @@
       "effect":"{ammo}を1消費して、4ダメージを与える",
       "ct":0.1
     }
+  },
+   "steam_gauntlet": {
+    "req": "1",
+    "name_en": "Steam Gauntlet",
+    "name_jp": "スチームガントレット",
+    "type": "blunt",
+    "damage": "7",
+    "speed": 0.67,
+    "basic": {
+      "image": "/assets/image/weapon/steam_gauntlet_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/steam_gauntlet_critical.webm",
+      "desc":"",
+      "effect":"{on_use} {hyperarmor} ",
+      "ct":20
+    }
   }
 }
