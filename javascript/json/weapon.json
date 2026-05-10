@@ -574,8 +574,39 @@
     "critical": {
       "image": "/assets/image/weapon/steam_gauntlet_critical.webm",
       "desc":"",
-      "effect":"{on_use} {hyperarmor} ",
+      "effect":"{on_use} {hyperarmor},{smoke}を5得る\n 各ダイスに{QTE}がある\n {dice1} 打撃 [3~5] {QTE}成功時{dice2}を振る\n {dice2} 打撃 [6~10] {QTE}成功時に{dice3}を振る\n {dice3} 打撃 [9~15] {QTE}成功時に{dice4}を振る\n {dice4} 打撃 [12~20] {hit_ground} {unparriable} {guard_break} {on_hit}{burn}を7付与し{smoke}を3、{poise}を8得る",
       "ct":20
+    }
+  },
+   "udjat_vanguard_khopesh": {
+    "req": "4",
+    "name_en": "Udjat Vanguard Khopesh",
+    "name_jp": "ウアジェト先鋒 ケペシュ",
+    "type": "slash",
+    "damage": "5",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/udjat_vanguard_khopesh_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/udjat_vanguard_khopesh_critical.webm",
+      "desc":"",
+      "effect":"{dice1} 貫通 [3~5] {undogeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice2} 貫通 [3~7] {undogeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice3} 貫通 [3~9] {undogeable} {on_hit} {tremor}を2付与\n {dice4} 貫通 [3~10] {undogeable} {on_hit} {multi_hit}を2回、2回目の時に{sinking}を2付与\n {dice5} 貫通 [5~11] {undogeable} {on_hit} {fracture_bullet}を1消費して、{sinking}を2付与",
+      "ct":20
+    },
+    "gun_reload": {
+      "image": "/assets/image/weapon/udjat_vanguard_khopesh_reload.webm",
+      "desc":"",
+      "effect":"画面右下の弾丸を25消費して、{fracture_bullet}を25得る",
+      "ct":9
+    },
+    "gun_shoot": {
+      "image": "/assets/image/weapon/udjat_vanguard_khopesh_shoot.webm",
+      "desc":"",
+      "effect":"{fracture_bullet}を1消費して、5ダメージを与える",
+      "ct":0.1
     }
   }
 }
