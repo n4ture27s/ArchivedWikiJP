@@ -136,7 +136,33 @@
         "color": "#bad04d",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Defenseless",
+                "requirement": "10",
+                "text": "{rupture}を持つ対象に対して\nブロック時のスタミナダメージが増加する。"
+            },
+            {
+                "name": "Biting Embrace",
+                "requirement": "15",
+                "text": "{guard_break}時に、5の{rupture}を付与する。"
+            },
+            {
+                "name": "Thorns",
+                "requirement": "30",
+                "text": "マッチ敗北時に対象に\n {rupture}を7付与する。"
+            },
+            {
+                "name": "Tear To Shreds",
+                "requirement": "35",
+                "text": "{rupture}の効果を1.5倍にする。\n 「Death Comes For All」とは併用できない。"
+            },
+            {
+                "name": "Tear To Shreds",
+                "requirement": "50",
+                "text": "{rupture}の効果により与えるダメージが15%増加\n {rupture}を持っている対象を攻撃すると\n自身に{rupture}を1付与\n \n 「Tear To Shreds」とは併用できない。"
+            }
+        ]
     },
     "pride": {
         "title": "Pride",
