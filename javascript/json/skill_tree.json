@@ -35,7 +35,7 @@
             {
                 "name": "Inner Ardor",
                 "requirement": "30",
-                "text": "感情レベルが1の場合: 火傷の付与量が20%増加\n 感情レベルが2の場合: 火傷の付与量が50%増加"
+                "text": "感情レベルが1の場合: {burn}の付与量が20%増加\n 感情レベルが2の場合: {burn}の付与量が50%増加"
             },
             {
                 "name": "Backdraft",
@@ -51,7 +51,38 @@
         "color": "#bb783c",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Here We Go Again",
+                "requirement": "10",
+                "text": "戦闘開始時に{light}を3得る"
+            },
+            {
+                "name": "Craving Synergy",
+                "requirement": "15",
+                "text": "相手が{bleed}を5以上持っている時に\nクリティカルを当てると3の{haste}を得る。\n \n このパッシブは「Thirst」と併用できない。"
+            },
+            {
+                "name": "Thirs",
+                "requirement": "20",
+                "text": "{bleed}状態の対象にクリティカルを当てると\n 相手の{bleed}を半分にしてその分を回復する\n \nこのパッシブは「Craving Synergy」と併用できない。"
+            },
+            {
+                "name": "Voracity",
+                "requirement": "30",
+                "text": "もしマッチに勝ったのなら、{light}を2得る。\n 発動された場合15秒のクールダウン"
+            },
+            {
+                "name": "A Beautiful Mess",
+                "requirement": "50",
+                "text": "対象に7以上の{bleed}がある場合、\n ランダムでデバフを5付与する。\n \nこのパッシブは「Break the Dams」と併用できない"
+            },
+            {
+                "name": "Break the Dams",
+                "requirement": "50",
+                "text": "対象に7以上の{bleed}がある場合、\n {big_wound}を1付与する。\n \nこのパッシブは「A Beautiful Mess」と併用できない"
+            }
+        ]
     },
     "sloth": {
         "title": "Sloth",

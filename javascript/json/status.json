@@ -298,5 +298,11 @@
         "text": "ダメージを20%増加させる",
         "type": "resource",
         "icon": "battle_ignition"
-    }                          
+    },
+    "big_wound": {
+        "title": "大出血",
+        "text": "ダイス使用時に、出血を6で割り、受けたダメージに等しい分だけ出血を減らす",
+        "type": "debuff",
+        "icon": "Mauled_Color_-Rouge-"
+    }                           
 }
