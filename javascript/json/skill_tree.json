@@ -91,7 +91,43 @@
         "color": "#efa701",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Pounce",
+                "requirement": "5",
+                "text": "スライド攻撃して地面についたときに\n Rを押すことで前方に攻撃する"
+            },
+            {
+                "name": "Fleeting Steps",
+                "requirement": "10",
+                "text": "攻撃をジャスト回避すると、スタミナを回復する。"
+            },
+            {
+                "name": "Masterd Breaths",
+                "requirement": "15",
+                "text": "パリィミス時のスタミナ消費を\n 25から15に変更する。"
+            },
+            {
+                "name": "Fortified Resolve",
+                "requirement": "20",
+                "text": "ブロック時のスタミナ消費を20%軽減\n バックスタブ時のダメージを20%減少させる。"
+            },
+            {
+                "name": "Shockwave",
+                "requirement": "25",
+                "text": "{guard_break}時に、5の{tremor}を付与する。"
+            },
+            {
+                "name": "Break and Punish",
+                "requirement": "30",
+                "text": "混乱している対象に対して\n 10%ダメージが増加する。"
+            },
+            {
+                "name": "Break and Punish",
+                "requirement": "40",
+                "text": "混乱している対象に対して\n {tremor}を付与する量が2倍になる。"
+            }
+        ]
     },
     "gluttony": {
         "title": "Gluttony",
