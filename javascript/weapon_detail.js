@@ -4,24 +4,6 @@ const typeMap = {
     blunt: "打撃"
 };
 
-/* =========================
-   テキスト整形
-   ========================= */
-
-// 改行 + tooltip変換
-function formatText(text) {
-    if (!text) return "";
-
-    // 改行
-    let formatted = text.replace(/\n/g, "<br>");
-
-    // {key|label} → tooltip
-    formatted = formatted.replace(/\{(.*?)\}/g, (_, key) => {
-        return `<span class="tooltip-target" data-key="${key}"> </span>`;
-    });
-
-    return formatted;
-}
 
 // 要素に適用
 function setFormattedText(el, text) {

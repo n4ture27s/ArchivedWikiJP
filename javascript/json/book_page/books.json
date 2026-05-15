@@ -1,0 +1,15 @@
+{
+  "hana_association": {
+    "name_jp": "ハナ協会の本",
+    "name_en": "Hana Association",
+    "icon": "association/hana",
+    "color": "#4f7bd9"
+  },
+
+  "red_mist": {
+    "name_jp": "赤い霧の本",
+    "name_en": "Red Mist",
+    "icon": "book/red_mist",
+    "color": "#c23b3b"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "burn_strike": {
+    "name": "Burn Strike",
+    "book": "urban_legend",
+
+    "cost": 2,
+    "ct": 1,
+
+    "light": 3,
+
+    "effect": "敵に{burn}を2付与"
+  },
+  "mist_slash": {
+    "name_en": "Focus Sprit",
+    "name_jp": "気合",
+    "book": "red_mist",
+    "light": 2,
+    "ct": "40s",
+    "effect": "{on_use} {hyperarmor}を1.5秒得る\n{on_use} {value_up}2を得る。持続時間は{dice1}秒間。\n{dice1} [10~20]"
+  }
+}

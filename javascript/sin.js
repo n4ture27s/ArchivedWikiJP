@@ -142,20 +142,3 @@ window.addEventListener("load", async () => {
     createCircleNodes("skill-tree");
     createCenterNode("skill-tree");
 });
-
-
-function formatText(text) {
-    if (!text) return "";
-
-    // 改行（\n と \br 両対応）
-    let formatted = text
-        .replace(/\\br/g, "\n")
-        .replace(/\n/g, "<br>");
-
-    // {key} → tooltip
-    formatted = formatted.replace(/\{(.*?)\}/g, (_, key) => {
-        return `<span class="tooltip-target" data-key="${key}"></span>`;
-    });
-
-    return formatted;
-}

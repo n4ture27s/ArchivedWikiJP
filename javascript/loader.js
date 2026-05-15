@@ -6,7 +6,9 @@ function loadScript(src) {
   document.body.appendChild(s);
 }
 
+loadScript("/javascript/utils.js");
 loadScript("/javascript/main.js");
+loadScript("/javascript/page_book.js");
 
 if (document.body.dataset.page === "update-log") {
   loadScript("/javascript/log.js");
@@ -31,3 +33,39 @@ if (document.body.dataset.page === "license") {
 if (document.body.dataset.page === "sin") {
   loadScript("/javascript/sin.js");
 }
+
+if (document.body.dataset.page === "page_detail") {
+  loadScript("/javascript/page_detail.js");
+}
+
+async function init() {
+
+  // JSON読み込み待機
+  await loadPageData();
+
+  // 本一覧ページ
+  if (document.body.dataset.page === "books") {
+
+    renderBookList("book-list");
+  }
+
+  // 本詳細ページ
+  if (document.body.dataset.page === "page_detail") {
+
+    const params =
+      new URLSearchParams(location.search);
+
+    const bookId = params.get("id");
+
+    if (!bookId) return;
+
+    renderBookHeader(bookId);
+
+    renderPageList(
+      "page-list",
+      bookId
+    );
+  }
+}
+
+window.addEventListener("load", init);

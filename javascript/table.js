@@ -235,18 +235,3 @@ createTable("atk_trait", trait_atk_data, trait_atk_columns);
 createTable("def_trait", trait_def_data, trait_columns);
 createTable("parry_trait", trait_parry_data, trait_columns);
 createTable("other_trait", trait_other_data, trait_columns);
-function formatText(text) {
-    if (!text) return "";
-
-    // 改行（\n と \br 両対応）
-    let formatted = text
-        .replace(/\\br/g, "\n")
-        .replace(/\n/g, "<br>");
-
-    // {key} → tooltip
-    formatted = formatted.replace(/\{(.*?)\}/g, (_, key) => {
-        return `<span class="tooltip-target" data-key="${key}"></span>`;
-    });
-
-    return formatted;
-}
