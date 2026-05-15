@@ -11,6 +11,36 @@
                 "name": "Battle Ignition",
                 "requirement": "10",
                 "text": "3秒以内に敵に5回攻撃を命中させると、一時的にダメージが20%増加する。\n発動中は、目に赤い軌跡が現れ、{battle_ignition}状態になる。"
+            },
+            {
+                "name": "Close Call Wind",
+                "requirement": "10",
+                "text": "体力が25%以下の場合、ダッシュ距離を増加させる。"
+            },
+            {
+                "name": "Follow-Up",
+                "requirement": "15",
+                "text": "スライド攻撃時して地面についたときにRを押すことで相手を上に少し上げる攻撃をする。"
+            },
+            {
+                "name": "Smoldering Resolve",
+                "requirement": "25",
+                "text": "体力が40%未満の場合、ダメージを10軽減する。"
+            },
+            {
+                "name": "Tip-Toe Around",
+                "requirement": "30",
+                "text": "ジャスト回避後、攻撃者に反撃すると10%ダメージが増える。"
+            },
+            {
+                "name": "Inner Ardor",
+                "requirement": "30",
+                "text": "感情レベルが1の場合: 火傷の付与量が20%増加\n 感情レベルが2の場合: 火傷の付与量が50%増加"
+            },
+            {
+                "name": "Backdraft",
+                "requirement": "35",
+                "text": "スタミナが少ない時、ダメージが増加する。"
             }
         ]
     },
