@@ -292,5 +292,11 @@
         "text": "ウアジェト先鋒 ケペシュ専用の弾丸",
         "type": "resource",
         "icon": "LCA_Fracture_Round"
-    }                                   
+    },
+    "battle_ignition": {
+        "title": "戦闘点火",
+        "text": "ダメージを20%増加させる",
+        "type": "resource",
+        "icon": "battle_ignition"
+    }                          
 }

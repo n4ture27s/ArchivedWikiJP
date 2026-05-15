@@ -1,0 +1,78 @@
+{
+    "wrath": {
+        "title": "Wrath",
+        "desc": "火傷のスキルツリー",
+        "icon": "Wrath.png",
+        "color": "#883126",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Battle Ignition",
+                "requirement": "10",
+                "text": "3秒以内に敵に5回攻撃を命中させると、一時的にダメージが20%増加する。\n発動中は、目に赤い軌跡が現れ、{battle_ignition}状態になる。"
+            }
+        ]
+    },
+    "desire": {
+        "title": "Desire",
+        "desc": "出血のスキルツリー",
+        "icon": "Desire.png",
+        "color": "#bb783c",
+        "position": "outer",
+
+        "skills": []
+    },
+    "sloth": {
+        "title": "Sloth",
+        "desc": "振動のスキルツリー",
+        "icon": "Sloth.png",
+        "color": "#efa701",
+        "position": "outer",
+
+        "skills": []
+    },
+    "gluttony": {
+        "title": "Gluttony",
+        "desc": "破裂のスキルツリー",
+        "icon": "Gluttony.png",
+        "color": "#bad04d",
+        "position": "outer",
+
+        "skills": []
+    },
+    "pride": {
+        "title": "Pride",
+        "desc": "呼吸のスキルツリー",
+        "icon": "Pride.png",
+        "color": "#2e5881",
+        "position": "outer",
+
+        "skills": []
+    },
+    "envy": {
+        "title": "Envy",
+        "desc": "充電のスキルツリー",
+        "icon": "Envy.png",
+        "color": "#bb6fd5",
+        "position": "outer",
+        "skills": []
+    },
+    "gloom": {
+        "title": "Gloom",
+        "desc": "沈潜のスキルツリー",
+        "icon": "Gloom.png",
+        "color": "#68adbd",
+        "position": "outer",
+
+        "skills": []
+    },
+    "shin": {
+        "title": "心・望",
+        "desc": "心のスキルツリー",
+        "color": "#ffea00",
+        "position": "center",
+
+        "skills": []
+    }
+}
