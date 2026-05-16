@@ -275,7 +275,53 @@
         "color": "#68adbd",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Tap Of The Light",
+                "requirement": "10",
+                "text": "EGOを使う際の精神力の消耗量が減少する。"
+            },
+            {
+                "name": "Borderline Breakdown",
+                "requirement": "15",
+                "text": "精神力が低いほどダメージが増加する。\n最大+5%の増加"
+            },
+            {
+                "name": "Comeback Time",
+                "requirement": "15",
+                "text": "EGOを使うときに体力が45%未満なら\n25%回復する。"
+            },
+            {
+                "name": "Wail",
+                "requirement": "20",
+                "text": "精神力が-25以下の場合\n ダメージが10%増加する。"
+            },
+            {
+                "name": "No Will To Break",
+                "requirement": "30",
+                "text": "EGO発現中に受けるダメージが20%減少する。"
+            },
+            {
+                "name": "Negative Thoughts",
+                "requirement": "30",
+                "text": "精神力の回復が減少に変更される。\n (例えるなら、パリィ成功時の精神力回復が7から-7に変更される)"
+            },
+            {
+                "name": "No Mind To Cure",
+                "requirement": "35",
+                "text": "戦闘開始前に精神力が-の場合\n戦闘開始時に精神力が-25に変更される。"
+            },
+            {
+                "name": "Cry On Deaf Ears",
+                "requirement": "40",
+                "text": "精神力が-25未満場合\n{sinking}の付与量が1.5倍になる"
+            },
+            {
+                "name": "Pray To Dead Gods",
+                "requirement": "50",
+                "text": "相手の{sinking}が発動するたびに\n自身に{sinking}を1付与する。"
+            }
+        ]
     },
     "shin": {
         "title": "心・望",
