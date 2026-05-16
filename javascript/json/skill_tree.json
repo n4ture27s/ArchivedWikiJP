@@ -171,7 +171,53 @@
         "color": "#2e5881",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Engaging",
+                "requirement": "10",
+                "text": "スライド攻撃をブロックで防げるようになる。"
+            },
+            {
+                "name": "Claim Their Heart",
+                "requirement": "15",
+                "text": "{guard_break}時に対象の体力が15%未満の場合Claim Their Heartを発動して特殊な{auto_execute}をする。"
+            },
+            {
+                "name": "Steady Breathing",
+                "requirement": "15",
+                "text": "{clash_win}に{poise}を5得る"
+            },
+            {
+                "name": "Shrouded Power",
+                "requirement": "20",
+                "text": "相手が{stagger}時に\n{poise}を4得る"
+            },
+            {
+                "name": "Smoke Overload",
+                "requirement": "30",
+                "text": "クリティカルヒットを当てて\n {poise}を発動させた場合\n{poise}は消費されない。"
+            },
+            {
+                "name": "Adrenaline Rush",
+                "requirement": "35",
+                "text": "戦闘開始時に{poise}を5得る"
+            },
+            {
+                "name": "Sharp Eyes",
+                "requirement": "45",
+                "text": "クリティカルヒットの倍率が1.3倍になる"
+            },
+            {
+                "name": "Overbearing",
+                "requirement": "50",
+                "text": "通常攻撃が的中時に{poise}を1得る\n[1秒のクールダウン]\n \n「Steady Breathing」とは併用できない。"
+            },
+            {
+                "name": "Steady Breathing",
+                "requirement": "50",
+                "text": "{poise}を発動した場合\n 代わりに1.5でその{poise}を割る\n \n「Overbearing」とは併用できない。"
+            }
+        ]
     },
     "envy": {
         "title": "Envy",
@@ -179,7 +225,48 @@
         "icon": "Envy.png",
         "color": "#bb6fd5",
         "position": "outer",
-        "skills": []
+        "skills": [
+            {
+                "name": "Charge Up",
+                "requirement": "5",
+                "text": "パリィ成功時に{charge}を1得る"
+            },
+            {
+                "name": "Convert Physical Trauma",
+                "requirement": "10",
+                "text": "被弾時に{charge}を1得る。"
+            },
+            {
+                "name": "Blessed by the Sparks",
+                "requirement": "15",
+                "text": "集中攻撃を的中させると\n {charge}を2得る。"
+            },
+            {
+                "name": "Electrifying Vendetta",
+                "requirement": "30",
+                "text": "15以上の{charge}があって\n重い攻撃をパリィすると少し遅延して\n相手をショートさせ1~4ダメージを与える。"
+            },
+            {
+                "name": "Short Circuit Trip",
+                "requirement": "35",
+                "text": "15以上の{charge}があってジャスト回避をすると\n 対象に「ライトアウト」効果を付与し\n少しの間ラグドールにして、{charge}を8消費する。"
+            },
+            {
+                "name": "Kinetic Energy",
+                "requirement": "40",
+                "text": "10以上の{charge}がある場合\n通常攻撃のダメージを10%増加させる。"
+            },
+            {
+                "name": "Overflowing Guard",
+                "requirement": "45",
+                "text": "5以上の{charge}がある場合\n{charge}を1消費してブロック時のスタミナダメージを半減する。"
+            },
+            {
+                "name": "Overcharged Vessel",
+                "requirement": "50",
+                "text": "プレイヤーが10以上の{charge}を持っている場合\n嫉妬完全共鳴をして{charge}10ごとに15秒間の過充電状態に入る。過充電の間{charge}10ごとに1の{value_up}と5%のダメージ増加を得る。(最大30の{charge}まで)\n代償として、{charge}10ごとに{tremor_decay}を5得て、自傷ダメージを受ける(最大33まで)\n {charge}は消費されず、条件としてみなす。"
+            }
+        ]
     },
     "gloom": {
         "title": "Gloom",
@@ -188,7 +275,53 @@
         "color": "#68adbd",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Tap Of The Light",
+                "requirement": "10",
+                "text": "EGOを使う際の精神力の消耗量が減少する。"
+            },
+            {
+                "name": "Borderline Breakdown",
+                "requirement": "15",
+                "text": "精神力が低いほどダメージが増加する。\n最大+5%の増加"
+            },
+            {
+                "name": "Comeback Time",
+                "requirement": "15",
+                "text": "EGOを使うときに体力が45%未満なら\n25%回復する。"
+            },
+            {
+                "name": "Wail",
+                "requirement": "20",
+                "text": "精神力が-25以下の場合\n ダメージが10%増加する。"
+            },
+            {
+                "name": "No Will To Break",
+                "requirement": "30",
+                "text": "EGO発現中に受けるダメージが20%減少する。"
+            },
+            {
+                "name": "Negative Thoughts",
+                "requirement": "30",
+                "text": "精神力の回復が減少に変更される。\n (例えるなら、パリィ成功時の精神力回復が7から-7に変更される)"
+            },
+            {
+                "name": "No Mind To Cure",
+                "requirement": "35",
+                "text": "戦闘開始前に精神力が-の場合\n戦闘開始時に精神力が-25に変更される。"
+            },
+            {
+                "name": "Cry On Deaf Ears",
+                "requirement": "40",
+                "text": "精神力が-25未満場合\n{sinking}の付与量が1.5倍になる"
+            },
+            {
+                "name": "Pray To Dead Gods",
+                "requirement": "50",
+                "text": "相手の{sinking}が発動するたびに\n自身に{sinking}を1付与する。"
+            }
+        ]
     },
     "shin": {
         "title": "心・望",

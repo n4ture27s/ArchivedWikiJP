@@ -299,11 +299,11 @@
         "type": "resource",
         "icon": "battle_ignition"
     },
-    "big_wound": {
-        "title": "大出血",
-        "text": "ダイス使用時に、出血を6で割り、受けたダメージに等しい分だけ出血を減らす",
+    "tremor_decay": {
+        "title": "振動 -崩壊-",
+        "text": "被弾時に値に等しい追加ダメージを受けてその後、値を1減らす",
         "type": "debuff",
-        "icon": "Mauled_Color_-Rouge-"
+        "icon": "Tremor_Decay"
     },
     "imitation": {
         "title": "模倣",
