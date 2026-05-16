@@ -304,5 +304,17 @@
         "text": "被弾時に値に等しい追加ダメージを受けてその後、値を1減らす",
         "type": "debuff",
         "icon": "Tremor_Decay"
-    }                           
+    },
+    "shin": {
+        "title": "心",
+        "text": "強者の証、これを一定数貯めることで...",
+        "type": "buff",
+        "icon": "Shin"
+    },
+    "mang": {
+        "title": "望",
+        "text": "「...それなら、天退星。一撃だけ殴られろ、天究星にやったように。」",
+        "type": "buff",
+        "icon": "Mang"
+    }                               
 }

@@ -329,6 +329,32 @@
         "color": "#ffea00",
         "position": "center",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Shin Follow Up",
+                "requirement": "10",
+                "text": "スライド攻撃時のRを押す攻撃に、\n{mang}が付く"
+            },
+            {
+                "name": "Defensive Light",
+                "requirement": "20",
+                "text": "{shin}を一定数保有してると、\n防護効果として発動し、受けるダメージが軽減される。\n軽減率は{shin}のレベルによって変わる\n [レベル1: 10%]| |[レベル2: 15%]\n[レベル3: 20%]| |[レベル4: 25%]\nレベル5: 30%"
+            },
+            {
+                "name": "Decimate Mind",
+                "requirement": "20",
+                "text": "使用できる条件:\n・gloomに20ポイントを振っている\n・心・望に20ポイント振っている\n-35まで精神力を消費することができる。"
+            },
+            {
+                "name": "Regain Mind",
+                "requirement": "30",
+                "text": "通常攻撃の最終段と、集中攻撃的中時\n精神力を10回復する"
+            },
+            {
+                "name": "Overwhelming Power",
+                "requirement": "50",
+                "text": "{mang}で強化された攻撃は、相手が瀕死の場合\n{auto_execute}をする。"
+            }
+        ]
     }
 }
