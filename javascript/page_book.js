@@ -29,17 +29,23 @@ function renderPageList(containerId, filterBook = null) {
         div.className = "page-card";
 
         div.innerHTML = `
-        <div class="page-name"> ${data.name_jp} / ${data.name_en}</div>
-        <div class="page-effect"> ${formatText(data.effect)} </div>
-        <div class="page-footer">
-        <div class="page-stats">
-            <span class="page-cost">光:2</span>
-            <span class="page-ct">CT:40s</span>
+    <div class="page-video">
+        <video autoplay loop muted>
+            <source src="${data.image}">
+            
+        </video>
+    </div>
+    <div class="page-content">
+        <div class="page-top">
+        <div class="page-name">${data.name_jp} / ${data.name_en}</div>
         </div>
-        <div class="page-obtain">
-            入手:${book.name_jp}
+        <div class="page-effect">${formatText(data.effect)}</div>
+        <div class="page-bottom">
+            <div class="page-stat">光:${data.light}</div>
+            <div class="page-stat">CT:${data.ct}</div>
+            <div class="page-obtain">入手:${book.name_jp}</div>
+            
         </div>
-
     </div>
         `;
 

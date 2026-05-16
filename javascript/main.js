@@ -28,44 +28,33 @@ document.querySelectorAll('.staff-card').forEach(card => {
 //tooltips
 const tooltip = document.getElementById("tooltip");
 if (tooltip) {
+    // パフォーマンス: mousemoveをトップレベルに配置
     document.addEventListener("mousemove", (e) => {
         if (tooltip.style.display === "block") {
             tooltip.style.left = (e.clientX + 12) + "px";
             tooltip.style.top = (e.clientY + 12) + "px";
         }
-        document.addEventListener("mouseover", (e) => {
-            const el = e.target.closest(".tooltip-target");
-            if (!el) return;
+    });
 
-            const key = el.dataset.key;
+    // パフォーマンス: 重複登録を防ぐため、mousemoveの外に定義
+    document.addEventListener("mouseover", (e) => {
+        const el = e.target.closest(".tooltip-target");
+        if (!el) return;
 
-            const status = tooltipData[key];
-            const module = combat_module[key];
+        const key = el.dataset.key;
+        const status = tooltipData[key];
+        const module = combat_module[key];
+        if (!status && !module) return;
 
-            if (!status && !module) return;
+        let text = (status?.text || "") + (status?.text && module?.text ? "\n" : "") + (module?.text || "");
+        tooltip.textContent = text;
+        tooltip.style.display = "block";
+    });
 
-
-            let text = "";
-            if (status?.text) text += status.text;
-            if (module?.text) text += (text ? "\n" : "") + module.text;
-
-            tooltip.textContent = text;
-            tooltip.style.display = "block";
-
-        });
-
-        document.addEventListener("mouseout", (e) => {
-            if (e.target.closest(".tooltip-target")) {
-                tooltip.style.display = "none";
-            }
-        });
-
-        document.addEventListener("mousemove", (e) => {
-            if (tooltip.style.display === "block") {
-                tooltip.style.left = (e.clientX + 12) + "px";
-                tooltip.style.top = (e.clientY + 12) + "px";
-            }
-        });
+    document.addEventListener("mouseout", (e) => {
+        if (e.target.closest(".tooltip-target")) {
+            tooltip.style.display = "none";
+        }
     });
 }
 let tooltipData = {};
@@ -90,14 +79,15 @@ document.querySelectorAll(".weapon-card").forEach(card => {
 
 function applyAllStyles() {
     document.querySelectorAll(".tooltip-target").forEach(el => {
+        // パフォーマンス: すでに処理済みの要素はスキップ
+        if (el.dataset.processed) return;
 
         const key = el.dataset.key;
-
         const data = tooltipData[key];
         const moduleData = combat_module[key];
 
         if (data?.title) {
-            el.textContent = `${data.title}`
+            el.textContent = `${data.title}`;
         }
         
         if (data?.type) {
@@ -105,7 +95,7 @@ function applyAllStyles() {
         }
 
         if (moduleData?.title) {
-            el.textContent = `${moduleData.title}`
+            el.textContent = `${moduleData.title}`;
         }
         if (moduleData?.color) {
             
@@ -114,6 +104,9 @@ function applyAllStyles() {
         }
 
         if (data?.icon) {
+            // 重複追加防止
+            el.querySelectorAll(".status-icon").forEach(img => img.remove());
+            
             const img = document.createElement("img");
             img.src = `/assets/status_icon/${data.icon}.png`;
             img.classList.add("status-icon");
@@ -122,5 +115,7 @@ function applyAllStyles() {
 
             el.prepend(img);
         }
+        
+        el.dataset.processed = "true";
     });
 }

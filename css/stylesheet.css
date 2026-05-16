@@ -976,6 +976,21 @@ th.sort-desc::after {
     padding: 14px;
     margin-bottom: 12px;
     transition: 0.2s;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.page-video {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.page-video video {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    border: 1px solid #444;
 }
 
 .page-name {
@@ -985,14 +1000,17 @@ th.sort-desc::after {
     margin-bottom: 10px;
 }
 
+.page-content {
+    flex: 1;
+    min-width: 0;
+}
+
 .page-effect {
     background: #222;
     border: 3px solid #333;
 }
 
 .page-top {
-    display: flex;
-    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -1006,22 +1024,14 @@ th.sort-desc::after {
 
 .page-bottom {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.page-type {
-    color: #ffcf70;
-    font-weight: bold;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14px;
 }
 
 .page-stats {
     display: flex;
     gap: 8px;
-}
-
-.page-cost, .page-ct {
-
     margin-top: 20px;
     background: #222;
     border: 1px solid #555;
@@ -1030,12 +1040,7 @@ th.sort-desc::after {
     font-size: 13px;
 }
 
+
 .page-obtain {
     margin-left: auto;
-    color: #ff8d8d;
-    border: 1px solid #803030;
-    background:rgba(120,20,20,.15);
-    padding: 4px 10px;
-    border-radius: 999px;
-    font-size: 13px;
 }

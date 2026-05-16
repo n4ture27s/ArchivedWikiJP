@@ -1,18 +1,23 @@
 {
-  "burn_strike": {
-    "name": "Burn Strike",
-    "book": "urban_legend",
-
-    "cost": 2,
-    "ct": 1,
-
-    "light": 3,
-
-    "effect": "敵に{burn}を2付与"
+  "level_slash": {
+    "name_en": "Level Slash",
+    "name_jp": "横斬り",
+    "book": "red_mist",
+    "light": 2,
+    "ct": "13s",
+    "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
   },
-  "mist_slash": {
+  "on_rush": {
+    "name_en": "Onrush",
+    "name_jp": "突進",
+    "book": "red_mist",
+    "light": 2,
+    "ct": "15s",
+    "effect": "{on_use} このページは{damage_modifier}の影響を受けない。\n{dice1} [14~26] 斬撃 {ground} {on_hit} スタミナダメージ40を与えて{bleed}3を付与。\n{on_hit} {imitation}1を得る。{light}が6以上なら{damage_modifier}を0.70倍にして{dice1}を再使用する。"
+  },
+  "focus_sprit": {
     "name_en": "Focus Sprit",
-    "name_jp": "気合",
+    "name_jp": "気合い",
     "book": "red_mist",
     "light": 2,
     "ct": "40s",
