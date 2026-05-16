@@ -171,7 +171,48 @@
         "color": "#2e5881",
         "position": "outer",
 
-        "skills": []
+        "skills": [
+            {
+                "name": "Engaging",
+                "requirement": "10",
+                "text": "スライド攻撃をブロックで防げるようになる。"
+            },
+            {
+                "name": "Claim Their Heart",
+                "requirement": "15",
+                "text": "{guard_break}時に対象の体力が15%未満の場合Claim Their Heartを発動して特殊な{auto_execute}をする。"
+            },
+            {
+                "name": "Shrouded Power",
+                "requirement": "20",
+                "text": "相手が{stagger}時に\n{poise}を5得る"
+            },
+            {
+                "name": "Smoke Overload",
+                "requirement": "30",
+                "text": "クリティカルヒットを当てて\n {poise}を発動させた場合\n{poise}は消費されない。"
+            },
+            {
+                "name": "Adrenaline Rush",
+                "requirement": "35",
+                "text": "戦闘開始時に{poise}を5得る"
+            },
+            {
+                "name": "Sharp Eyes",
+                "requirement": "45",
+                "text": "クリティカルヒットの倍率が1.3倍になる"
+            },
+            {
+                "name": "Overbearing",
+                "requirement": "50",
+                "text": "通常攻撃が的中時に{poise}を1得る\n[1秒のクールダウン]\n \n「Steady Breathing」とは併用できない。"
+            },
+            {
+                "name": "Steady Breathing",
+                "requirement": "50",
+                "text": "{poise}を発動した場合\n 代わりに1.5でその{poise}を割る\n \n「Overbearing」とは併用できない。"
+            }
+        ]
     },
     "envy": {
         "title": "Envy",
