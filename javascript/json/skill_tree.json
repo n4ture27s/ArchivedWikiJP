@@ -183,9 +183,14 @@
                 "text": "{guard_break}時に対象の体力が15%未満の場合Claim Their Heartを発動して特殊な{auto_execute}をする。"
             },
             {
+                "name": "Steady Breathing",
+                "requirement": "15",
+                "text": "{clash_win}に{poise}を5得る"
+            },
+            {
                 "name": "Shrouded Power",
                 "requirement": "20",
-                "text": "相手が{stagger}時に\n{poise}を5得る"
+                "text": "相手が{stagger}時に\n{poise}を4得る"
             },
             {
                 "name": "Smoke Overload",
@@ -220,7 +225,13 @@
         "icon": "Envy.png",
         "color": "#bb6fd5",
         "position": "outer",
-        "skills": []
+        "skills": [
+            {
+                "name": "Charge Up",
+                "requirement": "5",
+                "text": "パリィ成功時に{charge}を1得る"
+            }
+        ]
     },
     "gloom": {
         "title": "Gloom",
