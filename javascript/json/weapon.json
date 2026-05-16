@@ -597,12 +597,14 @@
       "ct":20
     },
     "gun_reload": {
+      "title":"reload",
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_reload.webm",
       "desc":"",
       "effect":"画面右下の弾丸を25消費して、{fracture_bullet}を25得る",
       "ct":9
     },
     "gun_shoot": {
+      "title": "shoot",
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_shoot.webm",
       "desc":"",
       "effect":"{fracture_bullet}を1消費して、5ダメージを与える",
