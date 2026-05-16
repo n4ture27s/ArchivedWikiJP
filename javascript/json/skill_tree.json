@@ -230,6 +230,41 @@
                 "name": "Charge Up",
                 "requirement": "5",
                 "text": "パリィ成功時に{charge}を1得る"
+            },
+            {
+                "name": "Convert Physical Trauma",
+                "requirement": "10",
+                "text": "被弾時に{charge}を1得る。"
+            },
+            {
+                "name": "Blessed by the Sparks",
+                "requirement": "15",
+                "text": "集中攻撃を的中させると\n {charge}を2得る。"
+            },
+            {
+                "name": "Electrifying Vendetta",
+                "requirement": "30",
+                "text": "15以上の{charge}があって\n重い攻撃をパリィすると少し遅延して\n相手をショートさせ1~4ダメージを与える。"
+            },
+            {
+                "name": "Short Circuit Trip",
+                "requirement": "35",
+                "text": "15以上の{charge}があってジャスト回避をすると\n 対象に「ライトアウト」効果を付与し\n少しの間ラグドールにして、{charge}を8消費する。"
+            },
+            {
+                "name": "Kinetic Energy",
+                "requirement": "40",
+                "text": "10以上の{charge}がある場合\n通常攻撃のダメージを10%増加させる。"
+            },
+            {
+                "name": "Overflowing Guard",
+                "requirement": "45",
+                "text": "5以上の{charge}がある場合\n{charge}を1消費してブロック時のスタミナダメージを半減する。"
+            },
+            {
+                "name": "Overcharged Vessel",
+                "requirement": "50",
+                "text": "プレイヤーが10以上の{charge}を持っている場合\n嫉妬完全共鳴をして{charge}10ごとに15秒間の過充電状態に入る。過充電の間{charge}10ごとに1の{value_up}と5%のダメージ増加を得る。(最大30の{charge}まで)\n代償として、{charge}10ごとに{tremor_decay}を5得て、自傷ダメージを受ける(最大33まで)\n {charge}は消費されず、条件としてみなす。"
             }
         ]
     },
