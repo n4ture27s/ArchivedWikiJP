@@ -304,5 +304,11 @@
         "text": "ダイス使用時に、出血を6で割り、受けたダメージに等しい分だけ出血を減らす",
         "type": "debuff",
         "icon": "Mauled_Color_-Rouge-"
-    }                           
+    },
+    "imitation": {
+        "title": "模倣",
+        "text": "ハローと模倣の鎌のクリティカル攻撃を使用することで得られるリソースステータス。(最大10)",
+        "type": "debuff",
+        "icon": "Mauled_Color_-Rouge-"
+    }                         
 }

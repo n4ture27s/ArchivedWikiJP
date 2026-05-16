@@ -1,7 +1,14 @@
 function formatText(text) {
     if (!text) return "";
 
-    let formatted = text
+    // セキュリティ: HTMLタグをエスケープしてXSSを防止
+    const escape = (str) => str.replace(/[&<>"']/g, m => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[m]);
+
+    let escaped = escape(text);
+
+    let formatted = escaped
         .replace(/\\br/g, "\n")
         .replace(/\n/g, "<br>");
 

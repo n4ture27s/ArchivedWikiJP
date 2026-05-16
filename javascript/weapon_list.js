@@ -79,8 +79,11 @@ function updateUI() {
         });
     }
 
+    // パフォーマンス: DocumentFragmentを使用して再描画を1回にまとめる
+    const fragment = document.createDocumentFragment();
     list.innerHTML = "";
-    filtered.forEach(card => list.appendChild(card));
+    filtered.forEach(card => fragment.appendChild(card));
+    list.appendChild(fragment);
 
     saveStateToURL();
 }

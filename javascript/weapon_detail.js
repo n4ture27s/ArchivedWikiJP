@@ -128,9 +128,13 @@ function renderCriticals(w) {
     container.innerHTML = "";
 
     // critical, critical2, critical3... を全部取得
+    const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
     const criticals = Object.keys(w)
         .filter(key => key.startsWith("critical"))
-        .sort(); // 順番保証
+        .sort((a, b) => {
+            // 文字列としてのソートではなく数値順にソートする
+            return getNum(a) - getNum(b);
+        });
 
 
     criticals.forEach((key, index) => {
@@ -183,10 +187,12 @@ function renderGuns(w) {
 
     container.innerHTML = "";
 
+    const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
     const guns = Object.keys(w)
         .filter(key => key.startsWith("gun"))
-        .sort(); // 順番保証
-
+        .sort((a, b) => {
+            return getNum(a) - getNum(b);
+        });
 
     guns.forEach((key, index) => {
         const c = w[key];
