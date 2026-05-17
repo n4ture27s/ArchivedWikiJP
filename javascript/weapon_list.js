@@ -7,17 +7,12 @@ let asc = true;
 
 let searchInput, filterButtons, sortButtons, weaponListContainer;
 
-const typeMap = {
-    slash: "斬撃",
-    pierce: "貫通",
-    blunt: "打撃"
-};
-
 const typeOrder = {
     slash: 0,
     pierce: 1,
     blunt: 2
 };
+
 
 function createWeaponCard(id, data) {
     const card = document.createElement("div");
@@ -38,7 +33,7 @@ function createWeaponCard(id, data) {
     `;
 
     card.addEventListener("click", () => {
-        location.href = `weapon_detail.html?id=${id}`
+        location.href = `/pages/arsenal/weapon_detail.html?id=${id}`
     })
 
     return card;

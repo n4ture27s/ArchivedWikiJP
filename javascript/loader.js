@@ -86,3 +86,9 @@ async function init() {
 }
 
 window.addEventListener("load", init);
+
+const typeMap = {
+    slash: "斬撃",
+    pierce: "貫通",
+    blunt: "打撃"
+};
