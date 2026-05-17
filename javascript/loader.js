@@ -31,6 +31,10 @@ if (document.body.dataset.page === "page_detail") {
   loadScript("/javascript/page_detail.js");
 }
 
+if (document.body.dataset.page === "effect") {
+  loadScript("/javascript/status_list.js");
+}
+
 async function init() {
 
   // JSON読み込み待機

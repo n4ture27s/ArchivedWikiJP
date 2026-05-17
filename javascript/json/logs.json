@@ -1,16 +1,25 @@
 {
   "logs": [
     {
-      "date": "2026/05/07",
+      "date": "2026/05/18",
       "new": true,
       "items": [
-        { "type": "add", "text": "背景色の変更" },
-        { "type": "change" ,"text": "背景色"}
+        { "type": "add", "text": "武器解説" },
+        { "type": "add", "text": "罪ページ"},
+        { "type": "add", "text": "ランクページ"},
+        { "type": "add", "text": "状態異常ページ"},
+        { "type": "add", "text": "協会ページに一部武器とページが表示されるように"},
+        { "type": "add", "text": "オリジンの追加"},
+        { "type": "change" ,"text": "協会ページの大幅な刷新"},
+        { "type": "fix" ,"text": "武器ページの不安定性"},
+        { "type": "fix" ,"text": "ライセンステキスト"},
+        { "type": "remove" ,"text": "協会ページの無意味なテキスト"}
+        
       ]
     },
     {
       "date": "2026/05/05(2)",
-      "new": true,
+      "new": false,
       "items": [
         { "type": "add", "text": "ライセンス詳細ページを追加" },
         { "type": "add" ,"text": "武器の解説"},
