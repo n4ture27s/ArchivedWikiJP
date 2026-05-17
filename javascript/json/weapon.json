@@ -630,5 +630,50 @@
       "effect":"{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undogeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {unparryable} {on_hit} {poise}を5得る。{QTE}\n {QTE}成功時 {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
       "ct":13
     }
+  },
+   "fascia_sealed": {
+    "req": "3",
+    "name_en": "Fascia Sealed",
+    "name_jp": "ファシア(拘束)",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.7,
+    "basic": {
+      "image": "/assets/image/weapon/fascia1_basic.webm",
+      "desc":"",
+      "effect":"長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/fascia1_critical.webm",
+      "desc":"",
+      "effect":"{dice1} {slash} [4~7] {on_hit}{bleed}を2付与\n {dice2} {slash} [4~10] {on_hit}{bind}を2付与\n{dice3} {slash} [4~13] {on_hit}{corpus_ingredient}を6得る",
+      "ct":18
+    },
+    "gun_reload": {
+      "title":"reload",
+      "image": "/assets/image/weapon/fascia1_reload.webm",
+      "desc":"",
+      "effect":"{protection}を{corpus_ingredient}分得る。\nもし{corpus_ingredient}が20以上、{protection}が15以上だった場合武器が変形する。",
+      "ct":9
+    }
+  },
+   "fascia_": {
+    "req": "3",
+    "name_en": "Fascia",
+    "name_jp": "ファシア",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.7,
+    "basic": {
+      "image": "/assets/image/weapon/fascia2_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/fascia2_critical.webm",
+      "desc":"",
+      "effect":"{dice1} {pierce} [4~7] {multi_hit}を4回 [マルチヒットの一撃目]{on_hit}に{hyperarmor}を得る [マルチヒットの2/3段目]{bleed}を2/3付与\n {dice2} {slash} [6~7] {on_hit}{corpus_ingredient}を3得る\n{dice3} {slash} [6~7] {on_hit}{corpus_ingredient}を3得る",
+      "ct":18
+    }
   }
 }

@@ -117,7 +117,7 @@
         "title": "狂信",
         "text": "握る者の服によって付与されるステータス効果で、N社の尋問官の服を着用している味方に対して与ダメージ+15%のバフを付与する。",
         "type": "buff",
-        "icon": "Fnatic"
+        "icon": "Fanatic"
     },
     "heated_gas_harpoon": {
         "title": "加熱されたガス銛",
@@ -334,5 +334,17 @@
         "text": "打撃属性",
         "type": "resource",
         "icon": "Blunt"
+    },
+    "corpus_ingredient": {
+        "title": "生体材料",
+        "text": "「筋膜で覆われている」",
+        "type": "resource",
+        "icon": "Corpus_Ingredient"
+    },
+    "artwork_fascia": {
+        "title": "作品名:ファシア",
+        "text": "ファシアによって保護を得ることができない",
+        "type": "resource",
+        "icon": "Artwork_-_fascia"
     }                                     
 }
