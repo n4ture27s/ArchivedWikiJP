@@ -2,6 +2,7 @@ function createTable(tableId, data, columns) {
     const table = document.getElementById(tableId);
     if (!table) return;
 
+    console.error(tableId)
     const thead = table.querySelector("thead");
     const tbody = table.querySelector("tbody");
 
@@ -86,151 +87,18 @@ function updateSortUI(table, key, asc) {
     });
 }
 
-const trait_atk_data = [
-    {
-        name: "Coldness",
-        alias: "Heartless Execution",
-        effect: "ラグドールしない限り、対象を掴む/運ぶ動作はキャンセル不可に",
-        tips: ""
-    },
-    {
-        name: "Energetic",
-        alias: "Happy Feet",
-        effect: "感情レベルを発動するための閾値を下げ、感情レベルの上昇を促進する",
-        tips: ""
-    },
-    {
-        name: "Methodical",
-        alias: "Swift Execution",
-        effect: "ダウンしている対象を処刑するまでの時間を短縮します",
-        tips: ""
-    },
-    {
-        name: "Paranoid",
-        alias: "Cautious Fury",
-        effect: "- {permadeath}サーバー以外（オーバーワールドを含む）での与ダメージを10%減少\n- {permadeath}内での与ダメージを10%増加",
-        tips: ""
-    },
-];
+fetch("/javascript/json/table_data.json")
+    .then(res => res.json())
+    .then(data => {
+        const { traits, origins, columns } = data;
+        
+        // 特性テーブルの生成
+        createTable("atk_trait", traits.atk, columns.trait_atk);
+        createTable("def_trait", traits.def, columns.trait_standard);
+        createTable("parry_trait", traits.parry, columns.trait_standard);
+        createTable("other_trait", traits.other, columns.trait_standard);
 
-const trait_def_data = [
-    {
-        name: "Steadfast",
-        alias: "Tough Skin",
-        effect: "最も脆弱なダメージ耐性を0.1減少させる",
-        tips: "・服を変更すると、耐性変更は無効になります。\n(変更がリスポーン時に適用されるためです。)\n・同じ値の耐性が複数ある場合、最も左にあるものが選択されます。"
-    },
-    {
-        name: "Energetic",
-        alias: "Happy Feet",
-        effect: "- ラグドールキャンセルをより頻繁に使用できる\n- ラグドールキャンセル時に消費するスタミナが増加",
-        tips: ""
-    },
-    {
-        name: "Methodical",
-        alias: "Swift Execution",
-        effect: "- 回避を黒い軌跡を残す、より長く不可視な物に置き換えます\n- 無敵時間がわずかに増加します\n- 回避時にスタミナを10消費します\n- {haste}の影響を受けます\n- 回避のクールダウンが増加します",
-        tips: "あるいは、キャラクター作成時に「Run as fast as you can, Abandoning your group」を選択することで、この特性を獲得することもできます。"
-    },
-    {
-        name: "Resourceful",
-        alias: "Quick Recovery",
-        effect: "スタミナ回復力を増加させる",
-        tips: ""
-    },
-    {
-        name: "Maniacal",
-        alias: "Manic",
-        effect: "- パリィ時のスタミナ回復量増加\n- 正気度回復量減少",
-        tips: ""
-    },
-    {
-        name: "Resolute",
-        alias: "Iron Will",
-        effect: "HPが低い時の速度低下を軽減する",
-        tips: ""
-    },
-    {
-        name: "Indomitable",
-        alias: "Iron Chin",
-        effect: "{stagger}状態中に受けるダメージを軽減する",
-        tips: ""
-    },
-    {
-        name: "Immovable",
-        alias: "",
-        effect: "- パリィした時、またはパリィされた時に、ノックバックしなくなります。",
-        tips: ""
-    },
-    {
-        name: "Hypoxic",
-        alias: "Adaptive Recovery",
-        effect: "- 体力回復速度を大幅に向上させる\n- スタミナ回復速度を大幅に低下させる",
-        tips: ""
-    },
-    {
-        name: "Calm",
-        alias: "Composed Guard",
-        effect: "- ガード時のスタミナダメージを軽減\n- パリィが空振りした際のスタミナ消費量を増加させる",
-        tips: "Hot-Headed/Hair-Triggeredと同時適応不可"
-    },
-];
-
-const trait_parry_data = [
-    {
-        name: "Bizzare",
-        alias: "Unorthodox Timing",
-        effect: "- パリィの色を紫に変更\n- パリィフレームを0.3秒短縮\n- パリィ空振り時のクールダウンを1秒短縮\n- パリィ失敗時のクールダウンを1秒短縮",
-        tips: ""
-    },
-    {
-        name: "Hot-Headed",
-        alias: "Hair-Triggered",
-        effect: "- パリィの色を赤に変更\n- スタン時間の増加\n- ガード時のスタミナダメージの増加",
-        tips: "Calm/Composed Guardと同時適応不可\n- または、キャラクター作成をスキップすることでこの特性を取得できます。"
-    },
-    {
-        name: "Proficient",
-        alias: "Lightspeed Reflexes",
-        effect: "- パリィの色を青に変更\n- パリィフレームを0.3秒増加\n- 空振り時のパリークールダウンを3秒増加",
-        tips: "あるいは、キャラクター作成時に「How to become Book Smart」を選択することで、この特性を獲得することもできます。"
-    },
-];
-
-const trait_other_data = [
-    {
-        name: "Chromatic",
-        alias: "Chromatic Emotion",
-        effect: "- ほとんどの視覚効果をコスメティックカラーに変更します。\n- また、髪の色もコスメティックカラーに変更しますが、これは感情レベルが一定以下の場合に限ります。",
-        tips: ""
-    },
-    {
-        name: "Garde Pardue",
-        alias: "",
-        effect: "食べ物を摂取した際のマイナスステータスが50%減少",
-        tips: "・この特性はShadouのクエストラインでのみ入手可能です。\n・この特性は特性上限3つにはカウントされません。"
-    },
-    {
-        name: "Rojima Alliance",
-        alias: "Token Of Rojima",
-        effect: "ネズミは攻撃されない限り自分から攻撃してこなくなる",
-        tips: "・この特性は、「Random Rat」のクエストラインでのみ入手可能です。\n・この特性は、特性の上限である3つにはカウントされません。"
-    },
-];
-
-const trait_columns = [
-    { key: "name", label: "特性名" },
-    { key: "alias", label: "別名" },
-    { key: "effect", label: "効果" },
-    { key: "tips", label: "Tips" }
-];
-
-const trait_atk_columns = [
-    { key: "name", label: "特性名" },
-    { key: "alias", label: "別名" },
-    { key: "effect", label: "効果" }
-];
-createTable("atk_trait", trait_atk_data, trait_atk_columns);
-createTable("def_trait", trait_def_data, trait_columns);
-createTable("parry_trait", trait_parry_data, trait_columns);
-createTable("other_trait", trait_other_data, trait_columns);
+        // オリジンテーブルの生成
+        createTable("origin_table", origins, columns.origin_standard);
+    })
+    .catch(err => console.error("データの読み込みに失敗しました:", err));

@@ -12,8 +12,18 @@ function formatText(text) {
         .replace(/\\br/g, "\n")
         .replace(/\n/g, "<br>");
 
-    formatted = formatted.replace(/\{(.*?)\}/g, (_, key) => {
-        return `<span class="tooltip-target" data-key="${key}"></span>`;
+    formatted = formatted.replace(/\{(.*?)\}/g, (_, inner) => {
+        // 文字サイズ変更の判定: {textsize=倍率,テキスト}
+        const sizeMatch = inner.match(/^textsize=([\d\.]+),\s*(.*)$/);
+        if (sizeMatch) {
+            const size = sizeMatch[1];
+            let content = sizeMatch[2];
+            // 内部にツールチップ指定 {key} が含まれる場合を考慮して置換
+            content = content.replace(/\{(.*?)\}/g, (__, k) => `<span class="tooltip-target" data-key="${k}"></span>`);
+            return `<span style="font-size: ${size}em;">${content}</span>`;
+        }
+
+        return `<span class="tooltip-target" data-key="${inner}"></span>`;
     });
 
     return formatted;
