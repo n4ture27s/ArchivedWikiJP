@@ -4,21 +4,6 @@ function setFormattedText(el, text) {
     el.innerHTML = formatText(text);
 }
 
-/* =========================
-   ステータス生成
-   ========================= */
-
-function createStat(label, value, className = "") {
-    const row = document.createElement("div");
-    row.classList.add("stat-row");
-
-    row.innerHTML = `
-        <span class="label">${label}</span>
-        <span class="value ${className}">${value}</span>
-    `;
-
-    return row;
-}
 
 /* =========================
    メイン処理
@@ -195,7 +180,7 @@ function renderGuns(w) {
         section.classList.add("weapon-section");
 
         section.innerHTML = `
-            <h2>Gun:${c.title}</h2>
+            <h2>${c.title}</h2>
             <div class="attack-box">
                 <video class="attack-vid" autoplay loop muted> </video>
                 <div class="attack-info">

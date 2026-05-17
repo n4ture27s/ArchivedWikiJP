@@ -153,17 +153,6 @@ function setupEventListeners() {
     });
 }
 
-function createStat(label, value, className) {
-    const stat = document.createElement("div");
-    stat.classList.add("stat");
-
-    stat.innerHTML = `
-        <span class="label">${label}</span>
-        <span class="value ${className}">${value}</span>
-    `;
-
-    return stat;
-}
 
 function initWeapons() {
     cards.forEach(card => {
