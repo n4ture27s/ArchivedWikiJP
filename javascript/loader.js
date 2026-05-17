@@ -9,13 +9,10 @@ function loadScript(src) {
 loadScript("/javascript/utils.js");
 loadScript("/javascript/main.js");
 loadScript("/javascript/page_book.js");
+loadScript("/javascript/weapon_list.js");
 
 if (document.body.dataset.page === "update-log") {
   loadScript("/javascript/log.js");
-}
-
-if (document.body.dataset.page === "weapon-list") {
-  loadScript("/javascript/weapon_list.js");
 }
 
 if (document.body.dataset.page === "weapon-detail") {
@@ -41,7 +38,10 @@ if (document.body.dataset.page === "page_detail") {
 async function init() {
 
   // JSON読み込み待機
-  await loadPageData();
+  await Promise.all([
+    loadPageData(),
+    loadWeaponData()
+  ]);
 
   // 本一覧ページ
   if (document.body.dataset.page === "books") {
@@ -66,6 +66,23 @@ async function init() {
       bookId
     );
   }
+
+  // 協会ページ (特定のBook IDに紐づくページ一覧を表示)
+  if (document.body.dataset.page === "association") {
+
+    const bookId = document.body.dataset.bookId;
+
+    if (!bookId) return;
+
+    renderPageList("page-list", bookId);
+    renderWeaponList("weapon-list", bookId);
+  }
+
+  // 武器一覧ページ専用のUI初期化
+  if (document.body.dataset.page === "weapon-list") {
+    initWeaponListPage();
+  }
+
 }
 
 window.addEventListener("load", init);
