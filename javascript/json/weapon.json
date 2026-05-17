@@ -152,6 +152,7 @@
     }
   },
    "augury_spear": {
+    "book": "hana",
     "req": "2",
     "name_en": "Augury Spear",
     "name_jp": "予兆の槍",

@@ -1,14 +1,11 @@
-const list = document.querySelector(".weapon-list");
-
-let cards = []; 
-
-const searchInput = document.getElementById("search");
-const filterButtons = document.querySelectorAll(".filters button");
-const sortButtons = document.querySelectorAll(".sort button");
+let allWeaponsData = {};
+let cards = [];
 
 let currentFilter = "all";
 let currentSort = null;
 let asc = true;
+
+let searchInput, filterButtons, sortButtons, weaponListContainer;
 
 const typeMap = {
     slash: "斬撃",
@@ -40,7 +37,7 @@ function createWeaponCard(id, data) {
         <div class="weapon-stats"></div>
     `;
 
-    card.addEventListener("click", () =>{
+    card.addEventListener("click", () => {
         location.href = `weapon_detail.html?id=${id}`
     })
 
@@ -48,6 +45,8 @@ function createWeaponCard(id, data) {
 }
 
 function updateUI() {
+    if (!weaponListContainer || !searchInput) return;
+
     let filtered = cards.filter(card => {
 
         if (currentFilter !== "all" && card.dataset.type !== currentFilter) {
@@ -81,9 +80,9 @@ function updateUI() {
 
     // パフォーマンス: DocumentFragmentを使用して再描画を1回にまとめる
     const fragment = document.createDocumentFragment();
-    list.innerHTML = "";
+    weaponListContainer.innerHTML = "";
     filtered.forEach(card => fragment.appendChild(card));
-    list.appendChild(fragment);
+    weaponListContainer.appendChild(fragment);
 
     saveStateToURL();
 }
@@ -128,40 +127,36 @@ function applyStateToUI() {
 
 /* ===== イベント ===== */
 
-searchInput.addEventListener("input", updateUI);
+function setupEventListeners() {
+    if (searchInput) searchInput.addEventListener("input", updateUI);
 
-filterButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-        currentFilter = btn.dataset.filter;
-
-        filterButtons.forEach(b => b.classList.remove("active"));
-        btn.classList.add("active");
-
-        updateUI();
-    });
-});
-
-sortButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
-        const type = btn.dataset.sort;
-
-        if (currentSort === type) {
-            asc = !asc;
-        } else {
-            currentSort = type;
-            asc = true;
-        }
-
-        sortButtons.forEach(b => {
-            b.classList.remove("active", "asc", "desc");
+    filterButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            currentFilter = btn.dataset.filter;
+            filterButtons.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            updateUI();
         });
-
-        btn.classList.add("active");
-        btn.classList.add(asc ? "asc" : "desc");
-
-        updateUI();
     });
-});
+
+    sortButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const type = btn.dataset.sort;
+            if (currentSort === type) {
+                asc = !asc;
+            } else {
+                currentSort = type;
+                asc = true;
+            }
+            sortButtons.forEach(b => {
+                b.classList.remove("active", "asc", "desc");
+            });
+            btn.classList.add("active");
+            btn.classList.add(asc ? "asc" : "desc");
+            updateUI();
+        });
+    });
+}
 
 function createStat(label, value, className) {
     const stat = document.createElement("div");
@@ -195,25 +190,60 @@ function initWeapons() {
     });
 }
 
+/* ===== 共通処理 ===== */
+
+async function loadWeaponData() {
+    try {
+        const res = await fetch("/javascript/json/weapon.json");
+        allWeaponsData = await res.json();
+    } catch (e) {
+        console.error("Failed to load weapon data:", e);
+    }
+}
+
+function renderWeaponList(containerOrId, filterBook = null) {
+    const container = typeof containerOrId === "string" ? document.getElementById(containerOrId) : containerOrId;
+    if (!container) return;
+
+    container.innerHTML = "";
+    container.classList.add("weapon-list");
+
+    Object.entries(allWeaponsData).forEach(([id, weapon]) => {
+        if (filterBook && weapon.book !== filterBook) return;
+
+        const card = createWeaponCard(id, weapon);
+
+        // 各カード内のステータス表示を初期化
+        const statsBox = card.querySelector(".weapon-stats");
+        statsBox.append(
+            createStat("必要条件", weapon.req, "req"),
+            createStat("ダメージ", weapon.damage, "damage"),
+            createStat("ダメタイプ", typeMap[weapon.type], "type"),
+            createStat("振り速", weapon.speed, "speed")
+        );
+
+        container.appendChild(card);
+    });
+
+    if (typeof applyAllStyles === "function") applyAllStyles();
+}
+
 /* ===== JSON読み込み ===== */
 
-fetch("/javascript/json/weapon.json")
-    .then(res => res.json())
-    .then(data => {
+function initWeaponListPage() {
+    weaponListContainer = document.querySelector(".weapon-list");
+    searchInput = document.getElementById("search");
+    filterButtons = document.querySelectorAll(".filters button");
+    sortButtons = document.querySelectorAll(".sort button");
 
-        Object.entries(data).forEach(([id, weapon]) => {
-            const card = createWeaponCard(id, weapon);
-            list.appendChild(card);
-        });
+    renderWeaponList(weaponListContainer);
+    cards = Array.from(weaponListContainer.querySelectorAll(".weapon-card"));
 
-        cards = Array.from(document.querySelectorAll(".weapon-card"));
+    currentSort = "damage";
+    asc = false;
 
-        // 初期状態
-        currentSort = "damage";
-        asc = false;
-
-        loadStateFromURL();
-        applyStateToUI();
-        initWeapons();
-        updateUI();
-})
+    loadStateFromURL();
+    applyStateToUI();
+    setupEventListeners();
+    updateUI();
+}

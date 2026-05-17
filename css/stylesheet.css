@@ -784,11 +784,60 @@ th.sort-desc::after {
     font-weight: bold;
 }
 
-.association_othinthin {
-    float: left;
-    padding: 20px;
+/* 組織一覧 (Association) */
+.association-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
 }
 
+.association img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background-color: #111;
+    padding: 10px;
+    border: 1px solid #f0c17d;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.association {
+    background: #000;
+    border: 2px solid #f0c17d;
+    box-shadow: 0 0 10px rgba(240, 193, 125, 0.3);
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.association:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #f0c17d;
+    background: rgba(240, 193, 125, 0.05);
+}
+
+.assoc-name-jp {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.assoc-name-en {
+    display: block;
+    font-size: 0.7rem;
+    color: #f0c17d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 /* 罪 */
 .skill-wrapper {
     display: flex;

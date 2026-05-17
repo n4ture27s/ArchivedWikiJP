@@ -22,5 +22,14 @@
     "light": 2,
     "ct": "40s",
     "effect": "{on_use} {hyperarmor}を1.5秒得る\n{on_use} {value_up}2を得る。持続時間は{dice1}秒間。\n{dice1} [10~20]"
+  },
+
+  "augury_infusion": {
+    "name_en": "Augury Infusion",
+    "name_jp": "卦入",
+    "book": "hana",
+    "light": 2,
+    "ct": "20s",
+    "effect": "{on_use} {hyperarmor}を1.5秒得る\n{hit_ground} {guard_break} {dice1} [13~18] 打撃 {on_hit} {tremor}4を付与し{tremor_burst}"
   }
 }
