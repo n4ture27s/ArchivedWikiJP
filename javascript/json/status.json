@@ -316,5 +316,23 @@
         "text": "「...それなら、天退星。一撃だけ殴られろ、天究星にやったように。」",
         "type": "buff",
         "icon": "Mang"
-    }                               
+     },
+    "slash": {
+        "title": "斬撃",
+        "text": "斬撃属性",
+        "type": "resource",
+        "icon": "Slash"
+    },
+    "pierce": {
+        "title": "貫通",
+        "text": "貫通属性",
+        "type": "resource",
+        "icon": "Pierce"
+    },
+    "blunt": {
+        "title": "打撃",
+        "text": "打撃属性",
+        "type": "resource",
+        "icon": "Blunt"
+    }                                     
 }
