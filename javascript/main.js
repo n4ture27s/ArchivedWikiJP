@@ -42,6 +42,8 @@ if (tooltip) {
         if (!el) return;
 
         const key = el.dataset.key;
+        if (!tooltipData || !combat_module) return;
+
         const status = tooltipData[key];
         const module = combat_module[key];
         if (!status && !module) return;
@@ -57,8 +59,8 @@ if (tooltip) {
         }
     });
 }
-let tooltipData = {};
-let combat_module = {};
+let tooltipData = null;
+let combat_module = null;
 
 Promise.all([
     fetch("/javascript/json/status.json").then(res => res.json()),
@@ -78,6 +80,9 @@ document.querySelectorAll(".weapon-card").forEach(card => {
 });
 
 function applyAllStyles() {
+    // ツールチップ用データがロードされるまで処理をスキップ
+    if (!tooltipData || !combat_module) return;
+
     document.querySelectorAll(".tooltip-target").forEach(el => {
         // パフォーマンス: すでに処理済みの要素はスキップ
         if (el.dataset.processed) return;

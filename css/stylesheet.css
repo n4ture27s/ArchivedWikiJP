@@ -637,12 +637,6 @@ th.sort-desc::after {
     font-size: 0.85rem;
 }
 
-.stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .label {
     font-size: 0.7rem;
     color: #888;
@@ -721,7 +715,9 @@ th.sort-desc::after {
     margin-bottom: 20px;
 }
 
-.stat {
+.weapon-card .weapon-stats .stat {
+    flex-direction: column;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 5px 0;

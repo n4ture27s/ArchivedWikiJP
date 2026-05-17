@@ -29,13 +29,16 @@ function formatText(text) {
     return formatted;
 }
 
-function createStat(label, value) {
-    return `
-        <div class="stat-row">
-            <span>${label}</span>
-            <span>${value}</span>
-        </div>
+function createStat(label, value, className = "") {
+    const row = document.createElement("div");
+    row.classList.add("stat");
+
+    row.innerHTML = `
+        <span class="label">${label}</span>
+        <span class="value ${className}">${value}</span>
     `;
+
+    return row;
 }
 
 window.DataStore = {
