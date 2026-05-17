@@ -1,10 +1,3 @@
-const typeMap = {
-    slash: "斬撃",
-    pierce: "貫通",
-    blunt: "打撃"
-};
-
-
 // 要素に適用
 function setFormattedText(el, text) {
     if (!el) return;
