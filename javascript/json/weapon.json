@@ -653,7 +653,7 @@
       "title":"reload",
       "image": "/assets/image/weapon/fascia_reload.webm",
       "desc":"",
-      "effect":"{corpus_ingredient}を{protection}分得る。\nもし{corpus_ingredient}が20以上、{protection}が15以上だった場合武器が変形する。",
+      "effect":"{corpus_ingredient}を消費して、消費した分の{protection}得る。\nもし{corpus_ingredient}が20以上、{protection}が15以上だった場合武器が変形する。",
       "ct":9
     }
   },
