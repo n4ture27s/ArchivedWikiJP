@@ -1,0 +1,360 @@
+{
+    "wrath": {
+        "title": "Wrath",
+        "desc": "火傷のスキルツリー",
+        "icon": "Wrath.png",
+        "color": "#883126",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Battle Ignition",
+                "requirement": "10",
+                "text": "3秒以内に敵に5回攻撃を命中させると、一時的にダメージが20%増加する。\n発動中は、目に赤い軌跡が現れ、{battle_ignition}状態になる。"
+            },
+            {
+                "name": "Close Call Wind",
+                "requirement": "10",
+                "text": "体力が25%以下の場合、ダッシュ距離を増加させる。"
+            },
+            {
+                "name": "Follow-Up",
+                "requirement": "15",
+                "text": "スライド攻撃時して地面についたときにRを押すことで相手を上に少し上げる攻撃をする。"
+            },
+            {
+                "name": "Smoldering Resolve",
+                "requirement": "25",
+                "text": "体力が40%未満の場合、ダメージを10%軽減する。"
+            },
+            {
+                "name": "Tip-Toe Around",
+                "requirement": "30",
+                "text": "ジャスト回避後、攻撃者に反撃すると10%ダメージが増える。"
+            },
+            {
+                "name": "Inner Ardor",
+                "requirement": "30",
+                "text": "感情レベルが1の場合: {burn}の付与量が20%増加\n 感情レベルが2の場合: {burn}の付与量が50%増加"
+            },
+            {
+                "name": "Backdraft",
+                "requirement": "35",
+                "text": "スタミナが少ない時、ダメージが増加する。"
+            }
+        ]
+    },
+    "desire": {
+        "title": "Desire",
+        "desc": "出血のスキルツリー",
+        "icon": "Desire.png",
+        "color": "#bb783c",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Here We Go Again",
+                "requirement": "10",
+                "text": "戦闘開始時に{light}を3得る"
+            },
+            {
+                "name": "Craving Synergy",
+                "requirement": "15",
+                "text": "相手が{bleed}を5以上持っている時に\nクリティカルを当てると3の{haste}を得る。\n \n このパッシブは「Thirst」と併用できない。"
+            },
+            {
+                "name": "Thirs",
+                "requirement": "20",
+                "text": "{bleed}状態の対象にクリティカルを当てると\n 相手の{bleed}を半分にしてその分を回復する\n \nこのパッシブは「Craving Synergy」と併用できない。"
+            },
+            {
+                "name": "Voracity",
+                "requirement": "30",
+                "text": "もしマッチに勝ったのなら、{light}を2得る。\n 発動された場合15秒のクールダウン"
+            },
+            {
+                "name": "A Beautiful Mess",
+                "requirement": "50",
+                "text": "対象に7以上の{bleed}がある場合、\n ランダムでデバフを5付与する。\n \nこのパッシブは「Break the Dams」と併用できない"
+            },
+            {
+                "name": "Break the Dams",
+                "requirement": "50",
+                "text": "対象に7以上の{bleed}がある場合、\n {big_wound}を1付与する。\n \nこのパッシブは「A Beautiful Mess」と併用できない"
+            }
+        ]
+    },
+    "sloth": {
+        "title": "Sloth",
+        "desc": "振動のスキルツリー",
+        "icon": "Sloth.png",
+        "color": "#efa701",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Pounce",
+                "requirement": "5",
+                "text": "スライド攻撃して地面についたときに\n Rを押すことで前方に攻撃する"
+            },
+            {
+                "name": "Fleeting Steps",
+                "requirement": "10",
+                "text": "攻撃をジャスト回避すると、スタミナを回復する。"
+            },
+            {
+                "name": "Masterd Breaths",
+                "requirement": "15",
+                "text": "パリィミス時のスタミナ消費を\n 25から15に変更する。"
+            },
+            {
+                "name": "Fortified Resolve",
+                "requirement": "20",
+                "text": "ブロック時のスタミナ消費を20%軽減\n バックスタブ時のダメージを20%減少させる。"
+            },
+            {
+                "name": "Shockwave",
+                "requirement": "25",
+                "text": "{guard_break}時に、5の{tremor}を付与する。"
+            },
+            {
+                "name": "Break and Punish",
+                "requirement": "30",
+                "text": "混乱している対象に対して\n 10%ダメージが増加する。"
+            },
+            {
+                "name": "Wasted Hours, Lying Down",
+                "requirement": "40",
+                "text": "混乱している対象に対して\n {tremor}を付与する量が2倍になる。"
+            }
+        ]
+    },
+    "gluttony": {
+        "title": "Gluttony",
+        "desc": "破裂のスキルツリー",
+        "icon": "Gluttony.png",
+        "color": "#bad04d",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Defenseless",
+                "requirement": "10",
+                "text": "{rupture}を持つ対象に対して\nブロック時のスタミナダメージが増加する。"
+            },
+            {
+                "name": "Biting Embrace",
+                "requirement": "15",
+                "text": "{guard_break}時に、5の{rupture}を付与する。"
+            },
+            {
+                "name": "Thorns",
+                "requirement": "30",
+                "text": "マッチ敗北時に対象に\n {rupture}を7付与する。"
+            },
+            {
+                "name": "Tear To Shreds",
+                "requirement": "35",
+                "text": "{rupture}の効果を1.5倍にする。\n 「Death Comes For All」とは併用できない。"
+            },
+            {
+                "name": "Death Comes For All",
+                "requirement": "50",
+                "text": "{rupture}の効果により与えるダメージが15%増加\n {rupture}を持っている対象を攻撃すると\n自身に{rupture}を1付与\n \n 「Tear To Shreds」とは併用できない。"
+            }
+        ]
+    },
+    "pride": {
+        "title": "Pride",
+        "desc": "呼吸のスキルツリー",
+        "icon": "Pride.png",
+        "color": "#2e5881",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Engaging",
+                "requirement": "10",
+                "text": "スライド攻撃をブロックで防げるようになる。"
+            },
+            {
+                "name": "Claim Their Heart",
+                "requirement": "15",
+                "text": "{guard_break}時に対象の体力が15%未満の場合Claim Their Heartを発動して特殊な{auto_execute}をする。"
+            },
+            {
+                "name": "Steady Breathing",
+                "requirement": "15",
+                "text": "{clash_win}に{poise}を5得る"
+            },
+            {
+                "name": "Shrouded Power",
+                "requirement": "20",
+                "text": "相手が{stagger}時に\n{poise}を4得る"
+            },
+            {
+                "name": "Smoke Overload",
+                "requirement": "30",
+                "text": "クリティカルヒットを当てて\n {poise}を発動させた場合\n{poise}は消費されない。"
+            },
+            {
+                "name": "Adrenaline Rush",
+                "requirement": "35",
+                "text": "戦闘開始時に{poise}を5得る"
+            },
+            {
+                "name": "Sharp Eyes",
+                "requirement": "45",
+                "text": "クリティカルヒットの倍率が1.3倍になる"
+            },
+            {
+                "name": "Overbearing",
+                "requirement": "50",
+                "text": "通常攻撃が的中時に{poise}を1得る\n[1秒のクールダウン]\n \n「Steady Breathing」とは併用できない。"
+            },
+            {
+                "name": "Steady Breathing",
+                "requirement": "50",
+                "text": "{poise}を発動した場合\n 代わりに1.5でその{poise}を割る\n \n「Overbearing」とは併用できない。"
+            }
+        ]
+    },
+    "envy": {
+        "title": "Envy",
+        "desc": "充電のスキルツリー",
+        "icon": "Envy.png",
+        "color": "#bb6fd5",
+        "position": "outer",
+        "skills": [
+            {
+                "name": "Charge Up",
+                "requirement": "5",
+                "text": "パリィ成功時に{charge}を1得る"
+            },
+            {
+                "name": "Convert Physical Trauma",
+                "requirement": "10",
+                "text": "被弾時に{charge}を1得る。"
+            },
+            {
+                "name": "Blessed by the Sparks",
+                "requirement": "15",
+                "text": "集中攻撃を的中させると\n {charge}を2得る。"
+            },
+            {
+                "name": "Electrifying Vendetta",
+                "requirement": "30",
+                "text": "15以上の{charge}があって\n重い攻撃をパリィすると少し遅延して\n相手をショートさせ1~4ダメージを与える。"
+            },
+            {
+                "name": "Short Circuit Trip",
+                "requirement": "35",
+                "text": "15以上の{charge}があってジャスト回避をすると\n 対象に「ライトアウト」効果を付与し\n少しの間ラグドールにして、{charge}を8消費する。"
+            },
+            {
+                "name": "Kinetic Energy",
+                "requirement": "40",
+                "text": "10以上の{charge}がある場合\n通常攻撃のダメージを10%増加させる。"
+            },
+            {
+                "name": "Overflowing Guard",
+                "requirement": "45",
+                "text": "5以上の{charge}がある場合\n{charge}を1消費してブロック時のスタミナダメージを半減する。"
+            },
+            {
+                "name": "Overcharged Vessel",
+                "requirement": "50",
+                "text": "プレイヤーが10以上の{charge}を持っている場合\n嫉妬完全共鳴をして{charge}10ごとに15秒間の過充電状態に入る。過充電の間{charge}10ごとに1の{value_up}と5%のダメージ増加を得る。(最大30の{charge}まで)\n代償として、{charge}10ごとに{tremor_decay}を5得て、自傷ダメージを受ける(最大33まで)\n {charge}は消費されず、条件としてみなす。"
+            }
+        ]
+    },
+    "gloom": {
+        "title": "Gloom",
+        "desc": "沈潜のスキルツリー",
+        "icon": "Gloom.png",
+        "color": "#68adbd",
+        "position": "outer",
+
+        "skills": [
+            {
+                "name": "Tap Of The Light",
+                "requirement": "10",
+                "text": "EGOを使う際の精神力の消耗量が減少する。"
+            },
+            {
+                "name": "Borderline Breakdown",
+                "requirement": "15",
+                "text": "精神力が低いほどダメージが増加する。\n最大+5%の増加"
+            },
+            {
+                "name": "Comeback Time",
+                "requirement": "15",
+                "text": "EGOを使うときに体力が45%未満なら\n25%回復する。"
+            },
+            {
+                "name": "Wail",
+                "requirement": "20",
+                "text": "精神力が-25以下の場合\n ダメージが10%増加する。"
+            },
+            {
+                "name": "No Will To Break",
+                "requirement": "30",
+                "text": "EGO発現中に受けるダメージが20%減少する。"
+            },
+            {
+                "name": "Negative Thoughts",
+                "requirement": "30",
+                "text": "精神力の回復が減少に変更される。\n (例えるなら、パリィ成功時の精神力回復が7から-7に変更される)"
+            },
+            {
+                "name": "No Mind To Cure",
+                "requirement": "35",
+                "text": "戦闘開始前に精神力が-の場合\n戦闘開始時に精神力が-25に変更される。"
+            },
+            {
+                "name": "Cry On Deaf Ears",
+                "requirement": "40",
+                "text": "精神力が-25未満場合\n{sinking}の付与量が1.5倍になる"
+            },
+            {
+                "name": "Pray To Dead Gods",
+                "requirement": "50",
+                "text": "相手の{sinking}が発動するたびに\n自身に{sinking}を1付与する。"
+            }
+        ]
+    },
+    "shin": {
+        "title": "心・望",
+        "desc": "心のスキルツリー",
+        "color": "#ffea00",
+        "position": "center",
+
+        "skills": [
+            {
+                "name": "Shin Follow Up",
+                "requirement": "10",
+                "text": "スライド攻撃時のRを押す攻撃に、\n{mang}が付く"
+            },
+            {
+                "name": "Defensive Light",
+                "requirement": "20",
+                "text": "{shin}を一定数保有してると、\n防護効果として発動し、受けるダメージが軽減される。\n軽減率は{shin}のレベルによって変わる\n [レベル1: 10%]| |[レベル2: 15%]\n[レベル3: 20%]| |[レベル4: 25%]\nレベル5: 30%"
+            },
+            {
+                "name": "Decimate Mind",
+                "requirement": "20",
+                "text": "使用できる条件:\n・gloomに20ポイントを振っている\n・心・望に20ポイント振っている\n-35まで精神力を消費することができる。"
+            },
+            {
+                "name": "Regain Mind",
+                "requirement": "30",
+                "text": "通常攻撃の最終段と、集中攻撃的中時\n精神力を10回復する"
+            },
+            {
+                "name": "Overwhelming Power",
+                "requirement": "50",
+                "text": "{mang}で強化された攻撃は、相手が瀕死の場合\n{auto_execute}をする。"
+            }
+        ]
+    }
+}

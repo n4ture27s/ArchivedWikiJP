@@ -27,22 +27,18 @@ function createTable(tableId, data, columns) {
     thead.appendChild(trHead);
 
     // ===== 本体 =====
+    const fragment = document.createDocumentFragment();
     data.forEach(row => {
         const tr = document.createElement("tr");
-
         columns.forEach(col => {
             const td = document.createElement("td");
-
             let value = row[col.key] ?? "";
-
-            // tooltip対応
             td.innerHTML = formatText(value);
-
             tr.appendChild(td);
         });
-
-        tbody.appendChild(tr);
+        fragment.appendChild(tr);
     });
+    tbody.appendChild(fragment);
 
     if (typeof applyAllStyles === "function") {
         applyAllStyles();
@@ -64,15 +60,18 @@ function sortTableData(data, key, table) {
     table.dataset.sortKey = key;
     table.dataset.asc = asc;
     updateSortUI(table, key, asc);
+
     return [...data].sort((a, b) => {
-        const A = a[key] ?? "";
-        const B = b[key] ?? "";
+        let A = a[key] ?? "";
+        let B = b[key] ?? "";
 
-        return asc
-            ? String(A).localeCompare(String(B), "ja")
-            : String(B).localeCompare(String(A), "ja");
+        // 数値が含まれる場合は数値比較を優先、それ以外はlocaleCompare
+        const isNum = !isNaN(A) && !isNaN(B) && A !== "" && B !== "";
+        if (isNum) {
+            return asc ? Number(A) - Number(B) : Number(B) - Number(A);
+        }
+        return asc ? String(A).localeCompare(String(B), "ja") : String(B).localeCompare(String(A), "ja");
     });
-
 }
 
 function updateSortUI(table, key, asc) {
@@ -235,18 +234,3 @@ createTable("atk_trait", trait_atk_data, trait_atk_columns);
 createTable("def_trait", trait_def_data, trait_columns);
 createTable("parry_trait", trait_parry_data, trait_columns);
 createTable("other_trait", trait_other_data, trait_columns);
-function formatText(text) {
-    if (!text) return "";
-
-    // 改行（\n と \br 両対応）
-    let formatted = text
-        .replace(/\\br/g, "\n")
-        .replace(/\n/g, "<br>");
-
-    // {key} → tooltip
-    formatted = formatted.replace(/\{(.*?)\}/g, (_, key) => {
-        return `<span class="tooltip-target" data-key="${key}"></span>`;
-    });
-
-    return formatted;
-}

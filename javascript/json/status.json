@@ -292,5 +292,29 @@
         "text": "ウアジェト先鋒 ケペシュ専用の弾丸",
         "type": "resource",
         "icon": "LCA_Fracture_Round"
-    }                                   
+    },
+    "battle_ignition": {
+        "title": "戦闘点火",
+        "text": "ダメージを20%増加させる",
+        "type": "resource",
+        "icon": "battle_ignition"
+    },
+    "tremor_decay": {
+        "title": "振動 -崩壊-",
+        "text": "被弾時に値に等しい追加ダメージを受けてその後、値を1減らす",
+        "type": "debuff",
+        "icon": "Tremor_Decay"
+    },
+    "shin": {
+        "title": "心",
+        "text": "強者の証、これを一定数貯めることで...",
+        "type": "buff",
+        "icon": "Shin"
+    },
+    "mang": {
+        "title": "望",
+        "text": "「...それなら、天退星。一撃だけ殴られろ、天究星にやったように。」",
+        "type": "buff",
+        "icon": "Mang"
+    }                               
 }

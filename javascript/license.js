@@ -16,5 +16,6 @@ fetch('/javascript/json/license.json')
       `;
 
       container.appendChild(div);
+      
     });
   });

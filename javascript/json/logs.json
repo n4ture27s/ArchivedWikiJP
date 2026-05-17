@@ -1,6 +1,14 @@
 {
   "logs": [
     {
+      "date": "2026/05/07",
+      "new": true,
+      "items": [
+        { "type": "add", "text": "背景色の変更" },
+        { "type": "change" ,"text": "背景色"}
+      ]
+    },
+    {
       "date": "2026/05/05(2)",
       "new": true,
       "items": [

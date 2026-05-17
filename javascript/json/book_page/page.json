@@ -1,0 +1,35 @@
+{
+  "level_slash": {
+    "name_en": "Level Slash",
+    "name_jp": "横斬り",
+    "book": "red_mist",
+    "light": 2,
+    "ct": "13s",
+    "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
+  },
+  "on_rush": {
+    "name_en": "Onrush",
+    "name_jp": "突進",
+    "book": "red_mist",
+    "light": 2,
+    "ct": "15s",
+    "effect": "{on_use} このページは{damage_modifier}の影響を受けない。\n{dice1} [14~26] 斬撃 {ground} {on_hit} スタミナダメージ40を与えて{bleed}3を付与。\n{on_hit} {imitation}1を得る。{light}が6以上なら{damage_modifier}を0.70倍にして{dice1}を再使用する。"
+  },
+  "focus_sprit": {
+    "name_en": "Focus Sprit",
+    "name_jp": "気合い",
+    "book": "red_mist",
+    "light": 2,
+    "ct": "40s",
+    "effect": "{on_use} {hyperarmor}を1.5秒得る\n{on_use} {value_up}2を得る。持続時間は{dice1}秒間。\n{dice1} [10~20]"
+  },
+
+  "augury_infusion": {
+    "name_en": "Augury Infusion",
+    "name_jp": "卦入",
+    "book": "hana",
+    "light": 2,
+    "ct": "20s",
+    "effect": "{on_use} {hyperarmor}を1.5秒得る\n{hit_ground} {guard_break} {dice1} [13~18] 打撃 {on_hit} {tremor}4を付与し{tremor_burst}"
+  }
+}
