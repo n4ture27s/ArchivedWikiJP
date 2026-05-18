@@ -1,35 +1,55 @@
 {
-  "level_slash": {
-    "name_en": "Level Slash",
-    "name_jp": "横斬り",
-    "book": "red_mist",
-    "light": 2,
-    "ct": "13s",
-    "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
+  "red_mist": {
+    "level_slash": {
+      "name_en": "Level Slash",
+      "name_jp": "横斬り",
+      "light": 2,
+      "ct": "13s",
+      "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
+    },
+    "on_rush": {
+      "name_en": "Onrush",
+      "name_jp": "突進",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{on_use} このページは{damage_modifier}の影響を受けない。\n{dice1} [14~26] 斬撃 {ground} {on_hit} スタミナダメージ40を与えて{bleed}3を付与。\n{on_hit} {imitation}1を得る。{light}が6以上なら{damage_modifier}を0.70倍にして{dice1}を再使用する。"
+    },
+    "focus_sprit": {
+      "name_en": "Focus Sprit",
+      "name_jp": "気合い",
+      "light": 2,
+      "ct": "40s",
+      "effect": "{on_use} {hyperarmor}を1.5秒得る\n{on_use} {value_up}2を得る。持続時間は{dice1}秒間。\n{dice1} [10~20]"
+    }
   },
-  "on_rush": {
-    "name_en": "Onrush",
-    "name_jp": "突進",
-    "book": "red_mist",
-    "light": 2,
-    "ct": "15s",
-    "effect": "{on_use} このページは{damage_modifier}の影響を受けない。\n{dice1} [14~26] 斬撃 {ground} {on_hit} スタミナダメージ40を与えて{bleed}3を付与。\n{on_hit} {imitation}1を得る。{light}が6以上なら{damage_modifier}を0.70倍にして{dice1}を再使用する。"
-  },
-  "focus_sprit": {
-    "name_en": "Focus Sprit",
-    "name_jp": "気合い",
-    "book": "red_mist",
-    "light": 2,
-    "ct": "40s",
-    "effect": "{on_use} {hyperarmor}を1.5秒得る\n{on_use} {value_up}2を得る。持続時間は{dice1}秒間。\n{dice1} [10~20]"
-  },
-
-  "augury_infusion": {
-    "name_en": "Augury Infusion",
-    "name_jp": "卦入",
-    "book": "hana",
-    "light": 2,
-    "ct": "20s",
-    "effect": "{on_use} {hyperarmor}を1.5秒得る\n{hit_ground} {guard_break} {dice1} [13~18] 打撃 {on_hit} {tremor}4を付与し{tremor_burst}"
+  "hana": {
+    "augury_infusion": {
+      "name_en": "Augury Infusion",
+      "name_jp": "卦入",
+      "light": 2,
+      "ct": "20s",
+      "effect": "{on_use} {hyperarmor}を得る\n {dice1} [13~18] {blunt} {hit_ground} {guard_break} {on_hit} {tremor}4を付与し{tremor_burst}"
+    },
+    "Celestial_sight": {
+      "name_en": "Celestial Sight",
+      "name_jp": "天体視力",
+      "light": 2,
+      "ct": "40s",
+      "effect": "{dice1} [4~8] {blunt} {non_frameone} {when_hit} {counter} {knockback}し、{tremor}6を付与"
+    },
+    "augury_crusher": {
+      "name_en": "Augury Crusher",
+      "name_jp": "卦壊",
+      "light": 3,
+      "ct": "20s",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} [13~18] {blunt} {multi_hit} {QTE} {hit_ground}\n[一撃目] {damage_modifier}0.75倍 {on_hit} {tremor}4を付与\n[二撃目] {damage_modifier}0.75倍 {on_hit} {tremor}4を付与\n{QTE_success} 何もない。"
+    },
+    "augury_kick": {
+      "name_en": "Augury Kick",
+      "name_jp": "卦脚",
+      "light": 4,
+      "ct": "20s",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} [5~7] {blunt} {hit_ground} {guard_break} {on_hit} {tremor}12を付与\n{dice2} [16~22] {blunt} {ground} {unparriable} {on_hit} {tremor_burst}\n対象の{tremor}が20以上で振動爆発したなら、{value_up}2を12秒間得る"
+    }
   }
 }

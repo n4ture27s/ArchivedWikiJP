@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchivedJPWiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/stylesheet.css?v=1.0.6">
+</head>
+
+<body data-page="effect">
+    <div id="header">
+        <header>
+            <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
+
+        </header>
+    </div>
+
+
+    <main>
+        <div id="sideflex">
+            <div id="sidebar-container"></div>
+            <div id="main-content">
+                <div id="tooltip"></div>
+                <div class="w-back">
+                    <p id="w-title" >ステータス効果一覧</p>
+                    <hr class="hr-main">
+                    <details id="content-list" open>
+                        <summary id="content-list-title">目次</summary>
+                        <div id="content-list-inner">
+                            <a href="#what-origin">ステータス効果とは</a>
+                            <a href="#section-buff">バフ一覧</a>
+                            <a href="#section-debuff">デバフ一覧</a>
+                            <a href="#section-resource">リソース・その他一覧</a>
+                        </div>
+                    </details>
+                    <p id="what-origin" class="w-subtitle heading">ステータス効果とは</p>
+                    <div class="text-area">
+                        <p>戦闘中に付与される様々なバフ、デバフ、およびリソースの解説です。</p>
+                        <p>名称にマウスを合わせることで、ゲーム内と同様のツールチップを確認できます。</p>
+                        <input type="text" id="status-search" placeholder="名称や説明で検索..." style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #444; background: #222; color: #fff; border-radius: 4px; box-sizing: border-box;">
+                        <p id="search-result-count" style="margin-top: 10px; color: #aaa; font-size: 0.9em;"></p>
+                    </div>
+
+                    <p id="section-buff" class="w-subtitle heading">バフ</p>
+                    <div class="text-area">
+                        <table class="data-table" id="table-buff">
+                            <thead></thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <p id="section-debuff" class="w-subtitle heading">デバフ</p>
+                    <div class="text-area">
+                        <table class="data-table" id="table-debuff">
+                            <thead></thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <p id="section-resource" class="w-subtitle heading">リソース・その他</p>
+                    <div class="text-area">
+                        <table class="data-table" id="table-resource">
+                            <thead></thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!--この下に書くとライセンス表記の下に出てきちゃうので注意-->
+    <div id="footer-container"></div>
+
+    <script src="/javascript/loader.js?v=1.0.6"></script>
+</body>
+
+</html>

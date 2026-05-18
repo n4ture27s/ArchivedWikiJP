@@ -45,7 +45,30 @@
     "modified": "翻訳・改変"
   },
   {
+    "title": "状態異常一覧",
+    "url": "/pages/other/effects.html",
+    "author": "Archived Wiki contributors",
+    "source": "https://archivedwiki.miraheze.org/wiki/Status_Effects",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": "翻訳・改変"
+  },
+  {
+    "title": "ランクページ",
+    "url": "/pages/other/effects.html",
+    "author": "Archived Wiki contributors",
+    "source": "https://archivedwiki.miraheze.org/wiki/Smuggler",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": "一部参考"
+  },
+  {
     "title": "12協会解説",
-    "url": "/grapon_brain_died"
+    "url": "/pages/system/association.html",
+    "author": "Archived Wiki contributors",
+    "source": "https://archivedwiki.miraheze.org/wiki/Associations",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modified": "翻訳・改変"
   }
 ]

@@ -1,4 +1,4 @@
-const version = "1.0.5";
+const version = "1.0.6";
 
 function loadScript(src) {
   const s = document.createElement("script");
@@ -29,6 +29,10 @@ if (document.body.dataset.page === "sin") {
 
 if (document.body.dataset.page === "page_detail") {
   loadScript("/javascript/page_detail.js");
+}
+
+if (document.body.dataset.page === "effect") {
+  loadScript("/javascript/status_list.js");
 }
 
 async function init() {
@@ -64,7 +68,7 @@ async function init() {
   }
 
   // 協会ページ (特定のBook IDに紐づくページ一覧を表示)
-  if (document.body.dataset.page === "association") {
+  if (document.body.dataset.page === "avaiablepages") {
 
     const bookId = document.body.dataset.bookId;
 
@@ -84,7 +88,7 @@ async function init() {
 window.addEventListener("load", init);
 
 const typeMap = {
-    slash: "斬撃",
-    pierce: "貫通",
-    blunt: "打撃"
+  slash: "斬撃",
+  pierce: "貫通",
+  blunt: "打撃"
 };
