@@ -902,6 +902,26 @@ th.sort-desc::after {
     padding: 20px;
     height: 400px;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--sin-color) #0a0a0a;
+}
+
+.skill-detail::-webkit-scrollbar {
+    width: 8px;
+}
+
+.skill-detail::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+.skill-detail::-webkit-scrollbar-thumb {
+    background-color: var(--sin-color);
+    border-radius: 10px;
+    border: 2px solid #0a0a0a;
+}
+
+.skill-detail::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
 }
 
 .skill-detail h2 {

@@ -27,10 +27,6 @@ if (document.body.dataset.page === "sin") {
   loadScript("/javascript/sin.js");
 }
 
-if (document.body.dataset.page === "page_detail") {
-  loadScript("/javascript/page_detail.js");
-}
-
 if (document.body.dataset.page === "effect") {
   loadScript("/javascript/status_list.js");
 }
