@@ -19,13 +19,17 @@ function renderPageList(containerId, filterBook = null) {
 
     container.innerHTML = "";
 
-    Object.entries(pages).forEach(([id, data]) => {
+    // 表示対象のブックを決定
+    const targetBookIds = filterBook ? [filterBook] : Object.keys(pages);
 
-        if (filterBook && data.book !== filterBook) return;
+    targetBookIds.forEach(bookId => {
+        const bookPages = pages[bookId];
+        if (!bookPages) return;
 
-        const book = books[data.book];
+        const book = books[bookId];
 
-        const div = document.createElement("div");
+        Object.entries(bookPages).forEach(([pageId, data]) => {
+            const div = document.createElement("div");
         div.className = "page-card";
 
         div.innerHTML = `
@@ -39,17 +43,19 @@ function renderPageList(containerId, filterBook = null) {
         <div class="page-top">
         <div class="page-name">${data.name_jp} / ${data.name_en}</div>
         </div>
-        <div class="page-effect">${formatText(data.effect)}</div>
+        <div class="page-effect">${formatText(data.effect || '')}</div>
+        ${data.effect2 ? `<div class="page-effect secondary-effect">${formatText(data.effect2)}</div>` : ''}
         <div class="page-bottom">
-            <div class="page-stat">光:${data.light}</div>
+            <div class="page-stat"><span class="tooltip-target" data-key="light"></span>:${data.light}</div>
             <div class="page-stat">CT:${data.ct}</div>
-            <div class="page-obtain">入手:${book.name_jp}</div>
+            <div class="page-obtain"><a href="/pages/arsenal/page_detail.html?id=${bookId}">入手:${book.name_jp}</a> </div>
             
         </div>
     </div>
         `;
 
         container.appendChild(div);
+        });
     });
 
     applyAllStyles?.();

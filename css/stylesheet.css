@@ -1055,6 +1055,10 @@ th.sort-desc::after {
     border: 3px solid #333;
 }
 
+.page-effect.secondary-effect {
+    margin-top: 30px;
+}
+
 .page-top {
     margin-bottom: 10px;
 }
@@ -1088,4 +1092,9 @@ th.sort-desc::after {
 
 .page-obtain {
     margin-left: auto;
+}
+
+.page-obtain a{
+    color: #f0c17d;
+    text-decoration: none;
 }
