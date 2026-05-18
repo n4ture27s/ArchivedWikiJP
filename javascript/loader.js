@@ -71,7 +71,7 @@ async function init() {
     if (!bookId) return;
 
     renderPageList("page-list", bookId);
-    renderWeaponList("weapon-list", bookId);
+    renderSimplifiedWeaponList("weapon-list", bookId);
   }
 
   // 武器一覧ページ専用のUI初期化
