@@ -702,14 +702,14 @@
     },
     "gun_reload": {
       "title":"reload",
-      "image": "/assets/image/weapon/udjat_vanguard_khopesh_reload.webm",
+      "image": "/assets/image/weapon/fullstop_rifle_reload.webm",
       "desc":"",
       "effect":"画面右下の弾丸を3消費して、{ammo}を3得る",
       "ct":9
     },
     "gun_shoot": {
       "title": "shoot",
-      "image": "/assets/image/weapon/udjat_vanguard_khopesh_shoot.webm",
+      "image": "/assets/image/weapon/fullstop_rifle_shoot.webm",
       "desc":"",
       "effect":"{ammo}を1消費して、20ダメージを与える",
       "ct":6
