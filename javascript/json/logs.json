@@ -5,8 +5,10 @@
       "new": true,
       "items": [
         { "type": "add", "text": "武器解説" },
-        { "type": "add", "text": "ページ解説" },
+        { "type": "add", "text": "ページ解説:ツヴァイ" },
+        { "type": "add", "text": "本形式のページ一覧"},
         { "type": "change" ,"text": "罪ページのスクロールバーのデザイン"},
+        { "type": "change" ,"text": "tooltipの濃さの変更"},
         { "type": "change" ,"text": "武器詳細ページの戻るボタンのデザイン"}
         
       ]

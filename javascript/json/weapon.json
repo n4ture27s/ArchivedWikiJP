@@ -52,7 +52,7 @@
     "critical": {
       "image": "/assets/image/weapon/fixer's_shortsword_critical.webm",
       "desc":"",
-      "effect":"{on_hit} 各ダイスに体力回復3\n {dice1} [5~8] {slash} {undogeable} {on_hit} {bleed}を2付与\n {dice2} [6~8]{slash} {on_hit} {bleed}を2付与",
+      "effect":"{on_hit} 各ダイスに体力回復3\n {dice1} [5~8] {slash} {undodgeable} {on_hit} {bleed}を2付与\n {dice2} [6~8]{slash} {on_hit} {bleed}を2付与",
       "ct":15
     }
   },
@@ -147,7 +147,7 @@
     "critical": {
       "image": "/assets/image/weapon/lamp_critical.webm",
       "desc":"",
-      "effect":"{undogeable}\n{dice1} [8~12] {blunt} {on_hit} 当たった対象を自分のほうに引き寄せて{burn}を5付与",
+      "effect":"{undodgeable}\n{dice1} [8~12] {blunt} {on_hit} 当たった対象を自分のほうに引き寄せて{burn}を5付与",
       "ct":15
     }
   },
@@ -192,7 +192,7 @@
     "critical": {
       "image": "/assets/image/weapon/liu_martial_arts_critical.webm",
       "desc":"",
-      "effect":"{on_use} {hyperarmor}\n {dice1} [5~8] {blunt} {on_hit} {burn}を3付与\n {dice2} [6~16] {blunt} {undogeable} {guard_break} {on_hit} {burn}を6付与",
+      "effect":"{on_use} {hyperarmor}\n {dice1} [5~8] {blunt} {on_hit} {burn}を3付与\n {dice2} [6~16] {blunt} {undodgeable} {guard_break} {on_hit} {burn}を6付与",
       "ct":16
     }
    },
@@ -230,7 +230,7 @@
     "critical": {
       "image": "/assets/image/weapon/Fluid_Sac_Hammer_critical.webm",
       "desc":"",
-      "effect":"{on_use} {hyperarmor} {undogeable}\n{dice1} [15~25] {blunt} {on_hit} {protection}を2得て{bleed}を11付与",
+      "effect":"{on_use} {hyperarmor} {undodgeable}\n{dice1} [15~25] {blunt} {on_hit} {protection}を2得て{bleed}を11付与",
       "ct":23
     }
   },
@@ -249,7 +249,7 @@
     "critical": {
       "image": "/assets/image/weapon/viriscent pyrojade ring_critical.webm",
       "desc":"",
-      "effect":"{dice1} {blunt} [5~8] このダイスはダメージを与えない\n {dice2} {blunt} [2~4] {undogeable} {on_hit} {burn}4を付与\n {dice3} {blunt} [10~12] {unblockable} {undogeable} {on_hit} {bleed}4を付与",
+      "effect":"{dice1} {blunt} [5~8] このダイスはダメージを与えない\n {dice2} {blunt} [2~4] {undodgeable} {on_hit} {burn}4を付与\n {dice3} {blunt} [10~12] {unblockable} {undodgeable} {on_hit} {bleed}4を付与",
       "ct":19
     }
   },
@@ -320,13 +320,13 @@
     "critical1": {
       "image": "/assets/image/weapon/kira_weapon_critical1.webm",
       "desc":"",
-      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{dice1} {blunt} [4~7] {undogeable}\n {dice2} {blunt} [7~10] {undogeable}{multi_hit}4回",
+      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{dice1} {blunt} [4~7] {undodgeable}\n {dice2} {blunt} [7~10] {undodgeable}{multi_hit}4回",
       "ct":16
     },
     "critical2": {
       "image": "/assets/image/weapon/kira_weapon_critical2.webm",
       "desc":"",
-      "effect":"{dice1} {blunt} [4~7] {undogeable}\n {dice2} {blunt} [4~7] {undogeable} {on_hit} {bleed}を2付与\n {dice3} {blunt} [5~7] {undogeable}\n {dice4} {blunt} [5～7] {undogeable} {on_hit} {bleed}を2付与",
+      "effect":"{dice1} {blunt} [4~7] {undodgeable}\n {dice2} {blunt} [4~7] {undodgeable} {on_hit} {bleed}を2付与\n {dice3} {blunt} [5~7] {undodgeable}\n {dice4} {blunt} [5～7] {undodgeable} {on_hit} {bleed}を2付与",
       "ct":16
     },
     "critical3": {
@@ -389,7 +389,7 @@
     "critical": {
       "image": "/assets/image/weapon/lucio_weapon_critical.webm",
       "desc":"",
-      "effect":"{dice1} [5~7] {slash} {undogeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] {slash} {undogeable} {multi_hit}を3回\n {dice3} [7~9] {slash} {undogeable} {on_hit}{tremor}と{burn}を2付与",
+      "effect":"{dice1} [5~7] {slash} {undodgeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] {slash} {undodgeable} {multi_hit}を3回\n {dice3} [7~9] {slash} {undodgeable} {on_hit}{tremor}と{burn}を2付与",
       "ct":16
     }
   },
@@ -408,7 +408,7 @@
     "critical1": {
       "image": "/assets/image/weapon/onis_tekko_critical1.webm",
       "desc":"",
-      "effect":"{dice1} [10~15] {blunt} {undogeable}{multi_hit}5回 ",
+      "effect":"{dice1} [10~15] {blunt} {undodgeable}{multi_hit}5回 ",
       "ct":16
     },
     "critical2": {
@@ -504,7 +504,7 @@
     "critical": {
       "image": "/assets/image/weapon/warp_corp_odachi_critical.webm",
       "desc":"",
-      "effect":"{on_use}{charge}が15未満の場合、{charge}x3のダメージを受ける\n {on_use}{charge}が7以上の場合、最大15消費する\n {on_use}もし{charge}を消費した場合ダイスが{dice1} [6~8],{dice2} [12~17],{dice3} [12~18]に変更する\n {on_use}にカーソルに対象を合わせている場合、無限射程の{tracking}になる\n {dice1} {slash} [6~8] {undogeable} {on_hit}{rupture}を1付与\n {dice2} {slash} [8~14]\n {dice3} {slash} [8~15] {on_hit}{charge}を3得る",
+      "effect":"{on_use}{charge}が15未満の場合、{charge}x3のダメージを受ける\n {on_use}{charge}が7以上の場合、最大15消費する\n {on_use}もし{charge}を消費した場合ダイスが{dice1} [6~8],{dice2} [12~17],{dice3} [12~18]に変更する\n {on_use}にカーソルに対象を合わせている場合、無限射程の{tracking}になる\n {dice1} {slash} [6~8] {undodgeable} {on_hit}{rupture}を1付与\n {dice2} {slash} [8~14]\n {dice3} {slash} [8~15] {on_hit}{charge}を3得る",
       "ct":20
     }
   },
@@ -594,7 +594,7 @@
     "critical": {
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_critical.webm",
       "desc":"",
-      "effect":"{dice1} {pierce} [3~5] {undogeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice2} {pierce} [3~7] {undogeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice3} {pierce} [3~9] {undogeable} {on_hit} {tremor}を2付与\n {dice4} {pierce} [3~10] {undogeable} {on_hit} {multi_hit}を2回、2回目の時に{sinking}を2付与\n {dice5} {pierce} [5~11] {undogeable} {on_hit} {fracture_bullet}を1消費して、{sinking}を2付与",
+      "effect":"{dice1} {pierce} [3~5] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice2} {pierce} [3~7] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice3} {pierce} [3~9] {undodgeable} {on_hit} {tremor}を2付与\n {dice4} {pierce} [3~10] {undodgeable} {on_hit} {multi_hit}を2回、2回目の時に{sinking}を2付与\n {dice5} {pierce} [5~11] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}を2付与",
       "ct":20
     },
     "gun_reload": {
@@ -627,7 +627,7 @@
     "critical": {
       "image": "/assets/image/weapon/moonlit_azure_blade_critical.webm",
       "desc":"",
-      "effect":"{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undogeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {unparryable} {on_hit} {poise}を5得る。{QTE}\n {QTE}成功時 {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
+      "effect":"{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undodgeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {unparryable} {on_hit} {poise}を5得る。{QTE}\n {QTE}成功時 {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
       "ct":13
     }
   },
