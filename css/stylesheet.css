@@ -524,7 +524,7 @@ th.sort-desc::after {
 #tooltip {
     position: fixed;
     display: none;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.69);
     border: 2px solid #f0c17d;
     box-shadow: 0 0 10px #f0c17d;
     color: white;
