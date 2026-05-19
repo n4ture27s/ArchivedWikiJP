@@ -3,13 +3,23 @@
     "name_jp": "ハナ協会の本",
     "name_en": "Hana Association",
     "icon": "association/hana",
-    "color": "#4f7bd9"
+    "color": "ffffff",
+    "color2": "ffffff"
   },
 
   "red_mist": {
     "name_jp": "赤い霧の本",
     "name_en": "Red Mist",
     "icon": "book/red_mist",
-    "color": "#c23b3b"
+    "color": "c23b3b",
+    "color2": "7a1a1a"
+  },
+
+  "zwei": {
+    "name_jp": "ツヴァイ協会の本",
+    "name_en": "Zwei Association",
+    "icon": "association/zwei",
+    "color": "313574",
+    "color2": "DAA744"
   }
 }
