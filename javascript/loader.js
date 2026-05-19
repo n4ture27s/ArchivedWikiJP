@@ -27,10 +27,6 @@ if (document.body.dataset.page === "sin") {
   loadScript("/javascript/sin.js");
 }
 
-if (document.body.dataset.page === "page_detail") {
-  loadScript("/javascript/page_detail.js");
-}
-
 if (document.body.dataset.page === "effect") {
   loadScript("/javascript/status_list.js");
 }
@@ -75,7 +71,7 @@ async function init() {
     if (!bookId) return;
 
     renderPageList("page-list", bookId);
-    renderWeaponList("weapon-list", bookId);
+    renderSimplifiedWeaponList("weapon-list", bookId);
   }
 
   // 武器一覧ページ専用のUI初期化

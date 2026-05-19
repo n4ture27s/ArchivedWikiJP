@@ -3,6 +3,9 @@
 :root {
     --sin-color: #d64545;
     --node-color: #777;
+    --book-color: #ffffff;
+    --book-color-2: #111111;
+
 }
 
 body {
@@ -521,7 +524,7 @@ th.sort-desc::after {
 #tooltip {
     position: fixed;
     display: none;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.69);
     border: 2px solid #f0c17d;
     box-shadow: 0 0 10px #f0c17d;
     color: white;
@@ -902,6 +905,26 @@ th.sort-desc::after {
     padding: 20px;
     height: 400px;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--sin-color) #0a0a0a;
+}
+
+.skill-detail::-webkit-scrollbar {
+    width: 8px;
+}
+
+.skill-detail::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+.skill-detail::-webkit-scrollbar-thumb {
+    background-color: var(--sin-color);
+    border-radius: 10px;
+    border: 2px solid #0a0a0a;
+}
+
+.skill-detail::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
 }
 
 .skill-detail h2 {
@@ -946,7 +969,12 @@ th.sort-desc::after {
 
 .book-card {
     background: #111;
-    border: 2px double var(--book-color) ;
+    /* 外側の枠線 (color) */
+    border: 2px solid var(--book-color);
+    /* 内側の枠線 (color2) と、その間の隙間 (背景色#111) を作る */
+    box-shadow: 
+        inset 0 0 0 2px #111,
+        inset 0 0 0 4px var(--book-color-2);
     padding: 10px;
     text-align: center;
     border-radius: 6px;
@@ -957,9 +985,9 @@ th.sort-desc::after {
     user-select: none;
 }
 
+
 .book-card:hover {
     transform: translateY(-4px);
-    box-shadow:0 0 12px var(--book-color);
 }
 
 .book-icon-area {
@@ -968,7 +996,7 @@ th.sort-desc::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom:2px solid var(--book-color);
+    border-bottom: 2px solid var(--book-color-2);
 }
 
 .book-icon-area img {
@@ -1016,7 +1044,7 @@ th.sort-desc::after {
 .page-card {
     background: linear-gradient( 180deg, #171717, #0d0d0d );
     border: 1px solid #444;
-    border-left: 4px solid #f0c17d;
+    border-left: 4px solid var(--book-color);
     border-radius: 8px;
     padding: 14px;
     margin-bottom: 12px;
@@ -1097,4 +1125,172 @@ th.sort-desc::after {
 .page-obtain a{
     color: #f0c17d;
     text-decoration: none;
+}
+/* =========================
+   Simplified Weapon Cards (Association Page)
+   ========================= */
+
+.weapon-list-simplified {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.weapon-card-simple {
+    background: linear-gradient(180deg, #171717, #0d0d0d);
+    border: 1px solid #444;
+    border-left: 4px solid #f0c17d;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border-color 0.2s;
+}
+
+.weapon-card-simple:hover {
+    border-color: #f0c17d;
+}
+
+.weapon-card-simple .simple-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.weapon-card-simple .weapon-name .name-en {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+}
+
+.weapon-card-simple .weapon-name .name-jp {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.weapon-card-simple .weapon-stats-compact {
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+.weapon-card-simple .simple-body {
+    max-height: 0;
+    opacity: 0;
+    padding: 0 16px;
+    transition: all 0.3s ease-in-out;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.weapon-card-simple.expanded .simple-body {
+    max-height: 1000px; /* 必要に応じて調整 */
+    opacity: 1;
+    padding: 16px;
+    border-top: 1px solid #333;
+    overflow-y: auto; /* 内容が多い場合にスクロール可能にする */
+}
+
+.weapon-card-simple .simple-content-wrapper {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.weapon-card-simple .weapon-image-simple {
+    width: 180px;
+    height: auto;
+    border: 1px solid #444;
+    border-radius: 4px;
+    flex-shrink: 0;
+    object-fit: cover;
+    background: #000;
+}
+
+.weapon-card-simple .simple-info-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.weapon-card-simple .simple-attacks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.weapon-card-simple .simple-attack-section {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.weapon-card-simple .simple-attack-content {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.weapon-card-simple .attack-vid-simple {
+    width: 200px; /* 簡易表示用に小さめに設定 */
+    height: auto;
+    border: 1px solid #444;
+    border-radius: 4px;
+    flex-shrink: 0;
+}
+
+.weapon-card-simple .simple-attack-info {
+    flex: 1;
+}
+
+.weapon-card-simple .attack-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #f0c17d;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weapon-card-simple .attack-title .ct {
+    color: #ff6b6b;
+    font-size: 0.75rem;
+}
+
+.weapon-card-simple .simple-desc {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.weapon-card-simple .simple-effect {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px dashed #444;
+}
+
+.weapon-card-simple .simple-desc {
+    
+}
+
+.weapon-card-simple .simple-footer {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.weapon-card-simple .detail-link {
+    display: inline-block;
+    color: #f0c17d;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border: 1px solid #f0c17d;
+    padding: 4px 12px;
+    transition: 0.2s;
+}
+
+.weapon-card-simple .detail-link:hover {
+    background: #f0c17d;
+    color: #000;
 }

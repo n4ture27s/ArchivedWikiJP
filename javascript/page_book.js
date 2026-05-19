@@ -32,6 +32,16 @@ function renderPageList(containerId, filterBook = null) {
             const div = document.createElement("div");
         div.className = "page-card";
 
+        div.style.setProperty(
+            "--book-color",
+            `#${book.color}` || "#777"
+        );
+
+        div.style.setProperty(
+            "--book-color",
+            `#${book.color2}` || `#${book.color}` || "#777"
+        );
+
         div.innerHTML = `
     <div class="page-video">
         <video autoplay loop muted>
@@ -79,7 +89,12 @@ function renderBookList(containerId) {
 
         div.style.setProperty(
             "--book-color",
-            data.color || "#777"
+            `#${data.color}` || "#777"
+        );
+
+        div.style.setProperty(
+            "--book-color-2",
+            `#${data.color2}` || `#${data.color}` || "#777"
         );
 
         div.innerHTML = `
@@ -113,4 +128,46 @@ function renderBookList(containerId) {
 
         container.appendChild(div);
     });
+}
+
+
+function renderBookHeader(bookId) {
+
+    const data = books[bookId];
+
+    if (!data) return;
+
+    const el = document.getElementById("book-header");
+
+    if (!el) return;
+
+    el.style.setProperty(
+        "--book-color",
+        `#${data.color}` || "#777"
+    );
+
+    el.style.setProperty(
+        "--book-color-2",
+        `#${data.color2}` || `#${data.color}` || "#777"
+    );
+
+    el.innerHTML = `
+
+    <div class="book-detail-header">
+
+        <img
+            src="/assets/image/${data.icon}.png"
+            class="book-detail-icon"
+        >
+
+        <div>
+
+            <h1>${data.name_jp}</h1>
+
+            <p>${data.name_en || ""}</p>
+
+        </div>
+
+    </div>
+    `;
 }

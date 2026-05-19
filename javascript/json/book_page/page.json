@@ -3,6 +3,7 @@
     "level_slash": {
       "name_en": "Level Slash",
       "name_jp": "横斬り",
+      "image": "",
       "light": 2,
       "ct": "13s",
       "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
@@ -10,6 +11,7 @@
     "on_rush": {
       "name_en": "Onrush",
       "name_jp": "突進",
+      "image": "",
       "light": 2,
       "ct": "15s",
       "effect": "{on_use} このページは{damage_modifier}の影響を受けない。\n{dice1} [14~26] 斬撃 {ground} {on_hit} スタミナダメージ40を与えて{bleed}3を付与。\n{on_hit} {imitation}1を得る。{light}が6以上なら{damage_modifier}を0.70倍にして{dice1}を再使用する。"
@@ -17,6 +19,7 @@
     "focus_sprit": {
       "name_en": "Focus Sprit",
       "name_jp": "気合い",
+      "image": "",
       "light": 2,
       "ct": "40s",
       "effect": "{on_use} {hyperarmor}を1.5秒得る\n{on_use} {value_up}2を得る。持続時間は{dice1}秒間。\n{dice1} [10~20]"
@@ -26,6 +29,7 @@
     "augury_infusion": {
       "name_en": "Augury Infusion",
       "name_jp": "卦入",
+      "image": "",
       "light": 2,
       "ct": "20s",
       "effect": "{on_use} {hyperarmor}を得る\n {dice1} [13~18] {blunt} {hit_ground} {guard_break} {on_hit} {tremor}4を付与し{tremor_burst}"
@@ -33,6 +37,7 @@
     "Celestial_sight": {
       "name_en": "Celestial Sight",
       "name_jp": "天体視力",
+      "image": "",
       "light": 2,
       "ct": "40s",
       "effect": "{dice1} [4~8] {blunt} {non_frameone} {when_hit} {counter} {knockback}し、{tremor}6を付与"
@@ -40,6 +45,7 @@
     "augury_crusher": {
       "name_en": "Augury Crusher",
       "name_jp": "卦壊",
+      "image": "",
       "light": 3,
       "ct": "20s",
       "effect": "{on_use} {hyperarmor}を得る\n{dice1} [13~18] {blunt} {multi_hit} {QTE} {hit_ground}\n[一撃目] {damage_modifier}0.75倍 {on_hit} {tremor}4を付与\n[二撃目] {damage_modifier}0.75倍 {on_hit} {tremor}4を付与\n{QTE_success} 何もない。"
@@ -47,9 +53,44 @@
     "augury_kick": {
       "name_en": "Augury Kick",
       "name_jp": "卦脚",
+      "image": "",
       "light": 4,
       "ct": "20s",
       "effect": "{on_use} {hyperarmor}を得る\n{dice1} [5~7] {blunt} {hit_ground} {guard_break} {on_hit} {tremor}12を付与\n{dice2} [16~22] {blunt} {ground} {unparriable} {on_hit} {tremor_burst}\n対象の{tremor}が20以上で振動爆発したなら、{value_up}2を12秒間得る"
+    }
+  },
+  "zwei": {
+    "client_protection": {
+      "name_en": "Client Protection",
+      "name_jp": "クライアント保護",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{on_use} {defense_up}が10以上なら、ロール値を {dice1}7~9 {dice2}7~11 {dice3}5~9 に変更 \n {dice1} [4~6] {slash} {on_hit} {defense_up}を2得る \n {dice2} [4~8] {slash} {on_hit} {defense_up}を2得る\n{dice3} [4~8] {slash} {guard_break} {knock_back} {on_hit} {defense_up}を2得て、{defense_down}を6付与。" 
+    },
+    "stand_off": {
+      "name_en": "Stand Off",
+      "name_jp": "立ち向かう",
+      "image": "",
+      "light": 1,
+      "ct": "25s",
+      "effect": "{dice1} [4~7] {slash} {on_hit} {defense_up}を3得る \n {dice2} [5~9] {slash} {on_hit} {defense_up}を3得る" 
+    },
+    "blade_whirl": {
+      "name_en": "Blade Whirl",
+      "name_jp": "回転斬り",
+      "image": "",
+      "light": 3,
+      "ct": "30s",
+      "effect": "{on_use} {damage_modifier}0.86倍を得る(0.5倍に下方修正予定)\n{on_use} {hyperarmor}を得る\n{dice1} [4~7] {slash} {on_hit} {defense_up}を2得る\n{dice2} [4~8] {slash} {on_hit} {defense_up}を2得る\n{dice3} [4~9] {slash} {on_hit} {defense_up}を2得る\n{dice4} [9~14] {slash} {knock_back} {on_hit} {defense_up}を2得て、{defense_down}を5付与\n{on_hit} {defense_up}が10以上なら、{shield_hp}を10得る"
+    },
+    "law_and_order": {
+      "name_en": "Law and Order",
+      "name_jp": "治安維持",
+      "image": "",
+      "light": 2,
+      "ct": "20s",
+      "effect": "{frameone}\n{on_use} {counter}姿勢をとる\n{dice1} [4~5] {slash} {when_hit} {guard_break} {on_hit} {defense_up}を5得て、{defense_down}を3付与\n{dice2} [5~9] {slash} {on_hit} {defense_down}を3付与\n{dice3} [8~14] {slash} {on_hit} {defense_down}を3付与"
     }
   }
 }
