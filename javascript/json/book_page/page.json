@@ -100,7 +100,7 @@
       "image": "",
       "light": 3,
       "ct": "24s",
-      "effect": "{on_hit} {dice3} が {tracking} する。 \n {dice1} [5~8] {slash} {undodgeable} \n {dice2} [5~8] {slash} {undodgeable} \n {dice3} [8~12] {pierce} {guard_break}"
+      "effect": "{on_hit} {dice3} が{tracking}する。 \n {dice1} [5~8] {slash} {undodgeable} \n {dice2} [5~8] {slash} {undodgeable} \n {dice3} [8~12] {pierce} {guard_break}"
     },
     "dodge_and_strike": {
       "name_en": "Dodge and Strike",
@@ -108,7 +108,7 @@
       "image": "",
       "light": 1,
       "ct": "25s",
-      "effect": "{dice1} {undodgeable} \n {when_hit} 、 {evade} して、 {hyperarmor} を得る。そして、 [12~16] {slash} で {counter} 。"
+      "effect": "{dice1} {undodgeable} \n{when_hit}、{evade}して、{hyperarmor}を得る。そして、[12~16] {slash}で{counter} 。"
     },
     "charge_and_cover": {
       "name_en": "Charge and Cover",
