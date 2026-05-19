@@ -87,7 +87,7 @@
     "law_and_order": {
       "name_en": "Law and Order",
       "name_jp": "治安維持",
-      "image": "/assets/image/weapon/augury_spear_basic.webm",
+      "image": "",
       "light": 2,
       "ct": "20s",
       "effect": "{frameone}\n{on_use} {counter}姿勢をとる\n{dice1} [4~5] {slash} {when_hit} {guard_break} {on_hit} {defense_up}を5得て、{defense_down}を3付与\n{dice2} [5~9] {slash} {on_hit} {defense_down}を3付与\n{dice3} [8~14] {slash} {on_hit} {defense_down}を3付与"
