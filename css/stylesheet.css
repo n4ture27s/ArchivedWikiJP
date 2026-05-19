@@ -163,6 +163,23 @@ footer {
     border-radius: 50%;
 }
 
+/* アイコンなしのスタッフカード用テンプレート */
+.staff-card.no-icon::before {
+    content: ""; /* ユーザーアイコンの絵文字 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: #f0c17d;
+    opacity: 0.6;
+}
+
 .staff-text-line {
     display: flex;
     justify-content: center;

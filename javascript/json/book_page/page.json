@@ -66,7 +66,7 @@
       "image": "",
       "light": 2,
       "ct": "25s",
-      "effect": "{on_use} {defense_up}が10以上なら、ロール値を {dice1}7~9 {dice2}7~11 {dice3}5~9 に変更 \n {dice1} [4~6] {slash} {on_hit} {defense_up}を2得る \n {dice2} [4~8] {slash} {on_hit} {defense_up}を2得る\n{dice3} [4~8] {slash} {guard_break} {knock_back} {on_hit} {defense_up}を2得て、{defense_down}を6付与。" 
+      "effect": "{on_use} {defense_up}が10以上なら、ロール値を {dice1}7~9 {dice2}7~11 {dice3}5~9 に変更 \n {dice1} [4~6] {slash} {on_hit} {defense_up}を2得る \n {dice2} [4~8] {slash} {on_hit} {defense_up}を2得る\n{dice3} [4~8] {slash} {guard_break} {knock_back} {on_hit} {defense_up}を2得て、{defense_down}を6付与。"
     },
     "stand_off": {
       "name_en": "Stand Off",
@@ -74,7 +74,7 @@
       "image": "",
       "light": 1,
       "ct": "25s",
-      "effect": "{dice1} [4~7] {slash} {on_hit} {defense_up}を3得る \n {dice2} [5~9] {slash} {on_hit} {defense_up}を3得る" 
+      "effect": "{dice1} [4~7] {slash} {on_hit} {defense_up}を3得る \n {dice2} [5~9] {slash} {on_hit} {defense_up}を3得る"
     },
     "blade_whirl": {
       "name_en": "Blade Whirl",
@@ -91,6 +91,32 @@
       "light": 2,
       "ct": "20s",
       "effect": "{frameone}\n{on_use} {counter}姿勢をとる\n{dice1} [4~5] {slash} {when_hit} {guard_break} {on_hit} {defense_up}を5得て、{defense_down}を3付与\n{dice2} [5~9] {slash} {on_hit} {defense_down}を3付与\n{dice3} [8~14] {slash} {on_hit} {defense_down}を3付与"
+    }
+  },
+  "regular_pages": {
+    "focused_strikes": {
+      "name_en": "Focused Strikes",
+      "name_jp": "集中攻撃",
+      "image": "",
+      "light": 3,
+      "ct": "24s",
+      "effect": "{on_hit} {dice3} が {tracking} する。 \n {dice1} [5~8] {slash} {undodgeable} \n {dice2} [5~8] {slash} {undodgeable} \n {dice3} [8~12] {pierce} {guard_break}"
+    },
+    "dodge_and_strike": {
+      "name_en": "Dodge and Strike",
+      "name_jp": "回避攻撃",
+      "image": "",
+      "light": 1,
+      "ct": "25s",
+      "effect": "{dice1} {undodgeable} \n {when_hit} 、 {evade} して、 {hyperarmor} を得る。そして、 [12~16] {slash} で {counter} 。"
+    },
+    "charge_and_cover": {
+      "name_en": "Charge and Cover",
+      "name_jp": "攻撃と守備",
+      "image": "",
+      "light": 1,
+      "ct": "20s",
+      "effect": "{dice1} [3~7] {undodgeable}"
     }
   }
 }

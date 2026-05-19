@@ -21,5 +21,13 @@
     "icon": "association/zwei",
     "color": "313574",
     "color2": "DAA744"
+  },
+
+  "regular_pages": {
+    "name_jp": "通常ページ",
+    "name_en": "Regular Pages",
+    "icon": "",
+    "color": "DAA520",
+    "color2": "DAA520"
   }
 }

@@ -13,16 +13,44 @@ function formatText(text) {
         .replace(/\n/g, "<br>");
 
     formatted = formatted.replace(/\{(.*?)\}/g, (_, inner) => {
-        // 文字サイズ変更の判定: {textsize=倍率,テキスト}
-        const sizeMatch = inner.match(/^textsize=([\d\.]+),\s*(.*)$/);
-        if (sizeMatch) {
-            const size = sizeMatch[1];
-            let content = sizeMatch[2];
-            // 内部にツールチップ指定 {key} が含まれる場合を考慮して置換
-            content = content.replace(/\{(.*?)\}/g, (__, k) => `<span class="tooltip-target" data-key="${k}"></span>`);
-            return `<span style="font-size: ${size}em;">${content}</span>`;
+        // カンマまたは等号が含まれる場合、属性指定のある装飾として扱う
+        if (inner.includes(",") || inner.includes("=")) {
+            const parts = inner.split(",");
+            const styles = [];
+            let content = "";
+
+            // 新形式 {textsize=1, bold, text=内容} などの解析
+            parts.forEach(p => {
+                const part = p.trim();
+                if (part.startsWith("textsize=")) {
+                    styles.push(`font-size: ${part.split("=")[1]}em`);
+                } else if (part === "bold") {
+                    styles.push("font-weight: bold");
+                } else if (part === "line-through") {
+                    styles.push("text-decoration: line-through");
+                } else if (part === "underline") {
+                    styles.push("text-decoration: underline");
+                } else if (part === "italic") {
+                    styles.push("font-style: italic");
+                } else if (part.startsWith("font-weight=")) {
+                    styles.push(`font-weight: ${part.split("=")[1]}`);
+                } else if (part.startsWith("text=")) {
+                    content = part.substring(5);
+                } else if (part.startsWith("color=")) {
+                    styles.push(`color: ${part.split("=")[1]}`);
+                } else if (part.startsWith("back-color=")) {
+                    styles.push(`background-color: ${part.split("=")[1]}`);
+                }
+            });
+
+            if (content) {
+                // 内部にさらにツールチップ指定 {key} が含まれる場合を考慮して置換
+                content = content.replace(/\{(.*?)\}/g, (__, k) => `<span class="tooltip-target" data-key="${k}"></span>`);
+                return `<span style="${styles.join("; ")}">${content}</span>`;
+            }
         }
 
+        // それ以外（単一キーワードなど）は従来通りツールチップとして扱う
         return `<span class="tooltip-target" data-key="${inner}"></span>`;
     });
 
