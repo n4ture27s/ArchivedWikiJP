@@ -14,6 +14,14 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    color: #6986e5;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
 #AtagLogo {
     font-size: 1.5rem;
     text-shadow: 3px, 3px, 3px, #000000;
@@ -980,7 +988,7 @@ th.sort-desc::after {
 /*book list*/
 .book-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 14px;
 }
 
@@ -1141,7 +1149,6 @@ th.sort-desc::after {
 
 .page-obtain a{
     color: #f0c17d;
-    text-decoration: none;
 }
 /* =========================
    Simplified Weapon Cards (Association Page)
