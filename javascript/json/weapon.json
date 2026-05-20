@@ -714,5 +714,24 @@
       "effect":"{ammo}を1消費して、20ダメージを与える",
       "ct":6
     }
+  },
+   "reverberation_scythe": {
+    "req": "1",
+    "name_en": "Reverberation Scythe",
+    "name_jp": "残響の鎌",
+    "type": "slash",
+    "damage": "8.5",
+    "speed": 0.68,
+    "basic": {
+      "image": "/assets/image/weapon/reverberation_scythe_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/reverberation_scythe_critical.webm",
+      "desc":"",
+      "effect":"{unblockable} {auto_execute}\n {dice1} {slash} [5~7] 少し前に移動する\n{on_hit}もしダイス値と対象の{tremor}が同等の場合、短い遅延の後に対象を{stagger}にさせる\n {dice2} {slash} [4~8] {on_hit}{multi_hit}を2回",
+      "ct":16
+    }
   }
 }
