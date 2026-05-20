@@ -7,10 +7,7 @@ function showDetail(key) {
     document.getElementById("skill-title").textContent = data.title;
     document.getElementById("skill-desc").textContent = data.desc;
 
-    document.documentElement.style.setProperty(
-        "--sin-color",
-        data.color || "#d64545"
-    );
+    applyColorTheme(document.documentElement, data.color, null, { "--sin-color": "primary" }, "#d64545");
 
     const list = document.getElementById("skill-list");
     list.innerHTML = "";
@@ -69,12 +66,11 @@ function createCircleNodes(containerId) {
         node.style.left = `${x}px`;
         node.style.top = `${y}px`;
         node.style.transform = "translate(-50%, -50%)";
-
-        node.style.borderColor = data.color || "#777";
-        node.style.setProperty(
-            "--node-color",
-            data.color || "#777"
-        );
+        
+        applyColorTheme(node, data.color, null, {
+            "borderColor": "primary",
+            "--node-color": "primary"
+        });
 
         node.addEventListener("click", () => {
 
@@ -111,12 +107,10 @@ function createCenterNode(containerId) {
 
     node.dataset.skill = key;
 
-    node.style.borderColor = data.color || "#777";
-
-    node.style.setProperty(
-        "--node-color",
-        data.color || "#777"
-    );
+    applyColorTheme(node, data.color, null, {
+        "borderColor": "primary",
+        "--node-color": "primary"
+    });
 
     node.addEventListener("click", () => {
 

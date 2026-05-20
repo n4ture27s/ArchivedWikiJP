@@ -135,15 +135,10 @@ function renderPageList(containerId, filterBook = null) {
         const div = document.createElement("div");
         div.className = "page-card";
 
-        div.style.setProperty(
-            "--book-color",
-            `#${book.color}` || "#777"
-        );
-
-        div.style.setProperty(
-            "--book-color-2",
-            `#${book.color2}` || `#${book.color}` || "#777"
-        );
+        applyColorTheme(div, book.color, book.color2, {
+            "--book-color": "primary",
+            "--book-color-2": "secondary"
+        });
 
         div.innerHTML = `
     <div class="page-video">
@@ -189,15 +184,10 @@ function renderBookList(containerId) {
 
         div.className = "book-card";
 
-        div.style.setProperty(
-            "--book-color",
-            `#${data.color}` || "#777"
-        );
-
-        div.style.setProperty(
-            "--book-color-2",
-            `#${data.color2}` || `#${data.color}` || "#777"
-        );
+        applyColorTheme(div, data.color, data.color2, {
+            "--book-color": "primary",
+            "--book-color-2": "secondary"
+        });
 
         div.innerHTML = `
         
@@ -243,15 +233,10 @@ function renderBookHeader(bookId) {
 
     if (!el) return;
 
-    el.style.setProperty(
-        "--book-color",
-        `#${data.color}` || "#777"
-    );
-
-    el.style.setProperty(
-        "--book-color-2",
-        `#${data.color2}` || `#${data.color}` || "#777"
-    );
+    applyColorTheme(el, data.color, data.color2, {
+        "--book-color": "primary",
+        "--book-color-2": "secondary"
+    });
 
     el.innerHTML = `
 

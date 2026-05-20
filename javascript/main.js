@@ -105,7 +105,7 @@ function applyAllStyles() {
         if (moduleData?.color) {
             
             el.classList.add("combat-module");
-            el.style.color = `#${moduleData.color}`;
+            applyColorTheme(el, moduleData.color, null, { "color": "primary" });
         }
 
         if (data?.icon) {

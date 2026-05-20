@@ -69,6 +69,30 @@ function createStat(label, value, className = "") {
     return row;
 }
 
+/**
+ * 要素にカラーテーマ（プライマリ・セカンダリ）を適用する
+ * @param {HTMLElement} el 対象要素
+ * @param {string} primary プライマリカラー
+ * @param {string} secondary セカンダリカラー（未指定時はプライマリと同じ）
+ * @param {Object} mapping { "CSSプロパティ名または変数名": "primary" | "secondary" }
+ * @param {string} fallback デフォルトカラー
+ */
+function applyColorTheme(el, primary, secondary, mapping = {}, fallback = "#777") {
+    if (!el) return { primary: fallback, secondary: fallback };
+    const p = primary ? (String(primary).startsWith('#') ? primary : `#${primary}`) : fallback;
+    const s = secondary ? (String(secondary).startsWith('#') ? secondary : `#${secondary}`) : p;
+
+    Object.entries(mapping).forEach(([target, type]) => {
+        const val = (type === 'primary') ? p : s;
+        if (target.startsWith('--')) {
+            el.style.setProperty(target, val);
+        } else {
+            el.style[target] = val;
+        }
+    });
+    return { primary: p, secondary: s };
+}
+
 window.DataStore = {
     books: {},
     pages: {},
