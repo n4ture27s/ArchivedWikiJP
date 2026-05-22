@@ -26,5 +26,6 @@
     "non_frameone" : {"title":"フレーム1以外","text":"この攻撃は最初のフレームで実行されず、遅延します。","color": "94f140"},
     "frameone" : {"title":"フレーム1","text":"この攻撃は最初のフレームで実行されます。","color": "94f140"},
     "damage_modifier" : {"title":"ダメージ修正","text":"これが付与されている攻撃は、条件によってダメージが増減されます。","color": "bebebe"},
-    "clash_win" : {"title":"マッチ勝利時","text":"この条件はマッチ勝利した際に達成されます。","color": "94f140"}
+    "clash_win" : {"title":"マッチ勝利時","text":"この条件はマッチ勝利した際に達成されます。","color": "94f140"},
+    "after_use" : {"title":"使用後","text":"この条件は攻撃が終わった後に達成されます。","color": "26cfff"}
 }

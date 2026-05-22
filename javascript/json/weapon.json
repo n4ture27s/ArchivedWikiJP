@@ -733,5 +733,44 @@
       "effect":"{unblockable} {auto_execute}\n {dice1} {slash} [5~7] 少し前に移動する\n{on_hit}もしダイス値と対象の{tremor}が同等の場合、短い遅延の後に対象を{stagger}にさせる\n {dice2} {slash} [4~8] {on_hit}{multi_hit}を2回",
       "ct":16
     }
+  },
+   "crimson_scar_corver": {
+    "req": "3",
+    "name_en": "Crimson Scar Corver",
+    "name_jp": "深紅の傷跡を刻む者",
+    "type": "slash",
+    "damage": "5.5",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/crimson_scar_corver_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/crimson_scar_corver_critical1.webm",
+      "desc":"",
+      "effect":"各ダイスが{on_hit}に{hyperarmor}\n{after_use}にこの攻撃が対象に的中していて、対象がページやクリティカルを使用している場合クリティカル2を発動する\n {dice1} {slash} [4~8] {on_hit}に{bind}を1付与\n {dice2} {slash} [3~8] {on_hit}に{bind}を2付与",
+      "ct":16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/crimson_scar_corver_critical2.webm",
+      "desc": "",
+      "effect":"{on_use} 自身が{ammo}を装填している場合、5の{value_up}を得る\n{dice1} {pierce} [5~10] {on_hit}自身が{ammo}を得ているなら、{fragile}を5付与\n{on_hit}に対象が6の{bind}があった場合、2の{value_up}と6の{haste}を得る",
+    "ct": 16
+    },
+    "gun_reload": {
+      "title":"reload",
+      "image": "/assets/image/weapon/crimson_scar_corver_reload.webm",
+      "desc":"",
+      "effect":"画面右下の弾丸を3消費して、{ammo}を6得る",
+      "ct":9
+    },
+    "gun_shoot": {
+      "title": "shoot",
+      "image": "/assets/image/weapon/crimson_scar_corver_shoot.webm",
+      "desc":"",
+      "effect":"{ammo}を1消費して、6ダメージを与える",
+      "ct":0.3
+    }
   }
 }
