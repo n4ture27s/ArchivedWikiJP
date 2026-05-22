@@ -772,5 +772,30 @@
       "effect":"{ammo}を1消費して、6ダメージを与える",
       "ct":0.3
     }
+  },
+   "brawler": {
+    "req": "8",
+    "name_en": "Brawler",
+    "name_jp": "ブロウラー",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.60,
+    "basic": {
+      "image": "/assets/image/weapon/brawler_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/brawler_critical1.webm",
+      "desc":"",
+      "effect":"{dice1} {blunt} [10~12] {unblockable} {on_hit}に{tremor}を4付与し、{tremor_burst}をして、{light}を1得る",
+      "ct":16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/onis_tekko_critical2.webm",
+      "desc": "",
+      "effect":"{in_air}で{on_hit}\n{dice1} {blunt} [10~12] {unblockable} 2回の{tremor_burst}と{paralyze}を4付与\n高さに応じてダメージが増加する",
+      "ct": 16
+    }
   }
 }
