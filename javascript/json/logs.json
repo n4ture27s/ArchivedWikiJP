@@ -9,6 +9,9 @@
         { "type": "add", "text": "本形式のページ一覧"},
         { "type": "change" ,"text": "罪ページのスクロールバーのデザイン"},
         { "type": "change" ,"text": "tooltipの濃さの変更"},
+        { "type": "change" ,"text": "footer URL"},
+        { "type": "change" ,"text": "ステータス一覧の修正"},
+        { "type": "change" ,"text": "staffページの名義"},
         { "type": "change" ,"text": "武器詳細ページの戻るボタンのデザイン"}
         
       ]
