@@ -27,5 +27,7 @@
     "frameone" : {"title":"フレーム1","text":"この攻撃は最初のフレームで実行されます。","color": "94f140"},
     "damage_modifier" : {"title":"ダメージ修正","text":"これが付与されている攻撃は、条件によってダメージが増減されます。","color": "bebebe"},
     "clash_win" : {"title":"マッチ勝利時","text":"この条件はマッチ勝利した際に達成されます。","color": "94f140"},
-    "after_use" : {"title":"使用後","text":"この条件は攻撃が終わった後に達成されます。","color": "26cfff"}
+    "after_use" : {"title":"使用後","text":"この条件は攻撃が終わった後に達成されます。","color": "26cfff"},
+    "wrath_resonance" : {"title":"憤怒共鳴","text":"このタグが付いているページには、憤怒の罪悪共鳴があります。","color": "883126"},
+    "lust_resonance" : {"title":"色欲共鳴","text":"このタグが付いているページには、色欲の罪悪共鳴があります。","color": "bb783c"}
 }

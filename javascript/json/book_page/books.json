@@ -1,18 +1,18 @@
 {
+  "regular_pages": {
+    "name_jp": "通常ページ",
+    "name_en": "Regular Pages",
+    "icon": "",
+    "color": "DAA520",
+    "color2": "DAA520"
+  },
+
   "hana": {
     "name_jp": "ハナ協会の本",
     "name_en": "Hana Association",
     "icon": "association/hana",
     "color": "ffffff",
     "color2": "ffffff"
-  },
-
-  "red_mist": {
-    "name_jp": "赤い霧の本",
-    "name_en": "Red Mist",
-    "icon": "book/red_mist",
-    "color": "c23b3b",
-    "color2": "7a1a1a"
   },
 
   "zwei": {
@@ -23,11 +23,19 @@
     "color2": "DAA744"
   },
 
-  "regular_pages": {
-    "name_jp": "通常ページ",
-    "name_en": "Regular Pages",
-    "icon": "",
-    "color": "DAA520",
+  "liu": {
+    "name_jp": "リウ協会の本",
+    "name_en": "Liu Association",
+    "icon": "association/liu",
+    "color": "b00401",
     "color2": "DAA520"
+  },
+
+  "red_mist": {
+    "name_jp": "赤い霧の本",
+    "name_en": "Red Mist",
+    "icon": "book/red_mist",
+    "color": "c23b3b",
+    "color2": "7a1a1a"
   }
 }

@@ -190,5 +190,64 @@
       "ct": "20s",
       "effect": "{dice1} [3~8] {blunt} {hit_ground} {on_hit} 、 上昇する。"
     }
+  },
+
+  "liu" :{
+    "perfected_death_fist": {
+      "name_en": "Perfected Death Fist",
+      "name_jp": "練武崩拳",
+      "image": "",
+      "light": 3,
+      "ct": "18s",
+      "effect": "{wrath_resonance}\n{damage_modifier}0.667倍\n{on_hit} 対象の{burn}が8以上なら{dice3}で{burn}を3追加で付与\n{on_hit} 対象の{burn}が6以上なら{dice3}で{value_up}5を得る\n{dice1} [3~6] {pierce} {hit_ground} {ground} {on_hit} {burn}を2付与\n{dice2} [6~9] {pierce} {hit_ground} {guard_break} {on_hit} {burn}を2付与\n{dice3} [9~12] {pierce} {knock_back} {on_hit} {burn}を2付与"
+    },
+    "raging_storm": {
+      "name_en": "Raging Storm",
+      "name_jp": "押し寄せる",
+      "image": "",
+      "light": 3,
+      "ct": "15s",
+      "effect": "{wrath_resonance}\n{dice1} [5~9] {slash} {on_hit} {burn}4を付与\n{dice2} [10~16] {slash} {auto_execute} {guard_break} {knock_back} {on_hit} {burn}8を付与"
+    },
+    "fiery_waltz": {
+      "name_en": "Fiery Waltz",
+      "name_jp": "火花の輪舞",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{wrath_resonance}\n{dice1} [9~13] {pierce} {on_hit} {unblockable} {burn}5を付与"
+    },
+    "red_kick": {
+      "name_en": "Red Kick",
+      "name_jp": "丹脚",
+      "image": "",
+      "light": 2,
+      "ct": "22s",
+      "effect": "{wrath_resonance}\n{dice1} [2~5] {blunt} {on_hit} {burn}3を付与\n{dice2} [14~18] {blunt} {auto_execute} {guard_break} {ground} {on_hit} {burn}3を付与\n対象の{burn}3につき{value_up}を得る(最大10まで)"
+    },
+    "flowing_flame": {
+      "name_en": "Flowing Flame",
+      "name_jp": "流れる炎",
+      "image": "",
+      "light": 2,
+      "ct": "18s",
+      "effect": "{lust_resonance}\n{dice1} [8~14] {blunt} {auto_execute} {on_hit} {burn}4を付与\n{on_hit} 精神力が30以上なら{burn}6を付与\n{on_hit} 精神力が45以上なら{burn}8を付与"
+    },
+    "fleet_edge": {
+      "name_en": "Fleet Edge",
+      "name_jp": "速剣",
+      "image": "",
+      "light": 2,
+      "ct": "20s",
+      "effect": "{lust_resonance}\n{on_hit} {hyperarmor}を得る\n{dice1} [3~6] {pierce} {on_hit} {burn}2を付与\n{dice2} [4~12] {pierce} {on_hit} {burn}3を付与\n{on_hit} 対象の{burn}が10以上なら{haste}2を得て、{defense_down}3を付与"
+    },
+    "flow_of_the_sword": {
+      "name_en": "Flow of the Sword",
+      "name_jp": "剣の流れ",
+      "image": "",
+      "light": 3,
+      "ct": "20s",
+      "effect": "{lust_resonance}\n{undodgeable}\n{on_use} {hyperarmor}を得る\n{dice1} [6~10] {slash} {on_hit} {burn}4を付与\n{dice2} [7~14] {slash} {guard_break} {ground} {on_hit} {burn}4を付与\n感情レベルがII以上なら、{on_hit}対象の{burn}が6以上の場合、対象の{burn}3につき体力を5回復(最大20)"
+    }
   }
 }

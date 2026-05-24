@@ -114,6 +114,7 @@
     }
    },
    "liu_guan_dao": {
+    "book": "liu",
     "req": "4",
     "name_en": "Liu Guan Dao",
     "name_jp": "リウの大刀",
@@ -178,6 +179,7 @@
     }
   },
    "liu_martial_arts": {
+    "book":"liu",
     "req": "6",
     "name_en": "Liu Martial Arts",
     "name_jp": "Liu式武術",

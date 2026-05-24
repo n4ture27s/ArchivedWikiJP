@@ -1066,7 +1066,7 @@ th.sort-desc::after {
 .book-icon-area img {
     width: 75%;
     height: 75%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .book-info {
