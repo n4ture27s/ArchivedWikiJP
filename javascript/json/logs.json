@@ -10,7 +10,8 @@
         { "type": "change" ,"text": "罪ページのスクロールバーのデザイン"},
         { "type": "change" ,"text": "tooltipの濃さの変更"},
         { "type": "change" ,"text": "footer URL"},
-        { "type": "change" ,"text": "ステータス一覧の修正"},
+        { "type": "change" ,"text": "ステータス一覧のリワーク"},
+        { "type": "change" ,"text": "associationページのテキスト"},
         { "type": "change" ,"text": "staffページの名義"},
         { "type": "change" ,"text": "武器詳細ページの戻るボタンのデザイン"}
         
