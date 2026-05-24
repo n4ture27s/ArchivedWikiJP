@@ -1,7 +1,7 @@
 {
   "logs": [
     {
-      "date": "2026/05/",
+      "date": "2026/05/24",
       "new": true,
       "items": [
         { "type": "add", "text": "武器解説" },
@@ -18,7 +18,7 @@
     },
     {
       "date": "2026/05/18",
-      "new": true,
+      "new": false,
       "items": [
         { "type": "add", "text": "武器解説" },
         { "type": "add", "text": "罪ページ"},
