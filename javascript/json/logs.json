@@ -1,8 +1,19 @@
 {
   "logs": [
     {
+      "date": "2026/05/",
+      "new": false,
+      "items": [
+        { "type": "add", "text": "武器解説" },
+        { "type": "add", "text": "ページ、本一覧" },
+        { "type": "add", "text": "リウ教会 武器とページ解説" },
+        { "type": "change" ,"text": "footer URL デザイン"}
+        
+      ]
+    },
+    {
       "date": "2026/05/24",
-      "new": true,
+      "new": false,
       "items": [
         { "type": "add", "text": "武器解説" },
         { "type": "add", "text": "ページ解説:ツヴァイ" },
