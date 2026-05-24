@@ -14,12 +14,12 @@ body {
     background-attachment: fixed;
 }
 
-.link a{
+.link {
     color: #6986e5;
     text-decoration: none;
 }
 
-.link a:hover{
+.link:hover{
     text-decoration: underline;
 }
 #AtagLogo {
