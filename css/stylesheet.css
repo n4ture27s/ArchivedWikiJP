@@ -612,6 +612,32 @@ th.sort-desc::after {
     text-align: center;
 }
 
+/* ナビゲーションリンク */
+.nav-links {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links .sort-btn {
+    background: #000;
+    color: #f0c17d;
+    border: 2px solid #f0c17d;
+    padding: 8px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-links .sort-btn:hover {
+    background: #f0c17d;
+    color: #000;
+    box-shadow: 0 0 15px #f0c17d;
+    transform: translateY(-2px);
+}
+
 #search {
     width: 60%;
     padding: 6px;
@@ -1188,6 +1214,17 @@ th.sort-desc::after {
 
 .page-obtain a{
     color: #f0c17d;
+}
+
+/*section*/
+.book-section {
+    scroll-margin-top: 200px;
+
+}
+
+.page-section {
+    scroll-margin-top: 200px;
+
 }
 /* =========================
    Simplified Weapon Cards (Association Page)
