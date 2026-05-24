@@ -33,7 +33,7 @@ function createWeaponCard(id, data) {
     `;
 
     card.addEventListener("click", () => {
-        location.href = `arsenal/weapon_detail.html?id=${id}`
+        location.href = `/arsenal/weapon_detail.html?id=${id}`
     })
 
     return card;
@@ -320,7 +320,7 @@ function createSimplifiedWeaponCard(id, data) {
                 </div>
             </div>
             <div class="simple-footer">
-                <a href="arsenal/weapon_detail.html?id=${id}" class="detail-link">詳細ページへ</a>
+                <a href="/arsenal/weapon_detail.html?id=${id}" class="detail-link">詳細ページへ</a>
             </div>
         </div>
     `;

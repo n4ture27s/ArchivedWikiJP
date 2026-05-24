@@ -156,7 +156,7 @@ function renderPageList(containerId, filterBook = null) {
         <div class="page-bottom">
             <div class="page-stat"><span class="tooltip-target" data-key="light"></span>:${data.light}</div>
             <div class="page-stat">CT:${data.ct}</div>
-            <div class="page-obtain"><a href="arsenal/page_detail.html?id=${data.bookId}">入手:${book.name_jp}</a> </div>
+            <div class="page-obtain"><a href="/arsenal/page_detail.html?id=${data.bookId}">入手:${book.name_jp}</a> </div>
             
         </div>
     </div>
@@ -215,7 +215,7 @@ function renderBookList(containerId) {
 
         div.addEventListener("click", () => {
 
-            location.href = `arsenal/page_detail.html?id=${id}`;
+            location.href = `/arsenal/page_detail.html?id=${id}`;
         });
 
         container.appendChild(div);

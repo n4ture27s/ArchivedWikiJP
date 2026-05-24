@@ -10,7 +10,7 @@
   },
   {
     "title": "E.G.O",
-    "url": "arsenal/ego.html",
+    "url": "/arsenal/ego.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/E.G.O.",
     "license": "CC BY-SA 4.0",
@@ -19,7 +19,7 @@
   },
   {
     "title": "特性",
-    "url": "character/trait.html",
+    "url": "/character/trait.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/Traits",
     "license": "CC BY-SA 4.0",
@@ -37,7 +37,7 @@
   },
   {
     "title": "武器 及びその詳細",
-    "url": "arsenal/weapon.html",
+    "url": "/arsenal/weapon.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/Weapons",
     "license": "CC BY-SA 4.0",
@@ -46,7 +46,7 @@
   },
   {
     "title": "状態異常一覧",
-    "url": "other/effects.html",
+    "url": "/other/effects.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/Status_Effects",
     "license": "CC BY-SA 4.0",
@@ -55,7 +55,7 @@
   },
   {
     "title": "ランクページ",
-    "url": "other/effects.html",
+    "url": "/other/effects.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/Smuggler",
     "license": "CC BY-SA 4.0",

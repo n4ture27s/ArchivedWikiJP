@@ -117,6 +117,78 @@
       "light": 1,
       "ct": "20s",
       "effect": "{dice1} [3~7] {undodgeable}"
+    },
+    "thrust": {
+      "name_en": "Thrust",
+      "name_jp": "突き刺す",
+      "image": "",
+      "light": 2,
+      "ct": "20s",
+      "effect": "{dice1} [3~5] {pierce} {on_hit}、 {light}1を得て {guard_break} {QTE} 。\n{QTE_success}、 {light} が2以上あるなら、2消耗し、 {value_up} 5を得て再使用。（ {value_up} は再使用しても保持されたままで、何度でも再使用可能。）"
+    },
+    "light_attack": {
+      "name_en": "Light Attack",
+      "name_jp": "軽い攻撃",
+      "image": "",
+      "light": 1,
+      "ct": "20s",
+      "effect": "{dice1} [4~8] {slash} {on_hit} {light} を2得る。"
+    },
+    "alleyway_counter": {
+      "name_en": "Alleyway Counter",
+      "name_jp": "路地の反撃",
+      "image": "",
+      "light": 2,
+      "ct": "30s",
+      "effect": "{dice1} [7~15] {blunt} {frameone} {when_hit} 、 {counter} して、 {fragile} 5を付与。"
+    },
+    "right_hook": {
+      "name_en": "Right Hook",
+      "name_jp": "右フック",
+      "image": "",
+      "light": 1,
+      "ct": "15s",
+      "effect": "{dice1} [5~7] {on_hit} 、 {tremor} 4を付与。"
+    },
+    "opportunistic_slash": {
+      "name_en": "Opportunistic Slash",
+      "name_jp": "機会狙い",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{dice1} [5~11] {slash} {on_hit}、 {haste} 5を得て、 {rupture} 3を付与。\n{dice1} は 2回ヒットする。"
+    },
+    "y_you_only_live_once": {
+      "name_en": "Y-you Only Live Once",
+      "name_jp": "じ人生一発",
+      "image": "",
+      "light": 1,
+      "ct": "30s",
+      "effect": "{on_use} {hyperarmor} を得る。\n{dice1} [1~12] {guard_break} {on_hit} {paralyze} 2を付与。"
+    },
+    "deep_cuts": {
+      "name_en": "Deep Cuts",
+      "name_jp": "深斬り",
+      "image": "",
+      "light": 3,
+      "ct": "30s",
+      "effect": "{on_use} 0.75倍の{damage_modifier}\n{dice1} [5~7] {slash} {on_hit} {hyperarmor} と {poise} 3を得る。\n{dice2} [8~10] {slash} {on_hit} {poise} 3を得る。\n{dice3} [9~12] {slash} {knock_back} {on_hit} {haste} 4を得る。"
+    },
+    "mutilate": {
+      "name_en": "Mutilate",
+      "name_jp": "滅多切り",
+      "image": "",
+      "light": 3,
+      "ct": "40s",
+      "effect": "{undogeable}\n{dice1} [1~5] {slash} {multi_hit} 3ヒットごとにダイス値の33%のダメージを与える。合計で100%になる。\n20%の確率で、 [30~30] {slash} になる。"
+    },
+    "sky_kick": {
+      "name_en": "Sky Kick",
+      "name_jp": "蹴り上げ",
+      "image": "",
+      "light": 1,
+      "ct": "20s",
+      "effect": "{dice1} [3~8] {blunt} {hit_ground} {on_hit} 、 上昇する。"
     }
   }
 }

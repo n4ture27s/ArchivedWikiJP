@@ -354,6 +354,22 @@ footer {
     padding: 30px;
 }
 
+.btn-back {
+    background: transparent;
+    color: #f0c17d;
+    border: 1px solid #f0c17d;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.btn-back:hover {
+    background: #f0c17d;
+    color: #000;
+    box-shadow: 0 0 10px #f0c17d;
+}
+
 #w-comment {
     color: #eac082;
 }
