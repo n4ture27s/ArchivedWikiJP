@@ -14,12 +14,12 @@ body {
     background-attachment: fixed;
 }
 
-a {
+.link a{
     color: #6986e5;
     text-decoration: none;
 }
 
-a:hover{
+.link a:hover{
     text-decoration: underline;
 }
 #AtagLogo {
@@ -618,6 +618,27 @@ th.sort-desc::after {
 .controls button.active {
     background: #f0c17d;
     color: #000;
+}
+
+#status-search, #status-type-filter {
+    background-color: #000;
+    border: 1px solid #f0c17d;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+#status-type-filter {
+    cursor: pointer;
+}
+
+#status-search:focus, 
+#status-type-filter:focus {
+    box-shadow: 0 0 10px #f0c17d;
+    background-color: #000000;
 }
 
 /* リスト */

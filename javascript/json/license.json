@@ -28,7 +28,7 @@
   },
   {
     "title": "協会",
-    "url": "system/association.html",
+    "url": "/system/association.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/Associations",
     "license": "CC BY-SA 4.0",
@@ -64,7 +64,7 @@
   },
   {
     "title": "12協会解説",
-    "url": "system/association.html",
+    "url": "/system/association.html",
     "author": "Archived Wiki contributors",
     "source": "https://archivedwiki.miraheze.org/wiki/Associations",
     "license": "CC BY-SA 4.0",

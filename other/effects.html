@@ -23,7 +23,7 @@
             <div id="main-content">
                 <div id="tooltip"></div>
                 <div class="w-back">
-                    <p id="w-title" >ステータス効果一覧</p>
+                    <p id="w-title">ステータス効果一覧</p>
                     <hr class="hr-main">
                     <details id="content-list" open>
                         <summary id="content-list-title">目次</summary>
@@ -38,27 +38,20 @@
                     <div class="text-area">
                         <p>戦闘中に付与される様々なバフ、デバフ、およびリソースの解説です。</p>
                         <p>名称にマウスを合わせることで、ゲーム内と同様のツールチップを確認できます。</p>
-                        <input type="text" id="status-search" placeholder="名称や説明で検索..." style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #444; background: #222; color: #fff; border-radius: 4px; box-sizing: border-box;">
-                        <p id="search-result-count" style="margin-top: 10px; color: #aaa; font-size: 0.9em;"></p>
                     </div>
 
-                    <p id="section-buff" class="w-subtitle heading">バフ</p>
+                    <p id="section-effects" class="w-subtitle heading">ステータス</p>
+                    <input type="text" id="status-search" placeholder="名称や説明で検索..."
+                        style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #444; background: #222; color: #fff; border-radius: 4px; box-sizing: border-box;">
+                    <p id="search-result-count" style="margin-top: 10px; color: #aaa; font-size: 0.9em;"></p>
+                    <select id="status-type-filter">
+                        <option value="all">すべての種類</option>
+                        <option value="buff">バフ</option>
+                        <option value="debuff">デバフ</option>
+                        <option value="resource">リソース</option>
+                    </select>
                     <div class="text-area">
-                        <table class="data-table" id="table-buff">
-                            <thead></thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                    <p id="section-debuff" class="w-subtitle heading">デバフ</p>
-                    <div class="text-area">
-                        <table class="data-table" id="table-debuff">
-                            <thead></thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
-                    <p id="section-resource" class="w-subtitle heading">リソース・その他</p>
-                    <div class="text-area">
-                        <table class="data-table" id="table-resource">
+                        <table class="data-table" id="table-effects">
                             <thead></thead>
                             <tbody></tbody>
                         </table>

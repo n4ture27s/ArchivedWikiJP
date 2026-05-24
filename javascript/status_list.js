@@ -4,12 +4,9 @@
 
 window.addEventListener("load", () => {
     const searchInput = document.querySelector("#status-search");
+    const typeFilter = document.querySelector("#status-type-filter");
     const resultCountEl = document.querySelector("#search-result-count");
-    const tables = {
-        buff: document.querySelector("#table-buff"),
-        debuff: document.querySelector("#table-debuff"),
-        resource: document.querySelector("#table-resource")
-    };
+    const table = document.querySelector("#table-effects");
 
     const typeMap = { "buff": "バフ", "debuff": "デバフ", "resource": "リソース" };
     const headerHtml = `
@@ -20,24 +17,22 @@ window.addEventListener("load", () => {
         </tr>
     `;
 
-    // 全てのテーブルのヘッダーを初期化
-    Object.values(tables).forEach(table => {
-        if (table) {
-            table.querySelector("thead").innerHTML = headerHtml;
-            // 「該当なし」メッセージ用の行を事前に作成して隠しておく
-            const noResultsTr = document.createElement("tr");
-            noResultsTr.className = "no-results-row";
-            noResultsTr.style.display = "none";
-            noResultsTr.innerHTML = `<td colspan="3" style="text-align: center; padding: 20px; color: #888;">該当する項目がありません</td>`;
-            table.querySelector("tbody").appendChild(noResultsTr);
+    // テーブルのヘッダーを初期化
+    if (table) {
+        table.querySelector("thead").innerHTML = headerHtml;
+        // 「該当なし」メッセージ用の行を事前に作成して隠しておく
+        const noResultsTr = document.createElement("tr");
+        noResultsTr.className = "no-results-row";
+        noResultsTr.style.display = "none";
+        noResultsTr.innerHTML = `<td colspan="3" style="text-align: center; padding: 20px; color: #888;">該当する項目がありません</td>`;
+        table.querySelector("tbody").appendChild(noResultsTr);
 
-            // ヘッダーにクリックイベントを追加（ソート用）
-            table.querySelector("thead").addEventListener("click", (e) => {
-                const th = e.target.closest("th");
-                if (th) sortTable(table, parseInt(th.dataset.col));
-            });
-        }
-    });
+        // ヘッダーにクリックイベントを追加（ソート用）
+        table.querySelector("thead").addEventListener("click", (e) => {
+            const th = e.target.closest("th");
+            if (th) sortTable(table, parseInt(th.dataset.col));
+        });
+    }
 
     // データの取得と描画
     fetch("/javascript/json/status.json")
@@ -67,53 +62,45 @@ window.addEventListener("load", () => {
 
                 tr.append(tdName, tdType, tdDesc);
 
-                // 適切なテーブルのtbodyに振り分け
-                const targetType = tables[item.type] ? item.type : "resource";
-                tables[targetType].querySelector("tbody").appendChild(tr);
+                // 指定されたテーブルのtbodyに追加
+                if (table) table.querySelector("tbody").appendChild(tr);
 
                 // 検索用にデータを保存
                 allRows.push({ 
                     element: tr, 
+                    type: item.type,
                     searchText: (item.title + item.text + (typeMap[item.type] || "")).toLowerCase() 
                 });
             });
 
-            // 検索フィルタリング機能
-            searchInput?.addEventListener("input", (e) => {
-                const query = e.target.value.toLowerCase();
+            // フィルタリング機能（検索キーワード + 種類選択）
+            const applyFilters = () => {
+                const query = searchInput?.value.toLowerCase() || "";
+                const selectedType = typeFilter?.value || "all";
                 let visibleCount = 0;
 
                 allRows.forEach(row => {
-                    const isVisible = row.searchText.includes(query);
+                    const matchesSearch = row.searchText.includes(query);
+                    const matchesType = selectedType === "all" || row.type === selectedType;
+
+                    const isVisible = matchesSearch && matchesType;
                     row.element.style.display = isVisible ? "" : "none";
                     if (isVisible) visibleCount++;
                 });
 
                 updateCountDisplay(visibleCount);
 
-                // テーブルごとに表示されているデータ行があるかチェック
-                Object.values(tables).forEach(table => {
-                    if (!table) return;
-                    // データ行（メッセージ行以外）の中で表示されているものを探す
-                    const hasVisibleData = Array.from(table.querySelectorAll("tbody tr:not(.no-results-row)"))
-                        .some(tr => tr.style.display !== "none");
-                    
+                if (table) {
                     const noResultsRow = table.querySelector(".no-results-row");
-                    if (noResultsRow) {
-                        noResultsRow.style.display = hasVisibleData ? "none" : "";
-                    }
-                });
-            });
+                    if (noResultsRow) noResultsRow.style.display = visibleCount > 0 ? "none" : "";
+                }
+            };
 
-            // 初期表示時のチェック（特定のカテゴリが空の場合のため）
-            Object.values(tables).forEach(table => {
-                if (!table) return;
-                const hasData = table.querySelector("tbody tr:not(.no-results-row)");
-                const noResultsRow = table.querySelector(".no-results-row");
-                if (noResultsRow) noResultsRow.style.display = hasData ? "none" : "";
-            });
-            
-            updateCountDisplay(allRows.length);
+            searchInput?.addEventListener("input", applyFilters);
+            typeFilter?.addEventListener("change", applyFilters);
+
+            // 初期表示の実行
+            applyFilters();
 
             // 要素生成後、main.jsの装飾関数を呼び出してアイコン等を適用する
             if (typeof applyAllStyles === "function") applyAllStyles();
