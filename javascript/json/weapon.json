@@ -322,19 +322,19 @@
     "critical1": {
       "image": "/assets/image/weapon/kira_weapon_critical1.webm",
       "desc":"",
-      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{dice1} {blunt} [4~7] {undodgeable}\n {dice2} {blunt} [7~10] {undodgeable}{multi_hit}4回",
+      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{on_use} {dice2}は1.4倍の{damage_modifier} \n{undodgeable}\n{dice1} {blunt} [4~7] {on_hit} 対象の{bleed}が5以上なら{dice2}が{value_up}5を得る\n {dice2} {blunt} [7~10] {multi_hit}4回",
       "ct":16
     },
     "critical2": {
       "image": "/assets/image/weapon/kira_weapon_critical2.webm",
       "desc":"",
-      "effect":"{dice1} {blunt} [4~7] {undodgeable}\n {dice2} {blunt} [4~7] {undodgeable} {on_hit} {bleed}を2付与\n {dice3} {blunt} [5~7] {undodgeable}\n {dice4} {blunt} [5～7] {undodgeable} {on_hit} {bleed}を2付与",
+      "effect":"1段目の攻撃がパリィまたは中断されなかった場合のみ使用\n{undodgeable}\n {dice1} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与\n {dice2} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与\n {dice3} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与",
       "ct":16
     },
     "critical3": {
       "image": "/assets/image/weapon/kira_weapon_critical3.webm",
       "desc":"",
-      "effect":"1ダイス目がパリィされても2ダイス目が実行される {dice1} {slash} [6~8] {on_hit}{bleed}を2付与\n {dice2} {slash} [6~10] {on_hit}{bleed}を2付与\n {dice2} {slash} [6~12] {guard_break} {on_hit}{bleed}を2付与",
+      "effect":"Critical 1またはCritical 2の後に、パリィの有無に関わらず使用\n{dice1} [6~8] {slash}\n {dice2} [6~10] {slash} {guard_break}\n {dice3} [6~12] {slash} {unparriable} {on_hit} {bleed}4と{burn}4を付与",
       "ct":15
     }
   },
