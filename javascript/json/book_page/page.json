@@ -12,7 +12,7 @@
       "name_en": "Onrush",
       "name_jp": "突進",
       "image": "",
-      "light": 2,
+      "light": 3,
       "ct": "15s",
       "effect": "{on_use} このページは{damage_modifier}の影響を受けない。\n{dice1} [14~26] 斬撃 {ground} {on_hit} スタミナダメージ40を与えて{bleed}3を付与。\n{on_hit} {imitation}1を得る。{light}が6以上なら{damage_modifier}を0.70倍にして{dice1}を再使用する。"
     },
@@ -108,7 +108,7 @@
       "image": "",
       "light": 1,
       "ct": "25s",
-      "effect": "{dice1} {undodgeable} \n{when_hit}、{evade}して、{hyperarmor}を得る。そして、[12~16] {slash}で{counter} 。"
+      "effect": "{dice1} {undodgeable} \n{when_hit} {evade}して、{hyperarmor}を得る。そして、[12~16] {slash}で{counter} 。"
     },
     "charge_and_cover": {
       "name_en": "Charge and Cover",
@@ -124,7 +124,7 @@
       "image": "",
       "light": 2,
       "ct": "20s",
-      "effect": "{dice1} [3~5] {pierce} {on_hit}、 {light}1を得て {guard_break} {QTE} 。\n{QTE_success}、 {light} が2以上あるなら、2消耗し、 {value_up} 5を得て再使用。（ {value_up} は再使用しても保持されたままで、何度でも再使用可能。）"
+      "effect": "{dice1} [3~5] {pierce} {on_hit} {light}1を得て {guard_break} {QTE} 。\n{QTE_success} {light} が2以上あるなら、2消耗し、 {value_up}5を得て再使用。( {value_up} は再使用しても保持されたままで、何度でも再使用可能。)"
     },
     "light_attack": {
       "name_en": "Light Attack",
@@ -132,7 +132,7 @@
       "image": "",
       "light": 1,
       "ct": "20s",
-      "effect": "{dice1} [4~8] {slash} {on_hit} {light} を2得る。"
+      "effect": "{dice1} [4~8] {slash} {on_hit} {light}を2得る。"
     },
     "alleyway_counter": {
       "name_en": "Alleyway Counter",
@@ -140,7 +140,7 @@
       "image": "",
       "light": 2,
       "ct": "30s",
-      "effect": "{dice1} [7~15] {blunt} {frameone} {when_hit} 、 {counter} して、 {fragile} 5を付与。"
+      "effect": "{dice1} [7~15] {blunt} {frameone} {when_hit} {counter} して、{fragile} 5を付与。"
     },
     "right_hook": {
       "name_en": "Right Hook",
@@ -148,7 +148,7 @@
       "image": "",
       "light": 1,
       "ct": "15s",
-      "effect": "{dice1} [5~7] {on_hit} 、 {tremor} 4を付与。"
+      "effect": "{dice1} [5~7] {on_hit} {tremor} 4を付与。"
     },
     "opportunistic_slash": {
       "name_en": "Opportunistic Slash",
@@ -156,7 +156,7 @@
       "image": "",
       "light": 2,
       "ct": "25s",
-      "effect": "{dice1} [5~11] {slash} {on_hit}、 {haste} 5を得て、 {rupture} 3を付与。\n{dice1} は 2回ヒットする。"
+      "effect": "{dice1} [5~11] {slash} {on_hit} {haste} 5を得て、 {rupture} 3を付与。\n{dice1} は 2回ヒットする。"
     },
     "y_you_only_live_once": {
       "name_en": "Y-you Only Live Once",
@@ -180,7 +180,7 @@
       "image": "",
       "light": 3,
       "ct": "40s",
-      "effect": "{undogeable}\n{dice1} [1~5] {slash} {multi_hit} 3ヒットごとにダイス値の33%のダメージを与える。合計で100%になる。\n20%の確率で、 [30~30] {slash} になる。"
+      "effect": "{undodgeable}\n{dice1} [1~5] {slash} {multi_hit} 3ヒットごとにダイス値の33%のダメージを与える。合計で100%になる。\n20%の確率で、 [30~30] {slash} になる。"
     },
     "sky_kick": {
       "name_en": "Sky Kick",
@@ -188,7 +188,79 @@
       "image": "",
       "light": 1,
       "ct": "20s",
-      "effect": "{dice1} [3~8] {blunt} {hit_ground} {on_hit} 、 上昇する。"
+      "effect": "{dice1} [3~8] {blunt} {hit_ground} {on_hit} 上昇する。"
+    },
+    "dropkick": {
+      "name_en": "Dropkick",
+      "name_jp": "ドロップキック",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{dice1} [12~15] {blunt} {unblockable} {on_hit} {fragile}5を付与。"
+    },
+    "backstreets_scramble": {
+      "name_en": "Backstreets Scramble",
+      "name_jp": "裏路地の交戦",
+      "image": "",
+      "light": 3,
+      "ct": "25s",
+      "effect": "{dice1} [3~5] {blunt} {on_hit} {hyperarmor}を得る。\n{dice2} [6~10] {blunt} {on_hit} {hyperarmor}を得る。\n{dice3} [7~12] {blunt} {uncounterable} {hit_ground} {guard_break} {on_hit} {fragile}5を付与。"
+    },
+    "you_re_too_slow_1st": {
+      "name_en": "You're Too Slow {evade}",
+      "name_jp": "遅い {evade}",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{dice1} [5~8] {evade} {frameone} {on_parryhit} {light}1を得る。"
+    },
+    "you_re_too_slow_2nd": {
+      "name_en": "You're Too Slow {pierce}",
+      "name_jp": "遅い {pierce}",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{dice1} [14~23] {unblockable} {on_hit} {bleed}3を付与。"
+    },
+    "stylish_sweeps": {
+      "name_en": "Stylish Sweeps",
+      "name_jp": "華麗な清掃",
+      "image": "",
+      "light": 3,
+      "ct": "35s",
+      "effect": "{dice1} [5~6] {blunt} {unblockable} {on_hit} {hit_ground} {sinking}3を付与。\n{dice2} [6~7] {blunt} {unblockable} {on_hit} {hit_ground} {sinking}3を付与。\n{dice3} [7~8] {blunt} {knock_back} {undodgeable} {on_hit} {hit_ground} {sinking}3を付与。"
+    },
+    "shocking_blow": {
+      "name_en": "Shocking Blow",
+      "name_jp": "強烈な一打",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{on_use} {hyperarmor}を得る。\n{dice1} [4~12] {blunt} {on_hit} {paralyze}と{fragile}5を付与。"
+    },
+    "crush": {
+      "name_en": "Crush",
+      "name_jp": "潰す",
+      "image": "",
+      "light": 2,
+      "ct": "30s",
+      "effect": "{undodgeable}\n{on_use} {hyperarmor}を得る。\n{dice1} [3~5] {blunt} {on_hit} {hit_ground} {tremor}2を付与。\n{dice2} [4~6] {blunt} {on_hit} {tremor}2を付与。"
+    },
+    "onslaught_command": {
+      "name_en": "Onslaught Command",
+      "name_jp": "攻撃命令",
+      "image": "",
+      "light": 2,
+      "ct": "45s",
+      "effect": "{undodgeable}\n{on_use} {hyperarmor}と{value_up}2を得る。\n{dice1} [6~16] {pierce} {on_hit} {value_up}4を範囲内の全ての味方に付与。"
+    },
+    "preemptive_strike": {
+      "name_en": "Preemptive Strike",
+      "name_jp": "先行",
+      "image": "",
+      "light": 2,
+      "ct": "30s",
+      "effect": "{damage_modifier} 1.1倍\n{on_use} {hyperarmor}を得る。\n{dice1} [7~10] {slash} {guard_break} {on_hit} {rupture}4を付与。"
     }
   },
 
