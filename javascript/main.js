@@ -12,6 +12,9 @@ fetch("/footer.html")
         document.getElementById("footer-detail").href = `/license.html#${window.location.pathname}`;
     });
 
+document.querySelectorAll('.format-text').forEach(card => {
+    card.innerHTML = formatText(card.textContent);
+})
 
 document.querySelectorAll('.staff-card').forEach(card => {
     card.addEventListener('click', () => {

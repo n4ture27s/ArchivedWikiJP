@@ -15,15 +15,36 @@ function formatText(text) {
     formatted = formatted.replace(/\{(.*?)\}/g, (_, inner) => {
         // カンマまたは等号が含まれる場合、属性指定のある装飾として扱う
         if (inner.includes(",") || inner.includes("=")) {
-            const parts = inner.split(",");
+            // カンマで分割するが、括弧内のカンマは無視する（rgbaなどのため）
+            const parts = [];
+            let current = "";
+            let depth = 0;
+            for (let i = 0; i < inner.length; i++) {
+                const char = inner[i];
+                if (char === '(') depth++;
+                if (char === ')') depth--;
+                if (char === ',' && depth === 0) {
+                    parts.push(current.trim());
+                    current = "";
+                } else {
+                    current += char;
+                }
+            }
+            parts.push(current.trim());
+
             const styles = [];
             let content = "";
+            let url = "";
 
             // 新形式 {textsize=1, bold, text=内容} などの解析
             parts.forEach(p => {
                 const part = p.trim();
-                if (part.startsWith("textsize=")) {
-                    styles.push(`font-size: ${part.split("=")[1]}em`);
+                const eqIndex = part.indexOf('=');
+                const key = eqIndex !== -1 ? part.substring(0, eqIndex) : part;
+                const val = eqIndex !== -1 ? part.substring(eqIndex + 1) : "";
+
+                if (key === "textsize") {
+                    styles.push(`font-size: ${val}em`);
                 } else if (part === "bold") {
                     styles.push("font-weight: bold");
                 } else if (part === "line-through") {
@@ -32,21 +53,39 @@ function formatText(text) {
                     styles.push("text-decoration: underline");
                 } else if (part === "italic") {
                     styles.push("font-style: italic");
-                } else if (part.startsWith("font-weight=")) {
-                    styles.push(`font-weight: ${part.split("=")[1]}`);
-                } else if (part.startsWith("text=")) {
-                    content = part.substring(5);
-                } else if (part.startsWith("color=")) {
-                    styles.push(`color: ${part.split("=")[1]}`);
-                } else if (part.startsWith("back-color=")) {
-                    styles.push(`background-color: ${part.split("=")[1]}`);
+                } else if (key === "font-weight") {
+                    styles.push(`font-weight: ${val}`);
+                } else if (key === "text") {
+                    content = val;
+                } else if (key === "color") {
+                    styles.push(`color: ${val}`);
+                } else if (key === "back-color") {
+                    styles.push(`background-color: ${val}`);
+                } else if (key === "opacity") {
+                    styles.push(`opacity: ${val}`);
+                } else if (key === "radius") {
+                    styles.push(`border-radius: ${val}`);
+                } else if (key === "spacing") {
+                    styles.push(`letter-spacing: ${val}`);
+                } else if (key === "padding") {
+                    styles.push(`padding: ${val}`);
+                } else if (key === "shadow") {
+                    styles.push(`text-shadow: ${val}`);
+                } else if (key === "border") {
+                    styles.push(`border: ${val}`);
+                } else if (key === "url") {
+                    url = val;
                 }
             });
 
             if (content) {
                 // 内部にさらにツールチップ指定 {key} が含まれる場合を考慮して置換
                 content = content.replace(/\{(.*?)\}/g, (__, k) => `<span class="tooltip-target" data-key="${k}"></span>`);
-                return `<span style="${styles.join("; ")}">${content}</span>`;
+                const styleAttr = styles.length > 0 ? ` style="${styles.join("; ")}"` : "";
+                if (url) {
+                    return `<a href="${url}"${styleAttr} target="_blank" rel="noreferrer">${content}</a>`;
+                }
+                return `<span${styleAttr}>${content}</span>`;
             }
         }
 
