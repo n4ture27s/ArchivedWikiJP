@@ -29,7 +29,7 @@
     "augury_infusion": {
       "name_en": "Augury Infusion",
       "name_jp": "卦入",
-      "image": "",
+      "image": "/assets/image/page/augury_infusion.webm",
       "light": 2,
       "ct": "20s",
       "effect": "{on_use} {hyperarmor}を得る\n {dice1} [13~18] {blunt} {hit_ground} {guard_break} {on_hit} {tremor}4を付与し{tremor_burst}"
