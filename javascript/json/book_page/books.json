@@ -37,5 +37,85 @@
     "icon": "book/red_mist",
     "color": "c23b3b",
     "color2": "7a1a1a"
+  },
+
+  "shi": {
+    "name_jp": "シ協会の本",
+    "name_en": "Shi Association",
+    "icon": "association/shi",
+    "color": "c23b3b",
+    "color2": "7a1a1a"
+  },
+
+  "cinq": {
+    "name_jp": "センク協会の本",
+    "name_en": "Cinq Association",
+    "icon": "association/cinq",
+    "color": "e8b4b8",
+    "color2": "c89498"
+  },
+
+  "seven": {
+    "name_jp": "セブン協会の本",
+    "name_en": "Seven Association",
+    "icon": "association/seven",
+    "color": "2d5a27",
+    "color2": "daa520"
+  },
+
+  "dieci": {
+    "name_jp": "ディエーチ協会の本",
+    "name_en": "Dieci Association",
+    "icon": "association/dieci",
+    "color": "1b4f72",
+    "color2": "d4a84b"
+  },
+
+  "capo": {
+    "name_jp": "カポの本",
+    "name_en": "Book of The Capo",
+    "icon": "syndicate/capo",
+    "color": "8b0000",
+    "color2": "ffd700"
+  },
+
+  "thumb": {
+    "name_jp": "親指の本",
+    "name_en": "Book of The Thumb",
+    "icon": "syndicate/thumb",
+    "color": "8b0000",
+    "color2": "ffd700"
+  },
+
+  "middle": {
+    "name_jp": "中指の本",
+    "name_en": "Book of The Middle",
+    "icon": "syndicate/middle",
+    "color": "8b0000",
+    "color2": "ffd700"
+  },
+
+  "index": {
+    "name_jp": "人差し指の本",
+    "name_en": "Book of The Index",
+    "icon": "syndicate/index",
+    "color": "8b0000",
+    "color2": "ffd700"
+  },
+
+  "ring": {
+    "name_jp": "薬指の本",
+    "name_en": "Book of The Ring",
+    "icon": "syndicate/ring",
+    "color": "8b0000",
+    "color2": "ffd700"
+  },
+
+  "blade_lineage": {
+    "name_jp": "剣契の本",
+    "name_en": "Book of Blade Lineage",
+    "icon": "syndicate/blade_lineage",
+    "color": "8b0000",
+    "color2": "ffd700"
   }
 }

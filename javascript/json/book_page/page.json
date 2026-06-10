@@ -6,7 +6,7 @@
       "image": "",
       "light": 2,
       "ct": "13s",
-      "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
+      "effect":"{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
     },
     "on_rush": {
       "name_en": "Onrush",
@@ -263,8 +263,7 @@
       "effect": "{damage_modifier} 1.1倍\n{on_use} {hyperarmor}を得る。\n{dice1} [7~10] {slash} {guard_break} {on_hit} {rupture}4を付与。"
     }
   },
-
-  "liu" :{
+  "liu": {
     "perfected_death_fist": {
       "name_en": "Perfected Death Fist",
       "name_jp": "練武崩拳",
@@ -320,6 +319,405 @@
       "light": 3,
       "ct": "20s",
       "effect": "{lust_resonance}\n{undodgeable}\n{on_use} {hyperarmor}を得る\n{dice1} [6~10] {slash} {on_hit} {burn}4を付与\n{dice2} [7~14] {slash} {guard_break} {ground} {on_hit} {burn}4を付与\n感情レベルがII以上なら、{on_hit}対象の{burn}が6以上の場合、対象の{burn}3につき体力を5回復(最大20)"
+    },
+    "ignite_weaponry": {
+      "name_en": "Ignite Weaponry",
+      "name_jp": "武器点火",
+      "image": "",
+      "light": 1,
+      "ct": "50s",
+      "effect": "{wrath_resonance}\n{on_use} {hyperarmor}を得る\n{on_use} 全てのM1に1{burn}を25秒間対象に付与\nリウ協会のページは{burn}付与時にさらに1追加で付与"
+    }
+  },
+  "shi": {
+    "catch_breath": {
+      "name_en": "Catch Breath",
+      "name_jp": "息を整える",
+      "image": "",
+      "light": 2,
+      "ct": "20s",
+      "effect": "{lust_resonance}\n{on_use} HPが50%以下の場合、{value_up}4を得る\n{dice1} [8~15] {slash} {on_hit} {poise}6を得る\n{below_50%_hp} {on_hit} {poise}8と{haste}4を得る"
+    },
+    "extreme_edge": {
+      "name_en": "Extreme Edge",
+      "name_jp": "極剣",
+      "image": "",
+      "light": 2,
+      "ct": "30s",
+      "effect": [
+        "{wrath_resonance}\n{on_use} {in_air}の場合、空中版を使用\n{on_use} HPが33%以下の場合、強化版を使用\n{dice1} [7~8] {slash} {unblockable} {knockback} {on_hit} {bleed}5と{defense_down}2を付与",
+        "{bold,text=空中版}\n\n{in_air} {dice1} [4~7] {slash} {on_hit} {defense_down}5を付与",
+        "{bold,text=強化版}\n\n{below_33%_hp} {on_use} {hyperarmor}を得る\n{dice1} [14~25] {slash} {guard_break} {undodgeable} {hit_ground} {ground} {auto_execute} {on_hit} {bleed}8と{defense_down}5を付与"
+      ]
+    },
+    "flying_sword": {
+      "name_en": "Flying Sword",
+      "name_jp": "飛剣",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": [
+        "{lust_resonance}\n{on_use} {in_air}の場合、空中版を使用\n{on_use} {poise}6を得る\n{dice1} [4~8] {slash} {unblockable} {on_hit} {bleed}2を付与\n{dice2} [3~9] {slash} {unblockable} {on_hit} {bleed}2を付与",
+        "{bold,text=空中版}\n\n{in_air} {on_use} {poise}6と{hyperarmor}を得る\n{dice1} [6~12] {slash} {undodgeable} {uptilt} {on_hit} {defense_down}5を付与"
+      ]
+    },
+    "boundary_of_death": {
+      "name_en": "Boundary Of Death",
+      "name_jp": "死の境界",
+      "image": "",
+      "light": 3,
+      "ct": "40s",
+      "effect": "{dice1} [1~4] {true_damage} {auto_execute} {unblockable} {undodgeable}\n{dice1} [4]の場合、ロール値を[46~49] {true_damage}に変更\n{on_hit} {light}4を返却"
+    },
+    "severing_flash": {
+      "name_en": "Severing Flash",
+      "name_jp": "断絶の閃光",
+      "image": "",
+      "light": 3,
+      "ct": "19s",
+      "effect": "{lust_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [3~5] {slash} {unblockable} 対象をマークする\n{dice2} [4~6] {slash} {undodgeable} {on_hit} {bleed}2を付与\n{dice3} [5~8] {slash} {undodgeable} {on_hit} {haste}3を得る\n{on_hit} マークしている対象にヒット時、{poise}3を得る\n\n{below_50%_hp} {after_use} 全てのダイスがヒットした場合\n{on_hit} 15{true_damage}を与え、{bind}3と{fragile}2を付与"
+    }
+  },
+
+  "cinq": {
+    "contre_attaque": {
+      "name_en": "Contre Attaque",
+      "name_jp": "コントラタック",
+      "image": "",
+      "light": 3,
+      "ct": "20s",
+      "effect": "{lust_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [7~10] {pierce} {on_hit} {poise}6を得る\n{dice2} [3~5] {pierce} {on_hit} {haste}2を得る\n{dice3} [7~13] {pierce} {knock_back} {on_hit} {haste}4を得る"
+    },
+    "engagement": {
+      "name_en": "Engagement",
+      "name_jp": "アンガジェマン",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{pride_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [4~6] {pierce} {on_hit} {poise}2を得る\n{dice2} [5~10] {pierce} {on_hit} {poise}2を得る\n{dice3} [6~8] {pierce} {on_hit} {poise}2を得る"
+    },
+    "balestra_fente": {
+      "name_en": "Balestra Fente",
+      "name_jp": "バレストラフォント",
+      "image": "",
+      "light": 2,
+      "ct": "13s",
+      "effect": "{lust_resonance}\n{on_use} {dice2}の{damage_modifier}0.5倍を得る\n{on_use} {poise}8以上なら{dice2}で{value_up}4を得る\n{dice1} {multi_hit} 10回 [5~8] {pierce}\n{dice2} {on_hit} {ground} [7~11] {pierce}"
+    }
+  },
+
+  "seven": {
+    "dissect_target": {
+      "name_en": "Dissect Target",
+      "name_jp": "対象解体",
+      "image": "",
+      "light": 2,
+      "ct": "30s",
+      "effect": "{gloom_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [3~5] {slash} {on_hit} {rupture}3を付与\n{dice2} [4~6] {slash} {on_hit} {rupture}3を付与\n{dice3} [5~7] {slash} {knock_back} {on_hit} {rupture}3を付与"
+    },
+    "swash": {
+      "name_en": "Swash",
+      "name_jp": "スワッシュ",
+      "image": "",
+      "light": 3,
+      "ct": "15s",
+      "effect": "{gluttony_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [3~6] {slash} {multi_hit} 5回\n{dice2} [6~9] {slash} {on_hit} {rupture}5を付与\n{dice3} [9~11] {slash} {guard_break} {on_hit} {rupture}6を付与"
+    },
+    "profiling": {
+      "name_en": "Profiling",
+      "name_jp": "プロファイリング",
+      "image": "",
+      "light": 4,
+      "ct": "25s",
+      "effect": "{gluttony_resonance}\n{on_use} {dice1}と{dice2}の{damage_modifier}0.75倍を得る\n{dice1} [6~10] {pierce} {on_hit} {rupture}3を付与\n{dice2} [7~11] {pierce} {on_hit} {rupture}2を付与\n{dice3} [13~18] {pierce} {guard_break} {on_hit} {rupture}3を付与"
+    },
+    "investigation": {
+      "name_en": "Investigation",
+      "name_jp": "調査",
+      "image": "",
+      "light": 1,
+      "ct": "30s",
+      "effect": "{on_use} 対象のHPを表示する"
+    }
+  },
+
+  "dieci": {
+    "weight_of_knowledge": {
+      "name_en": "Weight Of Knowledge",
+      "name_jp": "知識の重さ",
+      "image": "",
+      "light": 2,
+      "ct": "18s",
+      "effect": "{gluttony_resonance}\n{dice1} [2~4] {blunt} {hit_ground} {on_hit} {sinking}2を付与\n{dice2} [3~5] {blunt} {on_hit} {sinking}1を付与\n{dice3} [3~5] {blunt} {ground} {on_hit} {sinking}3を付与\n{dice4} [3~6] {blunt} {hit_ground} {on_hit} {sinking}3を付与\n{on_hit} 対象の{sinking}が8以上なら{shield_hp}を15得る"
+    },
+    "illuminate_thy_vacuity": {
+      "name_en": "Illuminate Thy Vacuity",
+      "name_jp": "無知を明かさん",
+      "image": "",
+      "light": 2,
+      "ct": "12s",
+      "effect": "{gloom_resonance}\n{dice1} [2~4] {blunt} {on_hit} {sinking}1を付与\n{dice2} [2~4] {blunt} {on_hit} {sinking}1を付与\n{dice3} [2~4] {blunt} {on_hit} {sinking}1を付与\n{dice4} [2~4] {blunt} {on_hit} {sinking}1を付与\n{dice5} [3~6] {blunt} {guard_break} {knock_back} {on_hit} {sinking}2を付与\n{on_hit} 対象の{sinking}が6以上なら{shield_hp}を25得る"
+    },
+    "studious_dedication": {
+      "name_en": "Studious Dedication",
+      "name_jp": "学業精進",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{gluttony_resonance}\n{dice1} [5~8] {blunt} {on_hit} {sinking}3を付与\n{dice2} [5~8] {blunt} {on_hit} {sinking}4を付与"
+    },
+    "scorch_knowledge": {
+      "name_en": "Scorch Knowledge",
+      "name_jp": "知識全焼",
+      "image": "",
+      "light": 3,
+      "ct": "20s",
+      "effect": "{gloom_resonance}\n{dice1} [2~4] {blunt} {hit_ground} {on_hit} {sinking}2を付与\n{dice2} [4~8] {blunt} {on_hit} {sinking}1を付与\n{dice3} [13~18] {blunt} {ground} {guard_break} {on_hit} {sinking}5を付与"
+    }
+  },
+
+  "thumb": {
+    "pistol_draw": {
+      "name_en": "Pistol Draw",
+      "name_jp": "早撃ち",
+      "image": "",
+      "light": 1,
+      "ct": "20s",
+      "effect": "{on_use} 最低1{ammo}が必要(装填済み{ammo}の場合は消費する)\n{dice1} [6~8] {pierce}\n{dice2} [6~8] {pierce}\n{dice3} [6~8] {pierce}"
+    },
+    "coin_trick": {
+      "name_en": "Coin Trick",
+      "name_jp": "コイントリック",
+      "image": "",
+      "light": 1,
+      "ct": "35s",
+      "effect": "{gluttony_resonance}\n{on_use} 最低1{ammo}と1,000{ahn}が必要\n{dice1} [7~13] {pierce} {AoE} {on_hit} 1{ahn}を消費し、{rupture}3を付与"
+    },
+    "summary_judgement": {
+      "name_en": "Summary Judgement",
+      "name_jp": "即決審判",
+      "image": "",
+      "light": 2,
+      "ct": "22s",
+      "effect": "{sloth_resonance}\n{on_use} {hyperarmor}を得る\n{on_use} 最低1{ammo}が必要\n{dice1} [3~9] {blunt} {unblockable} {on_hit} {tremor}6を付与\n{dice2} [10~15] {pierce} {on_hit} {burn}4を付与"
+    },
+    "re_load": {
+      "name_en": "Re-Load",
+      "name_jp": "装填",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{on_use} 最大{ammo}/2に基づいて特殊弾薬(氷結弾、火炎弾など)を得る\n{on_use} 通常{ammo}が装填されているか武器に{ammo}を装填できない場合、特殊弾薬を得られず{light}3を返還する\n{on_use} Tanglecleaver装備時は固有のリロードを起動する"
+    },
+    "tanglecleaver_reload": {
+      "name_en": "Tanglecleaver Reload",
+      "name_jp": "快刀亂麻装填",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{non_frameone} {counter} {knock_back}\nこのページはダメージを与えない\n{dice1} [3~10] {slash} {on_hit} {hyperarmor}を得て、{tremor}1と{burn}3を付与。ロール値と等しい{tigermark_round}を得る。{shin}が1以上の場合、代わりに心・天推星を得る。得た{tigermark_round}は{savage_tigermark_round}に変換される"
+    }
+  },
+
+  "index": {
+    "execute_prescript": {
+      "name_en": "Execute Prescript",
+      "name_jp": "指令遂行",
+      "image": "",
+      "light": 2,
+      "ct": "20s",
+      "effect": "{gluttony_resonance}\n{dice1} [4~7] {slash} {on_hit} {rupture}3を得て、[Singleton]が有効な場合、Light Costが[8~11]に変化\n{dice2} [4~8] {slash} {on_hit} {rupture}4を得て、[Singleton]が有効な場合、Light Costが[8~12]に変化"
+    },
+    "somber_procuration": {
+      "name_en": "Somber Procuration",
+      "name_jp": "憂鬱の調達",
+      "image": "",
+      "light": 3,
+      "ct": "25s",
+      "effect": "{gloom_resonance}\n{dice1} [4~8] {pierce} {on_hit} {rupture}3を得て、[Singleton]が有効な場合、Light Costが[8~12]に変化\n{dice2} [4~6] {pierce} {on_hit} {rupture}3を得て、[Singleton]が有効な場合、Light Costが[8~10]に変化\n{dice3} [Multihit]5回ヒットし、[Last Hit]で[12]のRuptureを得て、[Knockback]"
+    },
+    "will_of_the_city": {
+      "name_en": "Will of The City",
+      "name_jp": "都市の意志",
+      "image": "",
+      "light": 1,
+      "ct": "20s",
+      "effect": "{pride_resonance}\n{dice1} [Frame Three] [When Hit] {counter} {guard_break} [5~10] {slash} If [Singleton]が有効な場合、Light Costが[7~12]に変化 [On Use] {light}1を得る [On Hit] {light}1を得る [Combo Starter]"
+    },
+    "unlock": {
+      "name_en": "Unlock",
+      "name_jp": "アンロック",
+      "image": "",
+      "light": 0,
+      "ct": "20s",
+      "effect": "{undodgeable}\n{dice1} [2~4] {slash} {on_hit} {unlock_blade}1を得る\n{dice2} [3~6] {slash} {knock_back} {on_hit} {unlock_blade}1を得る\n{dice3} [6~11] {slash} {knock_back} {on_hit} {unlock_blade}を失って、{unlocked_blade}1を得る"
+    }
+  },
+
+  "ring": {
+    "sanguine_painting": {
+      "name_en": "Sanguine Painting",
+      "name_jp": "サンギン・ペインティング",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{gluttony_resonance}\n{dice1} [5~9] {pierce} {unblockable} 0.66x {damage_modifier} {dice2} [4~8] {pierce} {undodgeable} {knock_back} {on_hit} {bleed}2を得て、targetが6+ Bleedの場合、{knock_back}を実行しない {dice3} [8~12] {pierce} 0.66x {damage_modifier} {on_hit} {bleed}2を得て {dice4} [12~16] {pierce} {knock_back} {on_hit} {bleed}2を得て"
+    },
+    "hematic_coloring": {
+      "name_en": "Hematic Coloring",
+      "name_jp": "血色 채색",
+      "image": "",
+      "light": 5,
+      "ct": "45s",
+      "effect": "{lust_resonance}\n{undodgeable}\n{on_use} 0.5x {damage_modifier}を得る\n{on_hit} {tracking} {dice1} {dice2} {dice3} {dice4} {dice5} ランダムでBleed、Burn、Rupture、Tremor、Sinkingのいずれかを3つ与える\n{dice1} [3~6] {pierce}\n{dice2} [6~9] {pierce}\n{dice3} [9~12] {pierce}\n{dice4} [12~15] {pierce}\n{dice5} [15~18] {pierce} {ground}"
+    },
+    "paint_over": {
+      "name_en": "Paint Over",
+      "name_jp": "重ね塗り",
+      "image": "",
+      "light": 3,
+      "ct": "10s",
+      "effect": "{gloom_resonance}\n{auto_execute} {undodgeable}\n{on_hit} {dice1} ランダムでBleed、Burn、Rupture、Tremor、Sinkingのいずれかを2つ与える\n{dice1} [5~10] {pierce}\n{dice2} [5~10] {pierce} {combo_extender} {combo_starter}"
+    }
+  },
+
+  "capo": {
+    "savage_double_slash": {
+      "name_en": "Savage Double Slash",
+      "name_jp": "二連斬",
+      "image": "",
+      "light": 1,
+      "ct": "20s",
+      "effect": "{sloth_resonance}\n{on_use} 親指カポスーツのパッシブでは機能しない\n{dice1} [2~4] {slash} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与\n{dice2} [3~5] {slash} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与し、前方にダッシュ\n{after_use} 5{scorch_propellant_round}を得る"
+    },
+    "savage_triple_slash": {
+      "name_en": "Savage Triple Slash",
+      "name_jp": "三連撃",
+      "image": "",
+      "light": 3,
+      "ct": "25s",
+      "effect": "{sloth_resonance}\n{on_use} 親指カポスーツのパッシブでは機能しない\n{dice1} [1~5] {slash} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与\n{dice2} [3~8] {slash} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与\n{dice3} [3~9] {slash} {on_use} 1{scorch_propellant_round}を消費して{burn}2と{tremor}1を付与 {on_hit} {tremor}2を付与\n{after_use} 5{scorch_propellant_round}を得る"
+    },
+    "blasting_shatterslash": {
+      "name_en": "Blasting Shatterslash",
+      "name_jp": "爆碎斬",
+      "image": "",
+      "light": 4,
+      "ct": "40s",
+      "effect": "{lust_resonance}\n{on_use} 親指カポスーツのパッシブでは機能しない\n{dice1} [4~6] {slash} {undodgeable} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与し、{hyperarmor}を得る\n{dice2} [4~8] {slash} {undodgeable} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与\n{dice3} [8~11] {slash} {undodgeable} {unblockable} {on_use} 1{scorch_propellant_round}を消費 {on_hit} 対象の{tremor}を最大15消費し、その値と等しい{burn}を付与"
+    },
+    "tanglecleaver_flurry": {
+      "name_en": "Tanglecleaver Flurry",
+      "name_jp": "快刀亂麻",
+      "image": "",
+      "light": 5,
+      "ct": "60s",
+      "effect": "{wrath_resonance}\n{on_use} 親指カポスーツのパッシブでは機能しない\n{dice1} [5~7] {slash} {undodgeable} {unblockable} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与し、{hyperarmor}を得る\n{dice2} [5~7] {slash} {undodgeable} {unblockable} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与\n{dice3} [5~5] {slash} {guard_break} {undodgeable} {unparriable} {ground} {on_use} 全ての{scorch_propellant_round}を消費し、消費した数値×2のダイス威力と{hyperarmor}を得る {on_hit} {tremor}3を付与し、{tremor_burst}"
+    }
+  },
+
+  "middle": {
+    "proof_of_loyalty": {
+      "name_en": "Proof of Loyalty",
+      "name_jp": "忠誠の証明",
+      "image": "",
+      "light": 2,
+      "ct": "14s",
+      "effect": "{envy_resonance}\n{dice1} [6~8] {blunt} {on_hit} {bleed}2を付与、{hyperarmor}を得る\n{dice2} [7~9] {blunt} {ground} {hit_ground} {guard_break} {on_hit} {bleed}2を付与"
+    },
+    "kicking": {
+      "name_en": "Kicking",
+      "name_jp": "キック",
+      "image": "",
+      "light": 2,
+      "ct": "18s",
+      "effect": "{envy_resonance}\n{on_use} {damage_modifier}0.83倍\n{on_use} {hyperarmor}を得る\n{dice1} [4~5] {blunt} {hit_ground}\n{dice2} [5~6] {blunt} {hit_ground}\n{dice3} [6~7] {blunt} {hit_ground} {knock_back} {on_hit} {bleed}3を付与。中指に所属しているなら{paralyze}2を付与"
+    },
+    "punching": {
+      "name_en": "Punching",
+      "name_jp": "パンチ",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{envy_resonance}\n{on_use} {damage_modifier}0.7倍\n{on_use} {hyperarmor}を得る\n{on_use} 0.7x {damage_modifier}を得る\n{dice1} [4~6] {blunt}\n{dice2} [5~7] {blunt}\n{dice3} [6~8] {blunt} {knock_back} {on_hit} 中指に所属しているなら{paralyze}2を付与"
+    },
+    "a_just_vengeance": {
+      "name_en": "A Just Vengeance",
+      "name_jp": "正義の復讐",
+      "image": "",
+      "light": 4,
+      "ct": "40s",
+      "effect": "{envy_resonance}\n{undodgeable}\n{dice1} [3~5] {blunt} {on_hit} {bleed}2を付与\n{dice2} [4~6] {blunt} {on_hit} {bleed}2を付与\n{dice3} [5~7] {blunt} {knock_back} {on_hit} {bind}2を付与\n{dice4} [12~16] {blunt} {AoE} {ground} {on_hit} {paralyze}3を付与"
+    }
+  },
+
+  "blade_lineage": {
+    "draw_of_the_sword": {
+      "name_en": "Draw of The Sword",
+      "name_jp": "抜剣",
+      "image": "",
+      "light": 1,
+      "ct": "19s",
+      "effect": "{pride_resonance}\n{on_use} {poise}2を得る\n{dice1} [2~3] {slash} {unblockable} {on_hit} {poise}2を得る\n{dice2} [2~4] {slash} {knock_back} {on_hit} {poise}6を消費して{light}1を得る"
+    },
+    "slash_series": {
+      "name_en": "Slash Series",
+      "name_jp": "連続斬り",
+      "image": "",
+      "light": 2,
+      "ct": "15s",
+      "effect": "{wrath_resonance}\n{dice1} [3~5] {slash} {undodgeable} {on_hit} {poise}2を得る\n{dice2} [3~5] {slash} {undodgeable} {on_hit} {poise}2を得る\n{dice3} [5~7] {slash} {knock_back} {guard_break} {on_hit} {poise}2を得る"
+    },
+    "fare_thee_well": {
+      "name_en": "Fare-Thee Well!",
+      "name_jp": "さらば！",
+      "image": "",
+      "light": 3,
+      "ct": "15s",
+      "effect": "{pride_resonance}\n{on_use} {hyperarmor}を得る\n{on_use} 0.8x{damage_modifier}を得る\n{dice1} [6~7] {slash} {on_hit} {poise}3を得て{bleed}1を付与\n{dice2} [7~8] {slash} {on_hit} {poise}3を得て{bleed}1を付与\n{on_hit} {poise}が10以上なら{dice3}は{value_up}5を得る\n{dice3} [10~15] {slash} {guard_break} {ground} {on_hit} {poise}4を得て{bleed}4を付与"
+    },
+    "acupuncture": {
+      "name_en": "Acupuncture",
+      "name_jp": "刺法",
+      "image": "",
+      "light": 3,
+      "ct": "30s",
+      "effect": "{pride_resonance}\n{on_use} {dice1}は{hyperarmor}を得る\n{dice1} [2~3] {slash} {guard_break} {on_hit} {poise}2を得る\n{dice2} [6~12] {slash} {multi_hit} {on_hit} {poise}3を得て{paralyze}1を付与\n{dice3} [2~6] {slash} {knock_back} {on_hit} {poise}2を得る\n{on_hit} {poise}が8以上なら{light}2を得る"
+    },
+    "red_plum_blossoms_scatter": {
+      "name_en": "Red Plum Blossoms Scatter",
+      "name_jp": "舞い散る紅梅",
+      "image": "",
+      "light": 3,
+      "ct": "30s",
+      "effect": "{wrath_resonance}\n{dice1} [5~12] {pierce} {guard_break} {on_hit} {red_plum_blossom}2を付与\n{on_hit} 自身の{poise}に応じて{dice2}の{value_up}を得る({poise}/3)\n{dice2} [4~7] {pierce} {guard_break} {undodgeable} {on_use} 1.6x{damage_modifier}を得る {on_hit} {red_plum_blossom}4を付与"
+    },
+    "moon_splitting_draw": {
+      "name_en": "Moon-Splitting Draw",
+      "name_jp": "月断抜刀",
+      "image": "",
+      "light": 4,
+      "ct": "30s",
+      "effect": "{pride_resonance}\n{on_use} {hyperarmor}を得る\n{on_use} {poise}が15以上なら{value_up}5を得る\n{dice1} [15~25] {slash} {hit_ground} {hit_downed} {guard_break} {undodgeable} {auto_execute} {on_hit} {paralyze}3を付与し、{poise}5を得て、HP5を消費して{light}3を得る"
+    },
+    "overthrow": {
+      "name_en": "Overthrow",
+      "name_jp": "殺主",
+      "image": "",
+      "light": 5,
+      "ct": "40s",
+      "effect": "{pride_resonance}\n{auto_execute}\n{on_use} {hyperarmor}を得る\n{dice1} [2~4] {slash} {undodgeable} {on_use} {poise}5以上なら{value_up}2を得る {on_hit} {bleed}3を付与し{poise}2を得る\n{dice2} [2~4] {slash} {undodgeable} {on_hit} {bleed}3を付与し{poise}2を得る\n{dice3} [5~10] {slash} {hit_ground} {ground} {guard_break} {on_use} {poise}5以上なら{poise}5を消費して{value_up}8を得る {on_hit} {bleed}10と{paralyze}5を付与し{poise}5を得る\n{on_kill} {value_up}3を得る"
+    },
+    "yield_my_flesh": {
+      "name_en": "Yield My Flesh",
+      "name_jp": "肉骨",
+      "image": "",
+      "light": 2,
+      "ct": "60s",
+      "effect": [
+        "{wrath_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [3~6] マッチのみ行う\n{dice1}の{clash_lose}で[骨断]に変化\n{dice2} [6~12] {slash} {guard_break} {on_hit} {light}2を得る",
+        "{bold,text=骨断}\n\n{on_use} {hyperarmor}を得る\n{on_hit} {tracking}を得る\n{dice1} [3~4] {slash} {unblockable} {on_hit} {bleed}3を付与\n{dice2} [4~5] {slash} {unblockable} {on_hit} {bleed}3を付与\n{dice3} [5~6] {slash} {unblockable} {on_hit} {bleed}3を付与\n{dice4} [6~7] {slash} {unblockable} {on_hit} {bleed}3と{paralyze}5を付与"
+      ]
     }
   }
 }

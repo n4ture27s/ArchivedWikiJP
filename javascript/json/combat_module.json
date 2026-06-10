@@ -29,7 +29,14 @@
     "frameone" : {"title":"フレーム1","text":"この攻撃は最初のフレームで実行されます。","color": "94f140"},
     "damage_modifier" : {"title":"ダメージ修正","text":"これが付与されている攻撃は、条件によってダメージが増減されます。","color": "bebebe"},
     "clash_win" : {"title":"マッチ勝利時","text":"この条件はマッチ勝利した際に達成されます。","color": "94f140"},
+    "clash_lose" : {"title":"マッチ敗北時","text":"この条件はマッチ敗北した際に達成されます。","color": "ff0000"},
     "after_use" : {"title":"使用後","text":"この条件は攻撃が終わった後に達成されます。","color": "26cfff"},
+    "true_damage" : {"title":"Trueダメージ","text":"耐性を無視したダメージを与える。","color": "c9a84b"},
     "wrath_resonance" : {"title":"憤怒共鳴","text":"このタグが付いているページには、憤怒の罪悪共鳴があります。","color": "883126"},
-    "lust_resonance" : {"title":"色欲共鳴","text":"このタグが付いているページには、色欲の罪悪共鳴があります。","color": "bb783c"}
+    "lust_resonance" : {"title":"色欲共鳴","text":"このタグが付いているページには、色欲の罪悪共鳴があります。","color": "bb783c"},
+    "pride_resonance" : {"title":"傲慢共鳴","text":"このタグが付いているページには、傲慢の罪悪共鳴があります。","color": "2e5881"},
+    "gloom_resonance" : {"title":"憂鬱共鳴","text":"このタグが付いているページには、憂鬱の罪悪共鳴があります。","color": "68adbd"},
+    "gluttony_resonance" : {"title":"暴食共鳴","text":"このタグが付いているページには、暴食の罪悪共鳴があります。","color": "bad04d"},
+    "sloth_resonance" : {"title":"怠惰共鳴","text":"このタグが付いているページには、怠惰の罪悪共鳴があります。","color": "c9a84b"},
+    "envy_resonance" : {"title":"嫉妬共鳴","text":"このタグが付いているページには、嫉妬の罪悪共鳴があります。","color": "bb6fd5"}
 }

@@ -352,5 +352,40 @@
         "text": "ファシアによって保護を得ることができない",
         "type": "resource",
         "icon": "Artwork_-_fascia"
-    }                                     
+    },
+
+    "ahn": {
+        "title": "Ahn",
+        "text": "Archived内の通貨。",
+        "type": "resource",
+        "icon": "Ahn"
+    },
+
+    "scorch_propellant_round": {
+        "title": "灼熱推進弾",
+        "text": "親指の特定ページで使用される特殊な弾丸。",
+        "type": "resource",
+        "icon": "Scorch_Propellant_Round"
+    },
+
+    "tigermark_round": {
+        "title": "虎標弾",
+        "text": "Tanglecleaver武器のクリティカルを強化する特殊な弾丸。",
+        "type": "resource",
+        "icon": "Tigermark_Round"
+    },
+
+    "savage_tigermark_round": {
+        "title": "猛虎標弾",
+        "text": "Tanglecleaverのクリティカルを変化させる特殊な弾丸。",
+        "type": "resource",
+        "icon": "Savage_Tigermark_Round"
+    },
+
+    "red_plum_blossom": {
+        "title": "紅梅",
+        "text": "クリティカルヒット率を10%上昇させ、クリティカルダメージを(値x3)%上昇させるユニークな出血効果。[的中時]値と等しい出血を付与する。(最大:10, 減衰:10)",
+        "type": "debuff",
+        "icon": "Red_Plum_Blossom"
+    }
 }

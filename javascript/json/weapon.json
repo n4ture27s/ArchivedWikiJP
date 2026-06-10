@@ -799,5 +799,25 @@
       "effect":"{in_air}で{on_hit}\n{dice1} {blunt} [10~12] {unblockable} 2回の{tremor_burst}と{paralyze}を4付与\n高さに応じてダメージが増加する",
       "ct": 16
     }
+  },
+  "shi_association_katana": {
+    "req": "4",
+    "book": "shi",
+    "name_en": "Shi Association Katana",
+    "name_jp": "シ協会刀",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.60,
+    "basic": {
+      "image": "/assets/image/weapon/shi_association_katana_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/shi_association_katana_critical.webm",
+      "desc":"",
+      "effect":"{undodgeable} {auto_execute}\n{on_use} {poise}を6得る\n{on_use} {haste}数値分{dice1}の最大ロール値を増加(最大8)\n{dice1} {slash} [12~18] {on_hit} {bleed}を2付与",
+      "ct":20
+    }
   }
 }

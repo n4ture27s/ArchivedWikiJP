@@ -62,6 +62,18 @@ function initPageControls(containerId, filterBook = null) {
     });
 }
 
+function getAllEffectValues(data) {
+    const effects = [];
+    [data.effect, data.effect2, data.effect3, data.effect4, data.effect5].forEach(val => {
+        if (typeof val === 'string') {
+            effects.push(val);
+        } else if (Array.isArray(val)) {
+            val.forEach(v => { if (typeof v === 'string') effects.push(v); });
+        }
+    });
+    return effects;
+}
+
 function renderPageList(containerId, filterBook = null) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -99,11 +111,11 @@ function renderPageList(containerId, filterBook = null) {
         });
 
         flatPages = flatPages.filter(p => {
+            const allEffects = getAllEffectValues(p);
             // 名前(日/英)や生の効果テキストに含まれるか
             const isBasicMatch = p.name_jp.toLowerCase().includes(searchTerm) ||
                                  p.name_en.toLowerCase().includes(searchTerm) ||
-                                 (p.effect && p.effect.toLowerCase().includes(searchTerm)) ||
-                                 (p.effect2 && p.effect2.toLowerCase().includes(searchTerm));
+                                 allEffects.some(eff => eff.toLowerCase().includes(searchTerm));
             
             if (isBasicMatch) return true;
 
@@ -112,8 +124,7 @@ function renderPageList(containerId, filterBook = null) {
                 return matchingStatusKeys.some(key => {
                     // {key} または {..., key} の形式を正規表現で探す
                     const regex = new RegExp(`\\{[^}]*${key}[^}]*\\}`, 'i');
-                    return (p.effect && regex.test(p.effect)) || 
-                           (p.effect2 && regex.test(p.effect2));
+                    return allEffects.some(eff => regex.test(eff));
                 });
             }
             return false;
@@ -140,19 +151,44 @@ function renderPageList(containerId, filterBook = null) {
             "--book-color-2": "secondary"
         });
 
-        div.innerHTML = `
+        let videoHtml = '';
+        if (data.image) {
+            videoHtml += `
     <div class="page-video">
         <video autoplay loop muted>
             <source src="${data.image}">
-            
         </video>
-    </div>
+    </div>`;
+        }
+        let imgIdx = 2;
+        while (data[`image${imgIdx}`]) {
+            videoHtml += `
+    <div class="page-video">
+        <video autoplay loop muted>
+            <source src="${data[`image${imgIdx}`]}">
+        </video>
+    </div>`;
+            imgIdx++;
+        }
+
+        let effectsHtml = '';
+        const allEffects = getAllEffectValues(data);
+        if (allEffects.length === 0) {
+            effectsHtml = `<div class="page-effect">${formatText('')}</div>\n        `;
+        } else {
+            allEffects.forEach((eff, idx) => {
+                const cls = idx === 0 ? 'page-effect' : 'page-effect secondary-effect';
+                effectsHtml += `<div class="${cls}">${formatText(String(eff))}</div>\n        `;
+            });
+        }
+
+        div.innerHTML = `
+    ${videoHtml}
     <div class="page-content">
         <div class="page-top">
         <div class="page-name">${data.name_jp} / ${data.name_en}</div>
         </div>
-        <div class="page-effect">${formatText(data.effect || '')}</div>
-        ${data.effect2 ? `<div class="page-effect secondary-effect">${formatText(data.effect2)}</div>` : ''}
+        ${effectsHtml}
         <div class="page-bottom">
             <div class="page-stat"><span class="tooltip-target" data-key="light"></span>:${data.light}</div>
             <div class="page-stat">CT:${data.ct}</div>

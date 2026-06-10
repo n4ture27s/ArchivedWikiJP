@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/stylesheet.css?v=1.0.7">
 </head>
 
-<body>
+<body data-page="avaiablepages" data-book-id="dieci">
     <div id="header">
         <header>
             <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
@@ -27,11 +27,15 @@
                     <ruby id="w-comment">これは、引き取られた者の天性であり法則であるため、知識を新たに積むことを怠ってはならない。」</ruby>
                     <p id="description" class="w-subtitle heading">説明</p>    
                     <div class="text-area">
-                        <p>イタリア語で数字の「10」を意味する「Dieci（ディエーチ）」の名を冠しており、ロゴにはローマ数字の「10」と「鍵」があしらわれています。</p>
+                        <p>イタリア語で数字の「10」を意味する「Dieci」の名を冠しており、ロゴにはローマ数字の「10」と「鍵」があしらわれています。</p>
                         <p>本部は西部に位置し、主に「知識」に関する業務を管轄しています。</p>
                         <p>鍵と拳の2つの流派があり、それぞれ武器が実装されています。</p>
                         <p>この協会に所属する方法は、オリジンでディエーチ協会を選択するか、ディエーチ協会に所属するオフィスを作成、又は加入によって所属できます。</p>
-                    </div>          
+                    </div>        
+                    <p class="w-subtitle heading">所属武器</p>
+                    <div id="weapon-list"></div>
+                    <p class="w-subtitle heading">所属ページ</p>
+                    <div id="page-list"></div>  
                 </div>    
             </div>       
         </div>                
@@ -40,6 +44,6 @@
         <!--この下に書くとライセンス表記の下に出てきちゃうので注意-->
     <div id="footer-container"></div>
 
-    <script src="/javascript/main.js"></script>
+    <script src="/javascript/loader.js?v=1.0.7"></script>
 </body>
 </html>
