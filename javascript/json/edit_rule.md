@@ -137,3 +137,20 @@ https://soshage.com/limbus/ja/skill/1040203
 ### page.json
 * smiling_faces セクション (3ページ)
 
+
+
+
+
+
+
+
+
+
+
+# table_data.json 編集ルール
+table_data.json は、特性やオリジンの選択肢、効果などを表形式で管理するためのファイルです。
+column と trait で構成されています。
+column は、表の列を定義します。
+traitsやoriginsは、表の内容を定義します。
+それぞれ他の書式を参考にして、翻訳してください。
+columnは既に定義されている場合は、その名前をそのまま使用してください。定義されていない場合は、新しいcolumnを追加してください。

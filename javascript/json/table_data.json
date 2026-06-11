@@ -42,6 +42,30 @@
         "alias": "Cautious Fury",
         "effect": "- {permadeath}サーバー以外（オーバーワールドを含む）での与ダメージを10%減少\n- {permadeath}内での与ダメージを10%増加",
         "tips": ""
+      },
+      {
+        "name": "BlindspotFinder",
+        "alias": "Blindspot Finder",
+        "effect": "攻撃をパリィすると、対象の背後に素早く移動する\n- 15秒のクールダウン\n- 強攻撃のパリィでも効果は発動するが、移動先の位置は反映されない\n- 背中にメカニカルスパインが追加される",
+        "tips": ""
+      },
+      {
+        "name": "Leeching",
+        "alias": "Strength Leech",
+        "effect": "強攻撃をパリィした後、対象に20のスタミナダメージを与える\n- この効果は対象をスタンさせない",
+        "tips": ""
+      },
+      {
+        "name": "Lunging",
+        "alias": "Gap Closing",
+        "effect": "最大まで溜めた溜め攻撃のヒットボックスが延長され、前方に移動する\n- この攻撃はパリィされても強攻撃とはみなされない",
+        "tips": ""
+      },
+      {
+        "name": "MechanicalThrusters",
+        "alias": "Mechanical Thrusters",
+        "effect": "M1コンボの3回目の軽攻撃がダメージを与え、自身と対象を空中に浮かせる\n- 20秒のクールダウン\n- チップダメージでも発動可能\n- 前の2回の攻撃が当たる必要はない",
+        "tips": ""
       }
     ],
     "def": [
@@ -104,6 +128,36 @@
         "alias": "Composed Guard",
         "effect": "- ガード時のスタミナダメージを軽減\n- パリィが空振りした際のスタミナ消費量を増加させる",
         "tips": "Hot-Headed/Hair-Triggeredと同時適応不可"
+      },
+      {
+        "name": "ChainDashes",
+        "alias": "Chain Steps",
+        "effect": "- 1回目のダッシュ後、約1秒間にもう一度ダッシュできるようになる\n- ダッシュ距離が減少する\n- Agile/Quickstepと併用可能\n- ダッシュのクールダウンは増加しない\n- 距離は減少するが、2回使用することで総移動距離は長くなる",
+        "tips": ""
+      },
+      {
+        "name": "Overprepared",
+        "alias": "Mechanical Climber",
+        "effect": "ジップラインを上ることができる",
+        "tips": "バグあり"
+      },
+      {
+        "name": "Problem Solving",
+        "alias": "Problem Solving Throw",
+        "effect": "走行中にダウンしたプレイヤー/NPCを離すと、前方に投げ飛ばす\n- ダメージによるドロップ時は発動しない\n- NPCはあまり遠くに飛ばされないことがある",
+        "tips": ""
+      },
+      {
+        "name": "Shimmering",
+        "alias": "",
+        "effect": "強攻撃をパリィした時に追加で1ライトを回復する",
+        "tips": ""
+      },
+      {
+        "name": "TimeDistortionField",
+        "alias": "Time-Distorting Field",
+        "effect": "ページ中使用中にパリィキーを押すとページをキャンセルし、周囲の敵をスタンさせる（消費感情レベル100）\n- 感情レベル1または2（200/402ポイント）で使用可能\n- ページ使用中いつでも発動可能\n- 背中にメカニカルスパインが追加される",
+        "tips": ""
       }
     ],
     "parry": [
@@ -144,6 +198,12 @@
         "alias": "Token Of Rojima",
         "effect": "ネズミは攻撃されない限り自分から攻撃してこなくなる",
         "tips": "・この特性は、「Random Rat」のクエストラインでのみ入手可能です。\n・この特性は、特性の上限である3つにはカウントされません。"
+      },
+      {
+        "name": "Culinary Knowledge",
+        "alias": "",
+        "effect": "スパイスがランダムドロップで入手可能になる",
+        "tips": "Shadouのクエストラインで入手できるレシピブックを使用する"
       }
     ]
   },

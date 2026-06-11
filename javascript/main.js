@@ -65,15 +65,14 @@ if (tooltip) {
 let tooltipData = null;
 let combat_module = null;
 
-Promise.all([
-    fetch("/javascript/json/status.json").then(res => res.json()),
-    fetch("/javascript/json/combat_module.json").then(res => res.json())
-]).then(([statusData, moduleData]) => {
-    tooltipData = statusData;
-    combat_module = moduleData;
+fetch("/javascript/json/status_data.json")
+    .then(res => res.json())
+    .then(data => {
+        tooltipData = data.status;
+        combat_module = data.combat_module;
 
-    applyAllStyles();
-});
+        applyAllStyles();
+    });
 
 document.querySelectorAll(".weapon-card").forEach(card => {
     card.addEventListener("click", () => {

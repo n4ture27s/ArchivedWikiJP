@@ -8,28 +8,9 @@ function loadScript(src) {
 
 loadScript("/javascript/utils.js");
 loadScript("/javascript/main.js");
-loadScript("/javascript/page_book.js");
-loadScript("/javascript/weapon_list.js");
-loadScript("/javascript/table.js");
-if (document.body.dataset.page === "update-log") {
-  loadScript("/javascript/log.js");
-}
-
-if (document.body.dataset.page === "weapon-detail") {
-  loadScript("/javascript/weapon_detail.js");
-}
-
-if (document.body.dataset.page === "license") {
-  loadScript("/javascript/license.js");
-}
-
-if (document.body.dataset.page === "sin") {
-  loadScript("/javascript/sin.js");
-}
-
-if (document.body.dataset.page === "effect") {
-  loadScript("/javascript/status_list.js");
-}
+loadScript("/javascript/weapon.js");
+loadScript("/javascript/page_data.js");
+loadScript("/javascript/renders.js");
 
 async function init() {
 

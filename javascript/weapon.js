@@ -1,3 +1,5 @@
+// ===== weapon_list.js =====
+
 let allWeaponsData = {};
 let cards = [];
 
@@ -73,7 +75,7 @@ function updateUI() {
         });
     }
 
-    // パフォーマンス: DocumentFragmentを使用して再描画を1回にまとめる
+    // performance: DocumentFragmentを使用して再描画を1回にまとめる
     const fragment = document.createDocumentFragment();
     weaponListContainer.innerHTML = "";
     filtered.forEach(card => fragment.appendChild(card));
@@ -120,7 +122,7 @@ function applyStateToUI() {
     });
 }
 
-/* ===== イベント ===== */
+/* ===== Events ===== */
 
 function setupEventListeners() {
     if (searchInput) searchInput.addEventListener("input", updateUI);
@@ -174,7 +176,7 @@ function initWeapons() {
     });
 }
 
-/* ===== 共通処理 ===== */
+/* ===== Common ===== */
 
 async function loadWeaponData() {
     try {
@@ -197,7 +199,6 @@ function renderWeaponList(containerOrId, filterBook = null) {
 
         const card = createWeaponCard(id, weapon);
 
-        // 各カード内のステータス表示を初期化
         const statsBox = card.querySelector(".weapon-stats");
         statsBox.append(
             createStat("必要条件", weapon.req, "req"),
@@ -212,7 +213,7 @@ function renderWeaponList(containerOrId, filterBook = null) {
     if (typeof applyAllStyles === "function") applyAllStyles();
 }
 
-/* ===== JSON読み込み ===== */
+/* ===== JSON loading ===== */
 
 function initWeaponListPage() {
     weaponListContainer = document.querySelector(".weapon-list");
@@ -232,7 +233,7 @@ function initWeaponListPage() {
     updateUI();
 }
 
-/* ===== Association用 簡易表示 (アコーディオン形式) ===== */
+/* ===== Association simplified display (accordion style) ===== */
 
 function createSimplifiedWeaponCard(id, data) {
     const card = document.createElement("div");
@@ -241,12 +242,10 @@ function createSimplifiedWeaponCard(id, data) {
     const typeText = (typeof typeMap !== 'undefined' && typeMap[data.type]) || data.type || "";
     const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
     const format = (text) => (typeof formatText === 'function' ? formatText(text) : text);
-    const imageUrl = data.basic && data.basic.image ? data.basic.image : ''; // basic.image を取得
+    const imageUrl = data.basic && data.basic.image ? data.basic.image : '';
 
-    // 各攻撃セクション（Basic, Critical, Gun等）のHTML生成
     let attacksHtml = "";
 
-    // Basic Attack
     if (data.basic) {
         attacksHtml += `
             <div class="simple-attack-section">
@@ -258,7 +257,6 @@ function createSimplifiedWeaponCard(id, data) {
         `;
     }
 
-    // Criticals (critical, critical2...)
     Object.keys(data)
         .filter(key => key.startsWith("critical"))
         .sort((a, b) => getNum(a) - getNum(b))
@@ -278,7 +276,6 @@ function createSimplifiedWeaponCard(id, data) {
             `;
         });
 
-    // Guns (gun, gun2...)
     Object.keys(data)
         .filter(key => key.startsWith("gun"))
         .sort((a, b) => getNum(a) - getNum(b))
@@ -326,7 +323,6 @@ function createSimplifiedWeaponCard(id, data) {
     `;
 
     card.addEventListener("click", (e) => {
-        // 詳細ページへのリンククリック時は開閉しない
         if (e.target.closest('.detail-link')) return;
         card.classList.toggle("expanded");
     });
@@ -334,11 +330,6 @@ function createSimplifiedWeaponCard(id, data) {
     return card;
 }
 
-/**
- * 簡易武器リストを表示する
- * @param {HTMLElement|string} containerOrId 
- * @param {string|Function} filter (bookId または フィルター関数)
- */
 function renderSimplifiedWeaponList(containerOrId, filter = null) {
     const container = typeof containerOrId === "string" ? document.getElementById(containerOrId) : containerOrId;
     if (!container) return;
@@ -347,7 +338,6 @@ function renderSimplifiedWeaponList(containerOrId, filter = null) {
     container.classList.add("weapon-list-simplified");
 
     Object.entries(allWeaponsData).forEach(([id, weapon]) => {
-        // 文字列なら bookId 比較、関数ならカスタムフィルターとして実行
         if (filter) {
             if (typeof filter === "function") {
                 if (!filter(weapon, id)) return;
@@ -361,4 +351,208 @@ function renderSimplifiedWeaponList(containerOrId, filter = null) {
     });
 
     if (typeof applyAllStyles === "function") applyAllStyles();
+}
+
+// ===== weapon_detail.js =====
+
+function setFormattedText(el, text) {
+    if (!el) return;
+    el.innerHTML = formatText(text);
+}
+
+(function () {
+
+    const params = new URLSearchParams(location.search);
+    const id = params.get("id");
+
+    if (!id) {
+        console.warn("idが指定されていません。");
+        return;
+    }
+
+    fetch("/javascript/json/weapon.json")
+        .then(res => {
+            if (!res.ok) throw new Error("JSON読み込み失敗");
+            return res.json();
+        })
+        .then(data => {
+
+            const w = data[id];
+            console.log("w:", w);
+            const criticals = Object.keys(w)
+                .filter(key => key.startsWith("critical"));
+
+            console.log("criticals:", criticals);
+
+            if (!w) {
+                console.warn("該当データなし:", id);
+                return;
+            }
+
+            /* ===== Basic Info ===== */
+            const nameEn = document.getElementById("name-en");
+            const nameJp = document.getElementById("name-jp");
+
+            if (nameEn) nameEn.textContent = w.name_en ?? "unknown";
+            if (nameJp) nameJp.textContent = w.name_jp ?? "";
+
+            document.title = w.name_en ?? "weapon";
+
+            /* ===== Stats ===== */
+            const stats = document.getElementById("stats");
+
+            if (stats) {
+                stats.innerHTML = "";
+
+                const typeText = typeMap[w.type] || w.type || "不明";
+
+                stats.append(
+                    createStat("必要条件", w.req ?? "-"),
+                    createStat("ダメージ", w.damage ?? "-"),
+                    createStat("ダメージタイプ", typeText, w.type),
+                    createStat("振り速", w.speed ?? "-")
+                );
+            }
+
+            /* ===== Basic Attack ===== */
+            if (w.basic) {
+                const vid = document.getElementById("basic-vid");
+                const desc = document.getElementById("basic-desc");
+                const effect = document.getElementById("basic-effect");
+
+                if (vid && w.basic.image) vid.src = w.basic.image;
+
+                setFormattedText(desc, w.basic.desc);
+
+                if (w.basic.effect) {
+                    setFormattedText(effect, w.basic.effect);
+                } else if (effect) {
+                    effect.style.display = "none";
+                }
+            }
+
+            /* ===== Critical ===== */
+            renderCriticals(w);
+
+            /* ===== Gun ===== */
+            renderGuns(w);
+
+            /* ===== tooltip re-apply ===== */
+            if (typeof applyAllStyles === "function") {
+                applyAllStyles();
+            }
+            if (typeof applyCombatModuleColor === "function") applyCombatModuleColor();
+
+        })
+        .catch(err => {
+            console.error(err);
+        });
+})();
+
+
+function renderCriticals(w) {
+    const container = document.getElementById("critical-container");
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
+    const criticals = Object.keys(w)
+        .filter(key => key.startsWith("critical"))
+        .sort((a, b) => {
+            return getNum(a) - getNum(b);
+        });
+
+
+    criticals.forEach((key, index) => {
+        const c = w[key];
+        if (!c) return;
+
+        const section = document.createElement("div");
+        section.classList.add("weapon-section");
+
+        section.innerHTML = `
+            <h2>Critical ${index + 1}</h2>
+            <div class="attack-box">
+                <video class="attack-vid" autoplay loop muted> </video>
+                <div class="attack-info">
+                    <p class="crit-desc"></p>
+                    <p class="crit-ct"></p>
+                    <p class="crit-effect effect"></p>
+                </div>
+            </div>
+        `;
+
+        const vid = section.querySelector(".attack-vid");
+        const desc = section.querySelector(".crit-desc");
+        const effect = section.querySelector(".crit-effect");
+        const ct = section.querySelector(".crit-ct");
+
+        if (vid && c.image) vid.src = c.image;
+
+        setFormattedText(desc, c.desc);
+
+        if (c.ct) {
+            ct.textContent = `CT: ${c.ct}`;
+        } else {
+            ct.style.display = "none";
+        }
+
+        if (c.effect) {
+            setFormattedText(effect, c.effect);
+        } else {
+            effect.style.display = "none";
+        }
+
+        container.appendChild(section);
+    });
+}
+
+function renderGuns(w) {
+    const container = document.getElementById("gun-container");
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
+    const guns = Object.keys(w)
+        .filter(key => key.startsWith("gun"))
+        .sort((a, b) => {
+            return getNum(a) - getNum(b);
+        });
+
+    guns.forEach((key, index) => {
+        const c = w[key];
+        if (!c) return;
+
+        const section = document.createElement("div");
+        section.classList.add("weapon-section");
+
+        section.innerHTML = `
+            <h2>${c.title}</h2>
+            <div class="attack-box">
+                <video class="attack-vid" autoplay loop muted> </video>
+                <div class="attack-info">
+                    <p class="gun-desc"></p>
+                    <p class="gun-effect effect"></p>
+                </div>
+            </div>
+        `;
+
+        const vid = section.querySelector(".attack-vid");
+        const desc = section.querySelector(".gun-desc");
+        const effect = section.querySelector(".gun-effect");
+
+        if (vid && c.image) vid.src = c.image;
+
+        setFormattedText(desc, c.desc);
+
+        if (c.effect) {
+            setFormattedText(effect, c.effect);
+        } else {
+            effect.style.display = "none";
+        }
+
+        container.appendChild(section);
+    });
 }

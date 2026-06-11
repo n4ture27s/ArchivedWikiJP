@@ -77,6 +77,7 @@
   },
    "cinq_rapier": {
     "req": "4",
+    "book": "cinq",
     "name_en": "Cinq rapier",
     "name_jp": "センクレイピア",
     "type": "pierce",
@@ -238,6 +239,7 @@
   },
    "Viriscent_Pyrojade_Ring": {
     "req": "6",
+    "book": "cinq",
     "name_en": "Viriscent Pyrojade Ring",
     "name_jp": "緑がかった翡翠",
     "type": "pierce",
