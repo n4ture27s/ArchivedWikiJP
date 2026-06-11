@@ -117,5 +117,21 @@
     "icon": "syndicate/blade_lineage",
     "color": "8b0000",
     "color2": "ffd700"
+  },
+
+  "kurokumo": {
+    "name_jp": "黒雲会の本",
+    "name_en": "Book of Kurokumo Clan",
+    "icon": "syndicate/kurokumo",
+    "color": "2d2d3f",
+    "color2": "9b9bbf"
+  },
+
+  "smiling_faces": {
+    "name_jp": "笑う顔たちの本",
+    "name_en": "Book of The Smiling Faces",
+    "icon": "syndicate/smiling_faces",
+    "color": "4a0e4e",
+    "color2": "d4af37"
   }
 }

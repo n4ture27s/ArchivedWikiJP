@@ -382,6 +382,13 @@
         "icon": "Savage_Tigermark_Round"
     },
 
+    "value_down": {
+        "title": "ダイス値減少",
+        "text": "ダイス威力を値だけ減少させる。",
+        "type": "debuff",
+        "icon": "Value_Power_Down"
+    },
+
     "red_plum_blossom": {
         "title": "紅梅",
         "text": "クリティカルヒット率を10%上昇させ、クリティカルダメージを(値x3)%上昇させるユニークな出血効果。[的中時]値と等しい出血を付与する。(最大:10, 減衰:10)",

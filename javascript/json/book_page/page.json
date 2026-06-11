@@ -719,5 +719,91 @@
         "{bold,text=骨断}\n\n{on_use} {hyperarmor}を得る\n{on_hit} {tracking}を得る\n{dice1} [3~4] {slash} {unblockable} {on_hit} {bleed}3を付与\n{dice2} [4~5] {slash} {unblockable} {on_hit} {bleed}3を付与\n{dice3} [5~6] {slash} {unblockable} {on_hit} {bleed}3を付与\n{dice4} [6~7] {slash} {unblockable} {on_hit} {bleed}3と{paralyze}5を付与"
       ]
     }
+  },
+
+  "kurokumo": {
+    "shadowcloud_break": {
+      "name_en": "Shadowcloud Break",
+      "name_jp": "影雲破",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{lust_resonance}\n{dice1} [5~7] {pierce} {guard_break} {on_hit} {bleed}6を付与し、対象の画面をぼかす"
+    },
+    "cloud_cutter": {
+      "name_en": "Cloud Cutter",
+      "name_jp": "雲の切開",
+      "image": "",
+      "light": 2,
+      "ct": "10s",
+      "effect": "{pride_resonance}\n{dice1} [1~5] {slash} {QTE} {on_hit} {poise}2を得て、{bleed}2を付与\n{dice2} [1~5] {slash} {on_hit} {poise}2を得て、{bleed}2を付与\n{QTE_success} 2{light}以上の場合、ページを再使用する"
+    },
+    "silent_mist": {
+      "name_en": "Silent Mist",
+      "name_jp": "静かな霧",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{pride_resonance}\n{on_use} {poise}3を得る\n{dice1} [7~10] {slash} {auto_execute} {unblockable} {on_hit} {bleed}4を付与"
+    },
+    "shadowcloud_kick": {
+      "name_en": "Shadowcloud Kick",
+      "name_jp": "影雲蹴",
+      "image": "",
+      "light": 1,
+      "ct": "30s",
+      "effect": "{lust_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [4~6] {slash} {on_hit} {bleed}3を付与\n対象の{bleed}が7以上の場合、{value_up}3を得る\n{dice2} [6~8] {slash}\n対象の{bleed}が7以上の場合、{value_down}2を付与"
+    },
+    "sky_clearing_cut": {
+      "name_en": "Sky Clearing Cut",
+      "name_jp": "雲晴斬",
+      "image": "",
+      "light": 3,
+      "ct": "17s",
+      "effect": "{pride_resonance}\n{dice1} [4~7] {slash} {on_hit} {bleed}1を付与\n{dice2} [5~9] {slash} {on_hit} {bleed}3を付与\n対象の{bleed}が10以上の場合、ダイスダメージの30%の追加ダメージを与える\n{dice3} [6~10] {slash} {knock_back} {on_hit} {bleed}3を付与\n対象の{bleed}が10以上の場合、ダイスダメージの30%の追加ダメージを与える"
+    },
+    "dark_cloud_cleaver": {
+      "name_en": "Dark Cloud Cleaver",
+      "name_jp": "暗雲断",
+      "image": "",
+      "light": 2,
+      "ct": "18s",
+      "effect": "{lust_resonance}\n{combo_starter} {combo_extender}\n{dice1} [5~7] {slash} {on_hit} {bleed}2を付与、{poise}4を得る\n{dice2} [7~10] {slash} {knock_back} {on_hit} {bleed}3を付与"
+    },
+    "shadowcloud_shattercleave": {
+      "name_en": "Shadowcloud Shattercleave",
+      "name_jp": "墨雲裂割",
+      "image": "",
+      "light": 3,
+      "ct": "22s",
+      "effect": "{lust_resonance}\n{dice1} [2~5] {slash} {on_hit} 対象の画面をぼかし、{bleed}2を付与、{defense_up}2を得る\n{dice2} [2~6] {slash} {on_hit} {bleed}2を付与、{defense_up}2を得る\n対象の{bleed}が6以上の場合、{defense_up}4を得る\n{dice3} [8~10] {slash} {guard_break} {ground} {on_hit} {bleed}5を付与\n対象の{bleed}が10以上の場合、このダイスから{ground}を取り除く"
+    }
+  },
+
+  "smiling_faces": {
+    "inhale": {
+      "name_en": "Inhale",
+      "name_jp": "煙吹かし",
+      "image": "",
+      "light": 1,
+      "ct": "60s",
+      "effect": "{gluttony_resonance}\n{dice1} [3~5] {QTE}\n{on_use} 毎秒ダイス値分の{smoke}を得る\n{after_use} {paralyze}1を得る\n{QTE_success} [7~9]でロールする"
+    },
+    "exhale_smoke": {
+      "name_en": "Exhale Smoke",
+      "name_jp": "噴煙",
+      "image": "",
+      "light": 2,
+      "ct": "25s",
+      "effect": "{pride_resonance}\n{dice1} [7~13] {blunt} {multi_hit} 4回\n{on_hit} {smoke}1を付与\n対象の{smoke}数値に応じてダメージが上昇する"
+    },
+    "loss_of_senses": {
+      "name_en": "Loss of Senses",
+      "name_jp": "感覚喪失",
+      "image": "",
+      "light": 2,
+      "ct": "30s",
+      "effect": "{gluttony_resonance}\n{counter} {undodgeable}\n{dice1} [9~11] {blunt} {multi_hit} 2回\n{on_hit} {paralyze}1を付与し、{smoke}3を付与する"
+    }
   }
 }

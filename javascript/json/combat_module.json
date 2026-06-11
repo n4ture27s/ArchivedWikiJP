@@ -38,5 +38,7 @@
     "gloom_resonance" : {"title":"憂鬱共鳴","text":"このタグが付いているページには、憂鬱の罪悪共鳴があります。","color": "68adbd"},
     "gluttony_resonance" : {"title":"暴食共鳴","text":"このタグが付いているページには、暴食の罪悪共鳴があります。","color": "bad04d"},
     "sloth_resonance" : {"title":"怠惰共鳴","text":"このタグが付いているページには、怠惰の罪悪共鳴があります。","color": "c9a84b"},
-    "envy_resonance" : {"title":"嫉妬共鳴","text":"このタグが付いているページには、嫉妬の罪悪共鳴があります。","color": "bb6fd5"}
+    "envy_resonance" : {"title":"嫉妬共鳴","text":"このタグが付いているページには、嫉妬の罪悪共鳴があります。","color": "bb6fd5"},
+    "combo_starter" : {"title":"コンボ始動","text":"このタグはコンボを開始できる攻撃に付与されます。","color": "94f140"},
+    "combo_extender" : {"title":"コンボ継続","text":"このタグはコンボを継続できる攻撃に付与されます。","color": "94f140"}
 }
