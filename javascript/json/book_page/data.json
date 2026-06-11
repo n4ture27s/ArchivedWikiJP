@@ -684,7 +684,7 @@
       },
       "tanglecleaver_reload": {
         "name_en": "Tanglecleaver Reload",
-        "name_jp": "快刀亂麻装填",
+        "name_jp": "快刀亂麻:装填",
         "image": "",
         "light": 2,
         "ct": "15s",
@@ -703,7 +703,7 @@
       },
       "somber_procuration": {
         "name_en": "Somber Procuration",
-        "name_jp": "憂鬱の調達",
+        "name_jp": "厳粛なる代行",
         "image": "",
         "light": 3,
         "ct": "25s",
@@ -719,7 +719,7 @@
       },
       "unlock": {
         "name_en": "Unlock",
-        "name_jp": "アンロック",
+        "name_jp": "解禁",
         "image": "",
         "light": 0,
         "ct": "20s",
@@ -730,7 +730,7 @@
     "ring": {
       "sanguine_painting": {
         "name_en": "Sanguine Painting",
-        "name_jp": "サンギン・ペインティング",
+        "name_jp": "血描画",
         "image": "",
         "light": 2,
         "ct": "25s",
@@ -738,7 +738,7 @@
       },
       "hematic_coloring": {
         "name_en": "Hematic Coloring",
-        "name_jp": "血色 채색",
+        "name_jp": "滴血の彩色",
         "image": "",
         "light": 5,
         "ct": "45s",
@@ -746,7 +746,7 @@
       },
       "paint_over": {
         "name_en": "Paint Over",
-        "name_jp": "重ね塗り",
+        "name_jp": "上塗り",
         "image": "",
         "light": 3,
         "ct": "10s",

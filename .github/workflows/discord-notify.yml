@@ -1,0 +1,23 @@
+name: Discord Notify
+
+on:
+  push:
+    branches:
+      - deploy
+    paths:
+      - "javascript/json/logs.json"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/discord_notify.js
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "logs.json: newフラグをfalseに更新"

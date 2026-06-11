@@ -1,8 +1,6 @@
-const version = "1.0.7";
-
 function loadScript(src) {
   const s = document.createElement("script");
-  s.src = `${src}?v=${version}`;
+  s.src = `${src}?v=${APP_VERSION}`;
   document.body.appendChild(s);
 }
 

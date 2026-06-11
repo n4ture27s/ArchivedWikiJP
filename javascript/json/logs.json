@@ -1,12 +1,13 @@
 {
   "logs": [
     {
-      "date": "2026/05/",
-      "new": false,
+      "date": "2026/06/11",
+      "new": true,
       "items": [
         { "type": "add", "text": "武器解説" },
         { "type": "add", "text": "ページ、本一覧" },
-        { "type": "add", "text": "リウ教会 武器とページ解説" },
+        { "type": "add", "text": "特性追加" },
+        { "type": "add", "text": "協会 全ページ解説 & 武器解説" },
         { "type": "change" ,"text": "footer URL デザイン"}
         
       ]
