@@ -139,23 +139,18 @@ function renderPageList(containerId, filterBook = null) {
         });
 
         let videoHtml = '';
-        if (data.image) {
-            videoHtml += `
-    <div class="page-video">
-        <video autoplay loop muted>
-            <source src="${data.image}">
-        </video>
-    </div>`;
-        }
-        let imgIdx = 2;
-        while (data[`image${imgIdx}`]) {
-            videoHtml += `
-    <div class="page-video">
-        <video autoplay loop muted>
-            <source src="${data[`image${imgIdx}`]}">
-        </video>
-    </div>`;
-            imgIdx++;
+        const imageList = Array.isArray(data.image) ? data.image : (data.image ? [data.image] : []);
+        if (imageList.length > 0) {
+            videoHtml = '\n    <div class="page-videos">';
+            imageList.forEach(src => {
+                videoHtml += `
+        <div class="page-video">
+            <video autoplay loop muted>
+                <source src="${src}">
+            </video>
+        </div>`;
+            });
+            videoHtml += '\n    </div>';
         }
 
         let effectsHtml = '';

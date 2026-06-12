@@ -1173,9 +1173,15 @@ th.sort-desc::after {
     align-items: flex-start;
 }
 
+.page-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
 .page-video {
     width: 220px;
-    flex-shrink: 0;
 }
 
 .page-video video {

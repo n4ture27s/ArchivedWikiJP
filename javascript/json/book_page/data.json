@@ -1,6 +1,11 @@
 {
   "books": {
-    "group_order": ["", "association", "syndicate","other1"],
+    "group_order": [
+      "",
+      "association",
+      "syndicate",
+      "other1"
+    ],
     "regular_pages": {
       "group": "",
       "order": 0,
@@ -10,7 +15,6 @@
       "color": "DAA520",
       "color2": "FFD700"
     },
-
     "hana": {
       "group": "association",
       "order": 0,
@@ -20,7 +24,6 @@
       "color": "ececec",
       "color2": "010101"
     },
-
     "zwei": {
       "group": "association",
       "order": 1,
@@ -30,7 +33,6 @@
       "color": "313574",
       "color2": "DAB744"
     },
-
     "shi": {
       "group": "association",
       "order": 2,
@@ -40,7 +42,6 @@
       "color": "fa0f2e",
       "color2": "F4F4F4"
     },
-
     "cinq": {
       "group": "association",
       "order": 3,
@@ -50,7 +51,6 @@
       "color": "506db1",
       "color2": "FFFFFF"
     },
-
     "liu": {
       "group": "association",
       "order": 4,
@@ -60,7 +60,6 @@
       "color": "b00401",
       "color2": "F9C20A"
     },
-
     "seven": {
       "group": "association",
       "order": 5,
@@ -70,7 +69,6 @@
       "color": "19786f",
       "color2": "DAA055"
     },
-
     "dieci": {
       "group": "association",
       "order": 6,
@@ -80,7 +78,6 @@
       "color": "d1a310",
       "color2": "EDE4D1"
     },
-
     "thumb": {
       "group": "syndicate",
       "order": 0,
@@ -90,7 +87,6 @@
       "color": "c51e11",
       "color2": "98876C"
     },
-
     "index": {
       "group": "syndicate",
       "order": 1,
@@ -100,7 +96,6 @@
       "color": "4eaefe",
       "color2": "F6F4F0"
     },
-
     "middle": {
       "group": "syndicate",
       "order": 2,
@@ -110,7 +105,6 @@
       "color": "5e1894",
       "color2": "C7C8B7"
     },
-
     "ring": {
       "group": "syndicate",
       "order": 3,
@@ -120,7 +114,6 @@
       "color": "DAA520",
       "color2": "FFD700"
     },
-
     "blade_lineage": {
       "group": "syndicate",
       "order": 4,
@@ -130,7 +123,6 @@
       "color": "b6132d",
       "color2": "FFFFFF"
     },
-
     "kurokumo": {
       "group": "syndicate",
       "order": 5,
@@ -140,7 +132,6 @@
       "color": "5b5952",
       "color2": "FEFEFE"
     },
-
     "smiling_faces": {
       "group": "syndicate",
       "order": 6,
@@ -150,7 +141,6 @@
       "color": "DAA520",
       "color2": "FFD700"
     },
-
     "red_mist": {
       "group": "other1",
       "order": 1,
@@ -160,7 +150,6 @@
       "color": "c4412d",
       "color2": "6C5736"
     },
-
     "capo": {
       "group": "other1",
       "order": 2,
@@ -179,7 +168,7 @@
         "image": "",
         "light": 2,
         "ct": "13s",
-        "effect":"{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
+        "effect": "{auto_execute} \n{dice1} [8~10] 斬撃 {on_hit} {bleed}3を付与し、{imitation}1を得る。\n{dice2} [9~10] 斬撃 {ground} {on_hit}{bleed}3を付与し、{imitation}1を得る。"
       },
       "on_rush": {
         "name_en": "Onrush",
@@ -235,7 +224,7 @@
     "zwei": {
       "client_protection": {
         "name_en": "Client Protection",
-        "name_jp": "クライアント保護",
+        "name_jp": "顧客保護",
         "image": "",
         "light": 2,
         "ct": "25s",
@@ -506,7 +495,7 @@
       "catch_breath": {
         "name_en": "Catch Breath",
         "name_jp": "息を整える",
-        "image": "",
+        "image": "/assets/image/page/catch_breath.webm",
         "light": 2,
         "ct": "20s",
         "effect": "{lust_resonance}\n{on_use} HPが50%以下の場合、{value_up}4を得る\n{dice1} [8~15] {slash} {on_hit} {poise}6を得る\n{below_50%_hp} {on_hit} {poise}8と{haste}4を得る"
@@ -514,7 +503,11 @@
       "extreme_edge": {
         "name_en": "Extreme Edge",
         "name_jp": "極剣",
-        "image": "",
+        "image": [
+          "/assets/image/page/extreme_edge_1.webm",
+          "/assets/image/page/extreme_edge_2.webm",
+          "/assets/image/page/extreme_edge_3.webm"
+        ],
         "light": 2,
         "ct": "30s",
         "effect": [
@@ -526,7 +519,10 @@
       "flying_sword": {
         "name_en": "Flying Sword",
         "name_jp": "飛剣",
-        "image": "",
+       "image": [
+          "/assets/image/page/flying_sword_1.webm",
+          "/assets/image/page/flying_sword_2.webm"
+        ],
         "light": 2,
         "ct": "25s",
         "effect": [
@@ -537,7 +533,7 @@
       "boundary_of_death": {
         "name_en": "Boundary Of Death",
         "name_jp": "死の境界",
-        "image": "",
+        "image": "/assets/image/page/boundary_of_death.webm",
         "light": 3,
         "ct": "40s",
         "effect": "{dice1} [1~4] {true_damage} {auto_execute} {unblockable} {undodgeable}\n{dice1} [4]の場合、ロール値を[46~49] {true_damage}に変更\n{on_hit} {light}4を返却"
@@ -551,7 +547,6 @@
         "effect": "{lust_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [3~5] {slash} {unblockable} 対象をマークする\n{dice2} [4~6] {slash} {undodgeable} {on_hit} {bleed}2を付与\n{dice3} [5~8] {slash} {undodgeable} {on_hit} {haste}3を得る\n{on_hit} マークしている対象にヒット時、{poise}3を得る\n\n{below_50%_hp} {after_use} 全てのダイスがヒットした場合\n{on_hit} 15{true_damage}を与え、{bind}3と{fragile}2を付与"
       }
     },
-
     "cinq": {
       "contre_attaque": {
         "name_en": "Contre Attaque",
@@ -578,7 +573,6 @@
         "effect": "{lust_resonance}\n{on_use} {dice2}の{damage_modifier}0.5倍を得る\n{on_use} {poise}8以上なら{dice2}で{value_up}4を得る\n{dice1} {multi_hit} 10回 [5~8] {pierce}\n{dice2} {on_hit} {ground} [7~11] {pierce}"
       }
     },
-
     "seven": {
       "dissect_target": {
         "name_en": "Dissect Target",
@@ -613,7 +607,6 @@
         "effect": "{on_use} 対象のHPを表示する"
       }
     },
-
     "dieci": {
       "weight_of_knowledge": {
         "name_en": "Weight Of Knowledge",
@@ -648,7 +641,6 @@
         "effect": "{gloom_resonance}\n{dice1} [2~4] {blunt} {hit_ground} {on_hit} {sinking}2を付与\n{dice2} [4~8] {blunt} {on_hit} {sinking}1を付与\n{dice3} [13~18] {blunt} {ground} {guard_break} {on_hit} {sinking}5を付与"
       }
     },
-
     "thumb": {
       "pistol_draw": {
         "name_en": "Pistol Draw",
@@ -691,7 +683,6 @@
         "effect": "{non_frameone} {counter} {knock_back}\nこのページはダメージを与えない\n{dice1} [3~10] {slash} {on_hit} {hyperarmor}を得て、{tremor}1と{burn}3を付与。ロール値と等しい{tigermark_round}を得る。{shin}が1以上の場合、代わりに心・天推星を得る。得た{tigermark_round}は{savage_tigermark_round}に変換される"
       }
     },
-
     "index": {
       "execute_prescript": {
         "name_en": "Execute Prescript",
@@ -726,7 +717,6 @@
         "effect": "{undodgeable}\n{dice1} [2~4] {slash} {on_hit} {unlock_blade}1を得る\n{dice2} [3~6] {slash} {knock_back} {on_hit} {unlock_blade}1を得る\n{dice3} [6~11] {slash} {knock_back} {on_hit} {unlock_blade}を失って、{unlocked_blade}1を得る"
       }
     },
-
     "ring": {
       "sanguine_painting": {
         "name_en": "Sanguine Painting",
@@ -753,7 +743,6 @@
         "effect": "{gloom_resonance}\n{auto_execute} {undodgeable}\n{on_hit} {dice1} ランダムでBleed、Burn、Rupture、Tremor、Sinkingのいずれかを2つ与える\n{dice1} [5~10] {pierce}\n{dice2} [5~10] {pierce} {combo_extender} {combo_starter}"
       }
     },
-
     "capo": {
       "savage_double_slash": {
         "name_en": "Savage Double Slash",
@@ -788,11 +777,10 @@
         "effect": "{wrath_resonance}\n{on_use} 親指カポスーツのパッシブでは機能しない\n{dice1} [5~7] {slash} {undodgeable} {unblockable} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与し、{hyperarmor}を得る\n{dice2} [5~7] {slash} {undodgeable} {unblockable} {on_use} 1{scorch_propellant_round}を消費して{burn}2を付与 {on_hit} {tremor}3を付与\n{dice3} [5~5] {slash} {guard_break} {undodgeable} {unparriable} {ground} {on_use} 全ての{scorch_propellant_round}を消費し、消費した数値×2のダイス威力と{hyperarmor}を得る {on_hit} {tremor}3を付与し、{tremor_burst}"
       }
     },
-
     "middle": {
       "proof_of_loyalty": {
         "name_en": "Proof of Loyalty",
-        "name_jp": "忠誠の証明",
+        "name_jp": "義理証明",
         "image": "",
         "light": 2,
         "ct": "14s",
@@ -800,7 +788,7 @@
       },
       "kicking": {
         "name_en": "Kicking",
-        "name_jp": "キック",
+        "name_jp": "足蹴",
         "image": "",
         "light": 2,
         "ct": "18s",
@@ -808,7 +796,7 @@
       },
       "punching": {
         "name_en": "Punching",
-        "name_jp": "パンチ",
+        "name_jp": "殴る",
         "image": "",
         "light": 2,
         "ct": "15s",
@@ -816,14 +804,13 @@
       },
       "a_just_vengeance": {
         "name_en": "A Just Vengeance",
-        "name_jp": "正義の復讐",
+        "name_jp": "正義の仕返し",
         "image": "",
         "light": 4,
         "ct": "40s",
         "effect": "{envy_resonance}\n{undodgeable}\n{dice1} [3~5] {blunt} {on_hit} {bleed}2を付与\n{dice2} [4~6] {blunt} {on_hit} {bleed}2を付与\n{dice3} [5~7] {blunt} {knock_back} {on_hit} {bind}2を付与\n{dice4} [12~16] {blunt} {AoE} {ground} {on_hit} {paralyze}3を付与"
       }
     },
-
     "blade_lineage": {
       "draw_of_the_sword": {
         "name_en": "Draw of The Sword",
@@ -893,7 +880,6 @@
         ]
       }
     },
-
     "kurokumo": {
       "shadowcloud_break": {
         "name_en": "Shadowcloud Break",
@@ -929,7 +915,7 @@
       },
       "sky_clearing_cut": {
         "name_en": "Sky Clearing Cut",
-        "name_jp": "雲晴斬",
+        "name_jp": "快刀乱麻",
         "image": "",
         "light": 3,
         "ct": "17s",
@@ -952,7 +938,6 @@
         "effect": "{lust_resonance}\n{dice1} [2~5] {slash} {on_hit} 対象の画面をぼかし、{bleed}2を付与、{defense_up}2を得る\n{dice2} [2~6] {slash} {on_hit} {bleed}2を付与、{defense_up}2を得る\n対象の{bleed}が6以上の場合、{defense_up}4を得る\n{dice3} [8~10] {slash} {guard_break} {ground} {on_hit} {bleed}5を付与\n対象の{bleed}が10以上の場合、このダイスから{ground}を取り除く"
       }
     },
-
     "smiling_faces": {
       "inhale": {
         "name_en": "Inhale",
