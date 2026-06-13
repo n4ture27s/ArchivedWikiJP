@@ -724,7 +724,7 @@
         "image": "",
         "light": 2,
         "ct": "25s",
-        "effect": "{gluttony_resonance}\n{dice1} [5~9] {pierce} {unblockable} 0.66x {damage_modifier} {dice2} [4~8] {pierce} {undodgeable} {knock_back} {on_hit} {bleed}2を得て、targetが6+ Bleedの場合、{knock_back}を実行しない {dice3} [8~12] {pierce} 0.66x {damage_modifier} {on_hit} {bleed}2を得て {dice4} [12~16] {pierce} {knock_back} {on_hit} {bleed}2を得て"
+        "effect": "{gluttony_resonance}\n{dice1} [5~9] {pierce} {unblockable} 0.66x {damage_modifier} {dice2} [4~8] {pierce} {undodgeable} {knock_back} {on_hit} {bleed}2を付与、対象の{bleed}が6以上の場合、{knock_back}を実行しない {dice3} [8~12] {pierce} 0.66x {damage_modifier} {on_hit} {bleed}2を付与 {dice4} [12~16] {pierce} {knock_back} {on_hit} {bleed}2を付与"
       },
       "hematic_coloring": {
         "name_en": "Hematic Coloring",
@@ -732,7 +732,7 @@
         "image": "",
         "light": 5,
         "ct": "45s",
-        "effect": "{lust_resonance}\n{undodgeable}\n{on_use} 0.5x {damage_modifier}を得る\n{on_hit} {tracking} {dice1} {dice2} {dice3} {dice4} {dice5} ランダムでBleed、Burn、Rupture、Tremor、Sinkingのいずれかを3つ与える\n{dice1} [3~6] {pierce}\n{dice2} [6~9] {pierce}\n{dice3} [9~12] {pierce}\n{dice4} [12~15] {pierce}\n{dice5} [15~18] {pierce} {ground}"
+        "effect": "{lust_resonance}\n{undodgeable}\n{on_use} 0.5x {damage_modifier}を得る\n{on_hit} {tracking} {dice1} {dice2} {dice3} {dice4} {dice5} ランダムで{bleed}、{burn}、{rupture}、{tremor}、{sinking}のいずれかを3つ与える\n{dice1} [3~6] {pierce}\n{dice2} [6~9] {pierce}\n{dice3} [9~12] {pierce}\n{dice4} [12~15] {pierce}\n{dice5} [15~18] {pierce} {ground}"
       },
       "paint_over": {
         "name_en": "Paint Over",
@@ -740,7 +740,7 @@
         "image": "",
         "light": 3,
         "ct": "10s",
-        "effect": "{gloom_resonance}\n{auto_execute} {undodgeable}\n{on_hit} {dice1} ランダムでBleed、Burn、Rupture、Tremor、Sinkingのいずれかを2つ与える\n{dice1} [5~10] {pierce}\n{dice2} [5~10] {pierce} {combo_extender} {combo_starter}"
+        "effect": "{gloom_resonance}\n{auto_execute} {undodgeable}\n{on_hit} {dice1} ランダムで{bleed}、{burn}、{rupture}、{tremor}、{sinking}のいずれかを2つ与える\n{dice1} [5~10] {pierce}\n{dice2} [5~10] {pierce} {combo_extender} {combo_starter}"
       }
     },
     "capo": {
