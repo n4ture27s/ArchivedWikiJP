@@ -821,5 +821,24 @@
       "effect":"{undodgeable} {auto_execute}\n{on_use} {poise}を6得る\n{on_use} {haste}数値分{dice1}の最大ロール値を増加(最大8)\n{dice1} {slash} [12~18] {on_hit} {bleed}を2付与",
       "ct":20
     }
+  },
+   "blade_lineage_hwando": {
+    "req": "5",
+    "name_en": "Blade Lineage Hwando",
+    "name_jp": "剣契環刀",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.59,
+    "basic": {
+      "image": "/assets/image/weapon/blade_lineage_hwando_basic.webm",
+      "desc":"",
+      "effect":""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/blade_lineage_hwando_critical.webm",
+      "desc":"",
+      "effect":"0.80倍の{damage_modifier} {unblockable}\n{dice1} {slash} [4~8] {on_hit} {bleed}を3付与し、{poise}を2得る\n{dice2} {slash} [4~8] {on_hit} {bleed}を3付与し、{poise}を2得る",
+      "ct":16
+    }
   }
 }
