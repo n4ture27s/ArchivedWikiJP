@@ -353,7 +353,7 @@
             {
                 "name": "Overwhelming Power",
                 "requirement": "50",
-                "text": "{mang}で強化された攻撃は、相手が瀕死の場合\n{auto_execute}をする。"
+                "text": "{mang}で強化された攻撃は、相手が瀕死の場合\n即座に{auto_execute}をする。"
             }
         ]
     }
