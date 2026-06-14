@@ -1,8 +1,15 @@
 {
   "logs": [
     {
-      "date": "2026/06/14",
+      "date": "2026/06/15",
       "new": true,
+      "items": [
+        { "type": "fix", "text": "tooltipアイコンの縦位置調整" }
+      ]
+    },
+    {
+      "date": "2026/06/14",
+      "new": false,
       "items": [
         { "type": "add", "text": "服一覧・詳細ページ" },
         { "type": "add", "text": "アイテム一覧・詳細ページ" },

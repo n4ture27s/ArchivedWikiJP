@@ -562,6 +562,7 @@ th.sort-desc::after {
 .status-icon {
     width: 16px;
     height: 16px;
+    vertical-align: middle;
 }
 
 #tooltip {
@@ -1371,7 +1372,6 @@ th.sort-desc::after {
 
 .weapon-card-simple .attack-vid-simple {
     width: 200px;
-    /* 簡易表示用に小さめに設定 */
     height: auto;
     border: 1px solid #444;
     border-radius: 4px;
@@ -1750,4 +1750,175 @@ th.sort-desc::after {
     background: rgba(240, 193, 125, 0.2);
     border-color: #f0c17d;
     box-shadow: 0 0 6px rgba(240, 193, 125, 0.3);
+}
+
+/* =========================
+   Boss List Page
+   ========================= */
+
+.boss-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+    flex-wrap: wrap;
+}
+
+.boss-tab {
+    background: linear-gradient(180deg, #222, #111);
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 8px 20px;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.boss-tab:hover {
+    border-color: #f0c17d;
+    color: #fff;
+}
+
+.boss-tab.active {
+    background: linear-gradient(180deg, #333, #1a1a1a);
+    border-color: #f0c17d;
+    color: #f0c17d;
+    font-weight: bold;
+}
+
+.boss-group {
+    margin-bottom: 24px;
+}
+
+.boss-group-title {
+    font-size: 1.3rem;
+    color: #f0c17d;
+    border-bottom: 2px solid #f0c17d;
+    padding-bottom: 6px;
+    margin: 20px 0 12px;
+}
+
+.boss-card {
+    background: linear-gradient(180deg, #171717, #0d0d0d);
+    border: 1px solid #444;
+    border-left: 4px solid #c0392b;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.boss-card:hover {
+    border-color: #f0c17d;
+}
+
+.boss-card.expanded {
+    border-color: #f0c17d;
+}
+
+.boss-card-header {
+    display: flex;
+    gap: 16px;
+    padding: 12px 16px;
+    align-items: flex-start;
+}
+
+.boss-image {
+    width: 120px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #444;
+    flex-shrink: 0;
+}
+
+.boss-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.boss-name .name-en {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+}
+
+.boss-name .name-jp {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.boss-title {
+    font-size: 0.85rem;
+    color: #f0c17d;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.boss-quote {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 4px;
+    font-style: italic;
+    border-left: 2px solid #555;
+    padding-left: 8px;
+}
+
+.boss-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 8px;
+    font-size: 0.85rem;
+}
+
+.boss-stats .stat {
+    color: #ddd;
+}
+
+.boss-card-body {
+    display: none;
+    padding: 0 16px 16px;
+    border-top: 1px solid #333;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.boss-card.expanded .boss-card-body {
+    display: block;
+}
+
+.boss-section {
+    margin-top: 12px;
+}
+
+.boss-section .small-heading {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.boss-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.boss-page-item .page-card {
+    margin-bottom: 4px;
+    padding: 10px;
+    border-left-width: 3px;
+}
+
+.boss-page-item .page-video {
+    width: 160px;
+}
+
+.boss-page-item .page-name {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.boss-weapons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }

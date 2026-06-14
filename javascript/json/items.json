@@ -35,7 +35,7 @@
     "name_en": "Scrap Metal",
     "name_jp": "スクラップメタル",
     "category": "basic",
-    "icon": "",
+    "icon": "/assets/image/item/scrap_metal.png",
     "desc": "スクラップメタルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
     "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
   },
@@ -715,7 +715,7 @@
     "name_en": "Organs",
     "name_jp": "臓器",
     "category": "misc",
-    "icon": "",
+    "icon": "/assets/image/item/organs.png",
     "desc": "臓器は特定のスキルで入手可能な雑貨アイテム。The Man NPCに渡すとBrawler武器と交換可能。すでにBrawlerを持っている場合は1つ140k Ahnで売却可能。",
     "obtain": "ラットからのランダムドロップで入手。"
   },

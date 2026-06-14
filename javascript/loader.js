@@ -11,6 +11,7 @@ loadScript("/javascript/outfit.js");
 loadScript("/javascript/items.js");
 loadScript("/javascript/page_data.js");
 loadScript("/javascript/renders.js");
+loadScript("/javascript/boss.js");
 
 async function init() {
 
@@ -19,7 +20,8 @@ async function init() {
     loadPageData(),
     loadWeaponData(),
     loadOutfitData(),
-    loadItemsData()
+    loadItemsData(),
+    loadBossData()
   ]);
 
   // 本一覧ページ
@@ -121,7 +123,8 @@ async function init() {
       const cat = document.getElementById("item-category");
       const desc = document.getElementById("item-desc");
       const obtain = document.getElementById("item-obtain");
-      console.log("[item-detail] DOM elements - nameEn:", !!nameEn, "nameJp:", !!nameJp, "cat:", !!cat, "desc:", !!desc, "obtain:", !!obtain);
+      const iconEl = document.querySelector(".item-detail-icon");
+      console.log("[item-detail] DOM elements - nameEn:", !!nameEn, "nameJp:", !!nameJp, "cat:", !!cat, "desc:", !!desc, "obtain:", !!obtain, "iconEl:", !!iconEl);
       if (nameEn) nameEn.textContent = item.name_en;
       if (nameJp) nameJp.textContent = item.name_jp || "";
       document.title = item.name_en;
@@ -129,6 +132,13 @@ async function init() {
       if (cat) cat.textContent = labels[item.category] || item.category;
       if (desc) desc.textContent = item.desc || "";
       if (obtain) obtain.textContent = item.obtain || "";
+      if (iconEl) {
+        if (item.icon) {
+          iconEl.innerHTML = `<img src="${item.icon}" alt="${item.name_en}" style="width:80px;height:80px;object-fit:contain;">`;
+        } else {
+          iconEl.textContent = "?";
+        }
+      }
       console.log("[item-detail] basic info populated");
 
       // このアイテムを使用する服を自動検索
@@ -161,6 +171,11 @@ async function init() {
       }
       console.log("[item-detail] init complete");
     })();
+  }
+
+  // ボス一覧ページ
+  if (document.body.dataset.page === "boss-list") {
+    setupBossPage();
   }
 
 }

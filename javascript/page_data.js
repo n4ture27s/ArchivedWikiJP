@@ -69,6 +69,65 @@ function getAllEffectValues(data) {
     return effects;
 }
 
+function renderPageCard(container, data, book) {
+    const div = document.createElement("div");
+    div.className = "page-card";
+
+    if (book) {
+        applyColorTheme(div, book.color, book.color2, {
+            "--book-color": "primary",
+            "--book-color-2": "secondary"
+        });
+    }
+
+    let videoHtml = '';
+    const imageList = Array.isArray(data.image) ? data.image : (data.image ? [data.image] : []);
+    if (imageList.length > 0) {
+        videoHtml = '\n    <div class="page-videos">';
+        imageList.forEach(src => {
+            videoHtml += `
+        <div class="page-video">
+            <video autoplay loop muted>
+                <source src="${src}">
+            </video>
+        </div>`;
+        });
+        videoHtml += '\n    </div>';
+    }
+
+    let effectsHtml = '';
+    const allEffects = getAllEffectValues(data);
+    if (allEffects.length === 0) {
+        effectsHtml = `<div class="page-effect">${formatText('')}</div>\n        `;
+    } else {
+        allEffects.forEach((eff, idx) => {
+            const cls = idx === 0 ? 'page-effect' : 'page-effect secondary-effect';
+            effectsHtml += `<div class="${cls}">${formatText(String(eff))}</div>\n        `;
+        });
+    }
+
+    const bookName = book ? book.name_jp : "";
+    const bookId = data.bookId || (book ? data.sourceBook : "");
+
+    div.innerHTML = `
+    ${videoHtml}
+    <div class="page-content">
+        <div class="page-top">
+        <div class="page-name">${data.name_jp} / ${data.name_en}</div>
+        </div>
+        ${effectsHtml}
+        <div class="page-bottom">
+            <div class="page-stat"><span class="tooltip-target" data-key="light"></span>:${data.light}</div>
+            <div class="page-stat">CT:${data.ct}</div>
+            ${bookId ? `<div class="page-obtain"><a href="/arsenal/page_detail.html?id=${bookId}">入手:${bookName}</a> </div>` : ""}
+            
+        </div>
+    </div>
+        `;
+
+    container.appendChild(div);
+}
+
 function renderPageList(containerId, filterBook = null) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -130,57 +189,7 @@ function renderPageList(containerId, filterBook = null) {
 
     flatPages.forEach((data) => {
         const book = books[data.bookId];
-        const div = document.createElement("div");
-        div.className = "page-card";
-
-        applyColorTheme(div, book.color, book.color2, {
-            "--book-color": "primary",
-            "--book-color-2": "secondary"
-        });
-
-        let videoHtml = '';
-        const imageList = Array.isArray(data.image) ? data.image : (data.image ? [data.image] : []);
-        if (imageList.length > 0) {
-            videoHtml = '\n    <div class="page-videos">';
-            imageList.forEach(src => {
-                videoHtml += `
-        <div class="page-video">
-            <video autoplay loop muted>
-                <source src="${src}">
-            </video>
-        </div>`;
-            });
-            videoHtml += '\n    </div>';
-        }
-
-        let effectsHtml = '';
-        const allEffects = getAllEffectValues(data);
-        if (allEffects.length === 0) {
-            effectsHtml = `<div class="page-effect">${formatText('')}</div>\n        `;
-        } else {
-            allEffects.forEach((eff, idx) => {
-                const cls = idx === 0 ? 'page-effect' : 'page-effect secondary-effect';
-                effectsHtml += `<div class="${cls}">${formatText(String(eff))}</div>\n        `;
-            });
-        }
-
-        div.innerHTML = `
-    ${videoHtml}
-    <div class="page-content">
-        <div class="page-top">
-        <div class="page-name">${data.name_jp} / ${data.name_en}</div>
-        </div>
-        ${effectsHtml}
-        <div class="page-bottom">
-            <div class="page-stat"><span class="tooltip-target" data-key="light"></span>:${data.light}</div>
-            <div class="page-stat">CT:${data.ct}</div>
-            <div class="page-obtain"><a href="/arsenal/page_detail.html?id=${data.bookId}">入手:${book.name_jp}</a> </div>
-            
-        </div>
-    </div>
-        `;
-
-        container.appendChild(div);
+        renderPageCard(container, data, book);
     });
 
     applyAllStyles?.();

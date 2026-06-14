@@ -24,7 +24,7 @@ function renderMaterials(req) {
         const itemId = typeof getItemIdByName === "function" ? getItemIdByName(name) : null;
         if (itemId) {
             const label = qty ? `${qty} ${name}` : name;
-            return `<a href="/arsenal/item_detail.html?id=${itemId}" class="req-chip-link"><span class="req-chip">${label}</span></a>`;
+            return `<a href="/world/item_detail.html?id=${itemId}" class="req-chip-link"><span class="req-chip">${label}</span></a>`;
         }
         if (m) {
             return `<span class="req-chip">${m[1]} ${m[2]}</span>`;

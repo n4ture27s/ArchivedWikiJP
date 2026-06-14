@@ -21,13 +21,13 @@ function createItemCard(id, data) {
     card.dataset.category = data.category;
 
     card.innerHTML = `
-        <div class="item-icon-placeholder"></div>
+        <div class="item-icon-placeholder">${data.icon ? `<img src="${data.icon}" alt="${data.name_en}" style="width:40px;height:40px;object-fit:contain;">` : "?"}</div>
         <div class="item-name">${data.name_en}</div>
         <div class="item-name-jp">${data.name_jp || ""}</div>
     `;
 
     card.addEventListener("click", () => {
-        location.href = `/arsenal/item_detail.html?id=${id}`;
+        location.href = `/world/item_detail.html?id=${id}`;
     });
 
     return card;

@@ -1,0 +1,177 @@
+{
+  "groups": ["overworld", "city", "death_sentence"],
+  "bosses": {
+    "bamboo_hatted_kim": {
+      "name_en": "Bamboo Hatted Kim",
+      "name_jp": "竹編み帽のキム",
+      "title": "歪んだ竹編み帽のキム",
+      "quote": "故郷は私に背を向けた…あの抑圧者たちに選択の余地はない。我は肉骨を捧げ、奴らの骨を奪う。",
+      "group": "overworld",
+      "image": "https://static.wikitide.net/archivedwikiwiki/7/76/BambooHattedKim.png",
+      "health": 600,
+      "weapon_ids": ["blade_lineage_chokuto"],
+      "weapons": {},
+      "passive": "競争型AI",
+      "pages": {
+        "import_from_bookpage": ["yield_my_flesh"]
+      }
+    },
+    "sweeper_brute": {
+      "name_en": "Sweeper Brute",
+      "name_jp": "スイープ・ブルート",
+      "title": "裏路地の掃除人",
+      "quote": "夜が裏路地に訪れる時、彼らが来る。",
+      "group": "city",
+      "image": "https://static.wikitide.net/archivedwikiwiki/2/2f/SweeperBrute.png",
+      "health": "300 (600)",
+      "weapon_ids": ["sweeper_hooks"],
+      "weapons": {},
+      "passive": "",
+      "pages": {
+        "sweeping_stomp": {
+          "name_en": "Sweeping Stomp",
+          "name_jp": "掃討の踏みつけ",
+          "image": "",
+          "type": "special",
+          "effect": "スイープ・ブルートが足を数秒間掲げ、その後激しく踏み下ろす。強力なダメージと{tremor}5を付与"
+        },
+        "sweeping_stabs": {
+          "name_en": "Sweeping Stabs",
+          "name_jp": "掃討の刺突",
+          "image": "",
+          "type": "special",
+          "effect": "3回の素早い斬撃を放ち、ヒットごとに{bleed}3と中程度のダメージを与える"
+        },
+        "fuel_extractor": {
+          "name_en": "Fuel Extractor",
+          "name_jp": "燃料抽出",
+          "image": "",
+          "type": "special",
+          "effect": "腕を巻き上げてためた後、命中した者を串刺しにして投げ飛ばす。大ダメージと{tremor_decay}5を付与"
+        },
+        "greater_trash_disposal": {
+          "name_en": "Greater Trash Disposal",
+          "name_jp": "大廃棄物処理",
+          "image": "",
+          "type": "special",
+          "effect": "前方にダッシュして標的を床に縫い付け、引き裂く。ダイスが最低値(1/4)を出すまで無期限に持続。{tremor_decay}5を付与"
+        },
+        "sweeper_charge": {
+          "name_en": "Sweeper Charge",
+          "name_jp": "スイープ・チャージ",
+          "image": "",
+          "type": "special",
+          "effect": "標的に向かって一直線に突進し、肩で体当たり。{tremor}5を付与"
+        }
+      }
+    },
+    "eye_gouger": {
+      "name_en": "Eye Gouger",
+      "name_jp": "アイ・ガウジャー",
+      "title": "狂犬 ゴロウ・マジマ",
+      "quote": "お前に頭を下げるくらいなら、片目を失ったほうがマシだ。",
+      "group": "city",
+      "image": "https://static.wikitide.net/archivedwikiwiki/e/ef/Eye_Gouger.png",
+      "health": 600,
+      "weapon_ids": ["eye_gouger", "borrowed_eyes"],
+      "weapons": {},
+      "passive": "永続{value_up}3、弾丸無効",
+      "pages": {
+        "import_from_bookpage": ["pistol_draw", "thrust", "you_re_too_slow_1st", "you_re_too_slow_2nd", "slash_series", "sky_clearing_cut"],
+        "borrowed_eyes": {
+          "name_en": "Borrowed Eyes",
+          "name_jp": "借り物の眼",
+          "image": "https://static.wikitide.net/archivedwikiwiki/2/22/Borrowedeyes.gif",
+          "type": "special",
+          "effect": "{on_use} ダイスロール値に基づく秒数、飛来する攻撃を回避する\n{dice1} 8~13"
+        }
+      }
+    },
+    "a_shadow": {
+      "name_en": "A Shadow / An Old Fixer",
+      "name_jp": "影 / 老フィクサー",
+      "title": "影",
+      "quote": "限界を超えろ。",
+      "group": "city",
+      "image": "https://static.wikitide.net/archivedwikiwiki/5/5c/Old_Fixer.png",
+      "health": 600,
+      "weapon_ids": ["brawler"],
+      "weapons": {},
+      "passive": "",
+      "pages": {
+        "import_from_bookpage": ["backstreets_scramble"],
+        "mist_of_the_lake": {
+          "name_en": "Mist of the Lake",
+          "name_jp": "湖の霧",
+          "image": "https://static.wikitide.net/archivedwikiwiki/c/cf/Mistofthelake.gif",
+          "type": "special",
+          "effect": "{dice1} 3~3\n{on_use} {hyperarmor}を得、5秒間透明になる"
+        },
+        "pitch_black_pulverizer": {
+          "name_en": "Pitch-Black Pulverizer",
+          "name_jp": "漆黒の粉砕機",
+          "image": "https://static.wikitide.net/archivedwikiwiki/3/34/Pitch-Black_Pulverizer.gif",
+          "type": "special",
+          "effect": "{on_use} {hyperarmor}を得る\n{auto_execute} {unblockable}\n{dice1} [16~23] {blunt}\n{multi_hit} {hit_ground} {on_hit} {tremor}5を付与、ロール値の80%のダメージ\n{main_attack} {knockback} {on_hit} {tremor_burst}、ダイスロール値のダメージ"
+        },
+        "destruction_awaits": {
+          "name_en": "Destruction Awaits",
+          "name_jp": "待ち受ける破壊",
+          "image": "https://static.wikitide.net/archivedwikiwiki/5/53/Destruction_Awaits.gif",
+          "type": "special",
+          "effect": "破壊の欠片から入手\n{cd} 50s\n{on_use} 1.85倍{damage_modifier}\n{dice1} 32~35 {blunt} {unblockable} {on_hit} {tremor}5を付与"
+        }
+      }
+    },
+    "amon_syndicate_member": {
+      "name_en": "Amon Syndicate Member",
+      "name_jp": "アモン・シンジケート構成員",
+      "title": "死の商人",
+      "quote": "俺の商品を買いに来たわけじゃないようだな…奴らが俺たちを死の商人と呼ぶ理由を見せてやろう。",
+      "group": "city",
+      "image": "/assets/image/book/red_mist.png",
+      "health": 255,
+      "weapon_ids": ["dragons_bite", "eye_gouger"],
+      "weapons": {},
+      "passive": "武器を切り替える、弾丸無効",
+      "pages": {
+        "import_from_bookpage": ["Celestial_sight", "alleyway_counter", "stylish_sweeps", "pistol_draw"]
+      }
+    },
+    "aima": {
+      "name_en": "Aima",
+      "name_jp": "アイマ",
+      "title": "血の渇きは残り続ける",
+      "quote": "水が…憎い…",
+      "group": "death_sentence",
+      "image": "https://static.wikitide.net/archivedwikiwiki/7/72/Aima.png",
+      "health": 550,
+      "weapon_ids": ["hardblood_blade", "hardblood_greatblade"],
+      "weapons": {},
+      "passive": "競争型AI\nHP40%で封印解除、永続的な frenzy を得る。",
+      "pages": {
+        "hardblood_strike": {
+          "name_en": "Hardblood Strike",
+          "name_jp": "硬血斬",
+          "image": "https://static.wikitide.net/archivedwikiwiki/1/15/Hardblood_Blade_Crit.gif",
+          "type": "special",
+          "effect": "{on_use} {stored_blood}が6以上の場合、16~21でロール\n{dice1} [10~14] {pierce} {auto_execute} {on_hit} {bleed}10を付与、{stored_blood}1を得る"
+        },
+        "hardblood_greatblade_strike": {
+          "name_en": "Hardblood Greatblade Strike",
+          "name_jp": "硬血大剣斬",
+          "image": "https://static.wikitide.net/archivedwikiwiki/3/3e/HardbloodGreatbladeCrit.gif",
+          "type": "special",
+          "effect": "{before_attack} {stored_blood}が7以上の場合、{stored_blood}を5消費して体力を20回復\n{on_use} {hyperarmor}\n{dice1} [17~23] {slash} {ground} {guard_break} {on_hit} {bleed}8を付与、HPを8回復、{stored_blood}2を得る"
+        },
+        "unseal": {
+          "name_en": "Unseal",
+          "name_jp": "封印解除",
+          "image": "",
+          "type": "special",
+          "effect": "HP40%以下で発動。武器を硬血大剣に変更し、永続的な狂戦士状態を得る。"
+        }
+      }
+    }
+  }
+}

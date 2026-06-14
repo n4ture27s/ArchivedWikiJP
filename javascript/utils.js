@@ -78,10 +78,10 @@ function formatText(text) {
                     const item = typeof allItemsData !== "undefined" ? allItemsData[itemId] : null;
                     if (item) {
                         content = item.name_en;
-                        url = `/arsenal/item_detail.html?id=${itemId}`;
+                        url = `/world/item_detail.html?id=${itemId}`;
                     } else {
                         content = itemId;
-                        url = `/arsenal/item_detail.html?id=${itemId}`;
+                        url = `/world/item_detail.html?id=${itemId}`;
                     }
                 } else if (key === "url") {
                     url = val;
