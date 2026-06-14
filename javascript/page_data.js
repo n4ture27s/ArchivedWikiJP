@@ -25,7 +25,7 @@ async function loadPageData() {
 }
 
 function initPageControls(containerId, filterBook = null) {
-    const searchInput = document.getElementById("search");
+    const searchInput = document.getElementById("page-search");
     const sortButtons = document.querySelectorAll(".sort-btn");
 
     searchInput?.addEventListener("input", () => renderPageList(containerId, filterBook));
@@ -73,7 +73,7 @@ function renderPageList(containerId, filterBook = null) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
-    const searchTerm = document.getElementById("search")?.value.toLowerCase() || "";
+    const searchTerm = document.getElementById("page-search")?.value.toLowerCase() || "";
     const activeSortBtn = document.querySelector(".sort-btn.active");
     const sortKey = activeSortBtn?.dataset.sort;
     const sortOrder = activeSortBtn?.dataset.order || "asc";

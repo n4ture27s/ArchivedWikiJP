@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchivedJPWiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/javascript/version.js"></script>
+    <style>html{background-color: #1a1a1a;}</style>
+    <link rel="stylesheet" href="/css/stylesheet.css" id="main-stylesheet">
+    <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
+</head>
+
+<body data-page="outfit-list">
+    <div id="header">
+        <header>
+            <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
+        </header>
+    </div>
+
+    <main>
+        <div id="sideflex">
+            <div id="sidebar-container"></div>
+            <div id="main-content">
+                <div id="tooltip"></div>
+                <div class="w-back">
+                    <p id="w-title">服</p>
+                    <ruby id="w-comment">「Equipment made to guard and protect.」 <rt>身を守り護るために作られた装備。</rt></ruby>
+
+                    <hr class="hr-main">
+                    <details id="content-list" open>
+                        <summary id="content-list-title">目次</summary>
+                        <div id="content-list-inner">
+                            <a href="#description">説明</a>
+                            <a href="#terminologies">用語解説</a>
+                            <a href="#outfits">服一覧</a>
+                        </div>
+                    </details>
+                    <p id="description" class="w-subtitle heading">説明</p>
+                    <div class="text-area">
+                        <p>服は主に防御や装飾目的で作られた装備ですが、服に応じて様々な特定のバフも提供します。クラフトや書籍の消費など、さまざまなイベントから入手できます。</p>
+                        <p>すべての服にはキーページと一連の異なる耐性が設定されており、耐性と弱点は最大1.5倍まで適用されます。</p>
+                        <p>クラフト可能な服はOutfit Weaverで作成でき、ファブリックはクエスト報酬としてドロップするか、Outfit Tailorから直接購入できます。</p>
+                    </div>
+                    <p id="terminologies" class="w-subtitle heading">用語解説</p>
+                    <div class="text-area">
+                        <ul>
+                            <li>耐性：特定のダメージタイプに対する防御率。耐性はダメージを0.5倍の割合で減少/増加させます（例：0.5 = 1.25倍被ダメージ減少、1.5 = 1.25倍被ダメージ増加）。</li>
+                            <li>キーページ：装備によって付与される特定のバフまたはデバフ。</li>
+                            <li>速度：キャラクターの歩行速度。服の編成メニューでは13+(Speed)で計算されます。</li>
+                        </ul>
+                    </div>
+
+                    <p id="outfits" class="w-subtitle heading">服一覧</p>
+                    <div class="controls">
+                        <input type="text" class="search" id="outfit-search" placeholder="服名検索...">
+                        <div class="outfit-sort sort">
+                            <button data-sort="speed" class="active">速度</button>
+                            <button data-sort="resistance">耐性</button>
+                        </div>
+                    </div>
+                    <div class="outfit-list-expanded"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>document.write('<script src="/javascript/loader.js?v='+APP_VERSION+'"><\/script>');</script>
+</body>
+
+</html>

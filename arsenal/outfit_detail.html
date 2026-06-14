@@ -11,14 +11,12 @@
     <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
 </head>
 
-<body data-page="weapon-detail">
+<body data-page="outfit-detail">
     <div id="header">
         <header>
             <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
-
         </header>
     </div>
-
 
     <main>
         <div id="sideflex">
@@ -31,50 +29,30 @@
                     <hr class="hr-main">
                     <p id="description" class="w-subtitle heading">説明</p>
                     <div class="text-area">
-                        <div class="weapon-detail">
+                        <div class="outfit-detail">
 
-                            <div class="weapon-header">
-                                <h1 id="name-en"></h1>
-                                <p id="name-jp"></p>
+                            <div class="outfit-header">
+                                <h1 id="outfit-name-en"></h1>
+                                <p id="outfit-name-jp"></p>
                             </div>
 
-                            <div class="weapon-stats-box">
-                                <div id="stats">
-                                </div>
-                            </div>
-                            <div class="weapon-section">
-                                <h2>Basic Attack（通常攻撃）</h2>
-                                <div class="attack-box">
-                                    <video class="attack-vid" id="basic-vid" autoplay loop muted> </video>
-                                    <div class="attack-info">
-                                        <p id="basic-desc"></p>
-                                        <p id="basic-effect" class="effect"></p>
-                                    </div>
+                            <div class="outfit-stats-box">
+                                <div id="outfit-stats">
                                 </div>
                             </div>
 
-                            <div class="weapon-section">
-                                <div id="critical-container"></div>
+                            <div class="outfit-section">
+                                <h2>キーページ</h2>
+                                <div id="outfit-keypage-container"></div>
                             </div>
 
-                            <div class="weapon-section">
-                                <div id="gun-container"></div>
-                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        </div>
     </main>
 
-
-
-
-
-    <!--この下に書くとライセンス表記の下に出てきちゃうので注意-->
     <div id="footer-container"></div>
 
     <script>document.write('<script src="/javascript/loader.js?v='+APP_VERSION+'"><\/script>');</script>

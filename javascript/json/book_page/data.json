@@ -128,7 +128,7 @@
       "order": 5,
       "name_jp": "黒雲会の本",
       "name_en": "Book of Kurokumo Clan",
-      "icon": "syndicate/kurokumo",
+      "icon": "syndicate/kurokumo_clan",
       "color": "5b5952",
       "color2": "FEFEFE"
     },
@@ -155,9 +155,27 @@
       "order": 2,
       "name_jp": "カポの本",
       "name_en": "Book of The Capo",
-      "icon": "syndicate/capo",
+      "icon": "syndicate/thumb",
       "color": "DAA520",
       "color2": "FFD700"
+    },
+    "n_corp": {
+      "group": "other1",
+      "order": 3,
+      "name_jp": "N社の本",
+      "name_en": "Book of The One Who Grips",
+      "icon": "corporation/n_corp",
+      "color": "2d2d2d",
+      "color2": "9b59b6"
+    },
+    "warp": {
+      "group": "other1",
+      "order": 4,
+      "name_jp": "W社の本",
+      "name_en": "Book of WARP Corp",
+      "icon": "corporation/w_corp",
+      "color": "1a5276",
+      "color2": "85c1e9"
     }
   },
   "pages": {
@@ -317,7 +335,7 @@
         "name_jp": "機会狙い",
         "image": "",
         "light": 2,
-        "ct": "25s",
+        "ct": "10s",
         "effect": "{dice1} [5~11] {slash} {on_hit} {haste} 5を得て、 {rupture} 3を付与。\n{dice1} は 2回ヒットする。"
       },
       "y_you_only_live_once": {
@@ -690,7 +708,7 @@
         "image": "",
         "light": 2,
         "ct": "20s",
-        "effect": "{gluttony_resonance}\n{dice1} [4~7] {slash} {on_hit} {rupture}3を得て、[Singleton]が有効な場合、Light Costが[8~11]に変化\n{dice2} [4~8] {slash} {on_hit} {rupture}4を得て、[Singleton]が有効な場合、Light Costが[8~12]に変化"
+        "effect": "{gluttony_resonance}\n{dice1} [4~7] {slash} {on_hit} {rupture}3を付与、{singleton}が有効な場合、[8~11]に変化\n{dice2} [4~8] {slash} {on_hit} {rupture}4を付与、{singleton}が有効な場合、[8~12]に変化"
       },
       "somber_procuration": {
         "name_en": "Somber Procuration",
@@ -698,7 +716,7 @@
         "image": "",
         "light": 3,
         "ct": "25s",
-        "effect": "{gloom_resonance}\n{dice1} [4~8] {pierce} {on_hit} {rupture}3を得て、[Singleton]が有効な場合、Light Costが[8~12]に変化\n{dice2} [4~6] {pierce} {on_hit} {rupture}3を得て、[Singleton]が有効な場合、Light Costが[8~10]に変化\n{dice3} [Multihit]5回ヒットし、[Last Hit]で[12]のRuptureを得て、[Knockback]"
+        "effect": "{gloom_resonance}\n{dice1} [4~8] {pierce} {on_hit} {rupture}3を付与、{singleton}が有効な場合、[8~12]に変化\n{dice2} [4~6] {pierce} {on_hit} {rupture}3を付与、{singleton}が有効な場合、[8~10]に変化\n{dice3} [2~4] {pierce} {multi_hit}5回、{on_last_hit}{rupture}5を付与、{knock_back}"
       },
       "will_of_the_city": {
         "name_en": "Will of The City",
@@ -706,15 +724,7 @@
         "image": "",
         "light": 1,
         "ct": "20s",
-        "effect": "{pride_resonance}\n{dice1} [Frame Three] [When Hit] {counter} {guard_break} [5~10] {slash} If [Singleton]が有効な場合、Light Costが[7~12]に変化 [On Use] {light}1を得る [On Hit] {light}1を得る [Combo Starter]"
-      },
-      "unlock": {
-        "name_en": "Unlock",
-        "name_jp": "解禁",
-        "image": "",
-        "light": 0,
-        "ct": "20s",
-        "effect": "{undodgeable}\n{dice1} [2~4] {slash} {on_hit} {unlock_blade}1を得る\n{dice2} [3~6] {slash} {knock_back} {on_hit} {unlock_blade}1を得る\n{dice3} [6~11] {slash} {knock_back} {on_hit} {unlock_blade}を失って、{unlocked_blade}1を得る"
+        "effect": "{pride_resonance}\n{dice1} {frame_three} {when_hit} {counter} {guard_break} [5~10] {slash} {singleton}が有効な場合、[7~12]に変化 {on_use} {light}1を得る {on_hit} {light}1を得る {combo_starter}"
       }
     },
     "ring": {
@@ -962,6 +972,58 @@
         "light": 2,
         "ct": "30s",
         "effect": "{gluttony_resonance}\n{counter} {undodgeable}\n{dice1} [9~11] {blunt} {multi_hit} 2回\n{on_hit} {paralyze}1を付与し、{smoke}3を付与する"
+      }
+    },
+    "n_corp": {
+      "purify": {
+        "name_en": "Purify",
+        "name_jp": "浄化",
+        "image": "",
+        "light": 3,
+        "ct": "35s",
+        "effect": "{lust_resonance}\n{on_use} {hyperarmor}を得る\n{dice1} [10~16] {pierce} {unblockable} {undodgeable} {on_hit} {nail}2を付与。このダイスのロール値がdice2~4のロール値を決定する\n{dice2} [8~12] {pierce} {on_hit} {nail}2を付与\n{dice3} [12~16] {pierce} {on_hit} {paralyze}1を付与\n{dice4} [??~??] {pierce} {on_hit} {gaze}1を付与\nこのページのダメージは全てdice1のロール値を基準とし、前半3ヒットは0.25倍、最後のヒットは1.25倍のダメージを与える"
+      },
+      "cackle": {
+        "name_en": "Cackle",
+        "name_jp": "狂笑",
+        "image": "",
+        "light": 2,
+        "ct": "25s",
+        "effect": "{envy_resonance}\n{undodgeable}\n{dice1} [4~7] {pierce} {on_hit} {nail}1を付与\n{dice2} [8~14] {pierce} {on_hit} {bleed}2と{nail}1を付与"
+      }
+    },
+    "warp": {
+      "rip": {
+        "name_en": "Rip",
+        "name_jp": "切断",
+        "image": "",
+        "light": 2,
+        "ct": "18s",
+        "effect": "{envy_resonance}\n{on_use} 充電が5以上の場合、{value_up}5を得る\n{dice1} [7~13] {blunt} {undodgeable} {hit_ground} {on_hit} {charge}8を得て、{rupture}4を付与"
+      },
+      "charge_shield": {
+        "name_en": "Charge Shield",
+        "name_jp": "チャージシールド",
+        "image": "",
+        "light": 2,
+        "ct": "40s",
+        "effect": "{envy_resonance}\n{damage_modifier}0.7倍\n{on_use} {hyperarmor}を得る\n{dice1} {guard_break} {hit_ground} [5~15] {blunt} {on_hit} {rupture}2を付与\n{on_hit} 充電が10未満の場合、{charge_barrier}5を得る\n{on_hit} 充電が10以上の場合、{charge_barrier}5を得て、全ての充電を{shield_hp}に変換する"
+      },
+      "leap": {
+        "name_en": "Leap",
+        "name_jp": "跳躍",
+        "image": "",
+        "light": 3,
+        "ct": "14s",
+        "effect": "{envy_resonance}\n{on_use} {hyperarmor}を得る\n{on_use} {damage_modifier}0.65倍を{dice1}に適用\n{on_use} {damage_modifier}0.75倍を{dice2}に適用\n{on_use} {damage_modifier}0.85倍を{dice3}に適用\n{on_use} 充電が10以上の場合、{value_up}5を得る\n{dice1} [4~8] {pierce} {on_hit} {charge}3を得て、{fragile}2を付与\n{dice2} [8~12] {pierce} {unblockable} {on_hit} {charge}3を得て、{fragile}2を付与\n{dice3} [12~16] {pierce} {guard_break} {knock_back} {on_hit} {fragile}4を付与"
+      },
+      "overcharged_ripple": {
+        "name_en": "Overcharged Ripple",
+        "name_jp": "過充電波動",
+        "image": "",
+        "light": 4,
+        "ct": "25s",
+        "effect": "{envy_resonance}\n{on_use} 充電が10以上の場合、{damage_modifier}1.04倍を得る\n{dice1} [5~7] {blunt} {on_hit} {charge}1を得る\n{dice2} [6~8] {blunt} {on_hit} {charge}1を得る\n{dice3} [7~9] {blunt} {on_hit} {charge}1を得る\n{dice4} [8~10] {blunt} {guard_break} {ground} {on_hit} {charge}4を得る"
       }
     }
   }

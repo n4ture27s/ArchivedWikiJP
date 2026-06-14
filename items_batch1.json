@@ -1,0 +1,114 @@
+{
+  "rope": {
+    "desc": "ロープは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "low_quality_blade": {
+    "desc": "低品質の刃は様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "wiring": {
+    "desc": "配線は様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "gears": {
+    "desc": "歯車はEverything Workshopまたは武器組み立てで製作される様々な武器に使用されるクラフト素材。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550K Ahnで購入することで入手可能。"
+  },
+  "scrap_metal": {
+    "desc": "スクラップメタルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "handle": {
+    "desc": "ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550 Ahnで購入することで入手可能。"
+  },
+  "makeshift_handle": {
+    "desc": "仮設ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "light_handle": {
+    "desc": "軽量ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550K Ahnで購入することで入手可能。"
+  },
+  "heavy_handle": {
+    "desc": "重量ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはYuriaから60K Ahnで購入することで入手可能。"
+  },
+  "dual_handle": {
+    "desc": "二刀用ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550 Ahnで購入することで入手可能。"
+  },
+  "fabric": {
+    "desc": "ファブリックは服織りから利用可能な様々な防具や衣服クラフトに必要な基本クラフト素材であり、Yuriaクエストラインにも必要。",
+    "obtain": "倒したプレイヤーやNPCをカーニバルテーラーに引き渡すか、カーニバルテーラーで250K Ahnで購入することで入手可能。"
+  },
+  "nuovo_fabric": {
+    "desc": "ヌオーヴォファブリックは服織りから利用可能な高度な防具や衣服クラフトに必要な高級クラフト素材。",
+    "obtain": "スイーパーをカーニバルテーラーに引き渡す、カーニバルテーラーで100万Ahnで購入、またはRogue Pawnerから稀に入手可能。"
+  },
+  "shimmering_fabric": {
+    "desc": "シャイマーファブリックは様々な特殊衣装のクラフトに使用されるクラフト素材。",
+    "obtain": "パーマデスモード中にカーニバルテーラーで2.5M Ahnで購入可能。"
+  },
+  "warp_core": {
+    "desc": "WARPコアはWARP社の武器やユニフォームのクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約（低確率）、またはWARPトレインからのドロップで入手可能。"
+  },
+  "stigma_core": {
+    "desc": "スティグマコアはスティグマ工房の武器やユニフォームのクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約（低確率）、または図書館の一般業務階からのドロップで入手可能。"
+  },
+  "stigmatizing_blade": {
+    "desc": "烙印の刃はスティグマ工房の剣のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Lobotomy Corporation支店襲撃のマップインタラクタブルからのレアドロップ、または契約からのドロップで入手可能。"
+  },
+  "gun_parts": {
+    "desc": "ガンパーツはThe Cityで利用可能な銃のクラフトに必要な基本クラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "トレス協会所属時の契約完了、Rogue Pawnerでの購入、または裏路地の夜間やダンジョン中の契約からのレアドロップで入手可能。"
+  },
+  "great_charged_blade": {
+    "desc": "大チャージブレードはEverything Workshopまたは武器組み立てから利用可能な武器のクラフトに必須の部品。",
+    "obtain": "WARP急行殺人事件ダンジョンからのドロップで入手可能。"
+  },
+  "warp_blade": {
+    "desc": "WARPブレードはWARP社の武器のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "WARP急行殺人事件ダンジョンまたは屈折鉄道ダンジョンからのドロップで入手可能。"
+  },
+  "broken_gauntlet": {
+    "desc": "壊れたガントレットはWARP社の武器のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Lobotomy Corporation支店襲撃ダンジョンからのドロップで入手可能。"
+  },
+  "broken_mechanical_arm": {
+    "desc": "壊れた機械腕は蒸気ガントレットのクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Lobotomy Corporationダンジョンからのドロップ、またはTraveling Pawnerで購入することで入手可能。"
+  },
+  "fragment_of_silence": {
+    "desc": "沈黙の欠片はブラックサイレンス武器のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Office Contractor NPCからの契約（低確率）、または図書館の一般業務階からのドロップで入手可能。"
+  },
+  "durandal_blade": {
+    "desc": "デュランダルブレードはEverything Workshopまたは武器組み立てでブラックサイレンス武器をクラフトする際に使用される Craft可能アイテム。デュランダルのクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "allas_lance": {
+    "desc": "アラスランスはブラックサイレンス武器のクラフトに使用される Craft可能アイテム。アラス工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "mook_blade": {
+    "desc": "ムークブレードはブラックサイレンス武器のクラフトに使用される Craft可能アイテム。ムーク工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "atelier_gun_frame": {
+    "desc": "アトリエガンフレームはブラックサイレンス武器のクラフトに使用される Craft可能アイテム。アトリエロジックのクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "hammer_head": {
+    "desc": "ハンマーヘッドはブラックサイレンス武器のクラフトに使用される Craft可能アイテム。Old Boys工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "mace_head": {
+    "desc": "メイスヘッドはブラックサイレンス武器のクラフトに使用される Craft可能アイテム。Zelkova工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  }
+}

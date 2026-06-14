@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchivedJPWiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/javascript/version.js"></script>
+    <style>html{background-color: #1a1a1a;}</style>
+    <link rel="stylesheet" href="/css/stylesheet.css" id="main-stylesheet">
+    <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
+</head>
+
+<body data-page="item-detail">
+    <div id="header">
+        <header>
+            <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
+        </header>
+    </div>
+
+    <main>
+        <div id="sideflex">
+            <div id="sidebar-container"></div>
+            <div id="main-content">
+                <div id="tooltip"></div>
+                <div class="w-back">
+                    <button class="btn-back" onclick="history.back()">← 戻る</button>
+                    <p id="w-title"></p>
+                    <hr class="hr-main">
+                    <div class="text-area">
+                        <div class="item-detail">
+                            <div class="item-detail-header">
+                                <div class="item-detail-icon"></div>
+                                <div>
+                                    <h1 id="item-name-en"></h1>
+                                    <p id="item-name-jp"></p>
+                                    <p id="item-category"></p>
+                                </div>
+                            </div>
+                            <hr class="hr-sub">
+                            <p id="item-desc-label" class="w-subsubtitle">概要</p>
+                            <p id="item-desc" class="item-detail-text"></p>
+                            <p id="item-obtain-label" class="w-subsubtitle">入手方法</p>
+                            <p id="item-obtain" class="item-detail-text"></p>
+                            <p id="item-used-label" class="w-subsubtitle">使用先</p>
+                            <div id="item-used-in-outfits" class="item-used-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>document.write('<script src="/javascript/loader.js?v='+APP_VERSION+'"><\/script>');</script>
+</body>
+
+</html>

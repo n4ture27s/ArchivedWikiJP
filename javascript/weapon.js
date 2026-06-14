@@ -97,6 +97,7 @@ function saveStateToURL() {
 }
 
 function loadStateFromURL() {
+    if (!searchInput) return;
     const params = new URLSearchParams(location.search);
 
     currentFilter = params.get("filter") || "all";
@@ -217,7 +218,8 @@ function renderWeaponList(containerOrId, filterBook = null) {
 
 function initWeaponListPage() {
     weaponListContainer = document.querySelector(".weapon-list");
-    searchInput = document.getElementById("search");
+    if (!weaponListContainer) return;
+    searchInput = document.getElementById("weapon-search");
     filterButtons = document.querySelectorAll(".filters button");
     sortButtons = document.querySelectorAll(".sort button");
 
@@ -378,16 +380,13 @@ function setFormattedText(el, text) {
         .then(data => {
 
             const w = data[id];
-            console.log("w:", w);
-            const criticals = Object.keys(w)
-                .filter(key => key.startsWith("critical"));
-
-            console.log("criticals:", criticals);
-
             if (!w) {
                 console.warn("該当データなし:", id);
                 return;
             }
+
+            const criticals = Object.keys(w)
+                .filter(key => key.startsWith("critical"));
 
             /* ===== Basic Info ===== */
             const nameEn = document.getElementById("name-en");

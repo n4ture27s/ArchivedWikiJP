@@ -383,6 +383,13 @@
         "icon": "Savage_Tigermark_Round"
     },
 
+    "gaze": {
+        "title": "注視",
+        "text": "[被弾時] 貫通または打撃属性の被ダメージが10%増加する。",
+        "type": "debuff",
+        "icon": "Gaze"
+    },
+
     "value_down": {
         "title": "ダイス値減少",
         "text": "ダイス威力を値だけ減少させる。",
@@ -422,7 +429,7 @@
     "in_air" : {"title":"空中","text":"この攻撃は空中にいる場合に発動する","color": "94f140"},
     "AoE" : {"title":"範囲攻撃","text":"この攻撃は複数の対象に的中する","color": "d9ba29ff"},
     "tracking" : {"title":"追尾","text":"この攻撃は敵を追尾する","color": "94f140"},
-    "QTE" : {"title":"QTE","text":"このダイスはオレンジ色のアイコンを一瞬だけだす、アイコンが出た瞬間に通常攻撃のボタンを押すことでページが変化する。","color": "94f140"},
+    "QTE" : {"title":"QTE","text":"このダイスはオレンジ色のアイコンを一瞬だけだす、アイコンが出た瞬間に通常攻撃のボタンを押すことでページが変化する。","color": "26cfff"},
     "QTE_success" : {"title":"QTE成功時","text":"この条件はQTEが成功した際に達成されます。","color": "94f140"},
     "non_frameone" : {"title":"フレーム1以外","text":"この攻撃は最初のフレームで実行されず、遅延します。","color": "94f140"},
     "frameone" : {"title":"フレーム1","text":"この攻撃は最初のフレームで実行されます。","color": "94f140"},
@@ -439,6 +446,9 @@
     "sloth_resonance" : {"title":"怠惰共鳴","text":"このタグが付いているページには、怠惰の罪悪共鳴があります。","color": "c9a84b"},
     "envy_resonance" : {"title":"嫉妬共鳴","text":"このタグが付いているページには、嫉妬の罪悪共鳴があります。","color": "bb6fd5"},
     "combo_starter" : {"title":"コンボ始動","text":"このタグはコンボを開始できる攻撃に付与されます。","color": "94f140"},
-    "combo_extender" : {"title":"コンボ継続","text":"このタグはコンボを継続できる攻撃に付与されます。","color": "94f140"}
+    "combo_extender" : {"title":"コンボ継続","text":"このタグはコンボを継続できる攻撃に付与されます。","color": "94f140"},
+    "singleton" : {"title":"唯一","text":"デッキ内の全てのページが異なるコストの場合に発動する効果。","color": "c9a84b"},
+    "frame_three" : {"title":"フレーム3","text":"この攻撃は3フレーム目で実行されるため、遅延が大きい。","color": "94f140"},
+    "on_last_hit" : {"title":"最終ヒット時","text":"マルチヒットの最後の攻撃時に発動する効果。","color": "94f140"}
   }
 }

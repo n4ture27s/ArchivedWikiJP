@@ -1,0 +1,2071 @@
+{
+  "a_corp_citizen": {
+    "name_en": "A Corp. Citizen",
+    "name_jp": "A社市民",
+    "req": [
+      "2x Fabric",
+      "1x Rope",
+      "1x Nuovo Fabric",
+      "1x Seed Of Light"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.8,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "Singularity",
+        "effect": "被る状態異常効果を半減する。"
+      }
+    ]
+  },
+  "ambitious_fixer": {
+    "name_en": "Ambitious Fixer",
+    "name_jp": "野心家フィクサー",
+    "req": [
+      "2x Fabric",
+      "2x Books",
+      "1x Book of a Grade 9 Fixer"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 1
+    },
+    "speed": 18,
+    "keypage": [
+      {
+        "title": "Slashing Prowess",
+        "effect": "25%の確率で斬撃ダメージが10%上昇する。"
+      },
+      {
+        "title": "Errand Gone Wrong",
+        "effect": "戦闘開始時、自身に{haste}を3付与する。"
+      }
+    ]
+  },
+  "backstreets_berserker": {
+    "name_en": "Backstreets Berserker",
+    "name_jp": "裏路地のバーサーカー",
+    "req": [
+      "6x Fabric",
+      "1x Wiring",
+      "1x Worn Sledgehammer",
+      "12x Scrap Metal"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 1.2
+    },
+    "speed": 17,
+    "keypage": []
+  },
+  "backstreets_headhunter": {
+    "name_en": "Backstreets Headhunter",
+    "name_jp": "裏路地のヘッドハンター",
+    "req": [
+      "2x Fabric",
+      "1x Wiring",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 1,
+      "slash": 1.3
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Skull Crushing",
+        "effect": "打撃ダメージが10%上昇する。"
+      }
+    ]
+  },
+  "backstreets_investigator": {
+    "name_en": "Backstreets Investigator",
+    "name_jp": "裏路地の調査員",
+    "req": [
+      "3x Fabric",
+      "2x Rope",
+      "1x Wiring"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": []
+  },
+  "backstreets_rat": {
+    "name_en": "Backstreets Rat",
+    "name_jp": "裏路地のネズミ",
+    "req": [
+      "2x Fabric",
+      "3x Rope",
+      "1x Wiring"
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 1.2,
+      "slash": 0.7
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "A Rat's Guide To Survival",
+        "effect": "回避フレームが増加する。"
+      }
+    ]
+  },
+  "backstreets_mole": {
+    "name_en": "Backstreets Mole",
+    "name_jp": "裏路地のモグラ",
+    "req": [
+      "2x Fabric",
+      "3x Rope",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Skewing",
+        "effect": "貫通ダメージが10%上昇する。"
+      }
+    ]
+  },
+  "backstreets_scum": {
+    "name_en": "Backstreets Scum",
+    "name_jp": "裏路地のクズ",
+    "req": [
+      "3x Fabric",
+      "2x Rope",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 14,
+    "keypage": [
+      {
+        "title": "Cowardice",
+        "effect": "HPが低いとき、移動速度が上昇する。"
+      }
+    ]
+  },
+  "backstreets_survivor": {
+    "name_en": "Backstreets Survivor",
+    "name_jp": "裏路地の生存者",
+    "req": [
+      "2x Fabric",
+      "2x Scrap Metal",
+      "1x Wiring",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 1.2
+    },
+    "speed": 17,
+    "keypage": [
+      {
+        "title": "Experience",
+        "effect": "N/A"
+      }
+    ]
+  },
+  "bartender": {
+    "name_en": "Bartender",
+    "name_jp": "バーテンダー",
+    "req": [
+      "1x Nuovo Fabric",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1.2,
+      "slash": 0.7
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "beak": {
+    "name_en": "Beak",
+    "name_jp": "くちばし",
+    "req": [
+      "1x Book",
+      "1x Nuovo Fabric",
+      "1x Sanity Ampule"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.2,
+      "slash": 1
+    },
+    "speed": 17,
+    "keypage": []
+  },
+  "black_silence": {
+    "name_en": "Black Silence",
+    "name_jp": "黒い沈黙",
+    "req": [
+      "2x Wiring",
+      "2x Shimmering Fabric",
+      "1x Rope",
+      "2x Fragment of Silence",
+      "2x Fabric",
+      "3x Nuovo Fabric"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.1,
+      "slash": 1
+    },
+    "speed": 17,
+    "keypage": [
+      {
+        "title": "A Fighter that Never Retreats",
+        "effect": "感情レベル上昇時、{protection}を20秒間2獲得し、{value_up}を2分間1獲得する。"
+      },
+      {
+        "title": "Clenched Grudge",
+        "effect": "対象にヒット時、より多くのスタミナを得る。"
+      }
+    ]
+  },
+  "blade_lineage": {
+    "name_en": "Blade Lineage",
+    "name_jp": "剣契",
+    "req": [
+      "3x Fabric",
+      "2x Book of Blade Lineage",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.3,
+      "slash": 0.7
+    },
+    "speed": 16,
+    "book": "blade_lineage",
+    "keypage": [
+      {
+        "title": "Clash of Blades",
+        "effect": "[敵のブロックヒット時(M1限定)] {poise}を2獲得する。(8秒CD)"
+      },
+      {
+        "title": "Minimum Offense",
+        "effect": "{poise}が10以上の場合、M1がブロック時でも50%のダメージを与える。"
+      },
+      {
+        "title": "Yield My Flesh - To Claim Their Bones",
+        "effect": "剣契所属時、{light}2コストのカウンターページ「Yield My Flesh」を獲得する。"
+      }
+    ]
+  },
+  "blade_lineage_mentor": {
+    "name_en": "Blade Lineage Mentor",
+    "name_jp": "剣契 頭目",
+    "req": [
+      "3x Fabric",
+      "2x Book of Blade Lineage",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 1,
+      "slash": 0.7
+    },
+    "speed": 16,
+    "book": "blade_lineage",
+    "keypage": [
+      {
+        "title": "Unrelenting",
+        "effect": "{poise}が5以上でHPが0になるダメージを受けた時、1度だけそのダメージを無効化する。発動時、全ての{poise}を消費する。(CDなし)"
+      },
+      {
+        "title": "In Memoriam",
+        "effect": "[カウンター成功時] {poise}が10以上の場合、全ての{poise}を消費して+4のダイス威力を得る。"
+      },
+      {
+        "title": "Swordplay of Homeland",
+        "effect": "[絶対傲慢共鳴時] {rending}を得る。"
+      },
+      {
+        "title": "Yield My Flesh - To Claim Their Bones",
+        "effect": "剣契所属時、{light}2コストのカウンターページ「Yield My Flesh」を獲得する。"
+      }
+    ]
+  },
+  "blade_lineage_salsu": {
+    "name_en": "Blade Lineage Salsu",
+    "name_jp": "剣契 殺手",
+    "req": [
+      "3x Fabric",
+      "2x Book of Blade Lineage",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 1,
+      "slash": 0.7
+    },
+    "speed": 16,
+    "book": "blade_lineage",
+    "keypage": [
+      {
+        "title": "Poised",
+        "effect": "[クリティカルヒット時] {poise}が10以上の場合、半分を消費して(Count/2.5)のダメージを与える(最大20)。"
+      },
+      {
+        "title": "Sanguine Plum Blossoms",
+        "effect": "[クリティカル発生時] 対象に{red_plum_blossom}を1付与する。"
+      },
+      {
+        "title": "Yield My Flesh - To Claim Their Bones",
+        "effect": "剣契所属時、{light}2コストのカウンターページ「Yield My Flesh」を獲得する。"
+      }
+    ]
+  },
+  "brawler": {
+    "name_en": "Brawler",
+    "name_jp": "ブロウラー",
+    "req": [
+      "3x Fabric",
+      "2x Book",
+      "1x Rope",
+      "1x Organ"
+    ],
+    "resistance": {
+      "blunt": 0.6,
+      "pierce": 1,
+      "slash": 1.2
+    },
+    "speed": 13,
+    "keypage": [
+      {
+        "title": "Cold-Hard Fists",
+        "effect": "「拳」武器装備時、M1ダメージが10%上昇する。"
+      }
+    ]
+  },
+  "brute_fixer": {
+    "name_en": "Brute Fixer",
+    "name_jp": "凶暴なフィクサー",
+    "req": [
+      "4x Sweeper Fuel Canister",
+      "3x Wiring",
+      "2x Scrap Metal",
+      "1x Nuovo Fabric",
+      "1x Vitality Ampule"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 1.3,
+      "slash": 0.7
+    },
+    "speed": 14,
+    "keypage": [
+      {
+        "title": "Health Hauler",
+        "effect": "1度の攻撃で20以上のダメージを受けた場合、ダメージを4軽減し、{regen_up}を5獲得する。"
+      }
+    ]
+  },
+  "butchers_attire": {
+    "name_en": "Butcher's Attire",
+    "name_jp": "肉屋の装束",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "1x Raw Meat",
+      "1x Organs"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 0.7
+    },
+    "speed": 14,
+    "keypage": [
+      {
+        "title": "Emergency Rations",
+        "effect": "自然回復率が20%上昇する。"
+      },
+      {
+        "title": "Talented Chef",
+        "effect": "N/A"
+      }
+    ]
+  },
+  "butler_fixer": {
+    "name_en": "Butler Fixer",
+    "name_jp": "バトラー・フィクサー",
+    "req": [
+      "3x Fabric",
+      "1x Nuovo Fabric",
+      "1x Sanity Ampule"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.3
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Butler Style Response",
+        "effect": "[マッチ勝利時] 対象に{sinking}を3付与する。"
+      }
+    ]
+  },
+  "brutish_stray_dog": {
+    "name_en": "Brutish Stray Dog",
+    "name_jp": "獰猛な野良犬",
+    "req": [
+      "3x Fabric",
+      "2x Rope",
+      "1x Book of Stray Dog"
+    ],
+    "resistance": {
+      "blunt": 0.6,
+      "pierce": 0.8,
+      "slash": 1.3
+    },
+    "speed": 13,
+    "keypage": [
+      {
+        "title": "Restfulness",
+        "effect": "[ページ使用時] ページの{light}コストを1減らす。(70秒CD)"
+      },
+      {
+        "title": "Enhancement Tattoos",
+        "effect": "チャージ攻撃、パリィの煌めき、パリィの{guard_break}で{enhancement_tatoos}を1獲得する。"
+      }
+    ]
+  },
+  "calm_stray_dog": {
+    "name_en": "Calm Stray Dog",
+    "name_jp": "冷静な野良犬",
+    "req": [
+      "3x Fabric",
+      "2x Rope",
+      "1x Book of Stray Dog"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 0.7,
+      "slash": 1.3
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "Deep Breaths",
+        "effect": "25%の確率でページの{light}コストを2減らす。"
+      },
+      {
+        "title": "Enhancement Tattoos",
+        "effect": "チャージ攻撃、パリィの煌めき、パリィの{guard_break}で{enhancement_tatoos}を1獲得する。"
+      }
+    ]
+  },
+  "cunning_stray_dog": {
+    "name_en": "Cunning Stray Dog",
+    "name_jp": "狡猾な野良犬",
+    "req": [
+      "3x Fabric",
+      "2x Rope",
+      "1x Book of Stray Dog"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1,
+      "slash": 1.2
+    },
+    "speed": 18,
+    "keypage": [
+      {
+        "title": "Double Kick",
+        "effect": "[マッチ勝利時] 5ダメージを与え、{fragile}を4付与する。"
+      },
+      {
+        "title": "Enhancement Tattoos",
+        "effect": "チャージ攻撃、パリィの煌めき、パリィの{guard_break}で{enhancement_tatoos}を1獲得する。"
+      }
+    ]
+  },
+  "casual_fixer": {
+    "name_en": "Casual Fixer",
+    "name_jp": "カジュアルなフィクサー",
+    "req": [
+      "4x Fabric",
+      "1x Nuovo Fabric",
+      "3x Book"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.3
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Moving Up The Ranks",
+        "effect": "獲得EXPが25%増加する。"
+      }
+    ]
+  },
+  "casual_jacket": {
+    "name_en": "Casual Jacket",
+    "name_jp": "カジュアルジャケット",
+    "req": [
+      "4x Fabric",
+      "2x Rope"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 16,
+    "keypage": []
+  },
+  "cinq_association": {
+    "name_en": "Cinq Association",
+    "name_jp": "センク協会",
+    "req": [
+      "2x Book of Cinq Association",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.7,
+      "slash": 1.3
+    },
+    "speed": 18,
+    "book": "cinq",
+    "keypage": [
+      {
+        "title": "Have At Thee!",
+        "effect": "{haste}2につきクリティカル率が7%上昇する(最大25%)。"
+      },
+      {
+        "title": "One Step Ahead",
+        "effect": "煌めき時に{haste}2、フォーカスストライク時に{haste}3を獲得する。"
+      }
+    ]
+  },
+  "cinq_association_specialist": {
+    "name_en": "Cinq Association Specialist",
+    "name_jp": "センク協会 スペシャリスト",
+    "req": [
+      "2x Book of Cinq Association",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.7,
+      "slash": 1.3
+    },
+    "speed": 18,
+    "book": "cinq",
+    "keypage": [
+      {
+        "title": "Have At Thee!",
+        "effect": "{haste}2につきクリティカル率が7%上昇する(最大25%)。"
+      },
+      {
+        "title": "Mentors Counsel",
+        "effect": "[マッチ開始時] 相手より速い場合、マッチ威力を1獲得する。"
+      }
+    ]
+  },
+  "claw_executioner": {
+    "name_en": "Claw Executioner",
+    "name_jp": "処刑者",
+    "req": [
+      "2x Wiring",
+      "3x Shimmering Fabric",
+      "1x Serum W Vial",
+      "3x Scrap Metal",
+      "2x Nuovo Fabric"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.9,
+      "slash": 1.2
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Tri Serum Brew",
+        "effect": "装着した血清によってバフ/デバフ効果が変化する。"
+      },
+      {
+        "title": "Serum Injection",
+        "effect": "{light}4コストのユニークページ「Serum Injection」を獲得する。"
+      }
+    ]
+  },
+  "clean_suit": {
+    "name_en": "Clean Suit",
+    "name_jp": "クリーンスーツ",
+    "req": [
+      "1x Nuovo Fabric",
+      "1x Book",
+      "3x Fabric"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Slugger",
+        "effect": "[被弾時] {hyperarmor}中に攻撃を被弾し、同じ{hyperarmor}で反撃した場合、その攻撃のダメージが20%上昇する。"
+      }
+    ]
+  },
+  "corporative": {
+    "name_en": "Corporative",
+    "name_jp": "羽",
+    "req": [
+      "2x Book",
+      "4x Fabric"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.2
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Standard Procedure",
+        "effect": "EGO中、スタミナダメージが半減する。"
+      }
+    ]
+  },
+  "dawn_office_fixer": {
+    "name_en": "Dawn Office Fixer",
+    "name_jp": "夜明け事務所フィクサー",
+    "req": [
+      "2x Rope",
+      "2x Fabric",
+      "1x Nuovo Fabric",
+      "1x Stigma Workshop Core"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.6,
+      "slash": 1.2
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Passion",
+        "effect": "{stagger}を対象に発動させた時、{burn}を5付与する。"
+      }
+    ]
+  },
+  "devyat_association": {
+    "name_en": "Devyat Association",
+    "name_jp": "ヂェーヴィチ協会",
+    "req": [
+      "1x Rope",
+      "2x Fabric",
+      "1x Nuovo Fabric",
+      "1x Sanity Ampule"
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 0.7,
+      "slash": 1.1
+    },
+    "speed": 19,
+    "keypage": [
+      {
+        "title": "Emergency Rations",
+        "effect": "自然回復率が20%上昇する。"
+      },
+      {
+        "title": "Dimensional Storage",
+        "effect": "死亡時のアイテム消失が軽減される。"
+      },
+      {
+        "title": "Hoarder",
+        "effect": "所持容量が100増加する。"
+      }
+    ]
+  },
+  "dieci_association_key_branch": {
+    "name_en": "Dieci Association Key Branch",
+    "name_jp": "ディエーチ協会 鍵派",
+    "req": [
+      "2x Book of Dieci Association",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 0.8,
+      "slash": 0.8
+    },
+    "speed": 17,
+    "book": "dieci",
+    "keypage": [
+      {
+        "title": "Enlightenment",
+        "effect": "チャージ攻撃が{sinking}を3付与し、{shield_hp}を6獲得する。"
+      },
+      {
+        "title": "Sinking Knowledge",
+        "effect": "[被弾時] {shield_hp}がある場合、攻撃者に{sinking}を2付与する。"
+      }
+    ]
+  },
+  "dieci_association_fist_branch": {
+    "name_en": "Dieci Association Fist Branch",
+    "name_jp": "ディエーチ協会 拳の枝",
+    "req": [
+      "2x Book of Dieci Association",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 0.9
+    },
+    "speed": 18,
+    "book": "dieci",
+    "keypage": [
+      {
+        "title": "Sinking Knowledge",
+        "effect": "[被弾時] {shield_hp}がある場合、攻撃者に{sinking}を2付与する。"
+      },
+      {
+        "title": "Enlightenment",
+        "effect": "煌めきが{sinking}を2付与し、{shield_hp}を4獲得する。{shield_hp}が20以上の場合、打撃ダメージが15%上昇する。"
+      }
+    ]
+  },
+  "full_stop_organizer": {
+    "name_en": "Full-Stop Organizer",
+    "name_jp": "終止符事務所 事務所長",
+    "req": [
+      "3x Fabric",
+      "3x Nuovo Fabric",
+      "3x Ammo Box",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "book": "full_stop",
+    "keypage": [
+      {
+        "title": "Target Spotted",
+        "effect": "[Full-Stop Pistolのクリティカル最終ヒット時] 3発以上の弾丸を消費した場合、対象に{fragile}を5付与する。"
+      },
+      {
+        "title": "Basics of C Q C",
+        "effect": "[チャージ攻撃/最終M1 (Full-Stop Pistol)] 弾丸が3以上の場合{poise}を5獲得、そうでなければ弾丸を1回復する。(10秒CD)"
+      }
+    ]
+  },
+  "full_stop_fixer": {
+    "name_en": "Full-Stop Fixer",
+    "name_jp": "終止符事務所 フィクサー",
+    "req": [
+      "5x Ammo Box",
+      "3x Fabric",
+      "2x Book"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.9,
+      "slash": 1.1
+    },
+    "speed": 17,
+    "book": "full_stop",
+    "keypage": [
+      {
+        "title": "Surplus Ammo",
+        "effect": "[リロード時] Full-Stop Automaticの半分の弾薬が{atelier_logic_ammo}に変換される。"
+      },
+      {
+        "title": "AL-HV Round",
+        "effect": "[Full-Stop Rifleのクリティカルヒット時] {poise}が発動した場合、{atelier_logic_ammo}を1獲得する。"
+      }
+    ]
+  },
+  "hana_association": {
+    "name_en": "Hana Association",
+    "name_jp": "ハナ協会",
+    "req": [
+      "2x Book of Hana Association",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.9,
+      "slash": 1
+    },
+    "speed": 17,
+    "book": "hana",
+    "keypage": [
+      {
+        "title": "Brace Up",
+        "effect": "{hyperarmor}中の被ダメージが減少する。10以上のダメージを受ける度に{value_up}を10秒間1獲得する。"
+      },
+      {
+        "title": "Four Trigrams",
+        "effect": "ハナ協会所属時、{light}0コストのページ「Rotate Trigram」を獲得する。"
+      }
+    ]
+  },
+  "index_proselyte": {
+    "name_en": "Index Proselyte",
+    "name_jp": "人差し指 代行者",
+    "req": [
+      "Obtainable from Book of The Index"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.2
+    },
+    "speed": 17,
+    "book": "index",
+    "keypage": [
+      {
+        "title": "Will Of The Prescript",
+        "effect": "[{singleton}] 全てのページが+1の{value_up}を獲得する。"
+      },
+      {
+        "title": "Grace Of The Prescript",
+        "effect": "[アンロックヒット時] ダメージタイプを10%上昇させる{Grace_Of_The_Prescript}を獲得する。"
+      },
+      {
+        "title": "Unlock",
+        "effect": "インデックス所属時、{light}0コストのページ「Unlock」を獲得する。"
+      }
+    ]
+  },
+  "journalist": {
+    "name_en": "Journalist",
+    "name_jp": "ジャーナリスト",
+    "req": [
+      "2x Fabric",
+      "1x Wiring",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": []
+  },
+  "k_corp_assistant": {
+    "name_en": "K Corp. Assistant",
+    "name_jp": "K社アシスタント",
+    "req": [
+      "2x Fabric",
+      "1x Rope",
+      "1x K Corp. Ampule"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.8,
+      "slash": 1.2
+    },
+    "speed": 16,
+    "keypage": []
+  },
+  "kurokumo_henchman": {
+    "name_en": "Kurokumo Henchman",
+    "name_jp": "黒雲会 構成員",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Kurokumo Clan"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 0.8,
+      "slash": 1.3
+    },
+    "speed": 17,
+    "book": "kurokumo",
+    "keypage": [
+      {
+        "title": "Dark Cloud Blade",
+        "effect": "[マッチ勝利時] {bleed}を3付与する。"
+      },
+      {
+        "title": "Keen Strike",
+        "effect": "[チャージ攻撃/最終M1] {bleed}を1付与する。Dark Cloudが6以上の場合、通常の代わりに{bleed}を3付与する。"
+      },
+      {
+        "title": "Gathering Dark Clouds",
+        "effect": "黒雲所属時、黒雲の刀/黒雲の金彩刀のクリティカル最終ヒット時に{Dark_Cloud}を2獲得する。"
+      }
+    ]
+  },
+  "kurokumo_wakashu": {
+    "name_en": "Kurokumo Wakashu",
+    "name_jp": "黒雲会 若衆",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Kurokumo Clan"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.2
+    },
+    "speed": 16,
+    "book": "kurokumo",
+    "keypage": [
+      {
+        "title": "Kokuundō",
+        "effect": "対象の{bleed}に応じたボーナスダメージを与える(最大20%)。"
+      },
+      {
+        "title": "Gathering Dark Clouds",
+        "effect": "黒雲所属時、黒雲の刀/黒雲の金彩刀のクリティカル最終ヒット時に{Dark_Cloud}を2獲得する。"
+      }
+    ]
+  },
+  "leaflet_workshop": {
+    "name_en": "Leaflet Workshop",
+    "name_jp": "木の葉工房",
+    "req": [
+      "3x Scrap Metal",
+      "3x Fabric",
+      "2x Wiring"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.9,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "Puffy Brume",
+        "effect": "{smoke}スタックがM1の与ダメージを増加させるようになる。"
+      }
+    ]
+  },
+  "leaflet_workshop_rep": {
+    "name_en": "Leaflet Workshop Rep",
+    "name_jp": "木の葉工房 代表",
+    "req": [
+      "3x Scrap Metal",
+      "3x Fabric",
+      "2x Wiring",
+      "1x Leaflet Workshop Steamgun"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "Puffy Brume",
+        "effect": "{smoke}スタックがM1の与ダメージを増加させるようになる。"
+      },
+      {
+        "title": "Immediate Repairs",
+        "effect": "2分に1度、スタン状態から即座に回復する。"
+      }
+    ]
+  },
+  "liu_association": {
+    "name_en": "Liu Association",
+    "name_jp": "リウ協会",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Liu Association"
+    ],
+    "resistance": {
+      "blunt": 0.6,
+      "pierce": 1.4,
+      "slash": 1
+    },
+    "speed": 15,
+    "book": "liu",
+    "keypage": [
+      {
+        "title": "Fervor",
+        "effect": "感情レベルIIの間、{value_up}を2獲得する。"
+      },
+      {
+        "title": "Hugging Fire, Sitting on Brushwood",
+        "effect": "[ヒット時] {burn}を付与する攻撃がヒットした場合、5のスタミナダメージを与える。"
+      },
+      {
+        "title": "Ignite Weaponry",
+        "effect": "リウ協会所属時、{light}1コストのページ「Ignite Weaponry」を獲得する。"
+      }
+    ]
+  },
+  "liu_association_operative": {
+    "name_en": "Liu Association Operative",
+    "name_jp": "リウ協会 工作員",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Liu Association"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.8,
+      "slash": 0.8
+    },
+    "speed": 15,
+    "book": "liu",
+    "keypage": [
+      {
+        "title": "Hugging Fire, Sitting on Brushwood",
+        "effect": "[ヒット時] {burn}を付与する攻撃がヒットした場合、5のスタミナダメージを与える。"
+      },
+      {
+        "title": "Firm As A Great Mountain",
+        "effect": "感情レベル上昇時、最大HPの7.5%を回復する。"
+      },
+      {
+        "title": "Ignite Weaponry",
+        "effect": "リウ協会所属時、{light}1コストのページ「Ignite Weaponry」を獲得する。"
+      }
+    ]
+  },
+  "liu_association_specialist": {
+    "name_en": "Liu Association Specialist",
+    "name_jp": "リウ協会 スペシャリスト",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Liu Association"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.2,
+      "slash": 0.8
+    },
+    "speed": 15,
+    "book": "liu",
+    "keypage": [
+      {
+        "title": "Fervor",
+        "effect": "感情レベルIIの間、{value_up}を2獲得する。"
+      },
+      {
+        "title": "Firm As A Great Mountain",
+        "effect": "感情レベル上昇時、最大HPの7.5%を回復する。"
+      },
+      {
+        "title": "Ignite Weaponry",
+        "effect": "リウ協会所属時、{light}1コストのページ「Ignite Weaponry」を獲得する。"
+      }
+    ]
+  },
+  "lone_fixer": {
+    "name_en": "Lone Fixer",
+    "name_jp": "孤独なフィクサー",
+    "req": [
+      "3x Scrap Metal",
+      "2x Fabric",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1,
+      "slash": 1.1
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Lone Fixer",
+        "effect": "味方がいない場合(事務所未所属)、{value_up}を1獲得する。"
+      }
+    ]
+  },
+  "middle_little_sibling": {
+    "name_en": "Middle Little Sibling",
+    "name_jp": "中指 弟妹",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "1x Book of The Middle"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1,
+      "slash": 0.8
+    },
+    "speed": 17,
+    "book": "middle",
+    "keypage": [
+      {
+        "title": "Little Vengeance",
+        "effect": "対象の{paralyze}スタックに応じて打撃ダメージが上昇する(最大10%)。"
+      },
+      {
+        "title": "Enhancement Tattoos",
+        "effect": "チャージ攻撃、パリィの煌めき、パリィの{guard_break}で{enhancement_tatoos}を1獲得する。"
+      }
+    ]
+  },
+  "middle_big_sibling": {
+    "name_en": "Middle Big Sibling",
+    "name_jp": "中指 兄姉",
+    "req": [
+      "3x Fabric",
+      "1x Nuovo Fabric",
+      "1x Book",
+      "1x Book of The Big Brother of the Middle"
+    ],
+    "resistance": {
+      "blunt": 1.5,
+      "pierce": 0.7,
+      "slash": 0.7
+    },
+    "speed": 18,
+    "book": "middle",
+    "keypage": [
+      {
+        "title": "Domineer",
+        "effect": "自身に5未満のダメージを与えた攻撃者の精神力が2減少する。"
+      },
+      {
+        "title": "Enhancement Tattoos",
+        "effect": "チャージ攻撃、パリィの煌めき、パリィの{guard_break}で{enhancement_tatoos}を1獲得する。"
+      }
+    ]
+  },
+  "n_corp_inquisitor": {
+    "name_en": "N Corp. Inquisitor",
+    "name_jp": "N社の異端審問官",
+    "req": [
+      "2x Fabric",
+      "2x Rope",
+      "2x Scrap Metal",
+      "1x Book of The One Who Grips"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.6,
+      "slash": 1
+    },
+    "speed": 16,
+    "book": "ncorp",
+    "keypage": [
+      {
+        "title": "Thou Shalt Hammer",
+        "effect": "Whistlesキーページを持つ者が{guard_break}を発生させた時、{fanatic}を1獲得する。"
+      }
+    ]
+  },
+  "n_corp_the_one_who_grips": {
+    "name_en": "N Corp. The One Who Grips",
+    "name_jp": "N社 握る者",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "1x Scrap Metal",
+      "1x Book of The One Who Grips"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 14,
+    "book": "ncorp",
+    "keypage": [
+      {
+        "title": "Bliss of Execution",
+        "effect": "敵を討伐時、{haste}2と{value_up}5を10秒間獲得する。"
+      },
+      {
+        "title": "Whistles",
+        "effect": "[{guard_break}時] 対象に{nail}を2付与し、近くのN社尋問官の服を着た味方に{fanatic}を1付与する。"
+      }
+    ]
+  },
+  "nest_citizen": {
+    "name_en": "Nest Citizen",
+    "name_jp": "巣の市民",
+    "req": [
+      "2x Fabric",
+      "1x Rope",
+      "1x Wiring"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1,
+      "slash": 1.3
+    },
+    "speed": 16,
+    "keypage": []
+  },
+  "nest_lurker": {
+    "name_en": "Nest Lurker",
+    "name_jp": "巣に潜む者",
+    "req": [
+      "2x Fabric",
+      "1x Rope",
+      "1x Wiring"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 1
+    },
+    "speed": 16,
+    "keypage": []
+  },
+  "nest_researcher": {
+    "name_en": "Nest Researcher",
+    "name_jp": "巣の研究員",
+    "req": [
+      "1x Book",
+      "1x Nuovo Fabric",
+      "1x K Corp. Ampule"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Experimental Rat",
+        "effect": "K社アンプルの悪影響が軽減される。"
+      }
+    ]
+  },
+  "r_corp_rabbit": {
+    "name_en": "R Corp. Rabbit",
+    "name_jp": "R社ウサギチーム",
+    "req": [
+      "2x Fabric",
+      "2x Wiring",
+      "1x Scrap Metal",
+      "1x Book of R Corp."
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 1,
+      "slash": 0.7
+    },
+    "speed": 18,
+    "book": "rcorp",
+    "keypage": [
+      {
+        "title": "Rabbit Augmentation",
+        "effect": "15以上のダメージを受けた時、{haste}を5獲得する。"
+      },
+      {
+        "title": "RRR Suit",
+        "effect": "{charge}の最大値が50になる。"
+      }
+    ]
+  },
+  "r_corp_rhino": {
+    "name_en": "R Corp. Rhino",
+    "name_jp": "R社サイチーム",
+    "req": [
+      "2x Fabric",
+      "2x Wiring",
+      "2x Scrap Metal",
+      "1x Book of R Corp."
+    ],
+    "resistance": {
+      "blunt": 0.5,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 13,
+    "book": "rcorp",
+    "keypage": [
+      {
+        "title": "Rhino Procedure",
+        "effect": "15以上のダメージを受けた時、{protection}を5獲得する。"
+      },
+      {
+        "title": "RRR Suit",
+        "effect": "{charge}の最大値が50になる。"
+      }
+    ]
+  },
+  "red_mist": {
+    "name_en": "Red Mist",
+    "name_jp": "赤い霧",
+    "req": [
+      "3x Nuovo Fabric",
+      "2x Fabric",
+      "1x Rope",
+      "2x Wiring",
+      "2x Book of the Red Mist",
+      "1x Shimmering Fabric"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "The Strongest",
+        "effect": "[使用時] ダイスの出目を最大値に設定する。(1分CD)"
+      },
+      {
+        "title": "Retaliate",
+        "effect": "1回の攻撃で20以上のダメージを受けた時、その半分を無効化する。(2分CD)"
+      }
+    ]
+  },
+  "reverberation_ensemble": {
+    "name_en": "Reverberation Ensemble",
+    "name_jp": "残響楽団",
+    "req": [
+      "2x Nuovo Fabric",
+      "1x Wiring",
+      "1x Book of Reverberation Ensemble"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 0.8
+    },
+    "speed": 17,
+    "keypage": [
+      {
+        "title": "Nuovo Fabric",
+        "effect": "全ての被ダメージを1軽減する。ページによる[被弾時]のみ発動する。"
+      }
+    ]
+  },
+  "rosespanner_workshop_fixer": {
+    "name_en": "Rosespanner Workshop Fixer",
+    "name_jp": "バラのスパナ工房 フィクサー",
+    "req": [
+      "1x Nuovo Fabric",
+      "2x Scrap Metal",
+      "1x Wiring"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.3,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Chronic Fatigue",
+        "effect": "敵の{tremor}が5以上の場合、マッチ威力が-2される。"
+      }
+    ]
+  },
+  "seven_association": {
+    "name_en": "Seven Association",
+    "name_jp": "セブン協会",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Seven Association"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.8,
+      "slash": 1
+    },
+    "speed": 17,
+    "book": "seven",
+    "keypage": [
+      {
+        "title": "Investigation",
+        "effect": "セブン協会所属時、対象のHPバーを表示する「Investigation」ページを獲得する。"
+      },
+      {
+        "title": "Thorough Search",
+        "effect": "Investigation使用後の討伐時、所持Ahnの10%を奪取する確率を得る。"
+      },
+      {
+        "title": "Cut. In. Half.",
+        "effect": "[最終M1] 対象の{rupture}に等しい{true_damage}を与える。"
+      }
+    ]
+  },
+  "seven_association_operative": {
+    "name_en": "Seven Association Operative",
+    "name_jp": "セブン協会 工作員",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Seven Association"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1
+    },
+    "speed": 16,
+    "book": "seven",
+    "keypage": [
+      {
+        "title": "Investigation",
+        "effect": "セブン協会所属時、対象のHPバーを表示する「Investigation」ページを獲得する。"
+      },
+      {
+        "title": "Thorough Search",
+        "effect": "Investigation使用後の討伐時、所持Ahnの10%を奪取する確率を得る。"
+      },
+      {
+        "title": "Exploiting the Gap",
+        "effect": "[マッチ勝利時] 対象の{rupture}の1/3のダメージを与え、{rupture}を半減する。"
+      }
+    ]
+  },
+  "seven_association_specialist": {
+    "name_en": "Seven Association Specialist",
+    "name_jp": "セブン協会 スペシャリスト",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Seven Association"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.3
+    },
+    "speed": 17,
+    "book": "seven",
+    "keypage": [
+      {
+        "title": "Grasping Vulnerabilities",
+        "effect": "対象の被ダメージタイプの弱点が1.15より高い場合、さらに15%上昇させる。"
+      },
+      {
+        "title": "Opportunistic",
+        "effect": "[マッチ勝利時] {rupture}を2、{fragile}を3付与する。"
+      }
+    ]
+  },
+  "shi_association": {
+    "name_en": "Shi Association",
+    "name_jp": "シ協会",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Shi Association"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.3,
+      "slash": 0.7
+    },
+    "speed": 17,
+    "book": "shi",
+    "keypage": [
+      {
+        "title": "Extreme Fatigue",
+        "effect": "最大HPが60増加するが、その増加分を超えて回復できない。"
+      },
+      {
+        "title": "Walking The Line Of Death",
+        "effect": "HPが25%以下の時、{poise}の発動確率が25%上昇する。"
+      },
+      {
+        "title": "Kizuna",
+        "effect": "味方の死亡時、{value_up}を1獲得する(最大2)。"
+      },
+      {
+        "title": "Boundary of Death",
+        "effect": "シ協会所属時、{light}3コストの{true_damage}ページ「Boundary of Death」を獲得する。"
+      }
+    ]
+  },
+  "shi_association_operative": {
+    "name_en": "Shi Association Operative",
+    "name_jp": "シ協会 工作員",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of Shi Association"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 1,
+      "slash": 1.3
+    },
+    "speed": 17,
+    "book": "shi",
+    "keypage": [
+      {
+        "title": "Extreme Fatigue",
+        "effect": "最大HPが60増加するが、その増加分を超えて回復できない。"
+      },
+      {
+        "title": "Divide in Two",
+        "effect": "{haste}がある場合、M1ダメージが10%上昇する。"
+      },
+      {
+        "title": "Boundary of Death",
+        "effect": "シ協会所属時、{light}3コストの{true_damage}ページ「Boundary of Death」を獲得する。"
+      }
+    ]
+  },
+  "shi_association_specialist": {
+    "name_en": "Shi Association Specialist",
+    "name_jp": "シ協会 スペシャリスト",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "6x Book of Shi Association",
+      "3x Nuovo Fabric"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.7,
+      "slash": 1.2
+    },
+    "speed": 17,
+    "book": "shi",
+    "keypage": [
+      {
+        "title": "Extreme Fatigue",
+        "effect": "最大HPが60増加するが、その増加分を超えて回復できない。"
+      },
+      {
+        "title": "Self Neglect",
+        "effect": "HPが30%以下の時、与ダメージが20%上昇する。"
+      },
+      {
+        "title": "Boundary of Death",
+        "effect": "シ協会所属時、{light}3コストの{true_damage}ページ「Boundary of Death」を獲得する。"
+      }
+    ]
+  },
+  "thumb_soldato": {
+    "name_en": "Thumb Soldato",
+    "name_jp": "親指 ソルダート",
+    "req": [
+      "3x Fabric",
+      "1x Rope",
+      "2x Book of The Thumb"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "book": "thumb",
+    "keypage": [
+      {
+        "title": "Rifle Training",
+        "effect": "Soldato Rifle装備時、Alt-fireのダメージが15%上昇する。"
+      },
+      {
+        "title": "Ammunition Tribute",
+        "effect": "[リロード時] 近くのThumb East CapoまたはThumb Soldatoの味方に、獲得弾薬の半分を供給する。(20秒CD)"
+      },
+      {
+        "title": "Ammo Supply",
+        "effect": "[最終M1] ランダムな弾薬タイプを武器の彈薬容量の20%獲得する(最小1)。"
+      },
+      {
+        "title": "Reload",
+        "effect": "サム所属時、ユニークページ「Reload」を獲得する。"
+      }
+    ]
+  },
+  "ting_tang_gang": {
+    "name_en": "Ting Tang Gang",
+    "name_jp": "ぽんぽん派",
+    "req": [
+      "1x Nuovo Fabric",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1.4,
+      "pierce": 1,
+      "slash": 0.7
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Gambit",
+        "effect": "ダイス使用時に確率で{value_up}を4獲得する。"
+      }
+    ]
+  },
+  "twinhook_pirate": {
+    "name_en": "Twinhook Pirate",
+    "name_jp": "双鈎海賊団",
+    "req": [
+      "1x Twinhook",
+      "2x Scrap Metal",
+      "1x Mermaid Skin",
+      "2x Fabric",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Easy Breathing",
+        "effect": "[マッチ勝利時] {poise}を5獲得する。"
+      }
+    ]
+  },
+  "udjat": {
+    "name_en": "Udjat",
+    "name_jp": "ウアジェト",
+    "req": [
+      "2x Book Of The Udjat",
+      "2x Fabric",
+      "2x Nuovo Fabric"
+    ],
+    "resistance": {
+      "blunt": 0.6,
+      "pierce": 1.2,
+      "slash": 1.1
+    },
+    "speed": 17,
+    "book": "udjat",
+    "keypage": [
+      {
+        "title": "The Udjat",
+        "effect": "戦闘開始時、{protection}を10獲得する。(60秒CD)"
+      }
+    ]
+  },
+  "sweeping_fixer": {
+    "name_en": "Sweeping Fixer",
+    "name_jp": "掃除屋フィクサー",
+    "req": [
+      "2x Fabric",
+      "1x Nuovo Fabric",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Corpse Cleanup",
+        "effect": "敵を捕獲時、{regen_up}を50獲得する。"
+      }
+    ]
+  },
+  "outskirts_wanderer": {
+    "name_en": "Outskirts Wanderer",
+    "name_jp": "外郭の放浪者",
+    "req": [
+      "2x Book",
+      "1x Nuovo Fabric",
+      "2x Fabric"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1.2,
+      "slash": 1
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Overcome Horrors",
+        "effect": "EGOを起動中のプレイヤーに対して20%の追加ダメージを与える。"
+      }
+    ]
+  },
+  "whaling_crew_captain": {
+    "name_en": "Whaling Crew Captain",
+    "name_jp": "捕鯨船長",
+    "req": [
+      "1x Gasharpoon",
+      "2x Mermaid Skin",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.8,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "Overheated Harpoon",
+        "effect": "Gasharpoonのクリティカル攻撃のコイン3がヒット時、{heated_gas_harpoon}を1獲得する。"
+      }
+    ]
+  },
+  "pointillist_uniform": {
+    "name_en": "Pointillist's Uniform",
+    "name_jp": "点描派の制服",
+    "req": [
+      "2x Book of The Ring",
+      "1x Nuovo Fabric",
+      "4x Fabric"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.7,
+      "slash": 1
+    },
+    "speed": 15,
+    "book": "ring",
+    "keypage": [
+      {
+        "title": "Sanguine Pointilist",
+        "effect": "[最大精神力時] 全ての状態異常付与量が1.25倍になる。"
+      },
+      {
+        "title": "Assignment Evaluation",
+        "effect": "[軽攻撃ヒット時] 対象の状態異常1種類につき、精神力が1回復する。"
+      }
+    ]
+  },
+  "eerie_bloodfiend": {
+    "name_en": "Eerie Bloodfiend",
+    "name_jp": "不気味な血鬼",
+    "req": [
+      "3x Hardblood Fragment",
+      "2x Rope",
+      "2x Organs",
+      "2x Fabric",
+      "1x Hemobar"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.4,
+      "slash": 1.1
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "parade_bloodfiend": {
+    "name_en": "Parade Bloodfiend",
+    "name_jp": "パレードの血鬼",
+    "req": [
+      "3x Hardblood Fragment",
+      "2x Rope",
+      "2x Organs",
+      "2x Fabric",
+      "1x Hemobar"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1.2,
+      "slash": 1
+    },
+    "speed": 18,
+    "keypage": []
+  },
+  "night_awl_associate": {
+    "name_en": "Night Awl Associate",
+    "name_jp": "夜の錐",
+    "req": [
+      "2x Fabric",
+      "2x Nuovo Fabric",
+      "1x Rope",
+      "1x Book of Legacy",
+      "1x Book of The Library",
+      "1x Dagger"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Stiletto",
+        "effect": "[ヒット時] ダメージタイプが貫通の場合、ダメージが15%上昇する。それ以外の場合、15%減少する。"
+      }
+    ]
+  },
+  "multicrack_office_rep": {
+    "name_en": "Multicrack Office Rep",
+    "name_jp": "マルチクラック事務所代表",
+    "req": [
+      "2x Fabric",
+      "1x Nuovo Fabric",
+      "1x Book"
+    ],
+    "resistance": {
+      "blunt": 1.3,
+      "pierce": 1,
+      "slash": 0.7
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "smiling_face_rags": {
+    "name_en": "Smiling Face Rags",
+    "name_jp": "笑う顔のボロ布",
+    "req": [
+      "3x Fabric",
+      "3x Scrap Metal",
+      "2x Wiring"
+    ],
+    "resistance": {
+      "blunt": 0.7,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 13,
+    "keypage": [
+      {
+        "title": "Puffy Brume",
+        "effect": "{smoke}スタックがM1の与ダメージを増加させるようになる。"
+      }
+    ]
+  },
+  "streetlight_office_operative": {
+    "name_en": "Streetlight Office Operative",
+    "name_jp": "街灯事務所 工作員",
+    "req": [
+      "1x Nuovo Fabric",
+      "1x Rope",
+      "3x Fabric",
+      "2x Book"
+    ],
+    "resistance": {
+      "blunt": 0.9,
+      "pierce": 0.9,
+      "slash": 0.9
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "old_boatman": {
+    "name_en": "Old Boatman",
+    "name_jp": "老いた船頭",
+    "req": [
+      "Obtained from Book of Legacy"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "old_reaper": {
+    "name_en": "Old Reaper",
+    "name_jp": "老いた死神",
+    "req": [
+      "Obtained from Book of Legacy"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "old_whaler": {
+    "name_en": "Old Whaler",
+    "name_jp": "老いた捕鯨者",
+    "req": [
+      "Obtained from Book of Legacy"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1,
+      "slash": 1
+    },
+    "speed": 15,
+    "keypage": []
+  },
+  "outskirts_runner_jumpsuit": {
+    "name_en": "Outskirts Runner Jumpsuit",
+    "name_jp": "外郭のランナージャンプスーツ",
+    "req": [
+      "1x Book of a Grade 7 Fixer",
+      "1x Sanity Ampule",
+      "1x Nuovo Fabric",
+      "2x Fabric"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.2,
+      "slash": 1.3
+    },
+    "speed": 18,
+    "keypage": [
+      {
+        "title": "Hoarder",
+        "effect": "所持容量が100増加する。"
+      }
+    ]
+  },
+  "whaling_crew_harpooner": {
+    "name_en": "Whaling Crew Harpooner",
+    "name_jp": "捕鯨船 銛打ち",
+    "req": [
+      "2x Mermaid Skin",
+      "3x Fabric",
+      "1x Rope"
+    ],
+    "resistance": {
+      "blunt": 1,
+      "pierce": 0.8,
+      "slash": 1.2
+    },
+    "speed": 15,
+    "keypage": [
+      {
+        "title": "Sharpened Harpoon",
+        "effect": "[{poise}発動時] {bleed}を4付与する。(10秒CD)"
+      }
+    ]
+  },
+  "death_sentence_pit_fighter": {
+    "name_en": "Death Sentence Pit Fighter",
+    "name_jp": "死刑宣告の闘士",
+    "req": [
+      "1x Vitality Ampule",
+      "1x Strength Chip Board MK2",
+      "2x Nuovo Fabric",
+      "2x Gears"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1,
+      "slash": 0.8
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Glory Scars",
+        "effect": "死刑宣告NPCへのダメージが上昇する。"
+      }
+    ]
+  },
+  "family_heir": {
+    "name_en": "Family Heir",
+    "name_jp": "家族の継承者",
+    "req": [
+      "1x Nuovo Fabric",
+      "2x Fabric",
+      "1x Sanity Ampule"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.8,
+      "slash": 1
+    },
+    "speed": 16,
+    "keypage": [
+      {
+        "title": "Suffering",
+        "effect": "対象の{sinking}に応じて与ダメージが上昇する(最大20%)。"
+      }
+    ]
+  },
+  "gougers_outfit": {
+    "name_en": "Gouger's Outfit",
+    "name_jp": "えぐり屋の装束",
+    "req": [
+      "Obtainable from Book of The Eye Gouger"
+    ],
+    "resistance": {
+      "blunt": 0.8,
+      "pierce": 1.3,
+      "slash": 1
+    },
+    "speed": 18,
+    "keypage": [
+      {
+        "title": "Essence Of Disarming",
+        "effect": "アイ・ガウガーのクリティカルの最終斬撃が、対象の武器を一時的にブロウラーに変更する。"
+      }
+    ]
+  },
+  "sneaking_suit": {
+    "name_en": "Sneaking Suit",
+    "name_jp": "忍びのスーツ",
+    "req": [
+      "Snake Portrait"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 1.2,
+      "slash": 1.2
+    },
+    "speed": 19,
+    "keypage": [
+      {
+        "title": "Cold Hard Fists",
+        "effect": "拳スタイル使用時、軽攻撃ダメージが10%上昇する。"
+      }
+    ]
+  },
+  "thumb_capos_suit": {
+    "name_en": "Thumb Capo's Suit",
+    "name_jp": "親指カポのスーツ",
+    "req": [
+      "1x Mirror Shard",
+      "2x Book of The Thumb",
+      "1x Scrap Metal",
+      "3x Fabric",
+      "2x Nuovo Fabric",
+      "2x Tigermark Round"
+    ],
+    "resistance": {
+      "blunt": 1.2,
+      "pierce": 0.9,
+      "slash": 0.8
+    },
+    "speed": 15,
+    "book": "thumb",
+    "keypage": []
+  }
+}

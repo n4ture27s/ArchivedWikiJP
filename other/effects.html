@@ -6,6 +6,7 @@
     <title>ArchivedJPWiki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="/javascript/version.js"></script>
+    <style>html{background-color: #1a1a1a;}</style>
     <link rel="stylesheet" href="/css/stylesheet.css" id="main-stylesheet">
     <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
 </head>
@@ -43,8 +44,7 @@
                     </div>
 
                     <p id="section-effects" class="w-subtitle heading">ステータス</p>
-                    <input type="text" id="status-search" placeholder="名称や説明で検索..."
-                        style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #444; background: #222; color: #fff; border-radius: 4px; box-sizing: border-box;">
+                    <input type="text" class="search" id="status-search" placeholder="名称や説明で検索...">
                     <p id="search-result-count" style="margin-top: 10px; color: #aaa; font-size: 0.9em;"></p>
                     <select id="status-type-filter">
                         <option value="all">すべての種類</option>

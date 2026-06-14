@@ -6,6 +6,7 @@
     <title>ArchivedJPWiki</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="/javascript/version.js"></script>
+    <style>html{background-color: #1a1a1a;}</style>
     <link rel="stylesheet" href="/css/stylesheet.css" id="main-stylesheet">
     <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
 </head>
@@ -50,7 +51,7 @@
                         <div class="nav-links">
                             <a href="/arsenal/books.html#book-section" class="sort-btn">← 本一覧へ</a>
                         </div>
-                        <input type="text" id="search" placeholder="ページ名や効果で検索...">
+                        <input type="text" class="search" id="page-search" placeholder="ページ名や効果で検索...">
                         <div class="sort">
                             <button class="sort-btn" data-sort="light" data-order="asc">コスト順</button>
                             <button class="sort-btn" data-sort="ct" data-order="asc">CT順</button>

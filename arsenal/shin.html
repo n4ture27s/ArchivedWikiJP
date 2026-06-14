@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchivedJPWiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/javascript/version.js"></script>
+    <style>html{background-color: #1a1a1a;}</style>
+    <link rel="stylesheet" href="/css/stylesheet.css" id="main-stylesheet">
+    <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
+</head>
+
+<body>
+    <div id="header">
+        <header>
+            <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
+        </header>
+    </div>
+
+    <main>
+        <div id="sideflex">
+            <div id="sidebar-container"></div>
+            <div id="main-content">
+                <div id="tooltip"></div>
+                <div class="w-back">
+                    <p id="w-title">Shin / 心</p>
+                    <p id="w-comment">「単刀直入に言うわ。どうすりゃ俺っちの命だけでも助かるんや？」</p>
+                    <p id="w-comment">「…それなら、<ruby>挿翅虎<rt>天退星</rt></ruby>。一撃だけ殴られろ。<ruby>没遮攔<rt>天究星</rt></ruby>にやったように。」</p>
+
+                    <hr class="hr-main">
+                    <details id="content-list" open>
+                        <summary id="content-list-title">目次</summary>
+                        <div id="content-list-inner">
+                            <a href="#about">心とは</a>
+                            <a href="#obtain">入手方法</a>
+                            <a href="#shin-level">Shinレベルの増加方法</a>
+                            <a href="#damage">ダメージ計算</a>
+                        </div>
+                    </details>
+
+                    <p id="about" class="w-subtitle heading">心とは</p>
+                    <div class="text-area">
+                        <p><span class="tooltip-target" data-key="shin"></span>は閾値に達すると<span class="tooltip-target" data-key="mang"></span>を作動させるステータス効果。<span class="tooltip-target" data-key="mang"></span>発動中はダメージが1.5倍になり、<span class="tooltip-target" data-key="mang"></span>を帯びた攻撃を受けた対象のアーマー耐性が1 1 1に設定される。（最大: 50, 減衰: 2）</p>
+                        <p>プレイヤーは <span class="bold">Ctrl + G</span> を押し続けることで精神力を<span class="tooltip-target" data-key="shin"></span>に変換できる。Sanityは最大 -10 まで変換可能。</p>
+                        <p><span class="tooltip-target" data-key="mang"></span>はプレイヤーの武器に光のリングとして現れ、<span class="bold">M1ダメージ</span>を1.1〜1.4倍、<span class="bold">ページダメージ</span>を1.2〜1.6倍に増加させる（<span class="tooltip-target" data-key="shin"></span>レベルに依存）。このダメージバフはページに関して<a class="link" href="/arsenal/outfit_detail.html?id=night_awl_associate">Night Awl</a>と非互換。</p>
+                        <p><span class="tooltip-target" data-key="mang"></span>は一定数の<span class="tooltip-target" data-key="shin"></span>カウントを獲得することで作動。初期作動閾値は50 <span class="tooltip-target" data-key="shin"></span>。閾値の低下は「50 - (<span class="tooltip-target" data-key="shin"></span>レベル / 5)」で計算。</p>
+                    </div>
+
+                    <p id="obtain" class="w-subtitle heading">入手方法</p>
+                    <div class="text-area">
+                        <p>心と望は以下の方法で入手可能：</p>
+                        <ul>
+                            <li><a class="bold link" href="/arsenal/item_detail.html?id=fixers_notes">Fixer's Notes</a>の入手（自信過剰のフィクサーを倒す、Traveling Pawnerから購入、その他のレアドロップ）</li>
+                            <li><span class="bold">Old Fixer</span>の撃破</li>
+                        </ul>
+                        <p>Mangをアンロックするには、味方またはオフィスメンバーが目の前で死亡するのを見届ける必要がある（通常サーバーでは20%の確率、<span class="tooltip-target" data-key="permadeath"></span>サーバーでは確定）。</p>
+                        <p>戦闘中に特定のHP閾値に達しても<span class="tooltip-target" data-key="mang"></span>をアンロックできる：</p>
+                        <ul>
+                            <li>HP 50%：通常サーバーで1/50、<span class="tooltip-target" data-key="permadeath"></span>サーバーで1/5</li>
+                            <li>HP 25%：通常サーバーで1/25、<span class="tooltip-target" data-key="permadeath"></span>サーバーで1/2</li>
+                        </ul>
+                        <p>また、クエストを完了することで<span class="tooltip-target" data-key="mang"></span>の輪を獲得可能（合計クエストの90%達成で5個の輪を獲得）。</p>
+
+                    </div>
+
+                    <p id="shin-level" class="w-subtitle heading">心レベルの増加方法</p>
+                    <div class="text-area">
+                        <p><span class="tooltip-target" data-key="shin"></span>レベルは以下の行動で増加する：</p>
+                        <ul>
+                            <li>クエスト完了：+5</li>
+                            <li>ダンジョンクリア：+1（サブループやサブ階層はカウントされず、クリアのみ有効）</li>
+                            <li>強化図書館：+5</li>
+                            <li>通常図書館：+3</li>
+                            <li>新しい料理レシピのアンロック：+5</li>
+                            <li><span class="tooltip-target" data-key="permadeath"></span>中のグリップ：+1</li>
+                            <li><a class="link" href="/arsenal/item_detail.html?id=fixers_notes">Fixer's Notes</a>の使用（心アンロック後）：+20〜30（ランダム）</li>
+                        </ul>
+                    </div>
+
+                    <p id="damage" class="w-subtitle heading">ダメージ計算</p>
+                    <div class="text-area">
+                        <p><span class="tooltip-target" data-key="shin"></span>とMangのダメージは以下の式で計算される：</p>
+                        <p class="bold">ダメージ × (1.2856 + 0.0001 × <span class="tooltip-target" data-key="shin"></span>レベル) × <span class="tooltip-target" data-key="mang"></span>の輪の数</p>
+                        <p>最大倍率は <span class="tooltip-target" data-key="shin"></span>レベル200、<span class="tooltip-target" data-key="mang"></span>の輪5個で <span class="bold">1.311312倍</span>。</p>
+                        <p class="mini">※ juneari氏のテストによる近似値。僅かな誤差の可能性あり。</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>document.write('<script src="/javascript/loader.js?v='+APP_VERSION+'"><\/script>');</script>
+</body>
+
+</html>

@@ -1,0 +1,874 @@
+{
+  "rope": {
+    "name_en": "Rope",
+    "name_jp": "ロープ",
+    "category": "basic",
+    "icon": "",
+    "desc": "ロープは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "low_quality_blade": {
+    "name_en": "Low Quality Blade",
+    "name_jp": "低品質の刃",
+    "category": "basic",
+    "icon": "",
+    "desc": "低品質の刃は様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "wiring": {
+    "name_en": "Wiring",
+    "name_jp": "配線",
+    "category": "basic",
+    "icon": "",
+    "desc": "配線は様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "gears": {
+    "name_en": "Gears",
+    "name_jp": "歯車",
+    "category": "basic",
+    "icon": "",
+    "desc": "歯車はEverything Workshopまたは武器組み立てで製作される様々な武器に使用されるクラフト素材。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550K Ahnで購入することで入手可能。"
+  },
+  "scrap_metal": {
+    "name_en": "Scrap Metal",
+    "name_jp": "スクラップメタル",
+    "category": "basic",
+    "icon": "",
+    "desc": "スクラップメタルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "handle": {
+    "name_en": "Handle",
+    "name_jp": "ハンドル",
+    "category": "basic",
+    "icon": "",
+    "desc": "ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550 Ahnで購入することで入手可能。"
+  },
+  "makeshift_handle": {
+    "name_en": "Makeshift Handle",
+    "name_jp": "仮設ハンドル",
+    "category": "basic",
+    "icon": "",
+    "desc": "仮設ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはEverything Workshopで60K Ahnで購入することで入手可能。"
+  },
+  "light_handle": {
+    "name_en": "Light Handle",
+    "name_jp": "軽量ハンドル",
+    "category": "basic",
+    "icon": "",
+    "desc": "軽量ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550K Ahnで購入することで入手可能。"
+  },
+  "heavy_handle": {
+    "name_en": "Heavy Handle",
+    "name_jp": "重量ハンドル",
+    "category": "basic",
+    "icon": "",
+    "desc": "重量ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約、またはYuriaから60K Ahnで購入することで入手可能。"
+  },
+  "dual_handle": {
+    "name_en": "Dual Handle",
+    "name_jp": "二刀用ハンドル",
+    "category": "basic",
+    "icon": "",
+    "desc": "二刀用ハンドルは様々な武器クラフトに使用されるクラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、トレス協会所属時のOffice Contractor NPCからの契約、またはYuriaから550 Ahnで購入することで入手可能。"
+  },
+  "fabric": {
+    "name_en": "Fabric",
+    "name_jp": "生地",
+    "category": "basic",
+    "icon": "",
+    "desc": "生地は服織りから利用可能な様々な防具や衣服クラフトに必要な基本クラフト素材であり、Yuriaクエストラインにも必要。",
+    "obtain": "倒したプレイヤーやNPCをカーニバルテーラーに引き渡すか、カーニバルテーラーで250K Ahnで購入することで入手可能。"
+  },
+  "nuovo_fabric": {
+    "name_en": "Nuovo Fabric",
+    "name_jp": "ヌオーヴォファブリック",
+    "category": "basic",
+    "icon": "",
+    "desc": "ヌオーヴォファブリックは服織りから利用可能な高度な防具や衣服クラフトに必要な高級クラフト素材。",
+    "obtain": "スイーパーをカーニバルテーラーに引き渡す、カーニバルテーラーで100万Ahnで購入、またはRogue Pawnerから稀に入手可能。"
+  },
+  "shimmering_fabric": {
+    "name_en": "Shimmering Fabric",
+    "name_jp": "シャイマーファブリック",
+    "category": "basic",
+    "icon": "",
+    "desc": "シャイマーファブリックは様々な特殊衣装のクラフトに使用されるクラフト素材。",
+    "obtain": "パーマデスモード中にカーニバルテーラーで2.5M Ahnで購入可能。"
+  },
+  "warp_core": {
+    "name_en": "WARP Core",
+    "name_jp": "WARPコア",
+    "category": "unique",
+    "icon": "",
+    "desc": "WARPコアはWARP社の武器やユニフォームのクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約（低確率）、またはWARPトレインからのドロップで入手可能。"
+  },
+  "stigma_core": {
+    "name_en": "Stigma Core",
+    "name_jp": "スティグマコア",
+    "category": "unique",
+    "icon": "",
+    "desc": "スティグマコアはスティグマ工房の武器やユニフォームのクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "装飾品、Office Contractor NPCからの契約（低確率）、または図書館の一般業務階からのドロップで入手可能。"
+  },
+  "stigmatizing_blade": {
+    "name_en": "Stigmatizing Blade",
+    "name_jp": "烙印の刃",
+    "category": "unique",
+    "icon": "",
+    "desc": "烙印の刃はスティグマ工房の剣のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Lobotomy Corporation支店襲撃のマップインタラクタブルからのレアドロップ、または契約からのドロップで入手可能。"
+  },
+  "gun_parts": {
+    "name_en": "Gun Parts",
+    "name_jp": "ガンパーツ",
+    "category": "unique",
+    "icon": "",
+    "desc": "ガンパーツはThe Cityで利用可能な銃のクラフトに必要な基本クラフト素材で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "トレス協会所属時の契約完了、Rogue Pawnerでの購入、または裏路地の夜間やダンジョン中の契約からのレアドロップで入手可能。"
+  },
+  "great_charged_blade": {
+    "name_en": "Great Charged Blade",
+    "name_jp": "大きなチャージブレード",
+    "category": "unique",
+    "icon": "",
+    "desc": "大きなチャージブレードはEverything Workshopまたは武器組み立てから利用可能な武器のクラフトに必須の部品。",
+    "obtain": "WARP急行殺人事件ダンジョンからのドロップで入手可能。"
+  },
+  "warp_blade": {
+    "name_en": "WARP Blade",
+    "name_jp": "WARPブレード",
+    "category": "unique",
+    "icon": "",
+    "desc": "WARPブレードはWARP社の武器のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "WARP急行殺人事件ダンジョンまたは屈折鉄道ダンジョンからのドロップで入手可能。"
+  },
+  "broken_gauntlet": {
+    "name_en": "Broken Gauntlet",
+    "name_jp": "壊れたガントレット",
+    "category": "unique",
+    "icon": "",
+    "desc": "壊れたガントレットはWARP社の武器のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Lobotomy Corporation支店襲撃ダンジョンからのドロップで入手可能。"
+  },
+  "broken_mechanical_arm": {
+    "name_en": "Broken Mechanical Arm",
+    "name_jp": "壊れた機械腕",
+    "category": "unique",
+    "icon": "",
+    "desc": "壊れた機械腕は蒸気ガントレットのクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Lobotomy Corporationダンジョンからのドロップ、またはTraveling Pawnerで購入することで入手可能。"
+  },
+  "fragment_of_silence": {
+    "name_en": "Fragment of Silence",
+    "name_jp": "沈黙の欠片",
+    "category": "unique",
+    "icon": "",
+    "desc": "沈黙の欠片はブラックサイレンス武器のクラフトに必須の部品で、Everything Workshopまたは武器組み立てから利用可能。",
+    "obtain": "Office Contractor NPCからの契約（低確率）、または図書館の一般業務階からのドロップで入手可能。"
+  },
+  "durandal_blade": {
+    "name_en": "Durandal Blade",
+    "name_jp": "デュランダルブレード",
+    "category": "unique",
+    "icon": "",
+    "desc": "デュランダルブレードはEverything Workshopまたは武器組み立てでブラックサイレンス武器をクラフトする際に使用されるクラフト可能アイテム。デュランダルのクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "allas_lance": {
+    "name_en": "Allas Lance",
+    "name_jp": "アラスランス",
+    "category": "unique",
+    "icon": "",
+    "desc": "アラスランスはブラックサイレンス武器のクラフトに使用されるクラフト可能アイテム。アラス工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "mook_blade": {
+    "name_en": "Mook Blade",
+    "name_jp": "ムクブレード",
+    "category": "unique",
+    "icon": "",
+    "desc": "ムクブレードはブラックサイレンス武器のクラフトに使用されるクラフト可能アイテム。ムク工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "atelier_gun_frame": {
+    "name_en": "Atelier Gun Frame",
+    "name_jp": "アトリエガンフレーム",
+    "category": "unique",
+    "icon": "",
+    "desc": "アトリエガンフレームはブラックサイレンス武器のクラフトに使用されるクラフト可能アイテム。アトリエロジックのクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "hammer_head": {
+    "name_en": "Hammer Head",
+    "name_jp": "ハンマーヘッド",
+    "category": "unique",
+    "icon": "",
+    "desc": "ハンマーヘッドはブラックサイレンス武器のクラフトに使用されるクラフト可能アイテム。Old Boys工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "mace_head": {
+    "name_en": "Mace Head",
+    "name_jp": "メイスヘッド",
+    "category": "unique",
+    "icon": "",
+    "desc": "メイスヘッドはブラックサイレンス武器のクラフトに使用されるクラフト可能アイテム。Zelkova工房のクラフトに必須の部品。",
+    "obtain": "トレス協会所属時のOffice Contractor NPCからの契約で低確率。図書館の一般業務階からのドロップ。Yuriaから550 Ahnで購入可能。"
+  },
+  "axe_head": {
+    "name_en": "Axe Head",
+    "name_jp": "アックスヘッド",
+    "category": "unique",
+    "icon": "",
+    "desc": "アックスヘッドはBlack Silence武器のクラフトに使用される作成可能アイテム。Zelkova Workshopの作成に必須の素材。",
+    "obtain": "Office Contractor NPCからトレス協会在籍中に契約で低確率入手。図書館の一般業務階からドロップ。Yuriaから550Ahnで購入可能。"
+  },
+  "crystal_blade": {
+    "name_en": "Crystal Blade",
+    "name_jp": "クリスタルブレード",
+    "category": "unique",
+    "icon": "",
+    "desc": "クリスタルブレードはBlack Silence武器のクラフトに使用される作成可能アイテム。Crystal Atelierの作成に必須の素材。",
+    "obtain": "Office Contractor NPCからトレス協会在籍中に契約で低確率入手。図書館の一般業務階からドロップ。Yuriaから550Ahnで購入可能。"
+  },
+  "ranga_dagger": {
+    "name_en": "Ranga Dagger",
+    "name_jp": "ランガダガー",
+    "category": "unique",
+    "icon": "",
+    "desc": "ランガダガーはBlack Silence武器のクラフトに使用される作成可能アイテム。Ranga Workshopの作成に必須の素材。",
+    "obtain": "Office Contractor NPCからトレス協会在籍中に契約で低確率入手。図書館の一般業務階からドロップ。Yuriaから550kAhnで購入可能。"
+  },
+  "anklet_of_the_lake": {
+    "name_en": "Anklet of The Lake",
+    "name_jp": "湖のアンクレット",
+    "category": "unique",
+    "icon": "",
+    "desc": "湖のアンクレットは特異点クラフトでMist of The Lakeをクラフトするための作成可能アイテム。",
+    "obtain": "五大湖遠征で入手。"
+  },
+  "arbiter_essence": {
+    "name_en": "Arbiter Essence",
+    "name_jp": "調律者のエッセンス",
+    "category": "unique",
+    "icon": "",
+    "desc": "調律者のエッセンスは特異点クラフトでShockwaveをクラフトするための作成可能アイテム。",
+    "obtain": "図書館の強化された哲学階をクリアで入手。"
+  },
+  "manifested_armor_shard": {
+    "name_en": "Manifested Armor Shard",
+    "name_jp": "顕現した鎧の破片",
+    "category": "unique",
+    "icon": "",
+    "desc": "顕現した鎧の破片は特異点クラフトでManifested Armorをクラフトするための作成可能アイテム。",
+    "obtain": "強化された図書館で赤い霧を倒した際の非常に低確率ドロップ。"
+  },
+  "memorial_coffin": {
+    "name_en": "Memorial Coffin",
+    "name_jp": "追憶の棺",
+    "category": "unique",
+    "icon": "",
+    "desc": "追憶の棺は特異点クラフトでWild Huntをクラフトするための現在入手不可の素材。The Bloodfiend Festival 2025中に入手可能だった。",
+    "obtain": "The Bloodfiend Festival 2025中に地下鉄道でMehsfour Tuneとキャンディ1000個で交換。現在は入手手段無し。"
+  },
+  "invitation": {
+    "name_en": "Invitation",
+    "name_jp": "招待状",
+    "category": "consumable",
+    "icon": "",
+    "desc": "招待状は図書館へのアクセスに使用する消耗品。使用で最大6人のプレイヤーを図書館にテレポートさせ、その日のブックローテーションを表示する。",
+    "obtain": "Rat NPCからドロップ。Trinketsからも入手可能。"
+  },
+  "ammo_box": {
+    "name_en": "Ammo Box",
+    "name_jp": "弾薬箱",
+    "category": "consumable",
+    "icon": "",
+    "desc": "弾薬箱は火器に5発の弾薬を補充する消耗品。Yuriaクエストラインにも関与する。",
+    "obtain": "Everything WorkshopのVincentから50KAhnで購入可能。"
+  },
+  "golden_bough": {
+    "name_en": "Golden Bough",
+    "name_jp": "黄金の枝",
+    "category": "consumable",
+    "icon": "",
+    "desc": "黄金の枝は枝状の黄金の輝きを持つ消耗品。使用にはGrade 3が必要。E.G.O.の変更に使用され、以前は特性にも使用された。",
+    "obtain": "ダンジョンのドロップ・報酬。裏路地の夜中にOffice Contractor NPCから契約で低確率。"
+  },
+  "uncharged_golden_bough": {
+    "name_en": "Uncharged Golden Bough",
+    "name_jp": "未充電の黄金の枝",
+    "category": "consumable",
+    "icon": "",
+    "desc": "未充電の黄金の枝は黄金の枝よりも黄色い輝きを持つ消耗品。使用にはGrade 3が必要。装備中のE.G.O.をランダムにリロールする。",
+    "obtain": "ダンジョンのドロップ・報酬。Office Contractor NPCから契約で低確率。Traveling Pawnerから購入可能。"
+  },
+  "seed_of_light": {
+    "name_en": "Seed of Light",
+    "name_jp": "光の種",
+    "category": "consumable",
+    "icon": "",
+    "desc": "光の力が宿った種。特定の装備やアイテムのクラフトに使用される。",
+    "obtain": "特定のダンジョン報酬、イベント報酬。"
+  },
+  "mirror_shard": {
+    "name_en": "Mirror Shard",
+    "name_jp": "鏡の破片",
+    "category": "consumable",
+    "icon": "",
+    "desc": "鏡の破片はクラフトや別の鏡世界からアスペクトを顕現するために使用されるややレアな消耗品。性格やE.G.O.テーマのリロールが可能。",
+    "obtain": "図書館からドロップ。契約クリアでドロップ。Rogue PawnerとTraveling Pawnerから購入可能。"
+  },
+  "x_corp_alloy": {
+    "name_en": "X Corp. Alloy",
+    "name_jp": "X社合金",
+    "category": "consumable",
+    "icon": "",
+    "desc": "X社合金はKurokumo Katana、Zweihanderなど特定の武器をEverything Workshopでアップグレード可能にする消耗品。",
+    "obtain": "図書館からドロップ。裏路地の夜中にOffice Contractor NPCから契約で低確率。Trinkets。"
+  },
+  "k_corp_ampule": {
+    "name_en": "K Corp. Ampule",
+    "name_jp": "K社アンプル",
+    "category": "consumable",
+    "icon": "",
+    "desc": "K社アンプルは全負傷を回復しRegen UpとFragileを付与する回復消耗品。ゲーム内で最も高価な回復アイテム。",
+    "obtain": "Odd Personから2.5MAhnで購入。Lobotomy Corporation支店襲撃のHeavy Duty棚または供給棚の探索でドロップ。"
+  },
+  "vitality_ampule": {
+    "name_en": "Vitality Ampule",
+    "name_jp": "活力アンプル",
+    "category": "consumable",
+    "icon": "",
+    "desc": "活力アンプルはRegen UpとBleedを付与する回復消耗品。Bleedが回復を一部相殺するため、食料の方が効率的。",
+    "obtain": "Odd Personから125kAhnで購入。"
+  },
+  "sanity_ampule": {
+    "name_en": "Sanity Ampule",
+    "name_jp": "正気度アンプル",
+    "category": "consumable",
+    "icon": "",
+    "desc": "正気度アンプルは正気度を上昇させる消耗品。外見は青色の液体が入った注射器。Grade制限無し。",
+    "obtain": "Odd Personから125kAhnで購入。"
+  },
+  "splint": {
+    "name_en": "Splint",
+    "name_jp": "副木",
+    "category": "consumable",
+    "icon": "",
+    "desc": "副木は全骨折を治療する回復消耗品。外見は布で巻かれた2本の棒。Grade制限無し。",
+    "obtain": "Odd Personから187.5kAhnで購入。"
+  },
+  "low_bloodfiend_blood": {
+    "name_en": "Low Bloodfiend Blood",
+    "name_jp": "下級血鬼の血",
+    "category": "consumable",
+    "icon": "",
+    "desc": "下級血鬼の血は使用者の人種を血鬼に変える消耗品。外見は下級血族の血が入った金のゴブレット。Grade制限無し。世代を3～7に設定。",
+    "obtain": "WARP急行殺人事件からドロップ、または他の血鬼から譲渡。"
+  },
+  "first_kindred_blood": {
+    "name_en": "First Kindred Blood",
+    "name_jp": "初代血鬼の血",
+    "category": "consumable",
+    "icon": "",
+    "desc": "初代血鬼の血は使用者をGeneration 2の血鬼に変える消耗品。外見は初代血鬼の血が入った金のゴブレット。Grade制限無し。",
+    "obtain": "WARP急行殺人事件から低確率ドロップ。"
+  },
+  "hair_coupon": {
+    "name_en": "Hair Coupon",
+    "name_jp": "ヘアクーポン",
+    "category": "consumable",
+    "icon": "",
+    "desc": "ヘアクーポンは鏡の破片クエスト有効中に床屋のFadeに渡すと、永続的に高度なカスタマイズへの無料アクセスを解放する。",
+    "obtain": "契約クリアで低確率ドロップ。"
+  },
+  "night_in_the_backstreets_ticket": {
+    "name_en": "Night in the Backstreets Ticket",
+    "name_jp": "裏路地の夜チケット",
+    "category": "consumable",
+    "icon": "",
+    "desc": "裏路地の夜チケットは強制的に裏路地の夜イベントを開始させる消耗品。Grade制限無し。",
+    "obtain": "契約クリアまたはH.Q. Fight for Dominationミニゲームから低確率ドロップ。"
+  },
+  "sanity_soda": {
+    "name_en": "Sanity Soda",
+    "name_jp": "正気度ソーダ",
+    "category": "consumable",
+    "icon": "",
+    "desc": "正気度ソーダは正気度を15回復し、全消耗品を35秒間クールダウンさせる正気度回復消耗品。",
+    "obtain": "自動販売機で5kAhnで購入。"
+  },
+  "distortion_soda": {
+    "name_en": "Distortion Soda",
+    "name_jp": "ディストーションソーダ",
+    "category": "consumable",
+    "icon": "",
+    "desc": "ディストーションソーダは消費時に即死し、正気度を-45にする消耗品。利点は無し。Grade制限無し。",
+    "obtain": "キャンディバッグから低確率ドロップ。"
+  },
+  "fragment_of_potentiality": {
+    "name_en": "Fragment of Potentiality",
+    "name_jp": "可能性の欠片",
+    "category": "consumable",
+    "icon": "",
+    "desc": "可能性の欠片は使用時にスキルツリーのスタットポイントを5獲得。使用にはGrade 1が必要。リセット毎に1回のみ使用可能。",
+    "obtain": "Old Fixerボスを倒すことでドロップ。"
+  },
+  "fixers_notes": {
+    "name_en": "Fixer's Notes",
+    "name_jp": "フィクサーのメモ",
+    "category": "consumable",
+    "icon": "",
+    "desc": "フィクサーのメモはShin能力とMang能力、専用スキルツリーを解放する。既に解放済みの場合、両方に20レベル追加。ドロップ不可。",
+    "obtain": "Traveling Pawnerから300k～1.2MAhnで購入、契約のレア報酬、またはOverconfident Fixerを倒して入手。"
+  },
+  "chip_board_cache": {
+    "name_en": "Chip Board Cache",
+    "name_jp": "チップボードキャッシュ",
+    "category": "consumable",
+    "icon": "",
+    "desc": "チップボードキャッシュは1～3個のランダムなMk1チップボードまたは1個のランダムなMk2チップボードを入手する消耗品。",
+    "obtain": "The Big Brother of The Middleを倒す、Death Sentenceクリア（Scrap Guyから確定）、図書館クリア、屈折鉄道で1サイクル完了、Rogue Pawner/Traveling Pawnerから購入、契約から低確率ドロップ、またはFactoryのAugmented Fixerからドロップ。"
+  },
+  "book": {
+    "name_en": "Book",
+    "name_jp": "本",
+    "category": "book",
+    "icon": "",
+    "desc": "本はArchivedで最も基本的なブックタイプで、基本ページを提供。Book Merchantとより高ランクの本を交換する通貨としても使用。",
+    "obtain": "Trinkets、ダンジョンのドロップ・報酬、またはOffice Contractor NPCから契約クリア。"
+  },
+  "book_of_stray_dogs": {
+    "name_en": "Book of Stray Dogs",
+    "name_jp": "野良犬の書",
+    "category": "book",
+    "icon": "",
+    "desc": "野良犬の書はページと衣装を提供する。他の書と異なり、カバーに署名のエンブレムがなく、通常の書に似ている。",
+    "obtain": "装飾品、またはThe Junkyard周辺で発生するStray Dogs待ち伏せイベントの完了で入手。"
+  },
+  "book_of_hana_association": {
+    "name_en": "Book of Hana Association",
+    "name_jp": "ハナ協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "ハナ協会の書はページと武器を提供する。茶色のカバーにハナ協会のエンブレムが特徴。",
+    "obtain": "装飾品、ハナ協会在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_zwei_association": {
+    "name_en": "Book of Zwei Association",
+    "name_jp": "ツヴァイ協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "ツヴァイ協会の書はページと武器を提供する。茶色のカバーにツヴァイ協会のエンブレムが特徴。",
+    "obtain": "装飾品、ツヴァイ協会在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_shi_association": {
+    "name_en": "Book of Shi Association",
+    "name_jp": "シ協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "シ協会の書はページと武器を提供する。茶色のカバーにシ協会のエンブレムが特徴。",
+    "obtain": "装飾品、シ協会在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_cinq_association": {
+    "name_en": "Book of Cinq Association",
+    "name_jp": "センク協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "センク協会の書はページ、武器、衣装を提供する。茶色のカバーにセンク協会のエンブレムが特徴。",
+    "obtain": "装飾品、Traveling Pawnerのローテーション購入、図書館のローテーションドロップ、またはセンク協会在籍中の契約完了。"
+  },
+  "book_of_liu_association": {
+    "name_en": "Book of Liu Association",
+    "name_jp": "リウ協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "リウ協会の書はページと武器を提供する。茶色のカバーにリウ協会のエンブレムが特徴。",
+    "obtain": "装飾品、リウ協会在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_seven_association": {
+    "name_en": "Book of Seven Association",
+    "name_jp": "セブン協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "セブン協会の書はページ、衣装、武器を提供する。茶色のカバーにセブン協会のエンブレムが特徴。",
+    "obtain": "装飾品、セブン協会在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_dieci_association": {
+    "name_en": "Book of Dieci Association",
+    "name_jp": "ディエーチ協会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "ディエーチ協会の書はページと武器を提供する。茶色のカバーにディエーチ協会のエンブレムが特徴。",
+    "obtain": "装飾品、Traveling Pawnerのローテーション購入、図書館のローテーションドロップ、またはディエーチ協会在籍中の契約完了。"
+  },
+  "book_of_blade_lineage": {
+    "name_en": "Book of Blade Lineage",
+    "name_jp": "剣契の書",
+    "category": "book",
+    "icon": "",
+    "desc": "剣契の書はページと武器を提供する。茶色のカバーに剣契のエンブレムが特徴。",
+    "obtain": "装飾品、剣契在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_kurokumo_clan": {
+    "name_en": "Book of Kurokumo Clan",
+    "name_jp": "黒雲会の書",
+    "category": "book",
+    "icon": "",
+    "desc": "黒雲会の書はページと武器を提供する。茶色のカバーに黒雲会のエンブレムが特徴。",
+    "obtain": "装飾品、黒雲会在籍中の契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_the_index": {
+    "name_en": "Book of The Index",
+    "name_jp": "人差し指の書",
+    "category": "book",
+    "icon": "",
+    "desc": "人差し指の書はArchivedで入手可能な書の一種。標準的な茶色のカバーに人差し指のエンブレムが特徴。ページ、衣装、武器の3カテゴリー全てを含む。",
+    "obtain": "装飾品、人差し指在籍中のOffice Contractor NPCからの契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_the_middle": {
+    "name_en": "Book of The Middle",
+    "name_jp": "中指の書",
+    "category": "book",
+    "icon": "",
+    "desc": "中指の書はArchivedで入手可能な書の一種。標準的な茶色のカバーに中指のエンブレムが特徴。ページに加えて武器も提供する。売却価格は25k Ahn。",
+    "obtain": "装飾品、中指在籍中のOffice Contractor NPCからの契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_the_big_brother_of_the_middle": {
+    "name_en": "Book of The Big Brother of the Middle",
+    "name_jp": "中指の兄の書",
+    "category": "book",
+    "icon": "",
+    "desc": "この派生書はRicardoからのドロップでのみ入手可能。中指の書と同じ外観で、標準的な茶色のカバーと中指のエンブレムを持つ。通常の中指ページに加え、固有のRicardoページを含む。",
+    "obtain": "プレイヤー間取引を除き、Ricardoからのドロップ、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップで入手。"
+  },
+  "book_of_the_thumb": {
+    "name_en": "Book of The Thumb",
+    "name_jp": "親指の書",
+    "category": "book",
+    "icon": "",
+    "desc": "親指の書はArchivedで入手可能な書の一種。標準的な茶色のカバーに親指のエンブレムが特徴。ページに加えて武器も提供する。",
+    "obtain": "装飾品、親指在籍中のOffice Contractor NPCからの契約完了、Traveling Pawnerのローテーション購入、または図書館のローテーションドロップ。"
+  },
+  "book_of_r_corp": {
+    "name_en": "Book of R Corp",
+    "name_jp": "R社の書",
+    "category": "book",
+    "icon": "",
+    "desc": "R社の書はArchivedで入手可能な書の一種。標準的な茶色のカバーにR社のエンブレムが特徴。通常の書と異なり、ページではなく武器のみを提供する。売却価格は250k Ahn。",
+    "obtain": "Rogue Pawner NPCからの購入、契約完了時のレアドロップ、図書館（一般業務階のみ）からのドロップ、またはTraveling Pawnerのローテーション購入。"
+  },
+  "book_of_w_corp": {
+    "name_en": "Book of W Corp",
+    "name_jp": "W社の書",
+    "category": "book",
+    "icon": "",
+    "desc": "W社の技術が記された書。",
+    "obtain": "W社関連の契約報酬。"
+  },
+  "book_of_the_one_who_grips": {
+    "name_en": "Book of The One Who Grips",
+    "name_jp": "握る者の書",
+    "category": "book",
+    "icon": "",
+    "desc": "握る者の書はArchivedで入手可能な書の一種。標準的な茶色のカバーにN社のエンブレムが特徴。ページ、衣装、武器を提供する。売却価格は250k Ahn。",
+    "obtain": "プレイヤー間取引を除き、Traveling Pawnerのローテーション購入、図書館のローテーションドロップ、またはSealed Book Cacheの使用で入手。"
+  },
+  "book_of_a_dead_fixer": {
+    "name_en": "Book of a Dead Fixer",
+    "name_jp": "死者のフィクサーの書",
+    "category": "book",
+    "icon": "",
+    "desc": "その名に反し、このアイテムは実際にはRewound Timeである。Sinner Contractに似た外見で特異点特性はない。使用すると、Pit of Tormentにある死亡スロットの1つを復活させる。所持上限は5。",
+    "obtain": "現在はGrade 1-2難易度の図書館ドロップでのみ約30%の確率で入手可能。プレイヤー数が増えるほど確率は減少する。"
+  },
+  "book_of_legacy": {
+    "name_en": "Book of Legacy",
+    "name_jp": "遺産の書",
+    "category": "book",
+    "icon": "",
+    "desc": "遺産の書は他の書とは一線を画す。標準的な茶色のカバーではなく、黒色に青色の碑文が刻まれている。ページではなく、衣装とアクセサリーのみを提供する。",
+    "obtain": "Rogue Pawner NPCからの購入、契約完了時のレアドロップ、または図書館からのドロップで入手。"
+  },
+  "book_of_a_grade_9_fixer": {
+    "name_en": "Book of a Grade 9 Fixer",
+    "name_jp": "グレード9フィクサーの書",
+    "category": "book",
+    "icon": "",
+    "desc": "グレード9フィクサーの書はArchivedで入手可能な書の一種。標準的な茶色のカバーに図書館のエンブレムが特徴。ページと武器を提供する。売却価格は25k Ahn。",
+    "obtain": "Office Contractor NPCからの契約完了、または図書館からのドロップで入手。"
+  },
+  "book_of_a_grade_7_fixer": {
+    "name_en": "Book of a Grade 7 Fixer",
+    "name_jp": "グレード7フィクサーの書",
+    "category": "book",
+    "icon": "",
+    "desc": "グレード7フィクサーの書はArchivedで入手可能な書の一種。標準的な茶色のカバーに図書館のエンブレムが特徴。ページと武器を提供する。売却価格は25k Ahn。",
+    "obtain": "Office Contractor NPCからの契約完了、または図書館からのドロップで入手。"
+  },
+  "book_of_reverberation_ensemble": {
+    "name_en": "Book of Reverberation Ensemble",
+    "name_jp": "残響楽団の書",
+    "category": "book",
+    "icon": "",
+    "desc": "残響楽団の書はArchivedで入手可能な書の一種。標準的な茶色のカバーに青い残響のエンブレムが特徴。ページと武器を提供する。売却価格は450k Ahn。",
+    "obtain": "図書館からのドロップ、Book Merchantでのローテーション交換、またはRailway Merchantから4000 Ahnで購入。"
+  },
+  "book_of_the_red_mist": {
+    "name_en": "Book of the Red Mist",
+    "name_jp": "赤い霧の書",
+    "category": "book",
+    "icon": "",
+    "desc": "赤い霧の書はArchivedで入手可能な書の一種。標準的な茶色のカバーに赤い霧のタイトルが特徴。ページ、衣装、アクセサリーを提供する。売却価格は250k Ahn。",
+    "obtain": "プレイヤー間取引を除き、図書館からのドロップでのみ入手。言語階限定。"
+  },
+  "book_of_the_birds": {
+    "name_en": "Book of The Birds",
+    "name_jp": "鳥の書",
+    "category": "book",
+    "icon": "",
+    "desc": "鳥の書はArchivedで入手可能な書の一種。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引を除き、図書館の日次ローテーションドロップで入手。"
+  },
+  "book_of_the_ring": {
+    "name_en": "Book of The Ring",
+    "name_jp": "薬指の書",
+    "category": "book",
+    "icon": "",
+    "desc": "薬指の書はArchivedで入手可能な書の一種。標準的な茶色のカバーに薬指のエンブレムが特徴。ページと武器を提供する。",
+    "obtain": "装飾品、薬指所属中のOffice Contractor NPCからの契約完了、または図書館からのドロップで入手。"
+  },
+  "book_of_the_udjat": {
+    "name_en": "Book Of The Udjat",
+    "name_jp": "ウアジェトの書",
+    "category": "book",
+    "icon": "",
+    "desc": "ウアジェトの書はArchivedで入手可能な書の一種。標準的な茶色のカバーにウアジェトのエンブレムが特徴。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引、図書館からのドロップ、Traveling Pawnerのローテーション購入、またはSealed Book Cacheからのドロップで入手。"
+  },
+  "book_of_an_arbiter": {
+    "name_en": "Book of An Arbiter",
+    "name_jp": "調律者の書",
+    "category": "book",
+    "icon": "",
+    "desc": "調律者の書はArchivedで入手可能な書の一種。",
+    "obtain": "哲学階図書館からのドロップ、および全階層・全グレードで低確率でドロップ。"
+  },
+  "book_of_unknown_backstreets_dweller": {
+    "name_en": "Book of Unknown Backstreets Dweller",
+    "name_jp": "未知の裏路地住人の書",
+    "category": "book",
+    "icon": "",
+    "desc": "書と呼ばれているが、このアイテムは実際にはVinnyクエストラインに固有の雑多なクエストアイテムである。",
+    "obtain": "Vinnyからクエストを受諾した後にのみ図書館からドロップ。他の報酬プールからは自然ドロップしない。"
+  },
+  "hardblood_fragment": {
+    "name_en": "Hardblood Fragment",
+    "name_jp": "硬血の欠片",
+    "category": "book",
+    "icon": "",
+    "desc": "Hardblood Fragmentは他の書物とは一線を画し、標準的な本ではなく血の破片の形をとる。武器と血鬼ページのみを提供し、血鬼のみが使用可能。",
+    "obtain": "The HallsでのAima撃破、契約の完了、またはイベントの完了で入手。"
+  },
+  "agility_chip_board_mk": {
+    "name_en": "Agility Chip Board MK",
+    "name_jp": "アジリティチップボードMK",
+    "category": "chip",
+    "icon": "",
+    "desc": "アジリティチップボードMKはArchivedで入手可能な4つのチップボードの1つ。Doctor Ripperに渡すと、チップ1枚につきダッシュ速度が上昇する。",
+    "obtain": "チップボードキャッシュからランダムに入手。"
+  },
+  "vitality_chip_board_mk": {
+    "name_en": "Vitality Chip Board MK",
+    "name_jp": "バイタリティチップボードMK",
+    "category": "chip",
+    "icon": "",
+    "desc": "バイタリティチップボードMKはArchivedで入手可能な4つのチップボードの1つ。Doctor Ripperに渡すと、チップ1枚につきHPが5上昇する。",
+    "obtain": "チップボードキャッシュからランダムに入手。"
+  },
+  "endurance_chip_board_mk": {
+    "name_en": "Endurance Chip Board MK",
+    "name_jp": "エンデュランスチップボードMK",
+    "category": "chip",
+    "icon": "",
+    "desc": "エンデュランスチップボードMKはArchivedで入手可能な4つのチップボードの1つ。現在Doctor Ripperに渡しても効果はないが、将来のサイバネティック容量拡張が計画されている。",
+    "obtain": "チップボードキャッシュからランダムに入手。"
+  },
+  "strength_chip_board_mk": {
+    "name_en": "Strength Chip Board MK",
+    "name_jp": "ストレングスチップボードMK",
+    "category": "chip",
+    "icon": "",
+    "desc": "ストレングスチップボードMKはArchivedで入手可能な4つのチップボードの1つ。Doctor Ripperに渡すとスタミナが5上昇するバフを得られる数少ないアイテム。",
+    "obtain": "チップボードキャッシュからランダムに入手。"
+  },
+  "organs": {
+    "name_en": "Organs",
+    "name_jp": "臓器",
+    "category": "misc",
+    "icon": "",
+    "desc": "臓器は特定のスキルで入手可能な雑貨アイテム。The Man NPCに渡すとBrawler武器と交換可能。すでにBrawlerを持っている場合は1つ140k Ahnで売却可能。",
+    "obtain": "ラットからのランダムドロップで入手。"
+  },
+  "train_ticket": {
+    "name_en": "Train Ticket",
+    "name_jp": "列車チケット",
+    "category": "misc",
+    "icon": "",
+    "desc": "列車チケットは屈折鉄道ダンジョンにアクセスするために必要な雑貨アイテム。",
+    "obtain": "Rogue Pawnerからの購入、WARP急行殺人事件ダンジョンのクリア、またはOffice Contractor NPCの契約からのレアドロップで入手。"
+  },
+  "enkephalin": {
+    "name_en": "Enkephalin",
+    "name_jp": "エンケファリン",
+    "category": "misc",
+    "icon": "",
+    "desc": "エンケファリンはE.G.O.武器へのアクセスおよびSingularity Craftingの解放に必要な雑貨アイテム。",
+    "obtain": "装飾品、ケミカルファクトリーミニゲームの完了、Railway Merchantから1000 Ahnで購入、または図書館からのドロップで入手。"
+  },
+  "a_fragile_cup_of_coffee": {
+    "name_en": "A Fragile Cup of Coffee",
+    "name_jp": "壊れやすいコーヒー",
+    "category": "misc",
+    "icon": "",
+    "desc": "壊れやすいコーヒーはYuriaクエストラインの一部で、The Towerを登った後に渡す第3段階で使用される。",
+    "obtain": "Yuriaクエストライン中にDarilusからのみ購入可能。通常のルートプールからはドロップしない。"
+  },
+  "shipment_slip": {
+    "name_en": "Shipment Slip",
+    "name_jp": "出荷伝票",
+    "category": "misc",
+    "icon": "",
+    "desc": "出荷伝票はYuriaクエストライン固有の雑貨アイテムで、目に見えるモデルはなく、10枚の布地とともに第1段階で使用される。",
+    "obtain": "Yuriaに話しかけて最初のクエストを開始した後、Carnival Tailorから渡される。"
+  },
+  "shipment_keycard": {
+    "name_en": "Shipment Keycard",
+    "name_jp": "出荷キーカード",
+    "category": "misc",
+    "icon": "",
+    "desc": "出荷キーカードはCargo Contract固有の雑貨アイテムで、必要な木箱のロック解除に使用される。",
+    "obtain": "Cargo Contract固有の3人のGun Wielding Fixerを倒すとドロップ。"
+  },
+  "dragon_essence": {
+    "name_en": "Dragon's Essence",
+    "name_jp": "竜のエッセンス",
+    "category": "misc",
+    "icon": "",
+    "desc": "Random Ratのクエストラインに固有の消耗しないアイテム。クエストライン完了後にRandom Ratに渡すとDragon's Biteが入手できる。",
+    "obtain": "Amon Syndicate Membersを倒すと低確率で入手。"
+  },
+  "raw_meat": {
+    "name_en": "Raw Meat",
+    "name_jp": "生肉",
+    "category": "misc",
+    "icon": "",
+    "desc": "生の肉。料理の材料として使用される。",
+    "obtain": "動物系敵からのドロップ。"
+  },
+  "worn_sledgehammer": {
+    "name_en": "Worn Sledgehammer",
+    "name_jp": "使い古したスレッジハンマー",
+    "category": "misc",
+    "icon": "",
+    "desc": "長年使われてきたスレッジハンマー。素材として利用可能。",
+    "obtain": "屈折鉄道でBulky Ratを倒すと入手可能。"
+  },
+  "serum_w_vial": {
+    "name_en": "Serum W Vial",
+    "name_jp": "血清Wバイアル",
+    "category": "misc",
+    "icon": "",
+    "desc": "血清WバイアルはClaw Executionerがドロップする3つのバイアルの1つで、彼の装備クラフトに必須。",
+    "obtain": "屈折鉄道のClaw Executioner Bossを倒すとのみ入手可能。"
+  },
+  "stigma_workshop_core": {
+    "name_en": "Stigma Workshop Core",
+    "name_jp": "スティグマ工房コア",
+    "category": "misc",
+    "icon": "",
+    "desc": "スティグマ工房の中核部品。強力な装備の作成に必要な素材。",
+    "obtain": "スティグマ工房関連のクエスト報酬。"
+  },
+  "tigermark_round": {
+    "name_en": "Tigermark Round",
+    "name_jp": "虎標弾",
+    "category": "misc",
+    "icon": "",
+    "desc": "虎標弾はTanglecleaverとThumb Capo's Suitのクラフトに必須のクラフト素材。",
+    "obtain": "Lobotomy Corporation支店襲撃中のFragmented SelfでThumbのCapo IIIIを倒すと入手。"
+  },
+  "gasharpoon": {
+    "name_en": "Gasharpoon",
+    "name_jp": "ガスハープーン",
+    "category": "misc",
+    "icon": "",
+    "desc": "ガス式のハープーン。捕鯨に使用される武器。",
+    "obtain": "Traveling Pawner、Rogue Pawnerから購入可能、またはX社合金を捕鯨銛に使用して入手。"
+  },
+  "hemobar": {
+    "name_en": "Hemobar",
+    "name_jp": "ヘモバー",
+    "category": "misc",
+    "icon": "",
+    "desc": "血液が凝縮されたバー。血鬼関連のクラフトに使用される。",
+    "obtain": "血鬼からのドロップ。"
+  },
+  "mermaid_skin": {
+    "name_en": "Mermaid Skin",
+    "name_jp": "人魚の皮",
+    "category": "misc",
+    "icon": "",
+    "desc": "人魚の皮はWhaling Crew CaptainおよびHarpooner衣装の製作に必須のクラフト素材。",
+    "obtain": "五大湖遠征で確定ドロップ。"
+  },
+  "twinhook": {
+    "name_en": "Twinhook",
+    "name_jp": "双鉤",
+    "category": "misc",
+    "icon": "",
+    "desc": "一対の鉤爪。武器としても素材としても使用可能。",
+    "obtain": "アンテナ契約、レスキュー契約、またはDocksでTwinhook Piratesを倒すと低確率でドロップ。Death SentenceでSerious Twinhook Piratesを倒すとより高確率。"
+  },
+  "leaflet_workshop_steamgun": {
+    "name_en": "Leaflet Workshop Steamgun",
+    "name_jp": "木の葉工房スチームガン",
+    "category": "misc",
+    "icon": "",
+    "desc": "木の葉工房製のスチームガン。武器としても素材としても使用可能。",
+    "obtain": "武器組み立てでAmmo Box、Gun Parts、Handle、Rope、Scrap Metal、Wiringを使用してクラフト。Tres AssociationメンバーおよびVIP Customer Lunacy Upgrade所持者のみクラフト可能。"
+  },
+  "sweeper_fuel_canister": {
+    "name_en": "Sweeper Fuel Canister",
+    "name_jp": "掃除屋の燃料缶",
+    "category": "misc",
+    "icon": "",
+    "desc": "掃除屋がドロップする消耗品アイテム。Sentenza近くのメンテナンストンネルへの通路を開くために使用。",
+    "obtain": "掃除屋を倒すとドロップ。"
+  },
+  "strength_chip_board_mk2": {
+    "name_en": "Strength Chip Board MK2",
+    "name_jp": "ストレングスチップボードMK2",
+    "category": "misc",
+    "icon": "",
+    "desc": "強化版のストレングスチップボード。より強力なバフを提供する。",
+    "obtain": "高難易度契約報酬。"
+  },
+  "dagger": {
+    "name_en": "Dagger",
+    "name_jp": "ダガー",
+    "category": "misc",
+    "icon": "",
+    "desc": "一般的なダガー。素材としても使用可能。",
+    "obtain": "Everything Workshopまたは武器組み立てで、1x Low Quality Bladeと1x Scrap Metalを使用してクラフト。"
+  }
+}

@@ -631,7 +631,7 @@
     "critical": {
       "image": "/assets/image/weapon/moonlit_azure_blade_critical.webm",
       "desc":"",
-      "effect":"{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undodgeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {unparryable} {on_hit} {poise}を5得る。{QTE}\n {QTE}成功時 {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
+      "effect":"{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undodgeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {on_hit} {poise}を5得る。\n {QTE_success} {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
       "ct":13
     }
   },

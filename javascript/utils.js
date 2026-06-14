@@ -73,6 +73,16 @@ function formatText(text) {
                     styles.push(`text-shadow: ${val}`);
                 } else if (key === "border") {
                     styles.push(`border: ${val}`);
+                } else if (key === "item_ID") {
+                    const itemId = val.replace(/^&quot;|&quot;$/g, "").replace(/^&#39;|&#39;$/g, "").replace(/^["']|["']$/g, "");
+                    const item = typeof allItemsData !== "undefined" ? allItemsData[itemId] : null;
+                    if (item) {
+                        content = item.name_en;
+                        url = `/arsenal/item_detail.html?id=${itemId}`;
+                    } else {
+                        content = itemId;
+                        url = `/arsenal/item_detail.html?id=${itemId}`;
+                    }
                 } else if (key === "url") {
                     url = val;
                 }

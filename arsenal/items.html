@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ArchivedJPWiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/javascript/version.js"></script>
+    <style>html{background-color: #1a1a1a;}</style>
+    <link rel="stylesheet" href="/css/stylesheet.css" id="main-stylesheet">
+    <script>document.getElementById("main-stylesheet").href = "/css/stylesheet.css?v=" + APP_VERSION;</script>
+</head>
+
+<body data-page="items">
+    <div id="header">
+        <header>
+            <h1 id="logo"><a id="AtagLogo" href="/index.html">Archived JP Wiki</a></h1>
+        </header>
+    </div>
+
+    <main>
+        <div id="sideflex">
+            <div id="sidebar-container"></div>
+            <div id="main-content">
+                <div id="tooltip"></div>
+                <div class="w-back">
+                    <p id="w-title">アイテム</p>
+                    <ruby id="w-comment">「A various selection of items that each have their own special uses.」 <rt>それぞれに特別な用途がある様々なアイテム。</rt></ruby>
+
+                    <hr class="hr-main">
+                    <details id="content-list" open>
+                        <summary id="content-list-title">目次</summary>
+                        <div id="content-list-inner">
+                            <a href="#description">説明</a>
+                            <a href="#items">アイテム一覧</a>
+                        </div>
+                    </details>
+                    <p id="description" class="w-subtitle heading">説明</p>
+                    <div class="text-area">
+                        <p>都市を探索する中で、それぞれに特別な用途を持つ様々なアイテムに出会うことになります。ユニークな武器を作るために必要なクラフト素材から、様々な料理レシピに使われる材料まで、Archivedでは多くの異なるアイテムを入手することができます。</p>
+                    </div>
+
+                    <p id="items" class="w-subtitle heading">アイテム一覧</p>
+                    <div class="controls">
+                        <input type="text" class="search" id="item-search" placeholder="アイテム名検索...">
+                        <div class="item-filters filters">
+                            <button data-filter="all" class="active">すべて</button>
+                            <button data-filter="basic">基本素材</button>
+                            <button data-filter="unique">ユニーク素材</button>
+                            <button data-filter="consumable">消費アイテム</button>
+                            <button data-filter="book">書物</button>
+                            <button data-filter="chip">チップ</button>
+                            <button data-filter="misc">その他</button>
+                        </div>
+                    </div>
+                    <div class="item-grid"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script>document.write('<script src="/javascript/loader.js?v='+APP_VERSION+'"><\/script>');</script>
+</body>
+
+</html>
