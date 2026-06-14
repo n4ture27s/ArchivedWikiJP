@@ -1,15 +1,30 @@
 {
   "logs": [
     {
-      "date": "2026/06/11",
+      "date": "2026/06/14",
       "new": true,
+      "items": [
+        { "type": "add", "text": "服一覧・詳細ページ" },
+        { "type": "add", "text": "アイテム一覧・詳細ページ" },
+        { "type": "add", "text": "全109種のアイテムデータ(スクレイピング+日本語翻訳)" },
+        { "type": "add", "text": "全63種の服データ" },
+        { "type": "add", "text": "心/望ページ" },
+        { "type": "add", "text": "サイドバーに「心と望」リンク" },
+        { "type": "fix", "text": "ページ読み込み時のフラッシュ(全30HTMLにbackground-color指定)" },
+        { "type": "fix", "text": "weapon.js Object.keys(null)クラッシュ" },
+        { "type": "fix", "text": "weapon.js weapon-search nullガード" },
+        { "type": "fix", "text": "weapon.html検索inputにid追加(ソート不具合)" }
+      ]
+    },
+    {
+      "date": "2026/06/11",
+      "new": false,
       "items": [
         { "type": "add", "text": "武器解説" },
         { "type": "add", "text": "ページ、本一覧" },
         { "type": "add", "text": "特性追加" },
         { "type": "add", "text": "協会 全ページ解説 & 武器解説" },
         { "type": "change" ,"text": "footer URL デザイン"}
-        
       ]
     },
     {
@@ -25,7 +40,6 @@
         { "type": "change" ,"text": "associationページのテキスト"},
         { "type": "change" ,"text": "staffページの名義"},
         { "type": "change" ,"text": "武器詳細ページの戻るボタンのデザイン"}
-        
       ]
     },
     {
@@ -42,7 +56,6 @@
         { "type": "fix" ,"text": "武器ページの不安定性"},
         { "type": "fix" ,"text": "ライセンステキスト"},
         { "type": "remove" ,"text": "協会ページの無意味なテキスト"}
-        
       ]
     },
     {
