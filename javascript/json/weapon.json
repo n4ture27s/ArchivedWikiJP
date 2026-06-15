@@ -957,5 +957,45 @@
       "effect": "{auto_execute}\n {dice1} {blunt} [4~6] {hit_ground}{guard_break}{on_hit} {tremor}を1付与\n{dice2} {blunt} [6~8] {hit_ground}{guard_break}{on_hit] {tremor_burst}をし、{tremor}を2付与\n {dice3} {blunt} [8~10] {on_hit} {tremor}を3付与し{tremor_burst}を起こした後に、{tremor}を2付与し{charge}を2得る",
       "ct": 20
     }
+  },
+  "advanced_zweihander": {
+    "req": "5",
+    "book": "zwei",
+    "name_en": "Advanced Zweihander",
+    "name_jp":"上級のツヴァイヘンダー",
+    "type": "slash",
+    "damage": "9",
+    "speed": 0.75,
+    "basic": {
+      "image": "/assets/image/weapon/advanced_zweihander_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/rosespanner_hammer_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [3~5]\n{dice2} {slash} [3~5]\n{dice3} {slash} [8~15] {on_hit}{defense_down}を5付与し、{defense_up}を5得る",
+      "ct": 14
+    }
+  },
+  "zwei_association_greatsword": {
+    "req": "4",
+    "book": "zwei",
+    "name_en": "Zwei Associatoion Greatsword",
+    "name_jp":"ツヴァイ協会のグレートソード",
+    "type": "blunt",
+    "damage": "7",
+    "speed": 0.71,
+    "basic": {
+      "image": "/assets/image/weapon/zwei_association_greatsword_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/zwei_association_greatsword_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{defense_up}と同じ数だけ{tremor}を得る\n {dice1} {blunt} [4~4] {hyperarmor} {guard_break} {on_hit}{tremor}を2付与\n {dice2} {blunt} [8~8] {on_use}自身の{tremor}の1/2の{defense_up}を得る\n{on_hit}自身の{tremor}の1/2に等しい{tremor}を付与し、さらに{defense_up}を4得る\n{dice3} {blunt} [12~12] {on_hit}相手の{tremor}が8以上の場合{value_power_down}を5付与",
+      "ct": 20
+    }
   }
 }
