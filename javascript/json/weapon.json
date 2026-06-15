@@ -8,17 +8,17 @@
     "speed": 0.75,
     "basic": {
       "image": "/assets/image/weapon/fixers_battleaxe_basic.webm",
-      "desc":"",
-      "effect":"長押しで振り下ろすまでの速度を変更できる"
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
       "image": "/assets/image/weapon/fixers_battleaxe_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [14~17] {slash} {hit_ground} {hit_downed}\n{on_hit} {bleed}3を付与\n{on_parryhit} 少しダメージを与える",
-      "ct":20
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} [14~17] {slash} {hit_ground} {hit_downed}\n{on_hit} {bleed}3を付与\n{on_parryhit} 少しダメージを与える",
+      "ct": 20
     }
   },
-   "fixers_chainsaw": {
+  "fixers_chainsaw": {
     "req": "なし",
     "name_en": "Fixer's Chainsaw",
     "name_jp": "フィクサーのチェーンソー",
@@ -27,17 +27,17 @@
     "speed": 0.75,
     "basic": {
       "image": "/assets/image/weapon/fixers_chansaw_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/fixers_chainsaw_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [2~4] {pierce} {guard_break} {multi_hit} 最後の攻撃が的中したとき{knock_back}する",
-      "ct":15
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} [2~4] {pierce} {guard_break} {multi_hit} 最後の攻撃が的中したとき{knock_back}する",
+      "ct": 15
     }
   },
-   "fixers_shortsword": {
+  "fixers_shortsword": {
     "req": "なし",
     "name_en": "Fixer's Shortsword",
     "name_jp": "フィクサーのショートソード",
@@ -46,17 +46,17 @@
     "speed": 0.55,
     "basic": {
       "image": "/assets/image/weapon/fixer's_shortsword_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/fixer's_shortsword_critical.webm",
-      "desc":"",
-      "effect":"{on_hit} 各ダイスに体力回復3\n {dice1} [5~8] {slash} {undodgeable} {on_hit} {bleed}を2付与\n {dice2} [6~8]{slash} {on_hit} {bleed}を2付与",
-      "ct":15
+      "desc": "",
+      "effect": "{on_hit} 各ダイスに体力回復3\n {dice1} [5~8] {slash} {undodgeable} {on_hit} {bleed}を2付与\n {dice2} [6~8]{slash} {on_hit} {bleed}を2付与",
+      "ct": 15
     }
   },
-   "Superthermogenesis_gladius": {
+  "Superthermogenesis_gladius": {
     "req": "1",
     "name_en": "Superthermogenesis gladius",
     "name_jp": "超高熱 グラディウス",
@@ -65,17 +65,17 @@
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/gladius_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.webm",
-      "desc":"",
-      "effect":"{dice1} [4~5] {slash} {on_hit} {burn}を2付与\n {dice2} [4~5] {slash} {on_hit} {burn}を2付与\n {dice3} [8~10] {slash} {on_hit} {thermogenesis}を得て{burn}を6付与 ",
-      "ct":18
+      "desc": "",
+      "effect": "{dice1} [4~5] {slash} {on_hit} {burn}を2付与\n {dice2} [4~5] {slash} {on_hit} {burn}を2付与\n {dice3} [8~10] {slash} {on_hit} {thermogenesis}を得て{burn}を6付与 ",
+      "ct": 18
     }
   },
-   "cinq_rapier": {
+  "cinq_rapier": {
     "req": "4",
     "book": "cinq",
     "name_en": "Cinq rapier",
@@ -85,17 +85,17 @@
     "speed": 0.57,
     "basic": {
       "image": "/assets/image/weapon/cinq_rapier_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/cinq_rapier_critical.webm",
-      "desc":"",
-      "effect":"{dice1} [3~12] {pierce} {on_hit} {poise}を3得る{dice2}を敵に追尾して使用する\n {dice2} [3~14] {pierce} {on_hit} {haste}を4得る",
-      "ct":18
+      "desc": "",
+      "effect": "{dice1} [3~12] {pierce} {on_hit} {poise}を3得る{dice2}を敵に追尾して使用する\n {dice2} [3~14] {pierce} {on_hit} {haste}を4得る",
+      "ct": 18
     }
   },
-   "udjat_khopesh": {
+  "udjat_khopesh": {
     "req": "4",
     "name_en": "Udjat Khopesh",
     "name_jp": "ウアジェト ケペシュ",
@@ -104,17 +104,17 @@
     "speed": 0.61,
     "basic": {
       "image": "/assets/image/weapon/udjat_khopesh_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/udjat_khopesh_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor}\n{dice1} {guard_break} [10~12] {pierce} {on_hit} {protection}を2得る\n {dice2} {guard_break} [5~7] {slash} {on_hit} {protection}を1得る\n {dice3} {guard_break} {knock_back} [5~8] {slash}",
-      "ct":17
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}\n{dice1} {guard_break} [10~12] {pierce} {on_hit} {protection}を2得る\n {dice2} {guard_break} [5~7] {slash} {on_hit} {protection}を1得る\n {dice3} {guard_break} {knock_back} [5~8] {slash}",
+      "ct": 17
     }
-   },
-   "liu_guan_dao": {
+  },
+  "liu_guan_dao": {
     "book": "liu",
     "req": "4",
     "name_en": "Liu Guan Dao",
@@ -124,17 +124,17 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/liu guan dao_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/liu guan dao_critical.webm",
-      "desc":"",
-      "effect":"{guard_break} {hit_ground} {on_use} {hyperarmor}\n{dice1} {guard_break} [12~20] {slash} {on_hit} {burn}を5付与",
-      "ct":17
+      "desc": "",
+      "effect": "{guard_break} {hit_ground} {on_use} {hyperarmor}\n{dice1} {guard_break} [12~20] {slash} {on_hit} {burn}を5付与",
+      "ct": 17
     }
   },
-   "lamp": {
+  "lamp": {
     "req": "なし",
     "name_en": "lamp",
     "name_jp": "ランプ",
@@ -143,17 +143,17 @@
     "speed": 0.73,
     "basic": {
       "image": "/assets/image/weapon/lamp_basic.webm",
-      "desc":"",
-      "effect":"長押しで振り下ろすまでの速度を変更できる"
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
       "image": "/assets/image/weapon/lamp_critical.webm",
-      "desc":"",
-      "effect":"{undodgeable}\n{dice1} [8~12] {blunt} {on_hit} 当たった対象を自分のほうに引き寄せて{burn}を5付与",
-      "ct":15
+      "desc": "",
+      "effect": "{undodgeable}\n{dice1} [8~12] {blunt} {on_hit} 当たった対象を自分のほうに引き寄せて{burn}を5付与",
+      "ct": 15
     }
   },
-   "augury_spear": {
+  "augury_spear": {
     "book": "hana",
     "req": "2",
     "name_en": "Augury Spear",
@@ -163,24 +163,24 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/augury_spear_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/augury_spear_critical1.webm",
-      "desc":"",
-      "effect":"{on_use} {trigram}を1得る\n {on_use} もし自身が{trigram}が4だった場合3消費してクリティカルが変化する\n {on_hit} 対象が5以上の{tremor}を持っている場合、5の{hate}を得て対象に3の{tremor}を付与し\nさらに、{tremor_burst}を起こす。\n {dice1} {guard_break} {knock_back} [6~16] {blunt} {on_hit} {hyperarmor}を得て、5の{tremor}を付与",
-      "ct":16
+      "desc": "",
+      "effect": "{on_use} {trigram}を1得る\n {on_use} もし自身が{trigram}が4だった場合3消費してクリティカルが変化する\n {on_hit} 対象が5以上の{tremor}を持っている場合、5の{hate}を得て対象に3の{tremor}を付与し\nさらに、{tremor_burst}を起こす。\n {dice1} {guard_break} {knock_back} [6~16] {blunt} {on_hit} {hyperarmor}を得て、5の{tremor}を付与",
+      "ct": 16
     },
     "critical2": {
       "image": "/assets/image/weapon/augury_spear_critical2.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor}を得る\n{dice1} [8~14] {pierce} {unblockable} {on_hit} {tremor}4を付与する。対象の{tremor}が5以上なら{tremor_burst}\n {dice2} [9~18] {pierce} {unblockable} {knock_back} {on_hit} {paralyze}3を付与。さらに対象の{tremor}が7以上ならダイスロール分の{shield_hp}を得る",
-      "ct":""
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} [8~14] {pierce} {unblockable} {on_hit} {tremor}4を付与する。対象の{tremor}が5以上なら{tremor_burst}\n {dice2} [9~18] {pierce} {unblockable} {knock_back} {on_hit} {paralyze}3を付与。さらに対象の{tremor}が7以上ならダイスロール分の{shield_hp}を得る",
+      "ct": ""
     }
   },
-   "liu_martial_arts": {
-    "book":"liu",
+  "liu_martial_arts": {
+    "book": "liu",
     "req": "6",
     "name_en": "Liu Martial Arts",
     "name_jp": "Liu式武術",
@@ -189,17 +189,17 @@
     "speed": 0.64,
     "basic": {
       "image": "/assets/image/weapon/liu_martial_arts_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/liu_martial_arts_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor}\n {dice1} [5~8] {blunt} {on_hit} {burn}を3付与\n {dice2} [6~16] {blunt} {undodgeable} {guard_break} {on_hit} {burn}を6付与",
-      "ct":16
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}\n {dice1} [5~8] {blunt} {on_hit} {burn}を3付与\n {dice2} [6~16] {blunt} {undodgeable} {guard_break} {on_hit} {burn}を6付与",
+      "ct": 16
     }
-   },
-   "Sunshower_Umbrella": {
+  },
+  "Sunshower_Umbrella": {
     "req": "3",
     "name_en": "Sushower Umbrella",
     "name_jp": "狐雨の傘",
@@ -208,17 +208,17 @@
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/sunshower_umbrella_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/sunshower_umbrella_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] {slash} {on_hit} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] {slash} {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] {slash} {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] {slash} {on_hit} {sinking}と{rupture}を1付与",
-      "ct":16
+      "desc": "",
+      "effect": "{on_use} {sinking}を5得る\n {dice1} {on_hit} {hyperarmor} [4~6] {slash} {on_hit} {sinking}を1付与{rupture}を2付与\n {dice2} [4~7] {slash} {on_hit} {sinking}と{rupture}を1付与\n {dice3} [4~8] {slash} {on_hit} {sinking}と{rupture}を1付与\n {dice4} [4~9] {slash} {on_hit} {sinking}と{rupture}を1付与",
+      "ct": 16
     }
   },
-   "Fluid_sac_Hammer": {
+  "Fluid_sac_Hammer": {
     "req": "1",
     "name_en": "Fluid Sac Hammer",
     "name_jp": "水袋のハンマー",
@@ -227,17 +227,17 @@
     "speed": 0.79,
     "basic": {
       "image": "/assets/image/weapon/Fluid_Sac_Hammer_basic.webm",
-      "desc":"",
-      "effect":"長押しで振り下ろすまでの速度を変更できる"
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
       "image": "/assets/image/weapon/Fluid_Sac_Hammer_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor} {undodgeable}\n{dice1} [15~25] {blunt} {on_hit} {protection}を2得て{bleed}を11付与",
-      "ct":23
+      "desc": "",
+      "effect": "{on_use} {hyperarmor} {undodgeable}\n{dice1} [15~25] {blunt} {on_hit} {protection}を2得て{bleed}を11付与",
+      "ct": 23
     }
   },
-   "Viriscent_Pyrojade_Ring": {
+  "Viriscent_Pyrojade_Ring": {
     "req": "6",
     "book": "cinq",
     "name_en": "Viriscent Pyrojade Ring",
@@ -247,17 +247,17 @@
     "speed": 0.67,
     "basic": {
       "image": "/assets/image/weapon/viriscent pyrojade ring_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/viriscent pyrojade ring_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {blunt} [5~8] このダイスはダメージを与えない\n {dice2} {blunt} [2~4] {undodgeable} {on_hit} {burn}4を付与\n {dice3} {blunt} [10~12] {unblockable} {undodgeable} {on_hit} {bleed}4を付与",
-      "ct":19
+      "desc": "",
+      "effect": "{dice1} {blunt} [5~8] このダイスはダメージを与えない\n {dice2} {blunt} [2~4] {undodgeable} {on_hit} {burn}4を付与\n {dice3} {blunt} [10~12] {unblockable} {undodgeable} {on_hit} {bleed}4を付与",
+      "ct": 19
     }
   },
-   "solmen_rament_pistol": {
+  "solmen_rament_pistol": {
     "req": "1",
     "name_en": "Solmen Rament Pistol",
     "name_jp": "厳粛な哀悼 ピストル",
@@ -266,31 +266,31 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/solemn_rament_pistol_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/solemn_rament_pistol_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {solmen_ammo}を各ダイス5消費する\n {dice1} {multi_hit} [6~8]x7 {pierce}\n {dice2}[10~15] {pirece} {on_hit}{sinking}を3付与。\nこのダイスが{solmen_ammo}を消耗した場合\n さらに{sinking}を付与し、さらに{sinking}に基づく状態異常を付与。\n {sinking}が1~19の場合: {sinking}-6分の{blind}\n {sinking}が20以上の場合: {sinking}-6分の{fragile}を付与。",
-      "ct":15
+      "desc": "",
+      "effect": "{on_use} {solmen_ammo}を各ダイス5消費する\n {dice1} {multi_hit} [6~8]x7 {pierce}\n {dice2}[10~15] {pirece} {on_hit}{sinking}を3付与。\nこのダイスが{solmen_ammo}を消耗した場合\n さらに{sinking}を付与し、さらに{sinking}に基づく状態異常を付与。\n {sinking}が1~19の場合: {sinking}-6分の{blind}\n {sinking}が20以上の場合: {sinking}-6分の{fragile}を付与。",
+      "ct": 15
     },
     "gun_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/solemn_rament_pistol_reload.webm",
-      "desc":"",
-      "effect":"{on_use} 精神力を12消費して{solmen_ammo}を12得る。",
-      "ct":"8"
+      "desc": "",
+      "effect": "{on_use} 精神力を12消費して{solmen_ammo}を12得る。",
+      "ct": "8"
     },
     "gun_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/solemn_rament_pistol_shoot.webm",
-      "desc":"",
-      "effect":"6ダメージを与える。",
-      "ct":"1秒"
+      "desc": "",
+      "effect": "6ダメージを与える。",
+      "ct": "1秒"
     }
   },
-   "yesterdays_promise": {
+  "yesterdays_promise": {
     "req": "1",
     "name_en": "Yestedays Promise",
     "name_jp": "昨日の約束",
@@ -299,17 +299,17 @@
     "speed": 0.7,
     "basic": {
       "image": "/assets/image/weapon/yesterdays_promise_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/yesterdays promise_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {pierce} [14~20] {on_hit}{guard_break}",
-      "ct":16
+      "desc": "",
+      "effect": "{dice1} {pierce} [14~20] {on_hit}{guard_break}",
+      "ct": 16
     }
   },
-   "thermal_blade_weapony": {
+  "thermal_blade_weapony": {
     "req": "3",
     "name_en": "Thermal Blade Weapony",
     "name_jp": "熱線刃兵器",
@@ -318,29 +318,29 @@
     "speed": 0.60,
     "basic": {
       "image": "/assets/image/weapon/kira_weapon_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical1": {
       "image": "/assets/image/weapon/kira_weapon_critical1.webm",
-      "desc":"",
-      "effect":"{on_parryhit}にクリティカルのクールダウンが発生する\n{on_use} {dice2}は1.4倍の{damage_modifier} \n{undodgeable}\n{dice1} {blunt} [4~7] {on_hit} 対象の{bleed}が5以上なら{dice2}が{value_up}5を得る\n {dice2} {blunt} [7~10] {multi_hit}4回",
-      "ct":16
+      "desc": "",
+      "effect": "{on_parryhit}にクリティカルのクールダウンが発生する\n{on_use} {dice2}は1.4倍の{damage_modifier} \n{undodgeable}\n{dice1} {blunt} [4~7] {on_hit} 対象の{bleed}が5以上なら{dice2}が{value_up}5を得る\n {dice2} {blunt} [7~10] {multi_hit}4回",
+      "ct": 16
     },
     "critical2": {
       "image": "/assets/image/weapon/kira_weapon_critical2.webm",
-      "desc":"",
-      "effect":"1段目の攻撃がパリィまたは中断されなかった場合のみ使用\n{undodgeable}\n {dice1} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与\n {dice2} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与\n {dice3} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与",
-      "ct":16
+      "desc": "",
+      "effect": "1段目の攻撃がパリィまたは中断されなかった場合のみ使用\n{undodgeable}\n {dice1} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与\n {dice2} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与\n {dice3} [4~7] {slash} {on_hit} {bleed}1と{burn}1を付与",
+      "ct": 16
     },
     "critical3": {
       "image": "/assets/image/weapon/kira_weapon_critical3.webm",
-      "desc":"",
-      "effect":"Critical 1またはCritical 2の後に、パリィの有無に関わらず使用\n{dice1} [6~8] {slash}\n {dice2} [6~10] {slash} {guard_break}\n {dice3} [6~12] {slash} {unparriable} {on_hit} {bleed}4と{burn}4を付与",
-      "ct":15
+      "desc": "",
+      "effect": "Critical 1またはCritical 2の後に、パリィの有無に関わらず使用\n{dice1} [6~8] {slash}\n {dice2} [6~10] {slash} {guard_break}\n {dice3} [6~12] {slash} {unparriable} {on_hit} {bleed}4と{burn}4を付与",
+      "ct": 15
     }
   },
-   "4th_match_blade": {
+  "4th_match_blade": {
     "req": "3",
     "name_en": "4th Match Blade",
     "name_jp": "4本目のマッチのブレード",
@@ -349,17 +349,17 @@
     "speed": 0.62,
     "basic": {
       "image": "/assets/image/weapon/4th_match_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/4th_match_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {slash} [12~20] {on_hit}{guard_break} {burn}を7付与",
-      "ct":18
+      "desc": "",
+      "effect": "{dice1} {slash} [12~20] {on_hit}{guard_break} {burn}を7付与",
+      "ct": 18
     }
   },
-   "Knuckles_of_Discipline": {
+  "Knuckles_of_Discipline": {
     "req": "3",
     "name_en": "Knuckles of Discipline",
     "name_jp": "規律のナックル",
@@ -368,17 +368,17 @@
     "speed": 0.55,
     "basic": {
       "image": "/assets/image/weapon/thumb_nuckle_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/thumb_nuckle_critical.webm",
-      "desc":"",
-      "effect":"{on_use} 対象にある{bleed}5につきこのページのダメージが5%増加(最大100%)\n {hit_ground}{unblockable} {dice1} {blunt} [3~5] {on_hit}{bleed}を3付与\n {dice2} {blunt} [3~5] {on_hit}{tremor}を1付与\n {dice3} {blunt} [3~5] {on_hit}{tremor}を1付与\n {dice4} {blunt} [3~5] {on_hit}{tremor}を1付与\n {dice5} {blunt} [3~7] {ground} {rupture}を1付与し後に、{tremor}を1付与し{tremor_burst}を起こす",
-      "ct":18
+      "desc": "",
+      "effect": "{on_use} 対象にある{bleed}5につきこのページのダメージが5%増加(最大100%)\n {hit_ground}{unblockable} {dice1} {blunt} [3~5] {on_hit}{bleed}を3付与\n {dice2} {blunt} [3~5] {on_hit}{tremor}を1付与\n {dice3} {blunt} [3~5] {on_hit}{tremor}を1付与\n {dice4} {blunt} [3~5] {on_hit}{tremor}を1付与\n {dice5} {blunt} [3~7] {ground} {rupture}を1付与し後に、{tremor}を1付与し{tremor_burst}を起こす",
+      "ct": 18
     }
   },
-   "palermitian_style_blades": {
+  "palermitian_style_blades": {
     "req": "1",
     "name_en": "Palermitian Style Blades",
     "name_jp": "パレルミタン流の剣",
@@ -387,17 +387,17 @@
     "speed": 0.67,
     "basic": {
       "image": "/assets/image/weapon/lucio_weapon_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/lucio_weapon_critical.webm",
-      "desc":"",
-      "effect":"{dice1} [5~7] {slash} {undodgeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] {slash} {undodgeable} {multi_hit}を3回\n {dice3} [7~9] {slash} {undodgeable} {on_hit}{tremor}と{burn}を2付与",
-      "ct":16
+      "desc": "",
+      "effect": "{dice1} [5~7] {slash} {undodgeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] {slash} {undodgeable} {multi_hit}を3回\n {dice3} [7~9] {slash} {undodgeable} {on_hit}{tremor}と{burn}を2付与",
+      "ct": 16
     }
   },
-   "onis_tekko": {
+  "onis_tekko": {
     "req": "1",
     "name_en": "Onis tekko",
     "name_jp": "鬼の手鋼",
@@ -406,23 +406,23 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/onis_tekko_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical1": {
       "image": "/assets/image/weapon/onis_tekko_critical1.webm",
-      "desc":"",
-      "effect":"{dice1} [10~15] {blunt} {undodgeable}{multi_hit}5回 ",
-      "ct":16
+      "desc": "",
+      "effect": "{dice1} [10~15] {blunt} {undodgeable}{multi_hit}5回 ",
+      "ct": 16
     },
     "critical2": {
       "image": "/assets/image/weapon/onis_tekko_critical2.webm",
-      "desc":"",
-      "effect":"{dice1} [10~12] {blunt} {in_air} 2回{tremor_burst}して{paralyze}を4付与\n 高さによってダメージが変化する",
-      "ct":""
+      "desc": "",
+      "effect": "{dice1} [10~12] {blunt} {in_air} 2回{tremor_burst}して{paralyze}を4付与\n 高さによってダメージが変化する",
+      "ct": ""
     }
   },
-   "beak_bat": {
+  "beak_bat": {
     "req": "なし",
     "name_en": "Beak Bat",
     "name_jp": "くちばし",
@@ -431,17 +431,17 @@
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/beak_bat_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/beak_bat_critical.webm",
-      "desc":"",
-      "effect":"{auto_execute}\n {dice1} [9~29] {blunt} {on_hit}{bleed}5を付与し、自身に{paralyze}1を付与",
-      "ct":16
+      "desc": "",
+      "effect": "{auto_execute}\n {dice1} [9~29] {blunt} {on_hit}{bleed}5を付与し、自身に{paralyze}1を付与",
+      "ct": 16
     }
   },
-   "Ncorp_mittel_hammer_hammer": {
+  "Ncorp_mittel_hammer_hammer": {
     "req": "6",
     "name_en": "Ncorp mittelhammer hammer",
     "name_jp": "N社中槌の槌",
@@ -450,17 +450,17 @@
     "speed": 0.73,
     "basic": {
       "image": "/assets/image/weapon/Ncorp_mittelhammer_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/Ncorp_mittelhammer_critical.webm",
-      "desc":"",
-      "effect":"各ダイス{on_hit}に{hyperarmor}\n {dice1} [3~4] {blunt} {on_hit}{bleed}2を付与する\n {dice2} [3~12] {blunt} {on_hit}{AoE}{bleed}を2付与して{nail}を3付与",
-      "ct":16
+      "desc": "",
+      "effect": "各ダイス{on_hit}に{hyperarmor}\n {dice1} [3~4] {blunt} {on_hit}{bleed}2を付与する\n {dice2} [3~12] {blunt} {on_hit}{AoE}{bleed}を2付与して{nail}を3付与",
+      "ct": 16
     }
   },
-   "twin_hook": {
+  "twin_hook": {
     "req": "7",
     "name_en": "Twin Hook",
     "name_jp": "双鉤",
@@ -469,31 +469,31 @@
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/twinhook_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/twinhook_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {pierce} [5~11] {hit_ground}{on_hit} 相手の{bleed}の1/3の呼吸を得て、6の{bleed}を付与\n {dice2} {pierce} [11~17] {auto_execute}",
-      "ct":16
+      "desc": "",
+      "effect": "{dice1} {pierce} [5~11] {hit_ground}{on_hit} 相手の{bleed}の1/3の呼吸を得て、6の{bleed}を付与\n {dice2} {pierce} [11~17] {auto_execute}",
+      "ct": 16
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/twinhook_reload.webm",
-      "desc":"",
-      "effect":"画面右下にある弾丸から1つ消費して、{ammo}を1得る",
-      "ct":8
+      "desc": "",
+      "effect": "画面右下にある弾丸から1つ消費して、{ammo}を1得る",
+      "ct": 8
     },
     "gun_shoot": {
-      "title":"shoot",
+      "title": "shoot",
       "image": "/assets/image/weapon/twinhook_shoot.webm",
-      "desc":"",
-      "effect":"{ammo}を1消費して、15ダメージを与える",
-      "ct":1
+      "desc": "",
+      "effect": "{ammo}を1消費して、15ダメージを与える",
+      "ct": 1
     }
   },
-   "warp_corp_odachi": {
+  "warp_corp_odachi": {
     "req": "3",
     "name_en": "WarpCorp Odachi",
     "name_jp": "W社の大太刀",
@@ -502,17 +502,17 @@
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/warp_corp_odachi_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/warp_corp_odachi_critical.webm",
-      "desc":"",
-      "effect":"{on_use}{charge}が15未満の場合、{charge}x3のダメージを受ける\n {on_use}{charge}が7以上の場合、最大15消費する\n {on_use}もし{charge}を消費した場合ダイスが{dice1} [6~8],{dice2} [12~17],{dice3} [12~18]に変更する\n {on_use}にカーソルに対象を合わせている場合、無限射程の{tracking}になる\n {dice1} {slash} [6~8] {undodgeable} {on_hit}{rupture}を1付与\n {dice2} {slash} [8~14]\n {dice3} {slash} [8~15] {on_hit}{charge}を3得る",
-      "ct":20
+      "desc": "",
+      "effect": "{on_use}{charge}が15未満の場合、{charge}x3のダメージを受ける\n {on_use}{charge}が7以上の場合、最大15消費する\n {on_use}もし{charge}を消費した場合ダイスが{dice1} [6~8],{dice2} [12~17],{dice3} [12~18]に変更する\n {on_use}にカーソルに対象を合わせている場合、無限射程の{tracking}になる\n {dice1} {slash} [6~8] {undodgeable} {on_hit}{rupture}を1付与\n {dice2} {slash} [8~14]\n {dice3} {slash} [8~15] {on_hit}{charge}を3得る",
+      "ct": 20
     }
   },
-   "warp_corp_dagger": {
+  "warp_corp_dagger": {
     "req": "3",
     "name_en": "WarpCorp Dagger",
     "name_jp": "W社のダガー",
@@ -521,17 +521,17 @@
     "speed": 0.62,
     "basic": {
       "image": "/assets/image/weapon/warp_corp_dagger_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/warp_corp_dagger_critical.webm",
-      "desc":"",
-      "effect":"{unblockable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} {pierce} [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
-      "ct":20
+      "desc": "",
+      "effect": "{unblockable} {auto_execute}\n {on_use}最大15の{charge}を消費する。もし15消費した場合{dice1}を[16~24]に変更し、さらに{rupture}を3付与する\n {dice1} {pierce} [6~12] {on_hit}{charge}を4得て対象に{rupture}を3付与する",
+      "ct": 20
     }
   },
-   "full-stop_automatic": {
+  "full-stop_automatic": {
     "req": "5",
     "name_en": "Full-Stop Automatic",
     "name_jp": "終止符のマシンガン",
@@ -540,31 +540,31 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/full_stop_automatic_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/full_stop_automatic_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice2} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice3} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与",
-      "ct":16
+      "desc": "",
+      "effect": "{dice1} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice2} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice3} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与",
+      "ct": 16
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/full_stop_automatic_reload.webm",
-      "desc":"",
-      "effect":"画面右下にある弾丸から20つ消費して、{ammo}を20得る\n",
-      "ct":8
+      "desc": "",
+      "effect": "画面右下にある弾丸から20つ消費して、{ammo}を20得る\n",
+      "ct": 8
     },
     "gun_shoot": {
-      "title":"shoot",
+      "title": "shoot",
       "image": "/assets/image/weapon/full_stop_automatic_shoot.webm",
-      "desc":"",
-      "effect":"{ammo}を1消費して、4ダメージを与える",
-      "ct":0.1
+      "desc": "",
+      "effect": "{ammo}を1消費して、4ダメージを与える",
+      "ct": 0.1
     }
   },
-   "steam_gauntlet": {
+  "steam_gauntlet": {
     "req": "1",
     "name_en": "Steam Gauntlet",
     "name_jp": "スチームガントレット",
@@ -573,17 +573,17 @@
     "speed": 0.67,
     "basic": {
       "image": "/assets/image/weapon/steam_gauntlet_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/steam_gauntlet_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {hyperarmor},{smoke}を5得る\n 各ダイスに{QTE}がある\n {dice1} {blunt} [3~5] {QTE}成功時{dice2}を振る\n {dice2} {blunt} [6~10] {QTE}成功時に{dice3}を振る\n {dice3} {blunt} [9~15] {QTE}成功時に{dice4}を振る\n {dice4} {blunt} [12~20] {hit_ground} {unparriable} {guard_break} {on_hit}{burn}を7付与し{smoke}を3、{poise}を8得る",
-      "ct":20
+      "desc": "",
+      "effect": "{on_use} {hyperarmor},{smoke}を5得る\n 各ダイスに{QTE}がある\n {dice1} {blunt} [3~5] {QTE}成功時{dice2}を振る\n {dice2} {blunt} [6~10] {QTE}成功時に{dice3}を振る\n {dice3} {blunt} [9~15] {QTE}成功時に{dice4}を振る\n {dice4} {blunt} [12~20] {hit_ground} {unparriable} {guard_break} {on_hit}{burn}を7付与し{smoke}を3、{poise}を8得る",
+      "ct": 20
     }
   },
-   "udjat_vanguard_khopesh": {
+  "udjat_vanguard_khopesh": {
     "req": "4",
     "name_en": "Udjat Vanguard Khopesh",
     "name_jp": "ウアジェト先鋒 ケペシュ",
@@ -592,31 +592,31 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {pierce} [3~5] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice2} {pierce} [3~7] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice3} {pierce} [3~9] {undodgeable} {on_hit} {tremor}を2付与\n {dice4} {pierce} [3~10] {undodgeable} {on_hit} {multi_hit}を2回、2回目の時に{sinking}を2付与\n {dice5} {pierce} [5~11] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}を2付与",
-      "ct":20
+      "desc": "",
+      "effect": "{dice1} {pierce} [3~5] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice2} {pierce} [3~7] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice3} {pierce} [3~9] {undodgeable} {on_hit} {tremor}を2付与\n {dice4} {pierce} [3~10] {undodgeable} {on_hit} {multi_hit}を2回、2回目の時に{sinking}を2付与\n {dice5} {pierce} [5~11] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}を2付与",
+      "ct": 20
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_reload.webm",
-      "desc":"",
-      "effect":"画面右下の弾丸を25消費して、{fracture_bullet}を25得る",
-      "ct":9
+      "desc": "",
+      "effect": "画面右下の弾丸を25消費して、{fracture_bullet}を25得る",
+      "ct": 9
     },
     "gun_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_shoot.webm",
-      "desc":"",
-      "effect":"{fracture_bullet}を1消費して、5ダメージを与える",
-      "ct":0.1
+      "desc": "",
+      "effect": "{fracture_bullet}を1消費して、5ダメージを与える",
+      "ct": 0.1
     }
   },
-   "moonlit_azure_blade": {
+  "moonlit_azure_blade": {
     "req": "1",
     "name_en": "Moonlit Azure Blade",
     "name_jp": "月下青刀",
@@ -625,17 +625,17 @@
     "speed": 0.64,
     "basic": {
       "image": "/assets/image/weapon/moonlit_azure_blade_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/moonlit_azure_blade_critical.webm",
-      "desc":"",
-      "effect":"{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undodgeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {on_hit} {poise}を5得る。\n {QTE_success} {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
-      "ct":13
+      "desc": "",
+      "effect": "{on_use} {poise}1につき{value_up}を1得る(最大19まで)\n{dice1} {slash} [8~9] {multi_hit} {hit_gound} {undodgeable} {QTE}\n 0.35倍{damage_modifier}[2撃目] {poise}4を得て、{on_hit}相手のラグドールを解除する\n0.75倍{damage_modifier}[2撃目] {on_hit} {poise}を5得る。\n {QTE_success} {on_hit}に{poise}をすべて消費し、(消費した{poise}x0.375)の追加ダメージを与える。",
+      "ct": 13
     }
   },
-   "fascia_sealed": {
+  "fascia_sealed": {
     "req": "3",
     "name_en": "Fascia Sealed",
     "name_jp": "ファシア(拘束)",
@@ -644,24 +644,24 @@
     "speed": 0.7,
     "basic": {
       "image": "/assets/image/weapon/fascia1_basic.webm",
-      "desc":"",
-      "effect":"長押しで振り下ろすまでの速度を変更できる"
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
       "image": "/assets/image/weapon/fascia1_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {slash} [4~7] {on_hit}{bleed}を2付与\n {dice2} {slash} [4~10] {on_hit}{bind}を2付与\n{dice3} {slash} [4~13] {on_hit}{corpus_ingredient}を6得る",
-      "ct":18
+      "desc": "",
+      "effect": "{dice1} {slash} [4~7] {on_hit}{bleed}を2付与\n {dice2} {slash} [4~10] {on_hit}{bind}を2付与\n{dice3} {slash} [4~13] {on_hit}{corpus_ingredient}を6得る",
+      "ct": 18
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/fascia_reload.webm",
-      "desc":"",
-      "effect":"{corpus_ingredient}を消費して、消費した分の{protection}得る。\nもし{corpus_ingredient}が20以上、{protection}が15以上だった場合武器が変形する。",
-      "ct":9
+      "desc": "",
+      "effect": "{corpus_ingredient}を消費して、消費した分の{protection}得る。\nもし{corpus_ingredient}が20以上、{protection}が15以上だった場合武器が変形する。",
+      "ct": 9
     }
   },
-   "fascia": {
+  "fascia": {
     "req": "3",
     "name_en": "Fascia",
     "name_jp": "ファシア",
@@ -670,17 +670,17 @@
     "speed": 0.7,
     "basic": {
       "image": "/assets/image/weapon/fascia2_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/fascia2_critical.webm",
-      "desc":"",
-      "effect":"{dice1} {pierce} [4~7] {multi_hit}を4回 [マルチヒットの一撃目]{on_hit}に{hyperarmor}を得る [マルチヒットの2/3段目]{bleed}を2/3付与\n {dice2} {slash} [6~7] {on_hit}{corpus_ingredient}を3得る\n{dice3} {slash} [6~7] {on_hit}{corpus_ingredient}を3得る",
-      "ct":18
+      "desc": "",
+      "effect": "{dice1} {pierce} [4~7] {multi_hit}を4回 [マルチヒットの一撃目]{on_hit}に{hyperarmor}を得る [マルチヒットの2/3段目]{bleed}を2/3付与\n {dice2} {slash} [6~7] {on_hit}{corpus_ingredient}を3得る\n{dice3} {slash} [6~7] {on_hit}{corpus_ingredient}を3得る",
+      "ct": 18
     }
   },
-   "fullstop_rifle": {
+  "fullstop_rifle": {
     "req": "5",
     "name_en": "Fullstop Rifle",
     "name_jp": "終止符のライフル",
@@ -689,37 +689,37 @@
     "speed": 0.70,
     "basic": {
       "image": "/assets/image/weapon/fullstop_rifle_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/fullstop_rifle_critical1.webm",
-      "desc":"",
-      "effect":"{on_use} もし{ammo}がなかった場合攻撃がキャンセルされる\n{on_use} {atelier_logic_ammo}があった場合クリティカルが変更される\n{on_use} {poise}を5得る\n{dice1} {pierce} [12~26] {guad_break} クリティカルヒットが発動した場合、2回目の攻撃が発動し、元のダメージに0.8倍の{damage_modifier}を乗じたダメージを与える\nクリティカルにクリティカルヒットが発動した場合、{on_hit}に{atelier_logic_ammo}を1得る。",
-      "ct":20
+      "desc": "",
+      "effect": "{on_use} もし{ammo}がなかった場合攻撃がキャンセルされる\n{on_use} {atelier_logic_ammo}があった場合クリティカルが変更される\n{on_use} {poise}を5得る\n{dice1} {pierce} [12~26] {guad_break} クリティカルヒットが発動した場合、2回目の攻撃が発動し、元のダメージに0.8倍の{damage_modifier}を乗じたダメージを与える\nクリティカルにクリティカルヒットが発動した場合、{on_hit}に{atelier_logic_ammo}を1得る。",
+      "ct": 20
     },
     "critical2": {
       "image": "/assets/image/weapon/fullstop_rifle_critical2.webm",
       "desc": "",
-      "effect":"{atelier_logic_ammo}がある場合に発動する\n{on_use} {poise}を5と{hyperarmor}を得る\n{dice1} {pierce} [15~33] {guad_break} クリティカルヒットが発動した場合、2回目の攻撃が発動し、元のダメージに0.8倍の{damage_modifier}を乗じたダメージを与える",
-    "ct": 20
+      "effect": "{atelier_logic_ammo}がある場合に発動する\n{on_use} {poise}を5と{hyperarmor}を得る\n{dice1} {pierce} [15~33] {guad_break} クリティカルヒットが発動した場合、2回目の攻撃が発動し、元のダメージに0.8倍の{damage_modifier}を乗じたダメージを与える",
+      "ct": 20
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/fullstop_rifle_reload.webm",
-      "desc":"",
-      "effect":"画面右下の弾丸を3消費して、{ammo}を3得る",
-      "ct":9
+      "desc": "",
+      "effect": "画面右下の弾丸を3消費して、{ammo}を3得る",
+      "ct": 9
     },
     "gun_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/fullstop_rifle_shoot.webm",
-      "desc":"",
-      "effect":"{ammo}を1消費して、20ダメージを与える",
-      "ct":6
+      "desc": "",
+      "effect": "{ammo}を1消費して、20ダメージを与える",
+      "ct": 6
     }
   },
-   "reverberation_scythe": {
+  "reverberation_scythe": {
     "req": "1",
     "name_en": "Reverberation Scythe",
     "name_jp": "残響の鎌",
@@ -728,17 +728,17 @@
     "speed": 0.68,
     "basic": {
       "image": "/assets/image/weapon/reverberation_scythe_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/reverberation_scythe_critical.webm",
-      "desc":"",
-      "effect":"{unblockable} {auto_execute}\n {dice1} {slash} [5~7] 少し前に移動する\n{on_hit}もしダイス値と対象の{tremor}が同等の場合、短い遅延の後に対象を{stagger}にさせる\n {dice2} {slash} [4~8] {on_hit}{multi_hit}を2回",
-      "ct":16
+      "desc": "",
+      "effect": "{unblockable} {auto_execute}\n {dice1} {slash} [5~7] 少し前に移動する\n{on_hit}もしダイス値と対象の{tremor}が同等の場合、短い遅延の後に対象を{stagger}にさせる\n {dice2} {slash} [4~8] {on_hit}{multi_hit}を2回",
+      "ct": 16
     }
   },
-   "crimson_scar_corver": {
+  "crimson_scar_corver": {
     "req": "3",
     "name_en": "Crimson Scar Corver",
     "name_jp": "深紅の傷跡を刻む者",
@@ -747,37 +747,37 @@
     "speed": 0.65,
     "basic": {
       "image": "/assets/image/weapon/crimson_scar_corver_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/crimson_scar_corver_critical1.webm",
-      "desc":"",
-      "effect":"各ダイスが{on_hit}に{hyperarmor}\n{after_use}にこの攻撃が対象に的中していて、対象がページやクリティカルを使用している場合クリティカル2を発動する\n {dice1} {slash} [4~8] {on_hit}に{bind}を1付与\n {dice2} {slash} [3~8] {on_hit}に{bind}を2付与",
-      "ct":16
+      "desc": "",
+      "effect": "各ダイスが{on_hit}に{hyperarmor}\n{after_use}にこの攻撃が対象に的中していて、対象がページやクリティカルを使用している場合クリティカル2を発動する\n {dice1} {slash} [4~8] {on_hit}に{bind}を1付与\n {dice2} {slash} [3~8] {on_hit}に{bind}を2付与",
+      "ct": 16
     },
     "critical2": {
       "image": "/assets/image/weapon/crimson_scar_corver_critical2.webm",
       "desc": "",
-      "effect":"{on_use} 自身が{ammo}を装填している場合、5の{value_up}を得る\n{dice1} {pierce} [5~10] {on_hit}自身が{ammo}を得ているなら、{fragile}を5付与\n{on_hit}に対象が6の{bind}があった場合、2の{value_up}と6の{haste}を得る",
-    "ct": 16
+      "effect": "{on_use} 自身が{ammo}を装填している場合、5の{value_up}を得る\n{dice1} {pierce} [5~10] {on_hit}自身が{ammo}を得ているなら、{fragile}を5付与\n{on_hit}に対象が6の{bind}があった場合、2の{value_up}と6の{haste}を得る",
+      "ct": 16
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/crimson_scar_corver_reload.webm",
-      "desc":"",
-      "effect":"画面右下の弾丸を3消費して、{ammo}を6得る",
-      "ct":9
+      "desc": "",
+      "effect": "画面右下の弾丸を3消費して、{ammo}を6得る",
+      "ct": 9
     },
     "gun_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/crimson_scar_corver_shoot.webm",
-      "desc":"",
-      "effect":"{ammo}を1消費して、6ダメージを与える",
-      "ct":0.3
+      "desc": "",
+      "effect": "{ammo}を1消費して、6ダメージを与える",
+      "ct": 0.3
     }
   },
-   "brawler": {
+  "brawler": {
     "req": "8",
     "name_en": "Brawler",
     "name_jp": "ブロウラー",
@@ -786,19 +786,19 @@
     "speed": 0.60,
     "basic": {
       "image": "/assets/image/weapon/brawler_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical1": {
       "image": "/assets/image/weapon/brawler_critical1.webm",
-      "desc":"",
-      "effect":"{dice1} {blunt} [10~12] {unblockable} {on_hit}に{tremor}を4付与し、{tremor_burst}をして、{light}を1得る",
-      "ct":16
+      "desc": "",
+      "effect": "{dice1} {blunt} [10~12] {unblockable} {on_hit}に{tremor}を4付与し、{tremor_burst}をして、{light}を1得る",
+      "ct": 16
     },
     "critical2": {
       "image": "/assets/image/weapon/onis_tekko_critical2.webm",
       "desc": "",
-      "effect":"{in_air}で{on_hit}\n{dice1} {blunt} [10~12] {unblockable} 2回の{tremor_burst}と{paralyze}を4付与\n高さに応じてダメージが増加する",
+      "effect": "{in_air}で{on_hit}\n{dice1} {blunt} [10~12] {unblockable} 2回の{tremor_burst}と{paralyze}を4付与\n高さに応じてダメージが増加する",
       "ct": 16
     }
   },
@@ -812,17 +812,17 @@
     "speed": 0.60,
     "basic": {
       "image": "/assets/image/weapon/shi_association_katana_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical1": {
       "image": "/assets/image/weapon/shi_association_katana_critical.webm",
-      "desc":"",
-      "effect":"{undodgeable} {auto_execute}\n{on_use} {poise}を6得る\n{on_use} {haste}数値分{dice1}の最大ロール値を増加(最大8)\n{dice1} {slash} [12~18] {on_hit} {bleed}を2付与",
-      "ct":20
+      "desc": "",
+      "effect": "{undodgeable} {auto_execute}\n{on_use} {poise}を6得る\n{on_use} {haste}数値分{dice1}の最大ロール値を増加(最大8)\n{dice1} {slash} [12~18] {on_hit} {bleed}を2付与",
+      "ct": 20
     }
   },
-   "blade_lineage_hwando": {
+  "blade_lineage_hwando": {
     "req": "5",
     "name_en": "Blade Lineage Hwando",
     "name_jp": "剣契環刀",
@@ -831,17 +831,17 @@
     "speed": 0.59,
     "basic": {
       "image": "/assets/image/weapon/blade_lineage_hwando_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical1": {
       "image": "/assets/image/weapon/blade_lineage_hwando_critical.webm",
-      "desc":"",
-      "effect":"0.80倍の{damage_modifier} {unblockable}\n{dice1} {slash} [4~8] {on_hit} {bleed}を3付与し、{poise}を2得る\n{dice2} {slash} [4~8] {on_hit} {bleed}を3付与し、{poise}を2得る",
-      "ct":16
+      "desc": "",
+      "effect": "0.80倍の{damage_modifier} {unblockable}\n{dice1} {slash} [4~8] {on_hit} {bleed}を3付与し、{poise}を2得る\n{dice2} {slash} [4~8] {on_hit} {bleed}を3付与し、{poise}を2得る",
+      "ct": 16
     }
   },
-   "soldato_rifle": {
+  "soldato_rifle": {
     "req": "6",
     "name_en": "Soldato Rifle",
     "name_jp": "ソルダートのライフル",
@@ -850,34 +850,34 @@
     "speed": 0.56,
     "basic": {
       "image": "/assets/image/weapon/soldato_rifle_basic.webm",
-      "desc":"",
-      "effect":""
+      "desc": "",
+      "effect": ""
     },
     "critical": {
       "image": "/assets/image/weapon/soldato_rifle_critical1.webm",
-      "desc":"",
-      "effect":"{on_use}自身に{ammo}がある場合クリティカルが変化する\n {dice1} {pierce} [4~7] {on_hit} {tremor}を2付与し、{ammo}を2得る",
-      "ct":13
-      },
+      "desc": "",
+      "effect": "{on_use}自身に{ammo}がある場合クリティカルが変化する\n {dice1} {pierce} [4~7] {on_hit} {tremor}を2付与し、{ammo}を2得る",
+      "ct": 13
+    },
     "critical2": {
       "image": "/assets/image/weapon/soldato_rifle_critical2.webm",
-      "desc":"",
-      "effect":"{on_use}自身の{ammo}の数が2/3個ない場合{dice2}/{dice3}を使用できない\n {dice1} {pierce} [4~6] {on_hit} {tremor}を2付与する\n {dice2} {pierce} [4~6] {on_hit} {tremor}を2付与る\n {dice3} {pierce} [8~12] {on_hit} {knock_back}{tremor_burst}を起こし、{burn}を3付与",
-      "ct":13
+      "desc": "",
+      "effect": "{on_use}自身の{ammo}の数が2/3個ない場合{dice2}/{dice3}を使用できない\n {dice1} {pierce} [4~6] {on_hit} {tremor}を2付与する\n {dice2} {pierce} [4~6] {on_hit} {tremor}を2付与る\n {dice3} {pierce} [8~12] {on_hit} {knock_back}{tremor_burst}を起こし、{burn}を3付与",
+      "ct": 13
     },
     "gun_reload": {
-      "title":"reload",
+      "title": "reload",
       "image": "/assets/image/weapon/soldato_rifle_reload.webm",
-      "desc":"",
-      "effect":"画面右下にある弾丸から4つ消費して、{ammo}を4得る\n",
-      "ct":8
+      "desc": "",
+      "effect": "画面右下にある弾丸から4つ消費して、{ammo}を4得る\n",
+      "ct": 8
     },
     "gun_shoot": {
-      "title":"shoot",
+      "title": "shoot",
       "image": "/assets/image/weapon/soldato_rifle_shoot.webm",
-      "desc":"",
-      "effect":"{ammo}を1消費して、15ダメージを与える",
-      "ct":1.5
+      "desc": "",
+      "effect": "{ammo}を1消費して、15ダメージを与える",
+      "ct": 1.5
     }
   }
 }
