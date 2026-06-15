@@ -898,5 +898,24 @@
       "effect": "{ammo}を1消費して、15ダメージを与える",
       "ct": 1.5
     }
+  },
+  "zweihander": {
+    "req": "6",
+    "name_en": "Zweihander",
+    "name_jp": "ツヴァイハンダー",
+    "type": "slash",
+    "damage": "8",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/zweihander_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/zweihander_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {defens_up}を3得る\n{dice1} {slash} [3~5]\n{dice2} {pierce} [7~10] {on_hit}{defense_up}を4得て、{defense_down}を5付与",
+      "ct": 16
+    }
   }
 }
