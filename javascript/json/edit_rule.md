@@ -163,6 +163,25 @@ Index系ページでは誤って`{rupture}3を得て`と書かれている箇所
 * 同一行内に複数の`[Keyword]`が連続する場合があるので、すべて漏れなく`{keyword}`に変換する
 * `[Multihit] N Times [X~Y] Damage`構造の場合、`{multi_hit}N回 [X~Y] {damage_type}`に変換する
 
+### Multihit内の"NxM"ステータス表記
+* `[On Hit] Gain 1x4 Poise` は「各ヒットごとに1のPoise獲得 × 4ヒット = 合計4」を意味する
+* JSONではマルチヒット内の単一ヒット効果として `{on_hit} {poise}を1得る` のように記述する（値はN、Mは{multi_hit}N回で表現済みのため重複記載しない）
+* 例: `Inflict 1x4 Paralyze and 1x4 Bleed` → `{on_hit} {paralyze}を1と{bleed}を1付与`
+
+### 1クリティカル内の複数コイン連鎖
+* 1つのクリティカル攻撃に複数のコイン(dice)が条件付き連鎖する場合は、別々のcriticalエントリ(critical1, critical2)に分けず、1つのcriticalエントリ内に全コインを記述する
+* 各コインの条件（例: 第2部は第1部命中時のみ使用）は日本語で説明文を追加する
+* 一方、`thermal_blade_weapony`のように全く別のモードのクリティカル（別CD、独立選択）はcritical1/critical2に分ける
+
+### ダメージ修飾子とMultihitの併記
+* `0.3x (total 1.2x) [Damage Modifier]`のような表記は `0.3倍(合計1.2倍)の{damage_modifier}` と訳す
+
+### {hit_ground} の対応
+* `[Hits Grounded]` → `{hit_ground}`（ノックダウン/転倒中の無敵フレームを無視する攻撃）
+
+### {after_use} の対応
+* `[After Use]` → `{after_use}`（攻撃終了後に発動する効果）
+
 
 
 
