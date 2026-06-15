@@ -937,5 +937,24 @@
       "effect": "{on_use} {defens_up}を3得る\n{dice1} {slash} [3~5]\n{dice2} {pierce} [7~10] {on_hit}{defense_up}を4得て、{defense_down}を5付与",
       "ct": 16
     }
+  },
+  "rosespanner_hammer": {
+    "req": "7",
+    "name_en": "Rosespanner Hammer",
+    "name_jp":"バラのスパナ工房のハンマー",
+    "type": "blunt",
+    "damage": "9",
+    "speed": 0.72,
+    "basic": {
+      "image": "/assets/image/weapon/rosespanner_hammer_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical": {
+      "image": "/assets/image/weapon/rosespanner_hammer_critical.webm",
+      "desc": "",
+      "effect": "{auto_execute}\n {dice1} {blunt} [4~6] {hit_ground}{guard_break}{on_hit} {tremor}を1付与\n{dice2} {blunt} [6~8] {hit_ground}{guard_break}{on_hit] {tremor_burst}をし、{tremor}を2付与\n {dice3} {blunt} [8~10] {on_hit} {tremor}を3付与し{tremor_burst}を起こした後に、{tremor}を2付与し{charge}を2得る",
+      "ct": 20
+    }
   }
 }
