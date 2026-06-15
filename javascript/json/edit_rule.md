@@ -182,11 +182,24 @@ Index系ページでは誤って`{rupture}3を得て`と書かれている箇所
 ### {after_use} の対応
 * `[After Use]` → `{after_use}`（攻撃終了後に発動する効果）
 
+### {QTE} / {QTE_success} の対応
+* `[QTE]` → `{QTE}`（QTE発動ダイス）
+* `[On QTE Success]` → `{QTE_success}`（QTE成功時の追加効果）
 
+### 削除済み(Removed)データの扱い
+* Wikiに「Removed critical」等の削除済み旧仕様が記載されていても、JSONには現在有効なもののみを含める
+* 旧仕様は翻訳対象外とする
 
+### 武器の"book"フィールド
+* 協会/シンジケート所属武器には `"book": "略称"` を追加する
+* 略称は対応するoutfit.jsonのbook値と統一する（例: セブン協会→`"book": "seven"`）
 
-
-
+### 武器のname_jp 命名パターン
+* 「協会/組織名 + 武器種」が基本。既存事例を参照:
+  * Shi Association Katana → シ協会刀
+  * Cinq rapier → センクレイピア（カタカナ名）
+  * Liu Guan Dao → リウの大刀
+  * Seven Association Longsword → セブン協会の長剣
 
 
 

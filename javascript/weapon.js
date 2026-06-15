@@ -279,7 +279,7 @@ function createSimplifiedWeaponCard(id, data) {
         });
 
     Object.keys(data)
-        .filter(key => key.startsWith("gun"))
+        .filter(key => key.startsWith("custom"))
         .sort((a, b) => getNum(a) - getNum(b))
         .forEach((key) => {
             const g = data[key];
@@ -433,8 +433,8 @@ function setFormattedText(el, text) {
             /* ===== Critical ===== */
             renderCriticals(w);
 
-            /* ===== Gun ===== */
-            renderGuns(w);
+            /* ===== Custom ===== */
+            renderCustoms(w);
 
             /* ===== tooltip re-apply ===== */
             if (typeof applyAllStyles === "function") {
@@ -507,15 +507,15 @@ function renderCriticals(w) {
     });
 }
 
-function renderGuns(w) {
-    const container = document.getElementById("gun-container");
+function renderCustoms(w) {
+    const container = document.getElementById("custom-container");
     if (!container) return;
 
     container.innerHTML = "";
 
     const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
     const guns = Object.keys(w)
-        .filter(key => key.startsWith("gun"))
+        .filter(key => key.startsWith("custom"))
         .sort((a, b) => {
             return getNum(a) - getNum(b);
         });

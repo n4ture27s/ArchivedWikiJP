@@ -860,6 +860,26 @@
       "ct": 25
     }
   },
+  "seven_association_longsword": {
+    "req": "7",
+    "book": "seven",
+    "name_en": "Seven Association Longsword",
+    "name_jp": "セブン協会の長剣",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.69,
+    "basic": {
+      "image": "/assets/image/weapon/seven_association_longsword_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/seven_association_longsword_critical.webm",
+      "desc": "",
+      "effect": "{on_use} 0.75倍の{damage_modifier}\n{dice1} [7~10] {slash} {unblockable} {on_hit} {rupture}を1付与\n{dice2} [7~10] {slash} {unblockable} {on_hit} {rupture}を1付与\n{dice3} [12~14] {blunt} 0.375倍の{damage_modifier} {unblockable} {QTE} {on_hit} {rupture}を3付与\n{QTE_success} {dice3}は0.75倍の{damage_modifier}を得る",
+      "ct": 17
+    }
+  },
   "soldato_rifle": {
     "req": "6",
     "name_en": "Soldato Rifle",
