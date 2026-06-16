@@ -972,7 +972,7 @@
       "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
-      "image": "/assets/image/weapon/rosespanner_hammer_critical.webm",
+      "image": "/assets/image/weapon/advanced_zweihander_critical.webm",
       "desc": "",
       "effect": "{dice1} {slash} [3~5]\n{dice2} {slash} [3~5]\n{dice3} {slash} [8~15] {on_hit}{defense_down}を5付与し、{defense_up}を5得る",
       "ct": 14
@@ -1030,7 +1030,7 @@
       "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
-      "image": "/assets/image/weapon/zwei_association_greatsword_critical.webm",
+      "image": "/assets/image/weapon/blind_obsession_anchor_critical.webm",
       "desc": "",
       "effect": "{on_use}{hyperarmor}\n{dice1} {blunt} [14~22] {guard_break}{hit_ground}{on_hit}4の{poise}を得て2の{fluorescence_shard}を得る\n",
       "ct": 16
@@ -1049,7 +1049,7 @@
       "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical": {
-      "image": "/assets/image/weapon/zwei_association_greatsword_critical.webm",
+      "image": "/assets/image/weapon/farmwatch_scythe_critical.webm",
       "desc": "",
       "effect": "{dice1} {slash} [13~16] {undogeable}{multi_hit}を8回\n{on_last_hit}に{undogeable}{unparriable}{hit_ground} {on_hit}{bind}を3付与し{fragile}を5付与",
       "ct": 12
