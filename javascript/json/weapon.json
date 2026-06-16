@@ -921,6 +921,7 @@
   },
   "zweihander": {
     "req": "6",
+    "book": "zwei",
     "name_en": "Zweihander",
     "name_jp": "ツヴァイヘンダー",
     "type": "slash",
