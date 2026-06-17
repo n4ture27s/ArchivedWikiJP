@@ -275,14 +275,14 @@
       "effect": "{on_use} {solmen_ammo}を各ダイス5消費する\n {dice1} {multi_hit} [6~8]x7 {pierce}\n {dice2}[10~15] {pirece} {on_hit}{sinking}を3付与。\nこのダイスが{solmen_ammo}を消耗した場合\n さらに{sinking}を付与し、さらに{sinking}に基づく状態異常を付与。\n {sinking}が1~19の場合: {sinking}-6分の{blind}\n {sinking}が20以上の場合: {sinking}-6分の{fragile}を付与。",
       "ct": 15
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/solemn_rament_pistol_reload.webm",
       "desc": "",
       "effect": "{on_use} 精神力を12消費して{solmen_ammo}を12得る。",
       "ct": "8"
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/solemn_rament_pistol_shoot.webm",
       "desc": "",
@@ -478,14 +478,14 @@
       "effect": "{dice1} {pierce} [5~11] {hit_ground}{on_hit} 相手の{bleed}の1/3の呼吸を得て、6の{bleed}を付与\n {dice2} {pierce} [11~17] {auto_execute}",
       "ct": 16
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/twinhook_reload.webm",
       "desc": "",
       "effect": "画面右下にある弾丸から1つ消費して、{ammo}を1得る",
       "ct": 8
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/twinhook_shoot.webm",
       "desc": "",
@@ -549,14 +549,14 @@
       "effect": "{dice1} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice2} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与\n {dice3} {pierce} [1~8] {on_hit}{atelier_logic_ammo}を消費した場合{fragile}を1付与",
       "ct": 16
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/full_stop_automatic_reload.webm",
       "desc": "",
       "effect": "画面右下にある弾丸から20つ消費して、{ammo}を20得る\n",
       "ct": 8
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/full_stop_automatic_shoot.webm",
       "desc": "",
@@ -601,14 +601,14 @@
       "effect": "{dice1} {pierce} [3~5] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice2} {pierce} [3~7] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}と{tremor}を2付与\n {dice3} {pierce} [3~9] {undodgeable} {on_hit} {tremor}を2付与\n {dice4} {pierce} [3~10] {undodgeable} {on_hit} {multi_hit}を2回、2回目の時に{sinking}を2付与\n {dice5} {pierce} [5~11] {undodgeable} {on_hit} {fracture_bullet}を1消費して、{sinking}を2付与",
       "ct": 20
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_reload.webm",
       "desc": "",
       "effect": "画面右下の弾丸を25消費して、{fracture_bullet}を25得る",
       "ct": 9
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/udjat_vanguard_khopesh_shoot.webm",
       "desc": "",
@@ -653,7 +653,7 @@
       "effect": "{dice1} {slash} [4~7] {on_hit}{bleed}を2付与\n {dice2} {slash} [4~10] {on_hit}{bind}を2付与\n{dice3} {slash} [4~13] {on_hit}{corpus_ingredient}を6得る",
       "ct": 18
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/fascia_reload.webm",
       "desc": "",
@@ -704,14 +704,14 @@
       "effect": "{atelier_logic_ammo}がある場合に発動する\n{on_use} {poise}を5と{hyperarmor}を得る\n{dice1} {pierce} [15~33] {guad_break} クリティカルヒットが発動した場合、2回目の攻撃が発動し、元のダメージに0.8倍の{damage_modifier}を乗じたダメージを与える",
       "ct": 20
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/fullstop_rifle_reload.webm",
       "desc": "",
       "effect": "画面右下の弾丸を3消費して、{ammo}を3得る",
       "ct": 9
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/fullstop_rifle_shoot.webm",
       "desc": "",
@@ -762,14 +762,14 @@
       "effect": "{on_use} 自身が{ammo}を装填している場合、5の{value_up}を得る\n{dice1} {pierce} [5~10] {on_hit}自身が{ammo}を得ているなら、{fragile}を5付与\n{on_hit}に対象が6の{bind}があった場合、2の{value_up}と6の{haste}を得る",
       "ct": 16
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/crimson_scar_corver_reload.webm",
       "desc": "",
       "effect": "画面右下の弾丸を3消費して、{ammo}を6得る",
       "ct": 9
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/crimson_scar_corver_shoot.webm",
       "desc": "",
