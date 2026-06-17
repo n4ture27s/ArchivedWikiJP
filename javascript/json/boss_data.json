@@ -9,7 +9,7 @@
       "group": "overworld",
       "image": "https://static.wikitide.net/archivedwikiwiki/7/76/BambooHattedKim.png",
       "health": 600,
-      "weapon_ids": ["blade_lineage_chokuto"],
+      "weapon_ids": ["blade_lineage_jikdo"],
       "weapons": {},
       "passive": "競争型AI",
       "pages": {

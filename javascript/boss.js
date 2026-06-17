@@ -185,9 +185,9 @@ function createBossCard(bossId, boss) {
         ${boss.title ? `<div class="boss-title">${boss.title}</div>` : ""}
         ${boss.quote ? `<div class="boss-quote">「${boss.quote}」</div>` : ""}
         <div class="boss-stats">
-          <span class="stat"><span class="tooltip-target" data-key="health"></span>: ${boss.health}</span>
+          <span class="stat">HP: ${boss.health}</span>
           ${weaponNames ? `<span class="stat weapon-names">武器: ${weaponNames}</span>` : ""}
-          ${boss.passive ? `<span class="stat boss-passive">パッシブ: ${boss.passive}</span>` : ""}
+          ${formatText(boss.passive) ? `<span class="stat boss-passive">パッシブ: ${formatText(boss.passive)}</span>` : ""}
         </div>
       </div>
     </div>

@@ -514,13 +514,13 @@ function renderCustoms(w) {
     container.innerHTML = "";
 
     const getNum = s => parseInt(s.replace(/\D/g, '')) || 0;
-    const guns = Object.keys(w)
+    const customs = Object.keys(w)
         .filter(key => key.startsWith("custom"))
         .sort((a, b) => {
             return getNum(a) - getNum(b);
         });
 
-    guns.forEach((key, index) => {
+    customs.forEach((key, index) => {
         const c = w[key];
         if (!c) return;
 
@@ -532,15 +532,15 @@ function renderCustoms(w) {
             <div class="attack-box">
                 <video class="attack-vid" autoplay loop muted> </video>
                 <div class="attack-info">
-                    <p class="gun-desc"></p>
-                    <p class="gun-effect effect"></p>
+                    <p class="custom-desc"></p>
+                    <p class="custom-effect effect"></p>
                 </div>
             </div>
         `;
 
         const vid = section.querySelector(".attack-vid");
-        const desc = section.querySelector(".gun-desc");
-        const effect = section.querySelector(".gun-effect");
+        const desc = section.querySelector(".custom-desc");
+        const effect = section.querySelector(".custom-effect");
 
         if (vid && c.image) vid.src = c.image;
 
