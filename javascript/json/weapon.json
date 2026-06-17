@@ -1079,5 +1079,100 @@
       "effect": "{on_use} 自身の{imitation}を5消費して1.50倍の{damage_modifier}を得る\n攻撃後に{imitation}を2得る\n{dice1} [0~0] {knockback} 対象を{dice2}の効果範囲内に誘導して、{hyperarmor}を得る\n{dice2} {slash} [4~7] {hit_ground}{autoexecute}{guard_break}{undodgeable} {on_hit} {bleed}を2付与\n{dice2} {slash} [4~7] {hit_ground}{autoexecute}{guard_break}{undodgeable} {on_hit} {bleed}を2付与し、{wound}を1付与する\n{dice4} {slash} [4~7] {hit_ground}{autoexecute}{guard_break}{undodgeable} {on_hit} {bleed}を2付与\n{on_kill}にHPを70回復する",
       "ct": 16
     }
+  },
+  "zelkova_workshop": {
+    "req": "1",
+    "name_en": "Zelkova Workshop",
+    "name_jp": "ケヤキ工房",
+    "type": "blunt",
+    "damage": "8",
+    "speed": 0.54,
+    "basic": {
+      "image": "/assets/image/weapon/zelkova_workshop_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/zelkova_workshop_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {blunt} [7~9] {hit_ground}{ground} {on_hit}{bleed}を4付与\n{dice2} {blunt} [8~12] {hit_ground}{guard_break} {on_use}{hyperarmor}\n{on_hit}{tremor}を6付与した後に、{tremor_burst}を起こす",
+      "ct": 15
+    }
+  },
+  "nine_children_of_the_dragon_guan_dao": {
+    "req": "3",
+    "name_en": "Nine Children Of The Dragon Guan Dao",
+    "name_jp": "龍生九子の大刀",
+    "type": "slash",
+    "damage": "9",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/nine_children_of_the_dragon_guan_dao_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/nine_children_of_the_dragon_guan_dao_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {blunt} [3~5] {hit_ground}{ground}{undodgeable} {on_hit}{hyperarmor}を得て{burn}を4付与\n{dice2} {slash} [12~24] {on_hit}{burn}を7付与し{knock_back}",
+      "ct": 25
+    }
+  },
+  "old_boys_workshop": {
+    "req": "1",
+    "name_en": "Old Boys Workshop",
+    "name_jp": "老いた少年工房",
+    "type": "blunt",
+    "damage": "7",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/old_boys_workshop_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/old_boys_workshop_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}\n{dice1} {blunt} [3~4] {hit_ground} {on_hit}{tremor}を1付与\n{dice2} {blunt} [5~7] {hit_ground} {on_hit}{tremor}を1付与\n0.75倍の{damage_modifier}を得る\n{dice3} {blunt} [7~12] {hit_ground}{guard_break}{QTE}\n{QTE_success}{on_hit} {tremor}を3付与し{tremor_burst}起こした後に、{termor}を3付与する\n {QTE_miss}{on_hit} {tremor_burst}を起こし、{tremor}を3付与する",
+      "ct": 16
+    }
+  },
+  "stigma_workshop_gauntlets": {
+    "req": "3",
+    "name_en": "Stigma Workshop Gauntlets",
+    "name_jp": "スティグマ工房のガントレット",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.58,
+    "basic": {
+      "image": "/assets/image/weapon/stigma_workshop_gauntlets_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/stigma_workshop_gauntlets_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}\n{dice1} {blunt} [4~8] {on_hit}{burn}を2付与\n{dice2} {blunt} [4~9] {on_hit}{burn}を2付与\n{dice3} {blunt} [4~10] {on_hit}{burn}を5付与",
+      "ct": 14
+    }
+  },
+  "fixers_blade": {
+    "req": "なし",
+    "name_en": "Fixer's Blade",
+    "name_jp": "フィクサーの剣",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.48,
+    "basic": {
+      "image": "/assets/image/weapon/fixers_blade_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/fixers_blade_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [12~15] {hit_ground}{multi_hit}を2回\n{on_last_hit} {bleed}を4付与",
+      "ct": 14
+    }
   }
 }

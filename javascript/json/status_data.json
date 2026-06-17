@@ -445,6 +445,7 @@
     "tracking" : {"title":"追尾","text":"この攻撃は敵を追尾する","color": "94f140"},
     "QTE" : {"title":"QTE","text":"このダイスはオレンジ色のアイコンを一瞬だけだす、アイコンが出た瞬間に通常攻撃のボタンを押すことでページが変化する。","color": "26cfff"},
     "QTE_success" : {"title":"QTE成功時","text":"この条件はQTEが成功した際に達成されます。","color": "94f140"},
+    "QTE_miss" : {"title":"QTE失敗時","text":"この条件はQTEが失敗された際に達成されます。","color": "ff0000"},
     "non_frameone" : {"title":"フレーム1以外","text":"この攻撃は最初のフレームで実行されず、遅延します。","color": "94f140"},
     "frameone" : {"title":"フレーム1","text":"この攻撃は最初のフレームで実行されます。","color": "94f140"},
     "damage_modifier" : {"title":"ダメージ修正","text":"これが付与されている攻撃は、条件によってダメージが増減されます。","color": "bebebe"},
