@@ -904,14 +904,14 @@
       "effect": "{on_use}自身の{ammo}の数が2/3個ない場合{dice2}/{dice3}を使用できない\n {dice1} {pierce} [4~6] {on_hit} {tremor}を2付与する\n {dice2} {pierce} [4~6] {on_hit} {tremor}を2付与る\n {dice3} {pierce} [8~12] {on_hit} {knock_back}{tremor_burst}を起こし、{burn}を3付与",
       "ct": 13
     },
-    "gun_reload": {
+    "custom_reload": {
       "title": "reload",
       "image": "/assets/image/weapon/soldato_rifle_reload.webm",
       "desc": "",
       "effect": "画面右下にある弾丸から4つ消費して、{ammo}を4得る\n",
       "ct": 8
     },
-    "gun_shoot": {
+    "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/soldato_rifle_shoot.webm",
       "desc": "",
