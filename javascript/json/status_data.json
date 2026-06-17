@@ -402,6 +402,20 @@
         "text": "クリティカルヒット率を10%上昇させ、クリティカルダメージを(値x3)%上昇させるユニークな出血効果。[的中時]値と等しい出血を付与する。(最大:10, 減衰:10)",
         "type": "debuff",
         "icon": "Red_Plum_Blossom"
+    },
+
+    "mimic": {
+        "title": "模倣",
+        "text": "特定のページや武器などで使われるステータス。",
+        "type": "resource",
+        "icon": "Empty_Mark"
+    },
+
+    "health": {
+        "title": "体力",
+        "text": "ユニットが死ぬまで与えられるダメージ量",
+        "type": "resource",
+        "icon": "HP"
     }
   },
   "combat_module": {

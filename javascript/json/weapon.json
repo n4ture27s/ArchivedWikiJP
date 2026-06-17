@@ -1054,5 +1054,30 @@
       "effect": "{dice1} {slash} [13~16] {undogeable}{multi_hit}を8回\n{on_last_hit}に{undogeable}{unparriable}{hit_ground} {on_hit}{bind}を3付与し{fragile}を5付与",
       "ct": 12
     }
+  },
+  "scythe_of_mimicry": {
+    "req": "3",
+    "name_en": "Scythe Of Mimicry",
+    "name_jp": "ミミックの鎌",
+    "type": "slash",
+    "damage": "8",
+    "speed": 0.59,
+    "basic": {
+      "image": "/assets/image/weapon/mimicry_scythe_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/mimicry_scythe_critical1.webm",
+      "desc": "",
+      "effect": "{on_use} 1.20倍の{damage_modifier}を得る\n{on_use} {mimic}が5以上の場合クリティカルが変化する\n{dice1} [0~0] {knockback} 対象を{dice2}の効果範囲内に誘導して、{hyperarmor}を得る\n{dice2} {slash} [6~10] {autoexecute}{hit_ground}{undodgeable}{guardbreak} {on_hit}{hyperarmor}と{mimic}を4得て、{bleed}を4付与\n{on_kill}に45HPを回復する",
+      "ct": 12
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/mimicry_scythe_critical2.webm",
+      "desc": "",
+      "effect": "{on_use} 自身の{mimic}を5消費して1.50倍の{damage_modifier}を得る\n攻撃後に{mimic}を2得る\n{dice1} [0~0] {knockback} 対象を{dice2}の効果範囲内に誘導して、{hyperarmor}を得る\n{dice2} {slash} [4~7] {hit_ground}{autoexecute}{guard_break}{undodgeable} {on_hit} {bleed}を2付与\n{dice2} {slash} [4~7] {hit_ground}{autoexecute}{guard_break}{undodgeable} {on_hit} {bleed}を2付与し、{wound}を1付与する\n{dice4} {slash} [4~7] {hit_ground}{autoexecute}{guard_break}{undodgeable} {on_hit} {bleed}を2付与\n{on_kill}にHPを70回復する",
+      "ct": 16
+    }
   }
 }
