@@ -15,6 +15,10 @@
       { "key": "choice", "label": "選択肢" },
       { "key": "text", "label": "テキスト" },
       { "key": "reward", "label": "結果" }
+    ],
+    "origin_affiliation": [
+      { "key": "affiliation", "label": "所属" },
+      { "key": "obtainment", "label": "入手方法" }
     ]
   },
   "traits": {
@@ -237,6 +241,68 @@
       "choice": "中指に加わる(Join the Middle)",
       "text": "なし",
       "reward": "中指の服を着たままスタートし、中指に所属したまま始まる。"
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliation": "Zwei Association / ツヴァイ協会",
+      "obtainment": "Any choice > Continue your studies > Fixer's for Dummies > Association"
+    },
+    {
+      "affiliation": "Liu Association / リウ協会",
+      "obtainment": "Any choice > Balance your studies and social life > Association"
+    },
+    {
+      "affiliation": "Shi Association / シ協会",
+      "obtainment": "Get into sports > Hang out with your odd Group of Friends > Attack them with your Friends and steal their Ahn > Association"
+    },
+    {
+      "affiliation": "Shi Association / シ協会",
+      "obtainment": "Get into sports > Hang out with your odd group of friends > Run as fast as you can, Abandoning your Group > Association"
+    },
+    {
+      "affiliation": "Shi Association / シ協会",
+      "obtainment": "Focus on your schoolwork > Balance your studies and social life > Association"
+    },
+    {
+      "affiliation": "Seven Association / セブン協会",
+      "obtainment": "Any choice > Continue your studies > How to become smart > Association"
+    },
+    {
+      "affiliation": "Seven Association / セブン協会",
+      "obtainment": "Focus on your schoolwork > Balance your studies and social life > Association"
+    },
+    {
+      "affiliation": "Dieci Association / ディエーチ協会",
+      "obtainment": "Focus on your schoolwork > Balance your studies and social life > Association"
+    },
+    {
+      "affiliation": "Cinq Association / センク協会",
+      "obtainment": "Focus on your schoolwork > Balance your studies and social life > Association"
+    },
+    {
+      "affiliation": "Middle / Thumb / Index",
+      "obtainment": "Any choice > Continue your studies > How to be Cool and Awesome > Get fed up with life and become a Syndicate member"
+    },
+    {
+      "affiliation": "Middle / Thumb / Index",
+      "obtainment": "Any choice > Hang out with your odd group of friends > Attack them with your Friends and steal their Ahn > Follow your Group of friends and form a Small Syndicate"
+    },
+    {
+      "affiliation": "None / なし",
+      "obtainment": "Get into sports > Continue your studies > How to be Cool and Awesome > Association"
+    },
+    {
+      "affiliation": "None / なし",
+      "obtainment": "Focus on your schoolwork > Hang out with your odd group of friends > Run as fast as you can, Abandoning your Group > Try and Apply for a Corporation Job"
+    },
+    {
+      "affiliation": "None / なし",
+      "obtainment": "Leech off your Family's Influence > Hang out with your odd group of friends > Run as fast as you can, Abandoning your Group > Try and Apply for a Corporation Job"
+    },
+    {
+      "affiliation": "None / なし",
+      "obtainment": "Any choice > Try and Apply for a Corporation Job"
     }
   ]
 }

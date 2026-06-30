@@ -387,7 +387,7 @@ function updateSortUI(table, key, asc) {
 fetch("/javascript/json/table_data.json")
     .then(res => res.json())
     .then(data => {
-        const { traits, origins, columns } = data;
+        const { traits, origins, columns, affiliations } = data;
         
         createTable("atk_trait", traits.atk, columns.trait_atk);
         createTable("def_trait", traits.def, columns.trait_standard);
@@ -395,5 +395,6 @@ fetch("/javascript/json/table_data.json")
         createTable("other_trait", traits.other, columns.trait_standard);
 
         createTable("origin_table", origins, columns.origin_standard);
+        createTable("affiliation_table", affiliations, columns.origin_affiliation);
     })
     .catch(err => console.error("データの読み込みに失敗しました:", err));
