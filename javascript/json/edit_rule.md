@@ -114,7 +114,48 @@ https://soshage.com/limbus/ja/skill/1040203
 * combo_starter (コンボ始動)
 * combo_extender (コンボ継続)
 
-## 確定LC公式日本語名
+## items.json 翻訳ルール
+
+### desc（説明文）の文体
+* 書物アイテム: `XXXはArchivedで入手可能な書物の一種。標準的な茶色のカバーにXXXのエンブレムがあしらわれている。` で統一
+* 特殊アイテム: `XXXは他の入手可能な書物とは一線を画す。物理的な書物ではなく、XXXの外見をしている。`
+* 各アイテムのdesc/obtainは既存の類似アイテムを参照して文体を統一
+
+### obtain（入手方法）の文体
+* 書物の共通パターン: `プレイヤー間取引の他、XXXからのドロップ、またはYYYからの購入で入手。`
+* 特定ボスのドロップ: `プレイヤー間取引の他、XXXボスのドロップでのみ入手可能。`
+* Office Contractor: 契約完了による入手
+* Traveling Pawner / Book Merchant: ローテーション購入
+* Sealed Book Cache: 使用時ドロップ
+
+### 書物の日本語名(name_jp)パターン
+* `Book of XXX` → `XXXの書`
+* 協会/組織名はカタカナ＋協会（例: Shi協会、セブン協会）
+* Limbus Company / LoRの公式日本語名がある場合は優先
+
+## book_page/data.json 翻訳ノート
+* 行動カードの日本語名は2〜4字の漢字複合語が基本（例: 突進、抜刀、調査、極刃）
+* これはLibrary of Ruina基準の短縮漢字表記。長すぎる名前は不自然
+* 効果テキストの英語はシステムトークン（`{slash}`, `{on_hit}`等）のみ。日本語テキストは完結
+
+## skill_tree.json 翻訳ルール
+* カテゴリ称号（Sin名）: 憤怒、色欲、怠惰、暴食、傲慢、嫉妬、憂鬱 に統一
+* スキル名: 既存のLoR/LC日本語名がない場合は意味をとった漢語+カタカナ表記
+* desc（説明）は既に日本語済みのため変更不要
+
+## table_data.json 翻訳ルール
+* 特性名: 漢語2字+副題が基本（例: 冷徹 / 無慈悲な処刑）
+* 副題は日本語訳＋英語(原語)併記の必要なし - 表形式のため簡潔に
+* columnラベル: "Tips"は"ヒント"に統一
+* 所属パスの翻訳: ゲーム内選択肢の日本語訳を > でつなぐ
+
+## status_data.json
+* statusとcombat_moduleのデータは `status_data.json` に統合されている
+* 全てのエントリが日本語化済み
+
+## 複数ファイル間の整合性
+* 新規item追加時にhardblood_fragmentとhardblood_blood_fragmentのような重複が発生しないよう注意
+* `getItemIdByName()` はname_enの正規化一致とキー直接一致の両方で検索するため、name_enが同じ重複キーがあると混乱の原因になる
 * Cloud Cutter → 雲の切開 (ホンルS2)
 * Shadowcloud Shattercleave → 墨雲裂割 (グレゴールS3)
 * Sky-clearing Cut → 快刀乱麻 (ロージャS3、tanglecleaver_flurryで既使用だが、そのまま使用。)

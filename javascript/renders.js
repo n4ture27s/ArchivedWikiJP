@@ -115,7 +115,10 @@ function showDetail(key) {
     const data = skillData[key];
     if (!data) return;
 
-    document.getElementById("skill-title").textContent = data.title;
+    document.getElementById("skill-title").innerHTML = `
+        <span class="skill-name-jp">${data.name_jp}</span>
+        <span class="skill-name-en">${data.name_en}</span>
+    `;
     document.getElementById("skill-desc").textContent = data.desc;
 
     applyColorTheme(document.documentElement, data.color, null, { "--sin-color": "primary" }, "#d64545");
@@ -127,7 +130,7 @@ function showDetail(key) {
         const div = document.createElement("div");
 
         div.innerHTML = `<details class="skill-item">
-        <summary>${s.name}</summary>
+        <summary><span class="skill-skill-jp">${s.name_jp}</span> <span class="skill-skill-en">${s.name_en}</span></summary>
         ${s.requirement
                 ? `<div class="requirement"> 必要ポイント:${s.requirement}</div>`
                 : "" }
@@ -214,7 +217,7 @@ function createCenterNode(containerId) {
 
     node.className = "node center";
 
-    node.innerHTML = `<span>${data.title}</span>`;
+    node.innerHTML = `<span class="center-name-jp">${data.name_jp}</span>`;
 
     node.dataset.skill = key;
 

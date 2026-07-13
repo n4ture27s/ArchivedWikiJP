@@ -1029,6 +1029,29 @@ th.sort-desc::after {
     color: var(--sin-color);
 }
 
+.skill-name-jp {
+    display: block;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.skill-name-en {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.skill-skill-jp {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.skill-skill-en {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: var(--sin-color);
+}
+
 /* 個別スキル */
 .skill-item {
     margin-top: 15px;

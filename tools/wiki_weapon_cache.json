@@ -1,0 +1,314 @@
+{
+  "4th_match_blade": {
+    "rev_id": 13936,
+    "title": "4th Match Blade",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 7\nSlash\nSlash\nSwing Delay: 0.68\nHit Startup: 0.48\nRange: 9.5, 8, 10\n\n=== Critical ===\nCoin1\n1st Dice of an attack.\n[12~20]\nSlash\nSlash\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\ninflict 7\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎‎ㅤ",
+    "last_fetched": "2026-07-13T19:26:20.533583"
+  },
+  "Fluid_sac_Hammer": {
+    "rev_id": 15733,
+    "title": "Fluid Sac Hammer",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 8.5\nBlunt\nBlunt\nSwing Delay: 0.75\nHit Startup: 0.62\nRange: 13, 8, 11\n\n=== Critical ===\n[CD] 22s\n[Hits Grounded]\n[Grounds]\n[Undodgeable]\n[On Use]\nIf user is at 30+\nSanity\nSanity\ngain 5\nValue Power Up\nValue Power Up\nfor this attack\n[On Hit]\nIf user is at 30+\nSanity\nSanity\n,\nHeal\nHeal\nRestore the Health of a Unit.\nequal to dice roll and gain 2\nProtection\nProtection\n[When Hit]\n- Take less damage Equal to Count% (Max: 20,Decay: 15)\n.\nCoin1\n1st Dice of an attack.\n[10~20]\n[On Hit]\nInflict 12\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Hit]\nIf user is at 30+\nSanity\nSanity\n, inflict 3\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\ninstead",
+    "last_fetched": "2026-07-13T19:26:21.599834"
+  },
+  "Knuckles_of_Discipline": {
+    "rev_id": 16046,
+    "title": "Knuckles of Discipline",
+    "effect_text": "",
+    "last_fetched": "2026-07-13T19:36:36.034174"
+  },
+  "Ncorp_mittel_hammer_hammer": {
+    "rev_id": 12504,
+    "title": "N Corp. Mittelhammer Hammer",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 6\nDamage: 9\nBlunt\nBlunt\nSwing Delay: 0.73\nHit Startup: 0.62\nRange: 12, 8, 10\n\n=== Critical ===\n[On Hit]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[3~4]\nBlunt\nBlunt\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nCoin2\n2nd Dice of an attack.\n[3~12]\nBlunt\nBlunt\n[AoE]\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand 3\nNails\nNails\nA unique\nBleed\nstatus effect\nOn Decay Apply\nBleed\nby\nNail\nCount then reduces\nNail\nCount by 1/2. (Max: 99,Decay: 20)",
+    "last_fetched": "2026-07-13T19:26:23.745274"
+  },
+  "Sunshower_Umbrella": {
+    "rev_id": 12721,
+    "title": "Sunshower Umbrella",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 6.5\nPierce\nPierce\nSwing Delay: 0.55\nHit Startup: 0.4\nRange: 7, 8, 12\n\n=== Critical ===\n[CD] 13\n[On Use]\nGain 5\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 0.5x\n[Damage Modifier]\n[On Hit]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[4~6]\nSlash\nSlash\n[On Hit]\nInflict 1\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 2\nRupture\nRupture\nCoin2\n2nd Dice of an attack.\n[4~7]\nSlash\nSlash\nInflict 1\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 1\nRupture\nRupture\nCoin3\n3rd Dice of an attack.\n[4~8]\nSlash\nSlash\nInflict 1\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 1\nRupture\nRupture\nCoin4\n4th Dice of an attack.\n[4~9]\nSlash\nSlash\nInflict 1\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 1\nRupture\nRupture",
+    "last_fetched": "2026-07-13T19:26:24.842031"
+  },
+  "Superthermogenesis_gladius": {
+    "rev_id": 16132,
+    "title": "Superthermogenesis Gladius",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 6\nSlash\nSlash\nSwing Delay: 0.6\nHit Startup: 0.4\nRange: 9, 8, 7\n\n=== Critical ===\n[CD] 18s\nCoin1\n1st Dice of an attack.\n[4~5]\nSlash\nSlash\n[On Hit]\ninflict 2\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin2\n2nd Dice of an attack.\n[4~5]\nSlash\nSlash\n[On Hit]\ninflict 2\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin3\n3rd Dice of an attack.\n[8~10]\nSlash\nSlash\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nGain 1\nThermogenesis\nThermogenesis\nYour M1s now deal (Burn on target * 0.01)% of their damage as extra True Damage, but cannot be modified by Mang capped at 0.5x damage. (Max: 1, Decay: 25s)\nand inflict 6\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)",
+    "last_fetched": "2026-07-13T19:26:25.923810"
+  },
+  "Viriscent_Pyrojade_Ring": {
+    "rev_id": 15528,
+    "title": "Viriscent Pyrojade Ring",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 6\nDamage: 5\nPierce\nPierce\nSwing Delay: 0.54\nHit Startup: 0.35\nRange: 8.5, 8, 7.5\n\n=== Critical ===\n[CD] 20s\n[On Use]\nGain 5\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nCoin1\n1st Dice of an attack.\n[5~8]\nBlunt\nBlunt\n[Undodgeable]\nGain 0x\n[Damage Modifier]\nfor this dice.\nCoin2\n2nd Dice of an attack.\n[2~4]\nBlunt\nBlunt\n[Undodgeable]\n[On Hit]\nInflict 4\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin3\n3rd Dice of an attack.\n[10~12]\nBlunt\nBlunt\n[Undodgeable]\n[Unblockable]\n[On Hit]\nInflict 4\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)",
+    "last_fetched": "2026-07-13T19:26:27.036625"
+  },
+  "advanced_zweihander": {
+    "rev_id": 12351,
+    "title": "Advanced Zweihander",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 5\nDamage: 9\nSlash\nSlash\nSwing Delay: 0.75\nHit Startup: TBA\nRange: 9.5, 6, 11\n\n=== Critical ===\n[CD] 14s\nCoin1\n1st Dice of an attack.\n[3~5]\nSlash\nSlash\nCoin2\n2nd Dice of an attack.\n[3~5]\nSlash\nSlash\nCoin3\n3rd Dice of an attack.\n[8~15]\nSlash\nSlash\n[On Hit]\nInflict 5\nDefense Down\nDefense Down\nand gain 5\nDefense Up\nDefense Up\nCharged Attack has Block Frames",
+    "last_fetched": "2026-07-13T19:26:28.091374"
+  },
+  "augury_spear": {
+    "rev_id": 17453,
+    "title": "Augury Spear",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 2\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.58\nHit Startup: 0.47\nRange: 8, 8, 11\n\n=== Critical ===\n[CD] 16s\n[On Use]\nGain 1\nTrigram\nTrigram\nAugury Spear\nthat changes the\n\n=== Critical ===\n.\nCan also be gained when using\nHana Association\npages with the 'Four Trigrams' Keypage of the\nHana Association\noutfit active.\n(Max: 4)\n[On Use]\nif User has 4+\nTrigram\nTrigram\nAugury Spear\nthat changes the\n\n=== Critical ===\n.\nCan also be gained when using\nHana Association\npages with the 'Four Trigrams' Keypage of the\nHana Association\noutfit active.\n(Max: 4)\n, Consume 3\nTrigram\nTrigram\nAugury Spear\nthat changes the\n\n=== Critical ===\n.\nCan also be gained when using\nHana Association\npages with the 'Four Trigrams' Keypage of the\nHana Association\noutfit active.\n(Max: 4)\n, then activate True Trigram Formation\nCoin1\n1st Dice of an attack.\n[6~16]\nBlunt\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[Knockback]\n[On Hit]\nGain\n[Hyperarmor]\nand inflict 5\nTremor\nTremor\n.\n[On Hit]\nIf the target has 5+\nTremor\nTremor\nthis dice inflicts +3\nTremor\nTremor\n, grants 3\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)\n, triggers\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\n, and gains a 2x\n[Damage Modifier]\nCritical 2\n[CD] 16s\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[8~14]\nPierce\nPierce\n[Unblockable]\n[On Hit]\nInflict 4\nTremor\nTremor\n[On Hit]\nIf Target has 5+\nTremor\nTremor\n, trigger\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\nCoin2\n2nd Dice of an attack.\n[9~18]\nPierce\nPierce\n[Unblockable]\n[Knockback]\n[On Hit]\nIf the user has\nGeon\nGeon\nA status that gives the properties of Gain +3\nValue Power Up\nfor 20 Seconds\n[On Hit]\nof True Trigram Formation's Second Dice.\nOnly obtained through\nRotate Trigram\n, the outfit page of the\nHana Associaton\n.\n,\nGon\nGon\nA status that gives the properties of Gain 7\nProtection\n[On Hit]\nof True Trigram Formation's Second Dice.\nOnly obtained through\nRotate Trigram\n, the outfit page of the\nHana Associaton\n.\n,\nGam\nGam\nA status that gives the properties of Gain 2\nLight\n[On Hit]\nof True Trigram Formation's Second Dice.\nOnly obtained through\nRotate Trigram\n, the outfit page of the\nHana Associaton\n.\n, or\nRi\nRi\nA status that gives the properties of Destroy 2\nLight\non target\n[On Hit]\nof True Trigram Formation's Second Dice.\nOnly obtained through\nRotate Trigram\n, the outfit page of the\nHana Associaton\n.\nfrom\nRotate Trigram\n, trigger its effect.\n[On Hit]\nInflict 3\nParalyze\nParalyze\nafterwards, lower Count by 1 (Max: 10,Decay: 15)\n[On Hit]\nIf Target has 7+\nTremor\nTremor\ngain\nShield HP\nShield HP\nA status indicated by a blue bar on the Health bar which reduces damage taken from all damage types by 0.5x and is gained through pages, keypages and weapons.\nequal to\nTremor\nTremor\non target",
+    "last_fetched": "2026-07-13T19:26:29.202283"
+  },
+  "beak_bat": {
+    "rev_id": 12480,
+    "title": "Beak Bat",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: None\nDamage: 6\nBlunt\nBlunt\nSwing Delay: 0.6\nHit Startup: 0.42\nRange: 11, 6, 10\n\n=== Critical ===\n[CD] 16s\n[Auto Execute]\n[On Use]\nGain 0.5x\n[Damage Modifier]\nCoin1\n1st Dice of an attack.\n[9~29]\nBlunt\nBlunt\n[On Hit]\nInflict 5\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand gain 1\nParalyze\nParalyze\nafterwards, lower Count by 1 (Max: 10,Decay: 15)",
+    "last_fetched": "2026-07-13T19:26:30.331250"
+  },
+  "blade_lineage_hwando": {
+    "rev_id": 15849,
+    "title": "Blade Lineage Hwando",
+    "effect_text": "",
+    "last_fetched": "2026-07-13T19:36:26.031676"
+  },
+  "blade_lineage_jikdo": {
+    "rev_id": 15850,
+    "title": "Blade Lineage Jikdo",
+    "effect_text": "",
+    "last_fetched": "2026-07-13T19:36:27.118325"
+  },
+  "blind_obsession_anchor": {
+    "rev_id": 12724,
+    "title": "Blind Obsession Anchor",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 9\nBlunt\nBlunt\nSwing Delay: 0.79\nHit Startup: 0.77\nRange: 12, 8, 12\n\n=== Critical ===\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[14~22]\nBlunt\nBlunt\n[On Use]\nGain 4\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nand gain 2\nFluorescence Shard\nFluorescence Shard\nPoise\ngained from\nBlind Obsession Anchor\nand\nBlind Obsession\n(Max: 10,Decay: 10)\n[On Hit]\n[Hits Grounded]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\nGain 4\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nand gain 1\nFluorescence Shard\nFluorescence Shard\nPoise\ngained from\nBlind Obsession Anchor\nand\nBlind Obsession\n(Max: 10,Decay: 10)",
+    "last_fetched": "2026-07-13T19:26:33.514818"
+  },
+  "brawler": {
+    "rev_id": 12737,
+    "title": "Brawler",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 8\nDamage: 6.5\nBlunt\nBlunt\nSwing Delay: 0.53\nHit Startup: 0.45\nRange: 7.5, 8, 7.5\n\n=== Critical ===\n[CD] 16s\nCoin1\n1st Dice of an attack.\n[10~12]\nBlunt\nBlunt\n[Unblockable]\n[On Hit]\nInflict 3\nTremor\nTremor\n,\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\nand gain 1\nLight\nLight\nAir Critical\n[CD] 16s\nCan only be used if user is\n[In Air]\nCoin1\n1st Dice of an attack.\n[10~?]\n[On Hit]\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\ntwice and Inflict 4\nParalyze\nParalyze\nafterwards, lower Count by 1 (Max: 10,Decay: 15)\nDamage scales off of height",
+    "last_fetched": "2026-07-13T19:26:34.599366"
+  },
+  "cinq_rapier": {
+    "rev_id": 12773,
+    "title": "Cinq Rapier",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 4\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.57\nHit Startup: 0.47\nRange: 5, 4, 11\n\n=== Critical ===\n[CD] 18s\n[Tracking]\nCoin1\n1st Dice of an attack.\n[3~12]\nPierce\nPierce\n[On Hit]\nGain 3\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nand use\nCoin2\n2nd Dice of an attack.\nCoin2\n2nd Dice of an attack.\n[3~14]\nPierce\nPierce\n[On Hit]\nGain 4\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)",
+    "last_fetched": "2026-07-13T19:26:35.862874"
+  },
+  "crimson_scar_corver": {
+    "rev_id": 16260,
+    "title": "Crimson Scar Carver",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 5.5\nSlash\nSlash\nSwing Delay: 0.65\nHit Startup: TBA\nRange: 8.5, 8, 8.5\n\n=== Critical ===\n[CD] 16s\n[On Hit]\nGain\n[Hyperarmor]\n[After Use]\nIf the page had hit an enemy that was using a page/skill, use Critical 2\nCoin1\n1st Dice of an attack.\n[4~8]\nSlash\nSlash\n[On Hit]\nInflict 1\nBind\nBind\nCoin2\n2nd Dice of an attack.\n[3~8]\nSlash\nSlash\n[On Hit]\n2\nBind\nBind\nCritical 2\n[On Use]\nIf user has\nAmmo\nAmmo\nloaded, gain 5\nValue Power Up\nValue Power Up\nfor this page\nCoin1\n1st Dice of an attack.\n[5~10]\nPierce\nPierce\n[On Hit]\nIf target has 6+\nBind\nBind\n, gain 2\nValue Power Up\nValue Power Up\nand 6\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)\n[On Hit]\nIf user has\nAmmo\nAmmo\nloaded, inflict 5\nFragile\nFragile\nAlt Fire\nCosts 1\nBullets\nBullets\n, deals 6\nPierce\nPierce\n(Bullet Cap of 6)",
+    "last_fetched": "2026-07-13T19:26:36.950701"
+  },
+  "dimension_shredding_spear": {
+    "rev_id": 12699,
+    "title": "Dimension Shredding Spear",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 7\nPierce\nPierce\nSwing Delay: 0.52\nHit Startup: 0.33\nRange: 10, 8, 9.5\n\n=== Critical ===\nCoin1\n1st Dice of an attack.\n[8~15]\nPierce\nPierce\n[Auto Execute]\n[Undodgeable]\n[On Hit]\nGain 6\nCharge\nCharge\nand inflict 5\nRupture\nRupture",
+    "last_fetched": "2026-07-13T19:26:38.051677"
+  },
+  "farmwatch_scythe": {
+    "rev_id": 12653,
+    "title": "Farmwatch Scythe",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 8\nSlash\nSlash\nSwing Delay: 0.69\nHit Startup: 0.5\nRange: 13, 8, 12\n\n=== Critical ===\n[CD] 12s\nCoin1\n1st Dice of an attack.\n13~16\nSlash\nSlash\n[Undodgeable]\n[Multihit]\n8 times\n[On Last Hit]\n[Undodgeable]\n[Grounds]\n[Unparriable]\nInflict 3\nBind\nBind\nand 5\nFragile\nFragile",
+    "last_fetched": "2026-07-13T19:26:39.135416"
+  },
+  "fascia_sealed": {
+    "rev_id": 16598,
+    "title": "Fascia (Sealed)",
+    "effect_text": "[\nedit\n|\nedit source\n]\nSealed Moveset\nGrade Requirement: 3\nDamage: 6\nSlash\nSlash\nSwing Delay: 0.7\nHit Startup: 0.6\nRange: 12.5 8, 10\n\n=== Critical ===\n[CD] 16s\nCoin1\n1st Dice of an attack.\n[4~7]\nSlash\nSlash\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nCoin2\n2nd Dice of an attack.\n[4~10]\nSlash\nSlash\n[On Hit]\nGain 1\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)\n, Inflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand 1\nBind\nBind\nCoin3\n3rd Dice of an attack.\n[4~13]\nSlash\nSlash\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Hit]\nConsume all\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\non Target to gain\nCorpus Ingredient\nCorpus Ingredient\nequal to\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nconsumed (Max 25)\nAlt Fire\n[CD] 15s\n[On Use]\nconsume all\nCorpus Ingredient\nCorpus Ingredient\nto Gain (0.75 × Count)\nProtection\nProtection\n[When Hit]\n- Take less damage Equal to Count% (Max: 20,Decay: 15)\n(Rounded Up)\nAt 1+\nArtwork Fascia\nArtwork Fascia\nCannot gain\nProtection\non Alt Fire of Fascia.\n, Gain (Count × 2.5) Regen Speed Increase and (Count/2)\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)\nUpon reaching 15+\nProtection\nProtection\n[When Hit]\n- Take less damage Equal to Count% (Max: 20,Decay: 15)\nand using this ability, gain\nArtwork Fascia\nArtwork Fascia\nCannot gain\nProtection\non Alt Fire of Fascia.\nand activates the Unsealed form\nUnsealed Moveset\nGrade Requirement: 4\nDamage: 7\nSlash\nSlash\nSwing Delay: 0.72\nHit Startup: 0.53\nRange: 12.5, 8, 9\n\n=== Critical ===\n[CD] 16s\nCoin1\n1st Dice of an attack.\n[4~7]\nSlash\nSlash\n[Undodgeable]\n[Multihit]\n4 times\n[On Hit]\ninflict 1x4\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Final Hit]\nConsume up to 3\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\non Target to Gain an equal amount of\nCorpus Ingredient\nCorpus Ingredient\nCoin2\n2nd Dice of an attack.\n[4~7]\nSlash\nSlash\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\ninflict 3\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Use]\nGain\n[Hyperarmor]\n[On Hit]\nif target has 3+\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n, gain 3\nCorpus Ingredient\nCorpus Ingredient\nCoin2\n2nd Dice of an attack.\n[6~7]\nSlash\nSlash\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\ninflict 3\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Hit]\nConsume all\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\non target",
+    "last_fetched": "2026-07-13T19:26:40.975066"
+  },
+  "fixers_battleaxe": {
+    "rev_id": 13851,
+    "title": "Fixer's Battleaxe",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: None\nDamage: 8\nSlash\nSlash\nSwing Delay: 0.68\nHit Startup: 0.5\nRange: 12, 8, 10\n\n=== Critical ===\n[CD] 20s\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[14~17]\nSlash\nSlash\n[Hits Grounded]\n[Hits Downed]\n[On Hit]\nInflict 3\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Parry Hit]\nDeal chip damage to enemy",
+    "last_fetched": "2026-07-13T19:26:42.074990"
+  },
+  "fixers_blade": {
+    "rev_id": 13106,
+    "title": "Fixer's Blade",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: None\nDamage: 6\nSlash\nSlash\nSwing Delay: 0.48\nHit Startup: 0.33\nRange: 9, 6, 9.5\n\n=== Critical ===\n[CD] 15s\nCoin1\n1st Dice of an attack.\n[12~15]\nSlash\nSlash\n[On Hit]\n[Hits Grounded]\n[Multihit]\n2 Times\n[On Hit]\nInflict 4\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)",
+    "last_fetched": "2026-07-13T19:26:43.136018"
+  },
+  "fixers_chainsaw": {
+    "rev_id": 13122,
+    "title": "Fixer's Chainsaw",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: None\nDamage: 3.3x3 (9.9)\nPierce\nPierce\nSwing Delay: 0.73\nHit Startup: 0.55\nRange: 9.5, 6, 11\n\n=== Critical ===\n[CD] 16s\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[Multihit]\n2 Times [2~5]\nPierce\nPierce\nEach\n[Multihit]\nhas 100%\n[Damage Modifier]\n;\nCoin1\n1st Dice of an attack.\n[Multihit]\n4 Times [2~4]\nPierce\nPierce\n[Knockback]\nEach\n[Multihit]\nhas 100%\n[Damage Modifier]\n;",
+    "last_fetched": "2026-07-13T19:26:45.835243"
+  },
+  "fixers_shortsword": {
+    "rev_id": 13100,
+    "title": "Fixer's Shortsword",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: None\nDamage: 5.5\nSlash\nSlash\nSwing Delay: 0.37\nHit Startup: 0.33\nRange: 10, 6, 9\n\n=== Critical ===\n[CD] 15s\n[On Hit]\nHeal\nHeal\nRestore the Health of a Unit.\n3\nHealth\nHealth\nA Unit's capability of taking damage before dying.\neach coin\nCoin1\n1st Dice of an attack.\n[5~8]\nSlash\nSlash\n[Undodgeable]\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nCoin2\n2nd Dice of an attack.\n[6~8]\nSlash\nSlash\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)",
+    "last_fetched": "2026-07-13T19:26:47.355783"
+  },
+  "full-stop_automatic": {
+    "rev_id": 14088,
+    "title": "Full-Stop Automatic",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 5\nDamage: 5.5\nBlunt\nBlunt\nSwing Delay: 0.52\nHit Startup: 0.37\nRange: 9, 8, 9\n\n=== Critical ===\n[CD] 11s\n[Undodgeable]\n[On Use]\nGain a 0.75x\n[Damage Modifier]\n[On Use]\nIf the user has\nBullets\nBullets\nloaded, gain 1\nValue Power Up\nValue Power Up\n(Max 2).\n[On Use]\nIf user has\nAtelier Logic Bullets\nAtelier Logic Bullets\nMaterial Effect - High Penetration ammunition custom-made by Atelier Logic.\nGained conditonally when using the Full-Stop Fixer Outfit. (Max: 10, Decay: 60)\n, gain 3\nValue Power Up\nValue Power Up\neach dice inflicts +1\nFragile\nFragile\n.\n[On Hit]\nConsume 1\nAtelier Logic Bullets\nAtelier Logic Bullets\nMaterial Effect - High Penetration ammunition custom-made by Atelier Logic.\nGained conditonally when using the Full-Stop Fixer Outfit. (Max: 10, Decay: 60)\nto proc a second hit that has 0.25x\n[Damage Modifier]\nof the original roll.\nCoin1\n1st Dice of an attack.\n[1~8]\nPierce\nPierce\nCoin2\n2nd Dice of an attack.\n[1~8]\nPierce\nPierce\nCoin3\n3rd Dice of an attack.\n[1~8]\nPierce\nPierce\n[Knockback]\n[On Hit]\nInflict 2\nFragile\nFragile\nAlt Fire\nCosts 1\nBullets\nBullets\n, does 4 damage (Bullet Cap of 20)",
+    "last_fetched": "2026-07-13T19:26:48.440193"
+  },
+  "fullstop_rifle": {
+    "rev_id": 13614,
+    "title": "Full-Stop Rifle",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 5\nDamage: 5\nBlunt\nBlunt\nSwing Delay: 0.61\nHit Startup: 0.37\nRange: 9, 8, 8\n\n=== Critical ===\n[CD] 20s\n[On Use]\nIf there is no\nAmmo\nAmmo\ncurrently loaded, the attack cancels.\n[On Use]\nWith\nAtelier Logic Ammo\nAtelier Logic Ammo\nloaded, use AL-HV Pulverisation Round instead\n[On Use]\nGain 5\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nCoin1\n1st Dice of an attack.\n[On Hit]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[12~26]\nPierce\nPierce\nIf a\n[Critical Strike]\nA condition that occurs when\nPoise\nprocs, increasing the damage of an attack by 1.15x\noccurs, a second hit procs that has x0.80\n[Damage Modifier]\nof the original roll\nWhilst using\nFull-Stop Organizer\nOutfit,\n[On Crit Hit]\nif it procs a\n[Critical Strike]\nA condition that occurs when\nPoise\nprocs, increasing the damage of an attack by 1.15x\n, gain 1\nAtelier Logic Ammo\nAtelier Logic Ammo\nCritical 2\n[CD] 20s\nCan only be activated if the user has an\nAtelier Logic Ammo\nAtelier Logic Ammo\nloaded\n[On Use]\nGain 5\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nand\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[On Hit]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[15~33]\nPierce\nPierce\nIf a\n[Critical Strike]\nA condition that occurs when\nPoise\nprocs, increasing the damage of an attack by 1.15x\noccurs, a second hit procs that has x0.80\n[Damage Modifier]\nof the original roll\nAlt Fire\nCosts 1\nBullets\nBullets\n, does 20 damage (Bullet Cap of 3)",
+    "last_fetched": "2026-07-13T19:26:49.520184"
+  },
+  "lamp": {
+    "rev_id": 17494,
+    "title": "Lamp",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: None\nDamage: 7\nBlunt\nBlunt\nSwing Delay: 0.67\nHit Startup: 0.65\nRange: 9, 8, 9\n\n=== Critical ===\n[CD] 15s\nCoin1\n1st Dice of an attack.\n[4~6]\nBlunt\nBlunt\n[Undodgeable]\n[On Hit]\nInflict 5\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\n[On Hit]\nPull all targets in crit range towards self.",
+    "last_fetched": "2026-07-13T19:26:50.304959"
+  },
+  "liu_guan_dao": {
+    "rev_id": 12735,
+    "title": "Liu Guan Dao",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 7\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.59\nHit Startup: 0.4\nRange: 10.5, 6, 10.5\n\n=== Critical ===\n[CD] 18s\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[Hits Grounded]\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[12~20]\nSlash\nSlash\n[On Hit]\nInflict 5\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)",
+    "last_fetched": "2026-07-13T19:26:51.389767"
+  },
+  "liu_martial_arts": {
+    "rev_id": 12644,
+    "title": "Liu Martial Arts",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 6\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.51\nHit Startup: 0.42\nRange: 7.5, 4, 8\n\n=== Critical ===\n[CD] 16s\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[5~8]\nBlunt\n[On Hit]\nInflict 3\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin2\n2nd Dice of an attack.\n[6~16]\nBlunt\n[Undodgeable]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nInflict 6\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)",
+    "last_fetched": "2026-07-13T19:26:52.505877"
+  },
+  "moonlit_azure_blade": {
+    "rev_id": 16136,
+    "title": "Moonlit Azure Blade",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 5\nSlash\nSlash\nSwing Delay: 0.48\nHit Startup: 0.42\nRange: 10, 6, 10\n\n=== Critical ===\n[CD] 13s\n[On Use]\nGain 1\nValue Power Up\nValue Power Up\nfor every 1\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\n(max 19\nValue Power Up\nValue Power Up\n)\nCoin1\n1st Dice of an attack.\n[8~9]\nSlash\nSlash\n[Multihit]\n[Hits Grounded]\n[Undodgeable]\n[QTE]\nThis dice has a QTE trigger\n0.35x\n[Damage Modifier]\n[First Hit]\n[On Hit]\nGain 4\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nand Unragdoll Target\n0.75x\n[Damage Modifier]\n[Second Hit]\n[Unparriable]\n[On Hit]\nGain 5\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\n[On QTE Success]\n[Second Hit]\n[On Hit]\nConsume All\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nto deal (\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\nconsumed × 0.375) Bonus Damage",
+    "last_fetched": "2026-07-13T19:26:53.545639"
+  },
+  "nine_children_of_the_dragon_guan_dao": {
+    "rev_id": 12709,
+    "title": "Nine Children of the Dragon Guan Dao",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 9\nSlash\nSlash\nSwing Delay: 0.52\nHit Startup: 0.5\nRange: 13, 8, 12\n\n=== Critical ===\n[CD] 25s\nCoin1\n1st Dice of an attack.\n[3~5]\nBlunt\nBlunt\n[Undodgeable]\n[Hits Grounded]\n[On Hit]\nGain\n[Hyperarmor]\nand inflict 3\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin2\n2nd Dice of an attack.\n[12~24]\nSlash\nSlash\n[On Hit]\ninflict 7\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)",
+    "last_fetched": "2026-07-13T19:26:54.601271"
+  },
+  "old_boys_workshop": {
+    "rev_id": 13162,
+    "title": "Old Boys Workshop",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 7\nBlunt\nBlunt\nSwing Delay: 0.56\nHit Startup: 0.45\nRange: 9.5, 8, 8\n\n=== Critical ===\n[CD] 16s\n[On Use]\ngain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[3~4]\nblunt\nblunt\n[Hits Grounded]\n[On Hit]\ninflict 1\nTremor\nTremor\nCoin1\n1st Dice of an attack.\n[5~7]\nBlunt\nBlunt\n[Hits Grounded]\n[On Hit]\ninflict 1\nTremor\nTremor\n0.75x\n[Damage Modifier]\nCoin1\n1st Dice of an attack.\n[7~12]\nBlunt\nBlunt\n[Hits Grounded]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[QTE]\nThis dice has a QTE trigger\n[On QTE Success]\n[On Hit]\ninflict 2\nTremor\nTremor\n, gain 2\nLight\nLight\n, trigger\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\nand inflict 3\nTremor\nTremor\nafter\n[On QTE fail]\n[On Hit]\ntrigger\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\nand inflict 3\nTremor\nTremor",
+    "last_fetched": "2026-07-13T19:26:55.616442"
+  },
+  "onis_tekko": {
+    "rev_id": 16475,
+    "title": "Oni Tekko",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 6\nBlunt\nBlunt\nSwing Delay: 0.54\nHit Startup: 0.45\nRange: 7.5, 8, 7.5\n\n=== Critical ===\n[CD] 18s\nCoin1\n1st Dice of an attack.\n[10~15]\nBlunt\nBlunt\n[Undodgeable]\n[Grounds]\n[Multihit]\n8 times\nAir Critical\n[CD] 18s\nCan only be used if user is\n[In Air]\nCoin1\n1st Dice of an attack.\n[10~12]\n[On Hit]\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\ntwice and Inflict 4\nParalyze\nParalyze\nafterwards, lower Count by 1 (Max: 10,Decay: 15)\nDamage scales off of height\nAlt Fire\n[CD] 20s\nCan only be used if user has Oni's Rag outfit and used Charged attack\nCoin1\n1st Dice of an attack.\n[6-11] Damage is the same as a charged attack\n[On Hit]\n[Uptilt]",
+    "last_fetched": "2026-07-13T19:26:56.658498"
+  },
+  "palermitian_style_blades": {
+    "rev_id": 16053,
+    "title": "Palermitian Style Blades",
+    "effect_text": "",
+    "last_fetched": "2026-07-13T19:36:41.339729"
+  },
+  "reverberation_scythe": {
+    "rev_id": 12396,
+    "title": "Reverberation Scythe",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 7\nSlash\nSlash\nSwing Delay: 0.63\nHit Startup: 0.47\nRange: 12, 8, 11\n\n=== Critical ===\n[CD] 16s\n[Unblockable]\n[Undodgeable]\n[Auto Execute]\nCoin1\n1st Dice of an attack.\n[5~7]\nSlash\nSlash\n[On Hit]\nTrigger\n[Stagger]\nA condition that stuns the target and increase damage taken by them by 25%\nif targets\nTremor\nTremor\nequals dice roll.\nCoin2\n2nd Dice of an attack.\n[4~8]\nSlash\nSlash",
+    "last_fetched": "2026-07-13T19:26:58.801052"
+  },
+  "rosespanner_hammer": {
+    "rev_id": 12494,
+    "title": "Rosespanner Hammer",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 7\nDamage: 9\nBlunt\nBlunt\nSwing Delay: 0.72\nHit Startup: 0.65\nRange: 11, 8, 10\n\n=== Critical ===\n[CD] 20s\n[Auto Execute]\nCoin1\n1st Dice of an attack.\n[4~6]\nBlunt\nBlunt\n[Hits Grounded]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nInflict 1\nTremor\nTremor\nCoin2\n2nd Dice of an attack.\n[6~8]\nBlunt\nBlunt\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\nand inflict 2\nTremor\nTremor\nCoin3\n3rd Dice of an attack.\n[8~10]\nBlunt\nBlunt\n[On Hit]\nInflict 3\nTremor\nTremor\n,\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2\nthen inflict 2\nTremor\nTremor\nand gain 2\nCharge\nCharge",
+    "last_fetched": "2026-07-13T19:26:59.923842"
+  },
+  "scythe_of_mimicry": {
+    "rev_id": 12696,
+    "title": "Scythe of Mimicry",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 8\nSlash\nSlash\nSwing Delay: 0.59\nHit Startup: 0.5\nRange: 13, 8, 12\n\n=== Critical ===\n[CD] 12s\n[On Use]\nGain a x1.20\n[Damage Modifier]\nCoin1\n1st Dice of an attack.\n[0~0]\n[Knockback]\ntarget into\nCoin2\nCoin2\n2nd Dice of an attack.\n's area of effect and gain\n[Hyperarmor]\n.\nCoin2\n2nd Dice of an attack.\n[6~10]\nSlash\nSlash\n[Auto Execute]\n[Hits Grounded]\n[Hits Downed]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[Undodgeable]\n[On Hit]\nGain\n[Hyperarmor]\n, 4\nImitation\nImitation\nMimicry\n,\nMimicry Blade\nand\nScythe of Mimicry\n, gained from using\nHello\n,\nRed Mist Pages\n,\nMimicry Blade\nand\nScythe of Mimicry\n's critical attack. (Max: 10)\nand inflict 4\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Kill]\nRecover 45\nHealth\nHealth\nA Unit's capability of taking damage before dying.\n.\nCritical 2\n[CD] 12s\n[On Use]\nIf user has 5+\nImitation\nImitation\nMimicry\n,\nMimicry Blade\nand\nScythe of Mimicry\n, gained from using\nHello\n,\nRed Mist Pages\n,\nMimicry Blade\nand\nScythe of Mimicry\n's critical attack. (Max: 10)\n, consume it, activate this skill and gain a x1.5\n[Damage Modifier]\n[Before Attack]\nGain 2\nImitation\nImitation\nMimicry\n,\nMimicry Blade\nand\nScythe of Mimicry\n, gained from using\nHello\n,\nRed Mist Pages\n,\nMimicry Blade\nand\nScythe of Mimicry\n's critical attack. (Max: 10)\nCoin1\n1st Dice of an attack.\n[0~0]\n[Knockback]\ntarget into\nCoin2\nCoin2\n2nd Dice of an attack.\n's area of effect and gain\n[Hyperarmor]\n.\nCoin2\n2nd Dice of an attack.\n[4~7]\nSlash\nSlash\n[Hits Grounded]\n[Auto Execute]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[Undodgeable]\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nCoin3\n3rd Dice of an attack.\n[4~7]\nSlash\nSlash\n[Hits Grounded]\n[Auto Execute]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[Undodgeable]\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand 1\nHemorrhage\nHemorrhage\nOn dice use, divide current bleed by 6, then deal damage and subtract from the current bleed count by this value. (Max: 1,Decay: 15)\nCoin4\n4th Dice of an attack.\n[4~7]\nSlash\nSlash\n[Hits Grounded]\n[Auto Execute]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[Undodgeable]\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n[On Kill]\nRecover 70\nHealth\nHealth\nA Unit's capability of taking damage before dying.\n.",
+    "last_fetched": "2026-07-13T19:27:01.038477"
+  },
+  "seven_association_longsword": {
+    "rev_id": 14993,
+    "title": "Seven Association Longsword",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 7\nDamage: 6\nSlash\nSlash\nSwing Delay: 0.69\nHit Startup: 0.53\nRange: 11, 8, 9.5\n\n=== Critical ===\n[CD] 17s\n[On Use]\nGain 0.75x\n[Damage Modifier]\nCoin1\n1st Dice of an attack.\n[7~10]\nSlash\nSlash\n[Unblockable]\n[On Hit]\nInflict 1\nRupture\nRupture\nCoin2\n2nd Dice of an attack.\n[7~10]\nSlash\nSlash\n[Unblockable]\n[On Hit]\nInflict 1\nRupture\nRupture\nCoin3\n3rd Dice of an attack.\n[12~14]\nBlunt\nBlunt\n0.375x\n[Damage Modifier]\n[Unblockable]\n[QTE]\nThis dice has a QTE trigger\n[On Hit]\nInflict 3\nRupture\nRupture\n[On QTE Success]\nGain\nCoin3\n3rd Dice of an attack.\n0.75x\n[Damage Modifier]\nRemoved critical\nRemoved Crit\n[On Use]\nGain 0.5X\n[Damage Modifier]\non\nCoin1\n1st Dice of an attack.\nand\nCoin2\n2nd Dice of an attack.\nCoin1\n1st Dice of an attack.\n[On Hit]\nInflict 3\nRupture\nRupture\n[6~10]\nPierce\nPierce\nCoin2\n2nd Dice of an attack.\n[On Hit]\nInflict 2\nRupture\nRupture\n[7~11]\nPierce\nPierce\nCoin3\n3rd Dice of an attack.\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nInflict 3\nRupture\nRupture\n[13~18]\nPierce\nPierce",
+    "last_fetched": "2026-07-13T19:27:02.138833"
+  },
+  "shi_association_katana": {
+    "rev_id": 12353,
+    "title": "Shi Association Katana",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 4\nDamage: 7\nSlash\nSlash\nSwing Delay: 0.53\nHit Startup: 0.42\nRange: 9, 8, 9\n\n=== Critical ===\n[Undodgeable]\n[Auto Execute]\n[On Use]\nGain 6\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\n[On Use]\nIncrease maximum roll value by user's\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)\n(Max 8)\nCoin1\n1st Dice of an attack.\n[12~18]\nSlash\nSlash\n[On Hit]\nInflict 2\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)",
+    "last_fetched": "2026-07-13T19:27:03.188157"
+  },
+  "soldato_rifle": {
+    "rev_id": 16048,
+    "title": "Soldato Rifle",
+    "effect_text": "",
+    "last_fetched": "2026-07-13T19:36:45.106496"
+  },
+  "solmen_rament_pistol": {
+    "rev_id": 14374,
+    "title": "Solemn Lament Pistols",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.55\nHit Startup: 0.38\nRange: 8, 8, 12.5\n\n=== Critical ===\n[CD] 15s\n[On Use]\nIf user has\nThe living and the departed\nThe living and the departed\nconsume 5 per dice roll\nCoin1\n1st Dice of an attack.\n[Multihit]\n7 Times [6~8]\nPierce\nPierce\nCoin2\n2nd Dice of an attack.\n[10~15]\nPierce\nPierce\nInflict 3\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nIf this dice consumed\nThe living and the departed\nThe living and the departed\n:\nInflict 7\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\ninstead and a status effect based on\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\n0\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\n- 2\nValue Power Down\nValue Power Down\n1-19\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\n- 6\nBind\nBind\n20+\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\n- 6\nFragile\nFragile\nAlt Fire\n[CD] 8s\n[On Use]\nGain 12\nThe living and the departed\nThe living and the departed\nand reduce\nSanity\nSanity\nby 12\nCosts 1\nThe living and the departed\nThe living and the departed\n, does 6 damage\nㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+    "last_fetched": "2026-07-13T19:27:05.043277"
+  },
+  "steam_gauntlet": {
+    "rev_id": 13152,
+    "title": "Steam Gauntlet",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 7\nBlunt\nBlunt\nSwing Delay: 0.54\nHit Startup: 0.47\nRange: 7, 8, 7.5\n\n=== Critical ===\n[CD] 20s\n[On Use]\nGain\n[Hyperarmor]\n[On Use]\ngain 1\nSmoke\nSmoke\n[On Hit]\n. (Max: 15,Decay: 10)\nper Dice roll(max 4)\n[On Use]\nGain 0.65x\n[Damage Modifier]\nCoin1\n1st Dice of an attack.\n[3~5]\nBlunt\nBlunt\n[Hits Grounded]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[QTE]\nThis dice has a QTE trigger\n[On Hit]\ninflict 7\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\n, 3\nSmoke\nSmoke\n[On Hit]\n. (Max: 15,Decay: 10)\nand gain 8\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\n[On QTE Success]\n- Multiplies min and max roll by 2 (+ 1 per QTE Success, max 3 times) and roll again\n- Increase hitbox size, distance travelled and knockback\nAfter 3 Successes:\n- Gain 1\nSmoke\nSmoke\n[On Hit]\n. (Max: 15,Decay: 10)\n- Become\n[Grab]\n[Unparriable]\n, Add a Second Hit with 0.45x\n[Damage Modifier]\n- Greatly increased ragdoll duration",
+    "last_fetched": "2026-07-13T19:27:06.140886"
+  },
+  "stigma_workshop_gauntlets": {
+    "rev_id": 13168,
+    "title": "Stigma Workshop Gauntlets",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 6\nBlunt\nBlunt\nSwing Delay: 0.58\nHit Startup: 0.38\nRange: 7.5, 8, 8\n\n=== Critical ===\n[CD] 14s\n[On Use]\ngain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[4~8]\nBlunt\nBlunt\n[On Hit]\nInflict 2\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin2\n2nd Dice of an attack.\n[4~9]\nBlunt\nBlunt\n[On Hit]\nInflict 2\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin3\n3rd Dice of an attack.\n[4~10]\nBlunt\nBlunt\n[On Hit]\nInflict 5\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)",
+    "last_fetched": "2026-07-13T19:27:07.199845"
+  },
+  "thermal_blade_weapony": {
+    "rev_id": 15628,
+    "title": "Thermal Blade Weaponry",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 6\nSlash\nSlash\nSwing Delay: 0.54\nHit Startup: 0.42\nRange: 10, 8, 8\n\n=== Critical ===\n[CD] 15s\n[On Parry]\nPuts critical on cooldown\n[On Use]\nCoin2\nCoin2\n2nd Dice of an attack.\nhas a 1.4x\n[Damage Modifier]\n[Undodgeable]\nCoin1\n1st Dice of an attack.\n[4~7]\nBlunt\nBlunt\n[On Hit]\nIf target has 5+\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n, gain 5\nValue Power Up\nValue Power Up\nfor\nCoin2\nCoin2\n2nd Dice of an attack.\nCoin2\n2nd Dice of an attack.\n[7~10]\nBlunt\nBlunt\n[Multihit]\n4 times\nCritical 2\nUsed only if the first variant was not parried or interrupted\n[Undodgeable]\nCoin1\n1st Dice of an attack.\n[4~7]\nSlash\nSlash\n[On Hit]\nInflict 1\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin2\n2nd Dice of an attack.\n[4~7]\nSlash\nSlash\n[On Hit]\nInflict 1\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCoin3\n3rd Dice of an attack.\n[4~7]\nSlash\nSlash\n[On Hit]\nInflict 1\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)\nCritical 3\n[CD] 15s\nUsed after Critical 1 or Critical 2 regardless of if they were parried.\nCoin1\n1st Dice of an attack.\n[6~8]\nSlash\nSlash\nCoin2\n2nd Dice of an attack.\n[6~10]\nSlash\nSlash\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\nCoin3\n3rd Dice of an attack.\n[6~12]\nSlash\nSlash\n[Unparriable]\n[On Hit]\nInflict 4\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nand\nBurn\nBurn\nafterwards the Count is halved. (Max: 99,Decay: 5)",
+    "last_fetched": "2026-07-13T19:27:08.271561"
+  },
+  "twin_hook": {
+    "rev_id": 12331,
+    "title": "Twinhook",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 7\nDamage: 5\nSlash\nSlash\nSwing Delay: 0.62\nHit Startup: TBA\nRange: 8.5, 6, 8.5\n\n=== Critical ===\nCoin1\n1st Dice of an attack.\n[3~7]\nPierce\nPierce\n[Hits Grounded]\n[On Hit]\nGain (Target\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\n/ 2)\nPoise\nPoise\n[Critical Strike]\nif a\n[Critical Strike]\nprocs, half Count, half the Count once more for every\n[Critical Strike]\nprocs. (Max: 99, Decay: 15)\n, then Inflict 6\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nCoin2\n2nd Dice of an attack.\n[3-10]\nPierce\nPierce\n[Auto Execute]\nAlt Fire\nCosts 1\nBullets\nBullets\n, deals 15\nPierce\nPierce\n(Bullet Cap of 1)",
+    "last_fetched": "2026-07-13T19:27:09.333734"
+  },
+  "udjat_khopesh": {
+    "rev_id": 17395,
+    "title": "Udjat Khopesh",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 4\nDamage: 6.5\nSlash\nSlash\nSwing Delay: 0.55\nHit Startup: 0.43\nRange: 11, 8, 10\n\n=== Critical ===\n[CD] 17s\n[On Use]\nGain\n[Hyperarmor]\nCoin1\n1st Dice of an attack.\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nGain 2\nProtection\nProtection\n[When Hit]\n- Take less damage Equal to Count% (Max: 20,Decay: 15)\n[10~12]\nPierce\nPierce\nCoin2\n2nd Dice of an attack.\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\nGain 1\nProtection\nProtection\n[When Hit]\n- Take less damage Equal to Count% (Max: 20,Decay: 15)\n[5~7]\nSlash\nSlash\nCoin3\n3rd Dice of an attack.\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[5~8]\nSlash\nSlash\nNote\n[\nedit\n|\nedit source\n]\nYou can upgrade Udjat Khopesh to\nUdjat Vanguard Khopesh\nusing\nX Corp. Alloy\n.",
+    "last_fetched": "2026-07-13T19:27:10.442278"
+  },
+  "udjat_vanguard_khopesh": {
+    "rev_id": 15831,
+    "title": "Udjat Vanguard Khopesh",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 4\nDamage: 5.5\nSlash\nSlash\nSwing Delay: 0.45\nHit Startup: 0.35\nRange: 11, 6, 10\n\n=== Critical ===\n[CD] 18s\n[On Use]\nGain a 0.55x\n[Damage Modifier]\nfor\nCoin1\nCoin1\n1st Dice of an attack.\n,\nCoin2\nCoin2\n2nd Dice of an attack.\n,\nCoin3\nCoin3\n3rd Dice of an attack.\nand\nCoin4\nCoin4\n4th Dice of an attack.\nCoin1\n1st Dice of an attack.\n[3~5]\nPierce\nPierce\n[Undodgeable]\n[On Hit]\nSpend 1\nFracture Bullets\nFracture Bullets\nBullets only compatible with the LCA's gear. (Max: 30, Decay: 60)\nto inflict 2\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 2\nTremor\nTremor\nCoin2\n2nd Dice of an attack.\n[3~7]\nPierce\nPierce\n[Undodgeable]\n[On Hit]\nSpend 1\nFracture Bullets\nFracture Bullets\nBullets only compatible with the LCA's gear. (Max: 30, Decay: 60)\nto inflict 2\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nand 2\nTremor\nTremor\nCoin3\n3rd Dice of an attack.\n[3~9]\nPierce\nPierce\n[Undodgeable]\n[On Hit]\nInflict 2\nTremor\nTremor\nCoin4\n4th Dice of an attack.\n[3~10]\nPierce\nPierce\n[Undodgeable]\n[Multihit]\n2 times,\n[On Last Hit]\nInflict 2\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\nCoin5\n5th Dice of an attack.\n[5~11]\nPierce\nPierce\n[Undodgeable]\n[On Hit]\nInflict 2\nSinking\nSinking\nSanity\ndamage\n[When Hit]\n, afterwards reduces Count by 1.\nIf the target has -45\nSanity\n,\nSinking Deluge\nDeal damage equal to count, then set count to 0.\n(Max: 99,Decay: 15) (Does not work vs. NPCs)\n, Spend 1\nFracture Bullets\nFracture Bullets\nBullets only compatible with the LCA's gear. (Max: 30, Decay: 60)\nAlt Fire\nCosts 1\nBullets\nBullets\n, does 5 damage (Bullet Cap of 25)\n[On Reload]\nGrants\nFracture Bullets\nFracture Bullets\nBullets only compatible with the LCA's gear. (Max: 30, Decay: 60)",
+    "last_fetched": "2026-07-13T19:27:11.569300"
+  },
+  "warp_corp_dagger": {
+    "rev_id": 13137,
+    "title": "WARP Corp. Dagger",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.37\nHit Startup: 0.25\nRange: 7.5, 8, 7.5\n\n=== Critical ===\n[CD] 20s\n[Unblockable]\n[Auto Execute]\n[On Use]\nConsume up to 15\nCharge\nCharge\n, if 15\nCharge\nCharge\nwas consumed, change roll to [16~24] and inflict 3 more\nRupture\nRupture\nCoin1\n1st Dice of an attack.\n[6~12]\nPierce\n[On Hit]\nInflict 3\nRupture\nRupture\nand Gain 4\nCharge\nCharge",
+    "last_fetched": "2026-07-13T19:27:12.613918"
+  },
+  "warp_corp_odachi": {
+    "rev_id": 13113,
+    "title": "WARP Corp. Odachi",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 3\nDamage: 7\nSlash\nSlash\nSwing Delay: 0.44\nHit Startup: 0.33\nRange: 12, 8, 9\n\n=== Critical ===\n[CD] 20s\n[On Use]\nIf under 15\nCharge\nCharge\n, take damage equal to missing\nCharge\nCharge\n* 3\n[On Use]\nIf at 7+\nCharge\nCharge\n, consume up to 15\nCharge\nCharge\n[On Use]\nIf skill consumed\nCharge\nCharge\n, roll [6~8], [12~17], and [12~18] instead\n[On Use]\nIf cursor aimed at the target,\nCoin1\n1st Dice of an attack.\nbecome\n[Tracking]\nwith infinite range\nCoin1\n1st Dice of an attack.\n[6~8]\nSlash\nSlash\n[Undodgeable]\n[On Hit]\nInflict 1\nRupture\nRupture\nCoin2\n2nd Dice of an attack.\n[8~14]\nSlash\nSlash\nCoin3\n3rd Dice of an attack.\n[8~15]\nSlash\nSlash\n[On Hit]\nGain 3\nCharge\nCharge\nIf skill consumed\nCharge\nCharge\n, gain 3\nHaste\nHaste\nWhen dashing, will consume 1 haste count to enhance mobility. (Max: 99, Decay: 15)",
+    "last_fetched": "2026-07-13T19:27:13.697173"
+  },
+  "yesterdays_promise": {
+    "rev_id": 12824,
+    "title": "Yesterday's Promise",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 6\nPierce\nPierce\nSwing Delay: 0.42\nHit Startup: 0.27\nRange: 11, 8, 9\n\n=== Critical ===\n[CD] 16s\nCoin1\n1st Dice of an attack.\n[14~20]\nPierce\nPierce\n[On Hit]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown",
+    "last_fetched": "2026-07-13T19:27:14.731620"
+  },
+  "zelkova_workshop": {
+    "rev_id": 13160,
+    "title": "Zelkova Workshop",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 1\nDamage: 8\nBlunt\nBlunt\nSwing Delay: 0.54\nHit Startup: 0.43\nRange: 9, 8, 9\n\n=== Critical ===\n[CD] 15s\nCoin1\n1st Dice of an attack.\n[7~9]\nBlunt\nBlunt\n[Grounds]\n[Hits Grounded]\n[On Hit]\nInflict 4\nBleed\nBleed\nafterwards the Count is halved. (Max: 99)\nCoin2\n2nd Dice of an attack.\n[8~12]\nBlunt\nBlunt\n[Hits Grounded]\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Use]\nGain\n[Hyperarmor]\n[On Hit]\nand inflict 6\nTremor\nTremor\nafterwards\nTremor Burst\nTremor Burst\nWhen this condition is triggered, the target takes Stamina damage equal to\nTremor\ncount x 2",
+    "last_fetched": "2026-07-13T19:27:15.822001"
+  },
+  "zwei_association_greatsword": {
+    "rev_id": 12520,
+    "title": "Zwei Association Greatsword",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 4\nDamage: 7\nBlunt\nBlunt\nSwing Delay: 0.6\nHit Startup: 0.45\nRange: 12, 8, 10\n\n=== Critical ===\n[On Use]\nGain\nDefense Up\nDefense Up\nequal to\nTremor\nTremor\non self\nCoin1\n1st Dice of an attack.\n[4~4]\nBlunt\nBlunt\n[Guard Break]\n[Stagger]\nand put their parry on cooldown\n[On Hit]\ninflict 2\nTremor\nTremor\nCoin2\n2nd Dice of an attack.\n[8~8]\nBlunt\nBlunt\n[On Use]\nGain\nDefense Up\nDefense Up\nequal to (\nTremor\nTremor\non self/2)\n[On Hit]\nInflict\nTremor\nTremor\nequal to\nTremor\nTremor\non self/2 and Gain 4\nDefense Up\nDefense Up\nCoin3\n3rd Dice of an attack.\n[12~12]\nBlunt\nBlunt\n[On Hit]\nIf at 8+\nDefense Up\nDefense Up\n, inflict 5\nValue Power Down\nValue Power Down\nCharged Attack has Block Frames",
+    "last_fetched": "2026-07-13T19:27:16.900186"
+  },
+  "zweihander": {
+    "rev_id": 12345,
+    "title": "Zweihander",
+    "effect_text": "[\nedit\n|\nedit source\n]\nGrade Requirement: 6\nDamage: 8\nSlash\nSlash\nSwing Delay: 0.56\nHit Startup: 0.45\nRange: 8, 8, 10.5\n\n=== Critical ===\n[On Use]\ngain 3\nDefense Up\nDefense Up\nCoin1\n1st Dice of an attack.\n[3~5]\nSlash\nSlash\nCoin2\n2nd Dice of an attack.\n[7~10]\nPierce\nPierce\n[On Hit]\n, Gain 4\nDefense Up\nDefense Up\n, and Inflict 5\nDefense Down\nDefense Down\nCharged Attack has Block Frames",
+    "last_fetched": "2026-07-13T19:27:18.013258"
+  }
+}

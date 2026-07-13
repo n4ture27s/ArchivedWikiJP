@@ -672,8 +672,8 @@
     "obtain": "Vinnyからクエストを受諾した後にのみ図書館からドロップ。他の報酬プールからは自然ドロップしない。"
   },
   "hardblood_fragment": {
-    "name_en": "Hardblood Fragment",
-    "name_jp": "硬血の欠片",
+    "name_en": "Hardblood Blood Fragment",
+    "name_jp": "ハードブラッドの血液片",
     "category": "book",
     "icon": "",
     "desc": "Hardblood Fragmentは他の書物とは一線を画し、標準的な本ではなく血の破片の形をとる。武器と血鬼ページのみを提供し、血鬼のみが使用可能。",
@@ -870,5 +870,93 @@
     "icon": "",
     "desc": "一般的なダガー。素材としても使用可能。",
     "obtain": "Everything Workshopまたは武器組み立てで、1x Low Quality Bladeと1x Scrap Metalを使用してクラフト。"
+  },
+  "book_of_a_northern_fixer": {
+    "name_en": "Book of a Northern Fixer",
+    "name_jp": "北のフィクサーの書物",
+    "category": "book",
+    "icon": "",
+    "desc": "北方のフィクサーの書はArchivedで入手可能な特殊な書物の一種。標準的な茶色のカバーにShi協会のエンブレムがあしらわれている。通常の書物と異なり、ページではなく服とアクセサリーを提供する。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引の他、Murder on the WARP Expressダンジョンのドロップ、または図書館の日替わり書物ローテーションドロップでのみ入手可能。"
+  },
+  "book_of_brotherhood_of_iron": {
+    "name_en": "Book of Brotherhood Of Iron",
+    "name_jp": "鉄の同胞団の書物",
+    "category": "book",
+    "icon": "",
+    "desc": "鉄の兄弟団の書はArchivedで入手可能な書物の一種。標準的な茶色のカバーに図書館のエンブレムがあしらわれている。ページに加えて武器も提供する。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引の他、Traveling Pawnerからの購入（図書館の現在の書物ローテーションにある場合）、または図書館のローテーションドロップで入手。"
+  },
+  "book_of_sweepers": {
+    "name_en": "Book of Sweepers",
+    "name_jp": "掃除屋の書",
+    "category": "book",
+    "icon": "",
+    "desc": "スイーパーの書はArchivedで入手可能な書物の一種。標準的な茶色のカバーにスイーパーのエンブレムがあしらわれている。ページに加えて服も提供する。",
+    "obtain": "プレイヤー間取引、図書館のドロップ、またはBook Merchantからの購入（図書館の現在の書物ローテーションにある場合）。"
+  },
+  "book_of_the_eye_gouger": {
+    "name_en": "Book of The Eye Gouger",
+    "name_jp": "Eye Gougerの書",
+    "category": "book",
+    "icon": "",
+    "desc": "The Eye Gougerの書はArchivedで入手可能な書物の一種。標準的な茶色のカバーではなく、青色のカバーにThe Eye Gougerのエンブレムがあしらわれている。ページ、服、武器、アクセサリーの全カテゴリーを提供する。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引の他、The Eye Gougerボスのドロップでのみ入手可能。"
+  },
+  "book_of_the_library": {
+    "name_en": "Book of The Library",
+    "name_jp": "図書館の書",
+    "category": "book",
+    "icon": "",
+    "desc": "図書館の書はArchivedで入手可能な書物の一種。標準的な茶色のカバーに図書館のエンブレムがあしらわれている。ページに加えてアクセサリーも提供する。",
+    "obtain": "図書館のドロップ、またはBook Merchantとの交換で入手。"
+  },
+  "cup_of_coffee": {
+    "name_en": "Cup of Coffee",
+    "name_jp": "コーヒーカップ",
+    "category": "consumable",
+    "icon": "",
+    "desc": "コーヒーカップは戦闘中に使用できる消費アイテム。使用すると一時的なバフ効果を得られる。",
+    "obtain": "図書館のドロップ、またはTraveling Pawnerのローテーション購入で入手。"
+  },
+  "fragment_of_ruined_mirror_worlds": {
+    "name_en": "Fragment of Ruined Mirror Worlds",
+    "name_jp": "壊れた鏡世界の断片",
+    "category": "book",
+    "icon": "",
+    "desc": "壊れた鏡世界の欠片は他の入手可能な書物とは一線を画す。物理的な書物ではなく、透明なガラスの破片のような外見をしている。ページと武器に加え、アクセサリーも提供する。売却価格は150k Ahn。",
+    "obtain": "プレイヤー間取引の他、Officer Contractor NPCからの契約完了、または図書館のドロップでのみ入手可能。"
+  },
+  "l_corp_extraction_department_crate": {
+    "name_en": "L Corp. Extraction Department Crate",
+    "name_jp": "L社抽出部門の箱",
+    "category": "book",
+    "icon": "",
+    "desc": "L Corp.抽出部門クレートはArchivedで入手可能な特殊なアイテム。かつてPERMADEATHモード（有効時）での契約完了により獲得できたアイテムであり、図書館の書物ローテーションと同様の動作をする。",
+    "obtain": "現在は入手不可（レガシーアイテム）。"
+  },
+  "sweeping_cache": {
+    "name_en": "Sweeping Cache",
+    "name_jp": "掃除屋のキャッシュ",
+    "category": "book",
+    "icon": "",
+    "desc": "スイーピングキャッシュは他の入手可能な書物とは一線を画す。書物の形ではなく、スイーパーのカラーリングを施した軍需用クレートのような外見をしている。ページに加えて服も提供する。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引の他、裏路地の夜（Night of Backstreets）イベント中にSweeper Bruteを倒すことでドロップ。"
+  },
+  "warp_corp_lost_and_found_crate": {
+    "name_en": "WARP Corp. Lost and Found Crate",
+    "name_jp": "WARP社遺失物箱",
+    "category": "book",
+    "icon": "",
+    "desc": "WARP Corp.遺失物クレートは他の入手可能な書物とは一線を画す。書物の形ではなく、WARP Corp.のシグネチャーカラーがあしらわれた軍需用クレートのような外見をしている。ページ、服、武器、アクセサリーの全カテゴリーを提供する。売却価格は25k Ahn。",
+    "obtain": "プレイヤー間取引の他、Murder on the WARP Expressダンジョンのドロップでのみ入手可能。"
+  },
+  "workshop_weaponry_customization_shard": {
+    "name_en": "Workshop Weaponry Customization Shard",
+    "name_jp": "武器工房 カスタマイズ片",
+    "category": "misc",
+    "icon": "",
+    "desc": "Workshop Masterからのみ購入できるユニークアイテム。",
+    "obtain": "Workshop Masterから500万Ahnで購入。"
   }
 }

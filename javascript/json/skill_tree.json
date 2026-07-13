@@ -1,360 +1,417 @@
 {
     "wrath": {
-        "title": "Wrath",
         "desc": "火傷のスキルツリー",
         "icon": "Wrath.png",
         "color": "#883126",
         "position": "outer",
-
         "skills": [
             {
-                "name": "Battle Ignition",
                 "requirement": "10",
-                "text": "3秒以内に敵に5回攻撃を命中させると、一時的にダメージが20%増加する。\n発動中は、目に赤い軌跡が現れ、{battle_ignition}状態になる。"
+                "text": "3秒以内に敵に5回攻撃を命中させると、一時的にダメージが20%増加する。\n発動中は、目に赤い軌跡が現れ、{battle_ignition}状態になる。",
+                "name_jp": "戦闘点火",
+                "name_en": "Battle Ignition"
             },
             {
-                "name": "Close Call Wind",
                 "requirement": "10",
-                "text": "体力が25%以下の場合、ダッシュ距離を増加させる。"
+                "text": "体力が25%以下の場合、ダッシュ距離を増加させる。",
+                "name_jp": "間一髪の風",
+                "name_en": "Close Call Wind"
             },
             {
-                "name": "Follow-Up",
                 "requirement": "15",
-                "text": "スライド攻撃時して地面についたときにRを押すことで相手を上に少し上げる攻撃をする。"
+                "text": "スライド攻撃時して地面についたときにRを押すことで相手を上に少し上げる攻撃をする。",
+                "name_jp": "追撃",
+                "name_en": "Follow-Up"
             },
             {
-                "name": "Smoldering Resolve",
                 "requirement": "25",
-                "text": "体力が40%未満の場合、ダメージを10%軽減する。"
+                "text": "体力が40%未満の場合、ダメージを10%軽減する。",
+                "name_jp": "くすぶる決意",
+                "name_en": "Smoldering Resolve"
             },
             {
-                "name": "Tip-Toe Around",
                 "requirement": "30",
-                "text": "ジャスト回避後、攻撃者に反撃すると10%ダメージが増える。"
+                "text": "ジャスト回避後、攻撃者に反撃すると10%ダメージが増える。",
+                "name_jp": "忍び足",
+                "name_en": "Tip-Toe Around"
             },
             {
-                "name": "Inner Ardor",
                 "requirement": "30",
-                "text": "感情レベルが1の場合: {burn}の付与量が20%増加\n 感情レベルが2の場合: {burn}の付与量が50%増加"
+                "text": "感情レベルが1の場合: {burn}の付与量が20%増加\n 感情レベルが2の場合: {burn}の付与量が50%増加",
+                "name_jp": "内なる熱情",
+                "name_en": "Inner Ardor"
             },
             {
-                "name": "Backdraft",
                 "requirement": "35",
-                "text": "スタミナが少ない時、ダメージが増加する。"
+                "text": "スタミナが少ない時、ダメージが増加する。",
+                "name_jp": "逆火",
+                "name_en": "Backdraft"
             }
-        ]
+        ],
+        "name_jp": "憤怒",
+        "name_en": "Wrath"
     },
     "desire": {
-        "title": "Desire",
         "desc": "出血のスキルツリー",
         "icon": "Desire.png",
         "color": "#bb783c",
         "position": "outer",
-
         "skills": [
             {
-                "name": "Here We Go Again",
                 "requirement": "10",
-                "text": "戦闘開始時に{light}を3得る"
+                "text": "戦闘開始時に{light}を3得る",
+                "name_jp": "再びの始まり",
+                "name_en": "Here We Go Again"
             },
             {
-                "name": "Craving Synergy",
                 "requirement": "15",
-                "text": "相手が{bleed}を5以上持っている時に\nクリティカルを当てると3の{haste}を得る。\n \n このパッシブは「Thirst」と併用できない。"
+                "text": "相手が{bleed}を5以上持っている時に\nクリティカルを当てると3の{haste}を得る。\n \n このパッシブは「Thirst」と併用できない。",
+                "name_jp": "渇望の共鳴",
+                "name_en": "Craving Synergy"
             },
             {
-                "name": "Thirs",
                 "requirement": "20",
-                "text": "{bleed}状態の対象にクリティカルを当てると\n 相手の{bleed}を半分にしてその分を回復する\n \nこのパッシブは「Craving Synergy」と併用できない。"
+                "text": "{bleed}状態の対象にクリティカルを当てると\n 相手の{bleed}を半分にしてその分を回復する\n \nこのパッシブは「Craving Synergy」と併用できない。",
+                "name_jp": "渇き",
+                "name_en": "Thirs"
             },
             {
-                "name": "Voracity",
                 "requirement": "30",
-                "text": "もしマッチに勝ったのなら、{light}を2得る。\n 発動された場合15秒のクールダウン"
+                "text": "もしマッチに勝ったのなら、{light}を2得る。\n 発動された場合15秒のクールダウン",
+                "name_jp": "貪欲",
+                "name_en": "Voracity"
             },
             {
-                "name": "A Beautiful Mess",
                 "requirement": "50",
-                "text": "対象に7以上の{bleed}がある場合、\n ランダムでデバフを5付与する。\n \nこのパッシブは「Break the Dams」と併用できない"
+                "text": "対象に7以上の{bleed}がある場合、\n ランダムでデバフを5付与する。\n \nこのパッシブは「Break the Dams」と併用できない",
+                "name_jp": "美しき混沌",
+                "name_en": "A Beautiful Mess"
             },
             {
-                "name": "Break the Dams",
                 "requirement": "50",
-                "text": "対象に7以上の{bleed}がある場合、\n {big_wound}を1付与する。\n \nこのパッシブは「A Beautiful Mess」と併用できない"
+                "text": "対象に7以上の{bleed}がある場合、\n {big_wound}を1付与する。\n \nこのパッシブは「A Beautiful Mess」と併用できない",
+                "name_jp": "堰の破壊",
+                "name_en": "Break the Dams"
             }
-        ]
+        ],
+        "name_jp": "色欲",
+        "name_en": "Desire"
     },
     "sloth": {
-        "title": "Sloth",
         "desc": "振動のスキルツリー",
         "icon": "Sloth.png",
         "color": "#efa701",
         "position": "outer",
-
         "skills": [
             {
-                "name": "Pounce",
                 "requirement": "5",
-                "text": "スライド攻撃して地面についたときに\n Rを押すことで前方に攻撃する"
+                "text": "スライド攻撃して地面についたときに\n Rを押すことで前方に攻撃する",
+                "name_jp": "飛びかかり",
+                "name_en": "Pounce"
             },
             {
-                "name": "Fleeting Steps",
                 "requirement": "10",
-                "text": "攻撃をジャスト回避すると、スタミナを回復する。"
+                "text": "攻撃をジャスト回避すると、スタミナを回復する。",
+                "name_jp": "儚き歩み",
+                "name_en": "Fleeting Steps"
             },
             {
-                "name": "Masterd Breaths",
                 "requirement": "15",
-                "text": "パリィミス時のスタミナ消費を\n 25から15に変更する。"
+                "text": "パリィミス時のスタミナ消費を\n 25から15に変更する。",
+                "name_jp": "熟練の呼吸",
+                "name_en": "Masterd Breaths"
             },
             {
-                "name": "Fortified Resolve",
                 "requirement": "20",
-                "text": "ブロック時のスタミナ消費を20%軽減\n バックスタブ時のダメージを20%減少させる。"
+                "text": "ブロック時のスタミナ消費を20%軽減\n バックスタブ時のダメージを20%減少させる。",
+                "name_jp": "強化された決意",
+                "name_en": "Fortified Resolve"
             },
             {
-                "name": "Shockwave",
                 "requirement": "25",
-                "text": "{guard_break}時に、5の{tremor}を付与する。"
+                "text": "{guard_break}時に、5の{tremor}を付与する。",
+                "name_jp": "衝撃波",
+                "name_en": "Shockwave"
             },
             {
-                "name": "Break and Punish",
                 "requirement": "30",
-                "text": "混乱している対象に対して\n 10%ダメージが増加する。"
+                "text": "混乱している対象に対して\n 10%ダメージが増加する。",
+                "name_jp": "破壊と懲罰",
+                "name_en": "Break and Punish"
             },
             {
-                "name": "Wasted Hours, Lying Down",
                 "requirement": "40",
-                "text": "混乱している対象に対して\n {tremor}を付与する量が2倍になる。"
+                "text": "混乱している対象に対して\n {tremor}を付与する量が2倍になる。",
+                "name_jp": "無駄に過ごした時、横たわり",
+                "name_en": "Wasted Hours, Lying Down"
             }
-        ]
+        ],
+        "name_jp": "怠惰",
+        "name_en": "Sloth"
     },
     "gluttony": {
-        "title": "Gluttony",
         "desc": "破裂のスキルツリー",
         "icon": "Gluttony.png",
         "color": "#bad04d",
         "position": "outer",
-
         "skills": [
             {
-                "name": "Defenseless",
                 "requirement": "10",
-                "text": "{rupture}を持つ対象に対して\nブロック時のスタミナダメージが増加する。"
+                "text": "{rupture}を持つ対象に対して\nブロック時のスタミナダメージが増加する。",
+                "name_jp": "無防備",
+                "name_en": "Defenseless"
             },
             {
-                "name": "Biting Embrace",
                 "requirement": "15",
-                "text": "{guard_break}時に、5の{rupture}を付与する。"
+                "text": "{guard_break}時に、5の{rupture}を付与する。",
+                "name_jp": "噛みつく抱擁",
+                "name_en": "Biting Embrace"
             },
             {
-                "name": "Thorns",
                 "requirement": "30",
-                "text": "マッチ敗北時に対象に\n {rupture}を7付与する。"
+                "text": "マッチ敗北時に対象に\n {rupture}を7付与する。",
+                "name_jp": "棘",
+                "name_en": "Thorns"
             },
             {
-                "name": "Tear To Shreds",
                 "requirement": "35",
-                "text": "{rupture}の効果を1.5倍にする。\n 「Death Comes For All」とは併用できない。"
+                "text": "{rupture}の効果を1.5倍にする。\n 「Death Comes For All」とは併用できない。",
+                "name_jp": "ずたずたに引き裂く",
+                "name_en": "Tear To Shreds"
             },
             {
-                "name": "Death Comes For All",
                 "requirement": "50",
-                "text": "{rupture}の効果により与えるダメージが15%増加\n {rupture}を持っている対象を攻撃すると\n自身に{rupture}を1付与\n \n 「Tear To Shreds」とは併用できない。"
+                "text": "{rupture}の効果により与えるダメージが15%増加\n {rupture}を持っている対象を攻撃すると\n自身に{rupture}を1付与\n \n 「Tear To Shreds」とは併用できない。",
+                "name_jp": "死は全てに訪れる",
+                "name_en": "Death Comes For All"
             }
-        ]
+        ],
+        "name_jp": "暴食",
+        "name_en": "Gluttony"
     },
     "pride": {
-        "title": "Pride",
         "desc": "呼吸のスキルツリー",
         "icon": "Pride.png",
         "color": "#2e5881",
         "position": "outer",
-
         "skills": [
             {
-                "name": "Engaging",
                 "requirement": "10",
-                "text": "スライド攻撃をブロックで防げるようになる。"
+                "text": "スライド攻撃をブロックで防げるようになる。",
+                "name_jp": "交戦",
+                "name_en": "Engaging"
             },
             {
-                "name": "Claim Their Heart",
                 "requirement": "15",
-                "text": "{guard_break}時に対象の体力が15%未満の場合Claim Their Heartを発動して特殊な{auto_execute}をする。"
+                "text": "{guard_break}時に対象の体力が15%未満の場合Claim Their Heartを発動して特殊な{auto_execute}をする。",
+                "name_jp": "心臓を頂く",
+                "name_en": "Claim Their Heart"
             },
             {
-                "name": "Steady Breathing",
                 "requirement": "15",
-                "text": "{clash_win}に{poise}を5得る"
+                "text": "{clash_win}に{poise}を5得る",
+                "name_jp": "安定した呼吸",
+                "name_en": "Steady Breathing"
             },
             {
-                "name": "Shrouded Power",
                 "requirement": "20",
-                "text": "相手が{stagger}時に\n{poise}を4得る"
+                "text": "相手が{stagger}時に\n{poise}を4得る",
+                "name_jp": "隠された力",
+                "name_en": "Shrouded Power"
             },
             {
-                "name": "Smoke Overload",
                 "requirement": "30",
-                "text": "クリティカルヒットを当てて\n {poise}を発動させた場合\n{poise}は消費されない。"
+                "text": "クリティカルヒットを当てて\n {poise}を発動させた場合\n{poise}は消費されない。",
+                "name_jp": "煙過多",
+                "name_en": "Smoke Overload"
             },
             {
-                "name": "Adrenaline Rush",
                 "requirement": "35",
-                "text": "戦闘開始時に{poise}を5得る"
+                "text": "戦闘開始時に{poise}を5得る",
+                "name_jp": "アドレナリンラッシュ",
+                "name_en": "Adrenaline Rush"
             },
             {
-                "name": "Sharp Eyes",
                 "requirement": "45",
-                "text": "クリティカルヒットの倍率が1.3倍になる"
+                "text": "クリティカルヒットの倍率が1.3倍になる",
+                "name_jp": "鋭き眼",
+                "name_en": "Sharp Eyes"
             },
             {
-                "name": "Overbearing",
                 "requirement": "50",
-                "text": "通常攻撃が的中時に{poise}を1得る\n[1秒のクールダウン]\n \n「Steady Breathing」とは併用できない。"
+                "text": "通常攻撃が的中時に{poise}を1得る\n[1秒のクールダウン]\n \n「Steady Breathing」とは併用できない。",
+                "name_jp": "圧倒",
+                "name_en": "Overbearing"
             },
             {
-                "name": "Steady Breathing",
                 "requirement": "50",
-                "text": "{poise}を発動した場合\n 代わりに1.5でその{poise}を割る\n \n「Overbearing」とは併用できない。"
+                "text": "{poise}を発動した場合\n 代わりに1.5でその{poise}を割る\n \n「Overbearing」とは併用できない。",
+                "name_jp": "安定した呼吸",
+                "name_en": "Steady Breathing"
             }
-        ]
+        ],
+        "name_jp": "傲慢",
+        "name_en": "Pride"
     },
     "envy": {
-        "title": "Envy",
         "desc": "充電のスキルツリー",
         "icon": "Envy.png",
         "color": "#bb6fd5",
         "position": "outer",
         "skills": [
             {
-                "name": "Charge Up",
                 "requirement": "5",
-                "text": "パリィ成功時に{charge}を1得る"
+                "text": "パリィ成功時に{charge}を1得る",
+                "name_jp": "充電",
+                "name_en": "Charge Up"
             },
             {
-                "name": "Convert Physical Trauma",
                 "requirement": "10",
-                "text": "被弾時に{charge}を1得る。"
+                "text": "被弾時に{charge}を1得る。",
+                "name_jp": "物理的外傷の変換",
+                "name_en": "Convert Physical Trauma"
             },
             {
-                "name": "Blessed by the Sparks",
                 "requirement": "15",
-                "text": "集中攻撃を的中させると\n {charge}を2得る。"
+                "text": "集中攻撃を的中させると\n {charge}を2得る。",
+                "name_jp": "火花に祝福され",
+                "name_en": "Blessed by the Sparks"
             },
             {
-                "name": "Electrifying Vendetta",
                 "requirement": "30",
-                "text": "15以上の{charge}があって\n重い攻撃をパリィすると少し遅延して\n相手をショートさせ1~4ダメージを与える。"
+                "text": "15以上の{charge}があって\n重い攻撃をパリィすると少し遅延して\n相手をショートさせ1~4ダメージを与える。",
+                "name_jp": "電撃の復讐",
+                "name_en": "Electrifying Vendetta"
             },
             {
-                "name": "Short Circuit Trip",
                 "requirement": "35",
-                "text": "15以上の{charge}があってジャスト回避をすると\n 対象に「ライトアウト」効果を付与し\n少しの間ラグドールにして、{charge}を8消費する。"
+                "text": "15以上の{charge}があってジャスト回避をすると\n 対象に「ライトアウト」効果を付与し\n少しの間ラグドールにして、{charge}を8消費する。",
+                "name_jp": "短絡旅行",
+                "name_en": "Short Circuit Trip"
             },
             {
-                "name": "Kinetic Energy",
                 "requirement": "40",
-                "text": "10以上の{charge}がある場合\n通常攻撃のダメージを10%増加させる。"
+                "text": "10以上の{charge}がある場合\n通常攻撃のダメージを10%増加させる。",
+                "name_jp": "運動エネルギー",
+                "name_en": "Kinetic Energy"
             },
             {
-                "name": "Overflowing Guard",
                 "requirement": "45",
-                "text": "5以上の{charge}がある場合\n{charge}を1消費してブロック時のスタミナダメージを半減する。"
+                "text": "5以上の{charge}がある場合\n{charge}を1消費してブロック時のスタミナダメージを半減する。",
+                "name_jp": "溢れる防御",
+                "name_en": "Overflowing Guard"
             },
             {
-                "name": "Overcharged Vessel",
                 "requirement": "50",
-                "text": "プレイヤーが10以上の{charge}を持っている場合\n嫉妬完全共鳴をして{charge}10ごとに15秒間の過充電状態に入る。過充電の間{charge}10ごとに1の{value_up}と5%のダメージ増加を得る。(最大30の{charge}まで)\n代償として、{charge}10ごとに{tremor_decay}を5得て、自傷ダメージを受ける(最大33まで)\n {charge}は消費されず、条件としてみなす。"
+                "text": "プレイヤーが10以上の{charge}を持っている場合\n嫉妬完全共鳴をして{charge}10ごとに15秒間の過充電状態に入る。過充電の間{charge}10ごとに1の{value_up}と5%のダメージ増加を得る。(最大30の{charge}まで)\n代償として、{charge}10ごとに{tremor_decay}を5得て、自傷ダメージを受ける(最大33まで)\n {charge}は消費されず、条件としてみなす。",
+                "name_jp": "過充電された器",
+                "name_en": "Overcharged Vessel"
             }
-        ]
+        ],
+        "name_jp": "嫉妬",
+        "name_en": "Envy"
     },
     "gloom": {
-        "title": "Gloom",
         "desc": "沈潜のスキルツリー",
         "icon": "Gloom.png",
         "color": "#68adbd",
         "position": "outer",
-
         "skills": [
             {
-                "name": "Tap Of The Light",
                 "requirement": "10",
-                "text": "EGOを使う際の精神力の消耗量が減少する。"
+                "text": "EGOを使う際の精神力の消耗量が減少する。",
+                "name_jp": "光の滴",
+                "name_en": "Tap Of The Light"
             },
             {
-                "name": "Borderline Breakdown",
                 "requirement": "15",
-                "text": "精神力が低いほどダメージが増加する。\n最大+5%の増加"
+                "text": "精神力が低いほどダメージが増加する。\n最大+5%の増加",
+                "name_jp": "境界線の崩壊",
+                "name_en": "Borderline Breakdown"
             },
             {
-                "name": "Comeback Time",
                 "requirement": "15",
-                "text": "EGOを使うときに体力が45%未満なら\n25%回復する。"
+                "text": "EGOを使うときに体力が45%未満なら\n25%回復する。",
+                "name_jp": "カムバックタイム",
+                "name_en": "Comeback Time"
             },
             {
-                "name": "Wail",
                 "requirement": "20",
-                "text": "精神力が-25以下の場合\n ダメージが10%増加する。"
+                "text": "精神力が-25以下の場合\n ダメージが10%増加する。",
+                "name_jp": "慟哭",
+                "name_en": "Wail"
             },
             {
-                "name": "No Will To Break",
                 "requirement": "30",
-                "text": "EGO発現中に受けるダメージが20%減少する。"
+                "text": "EGO発現中に受けるダメージが20%減少する。",
+                "name_jp": "折れぬ意志",
+                "name_en": "No Will To Break"
             },
             {
-                "name": "Negative Thoughts",
                 "requirement": "30",
-                "text": "精神力の回復が減少に変更される。\n (例えるなら、パリィ成功時の精神力回復が7から-7に変更される)"
+                "text": "精神力の回復が減少に変更される。\n (例えるなら、パリィ成功時の精神力回復が7から-7に変更される)",
+                "name_jp": "ネガティブな思考",
+                "name_en": "Negative Thoughts"
             },
             {
-                "name": "No Mind To Cure",
                 "requirement": "35",
-                "text": "戦闘開始前に精神力が-の場合\n戦闘開始時に精神力が-25に変更される。"
+                "text": "戦闘開始前に精神力が-の場合\n戦闘開始時に精神力が-25に変更される。",
+                "name_jp": "癒せぬ心",
+                "name_en": "No Mind To Cure"
             },
             {
-                "name": "Cry On Deaf Ears",
                 "requirement": "40",
-                "text": "精神力が-25未満場合\n{sinking}の付与量が1.5倍になる"
+                "text": "精神力が-25未満場合\n{sinking}の付与量が1.5倍になる",
+                "name_jp": "届かぬ叫び",
+                "name_en": "Cry On Deaf Ears"
             },
             {
-                "name": "Pray To Dead Gods",
                 "requirement": "50",
-                "text": "相手の{sinking}が発動するたびに\n自身に{sinking}を1付与する。"
+                "text": "相手の{sinking}が発動するたびに\n自身に{sinking}を1付与する。",
+                "name_jp": "死せる神への祈り",
+                "name_en": "Pray To Dead Gods"
             }
-        ]
+        ],
+        "name_jp": "憂鬱",
+        "name_en": "Gloom"
     },
     "shin": {
-        "title": "心・望",
         "desc": "心のスキルツリー",
         "color": "#ffea00",
         "position": "center",
-
         "skills": [
             {
-                "name": "Shin Follow Up",
                 "requirement": "10",
-                "text": "スライド攻撃時のRを押す攻撃に、\n{mang}が付く"
+                "text": "スライド攻撃時のRを押す攻撃に、\n{mang}が付く",
+                "name_jp": "心追撃",
+                "name_en": "Shin Follow Up"
             },
             {
-                "name": "Defensive Light",
                 "requirement": "20",
-                "text": "{shin}を一定数保有してると、\n防護効果として発動し、受けるダメージが軽減される。\n軽減率は{shin}のレベルによって変わる\n [レベル1: 10%]| |[レベル2: 15%]\n[レベル3: 20%]| |[レベル4: 25%]\nレベル5: 30%"
+                "text": "{shin}を一定数保有してると、\n防護効果として発動し、受けるダメージが軽減される。\n軽減率は{shin}のレベルによって変わる\n [レベル1: 10%]| |[レベル2: 15%]\n[レベル3: 20%]| |[レベル4: 25%]\nレベル5: 30%",
+                "name_jp": "防御の光",
+                "name_en": "Defensive Light"
             },
             {
-                "name": "Decimate Mind",
                 "requirement": "20",
-                "text": "使用できる条件:\n・gloomに20ポイントを振っている\n・心・望に20ポイント振っている\n-35まで精神力を消費することができる。"
+                "text": "使用できる条件:\n・gloomに20ポイントを振っている\n・心・望に20ポイント振っている\n-35まで精神力を消費することができる。",
+                "name_jp": "精神の虐殺",
+                "name_en": "Decimate Mind"
             },
             {
-                "name": "Regain Mind",
                 "requirement": "30",
-                "text": "通常攻撃の最終段と、集中攻撃的中時\n精神力を10回復する"
+                "text": "通常攻撃の最終段と、集中攻撃的中時\n精神力を10回復する",
+                "name_jp": "精神の回復",
+                "name_en": "Regain Mind"
             },
             {
-                "name": "Overwhelming Power",
                 "requirement": "50",
-                "text": "{mang}で強化された攻撃は、相手が瀕死の場合\n即座に{auto_execute}をする。"
+                "text": "{mang}で強化された攻撃は、相手が瀕死の場合\n即座に{auto_execute}をする。",
+                "name_jp": "圧倒的な力",
+                "name_en": "Overwhelming Power"
             }
-        ]
+        ],
+        "name_jp": "心・望",
+        "name_en": "Shin / Mang"
     }
 }
