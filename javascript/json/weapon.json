@@ -1174,5 +1174,24 @@
       "effect": "{dice1} {slash} [12~15] {hit_ground}{multi_hit}を2回\n{on_last_hit} {bleed}を4付与",
       "ct": 15
     }
+  },
+  "ebony_stem_cutlass": {
+    "req": "3",
+    "name_en": "Ebony Stem Cutlass",
+    "name_jp": "黒壇のカトラス",
+    "type": "slash",
+    "damage": "6.5",
+    "speed": 0.54,
+    "basic": {
+      "image": "/assets/image/weapon/ebony_stem_cutlass_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/ebony_stem_cutlass_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}1.38倍の{damage_modifier}\n{unblockable}{auto_execute}{hit_downed}{unclashable}\n{dice1} {pierce} [10~16] {multi_hit}を4回 {on_hit} {rupture}を1x4付与",
+      "ct": 16
+    }
   }
 }
