@@ -71,7 +71,7 @@
     "critical": {
       "image": "/assets/image/weapon/gladius_critical.webm",
       "desc": "",
-      "effect": "{dice1} [4~5] {slash} {on_hit} {burn}を2付与\n {dice2} [4~5] {slash} {on_hit} {burn}を2付与\n {dice3} [8~10] {slash} {on_hit} {thermogenesis}を得て{burn}を6付与 ",
+      "effect": "{dice1} [4~5] {slash} {on_hit} {burn}を2付与\n {dice2} [4~5] {slash} {on_hit} {burn}を2付与\n {dice3} [8~10] {slash} {on_hit}{guard_break} {thermogenesis}を得て{burn}を6付与 ",
       "ct": 18
     }
   },
@@ -1209,7 +1209,7 @@
     "critical1": {
       "image": "/assets/image/weapon/rough_axe_critical.webm",
       "desc": "",
-      "effect": "{on_use} {hyperarmor}\n{dice1} {slash} [10~14] {undodgeable}{guard_break} {on_hit}{bleed}を3付与\n{when_hit}もし被ダメージが11を超える場合、被弾したダメージの50%を回復し{dice1}の溜め動作をスキップし{unparriable}にする\nさらに、そのダイスは溜め動作中に受けたダメージと同じ量のスタミナダメージを与えるようになる",
+      "effect": "{on_use} {hyperarmor}\n{dice1} {slash} [10~14] {undodgeable}{guard_break} {on_hit} {bleed}を3付与\n{when_hit}もし被ダメージが11を超える場合、被弾したダメージの50%を回復し{dice1}の溜め動作をスキップし{unparriable}にする\nさらに、そのダイスは溜め動作中に受けたダメージと同じ量のスタミナダメージを与えるようになる",
       "ct": 16
     }
   }
