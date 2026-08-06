@@ -1212,5 +1212,30 @@
       "effect": "{on_use} {hyperarmor}\n{dice1} {slash} [10~14] {undodgeable}{guard_break} {on_hit} {bleed}を3付与\n{when_hit}もし被ダメージが11を超える場合、被弾したダメージの50%を回復し{dice1}の溜め動作をスキップし{unparriable}にする\nさらに、そのダイスは溜め動作中に受けたダメージと同じ量のスタミナダメージを与えるようになる",
       "ct": 16
     }
+  },
+  "tanglecleaver": {
+    "req": "1",
+    "name_en": "Tanglecleaver",
+    "name_jp": "天退星刀",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/tanglecleaver_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/tanglecleaver_critical1.webm",
+      "desc": "",
+      "effect": "1.5倍の{damage_modifier}\n{on_use}もし10以上の{savage_tigermark_round}を持っている場合クリティカルが変化する\n{on_use} {hyperarmor}を得る\n{dice1} [10~15] {slash} {undogeable}\n[1段目] {on_use}最大5個の{tigermark_round}を消費し、消費した{tigermark_round}の数に応じて、ダメージが0.05増加する(最大0.25増加)\n[2段目] {on_use}最大5個の{tigermark_round}を消費し、消費した{tigermark_round}の数に応じて、ダメージが0.55増加する(最大2.75増加)\n{on_hit} 消費した{tigermark_round}に応じて{burn}を(最大5)付与し、{tremor}を5付与\n[3段目] {on_use}最大2の{tigermark_round}を消費し、消費した{tigermark_round}に応じて、ダメージを0.55増加させる(最大1.1増加)\n{on_hit} 消費した{tigermark_round}だけ{burn}を付与(最大2)し{knock_back}\nこのヒットに{tigermark_round}を消費した場合、{tremor_burst}を起こす",
+      "ct": 20
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/tanglecleaver_critical2.webm",
+      "desc": "",
+      "effect": "2.25倍の{damage_modifier}\n{undogeable}{guard_break}{ground}\n[外した場合] 攻撃の最終ヒットだけ使用し、0.5倍の{damage_modifier}を与える\n{after_attack} {AoE}を獲得し{savage_tigermark_round}をすべて消費\n{dice1} [20~41] {slash} {on_hit} {burn}と{tremor}を8付与し、最終段に{tremor_burst}を起こす",
+      "ct": 20
+    }
   }
 }
