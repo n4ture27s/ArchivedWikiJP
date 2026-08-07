@@ -465,6 +465,7 @@
     "singleton" : {"title":"唯一","text":"デッキ内の全てのページが異なるコストの場合に発動する効果。","color": "c9a84b"},
     "frame_three" : {"title":"フレーム3","text":"この攻撃は3フレーム目で実行されるため、遅延が大きい。","color": "94f140"},
     "on_last_hit" : {"title":"最終ヒット時","text":"マルチヒットの最後の攻撃時に発動する効果。","color": "94f140"},
-    "after_attack" : {"title":"攻撃後","text":"この条件はこの攻撃が終わった後に達成されます。","color": "94f140"}
+    "after_attack" : {"title":"攻撃後","text":"この条件はこの攻撃が終わった後に達成されます。","color": "94f140"},
+    "before_attack" : {"title":"攻撃前","text":"この条件は攻撃をする前に達成されます。","color": "94f140"}
   }
 }

@@ -1237,5 +1237,24 @@
       "effect": "2.25倍の{damage_modifier}\n{undogeable}{guard_break}{ground}\n[外した場合] 攻撃の最終ヒットだけ使用し、0.5倍の{damage_modifier}を与える\n{after_attack} {AoE}を獲得し{savage_tigermark_round}をすべて消費\n{dice1} [20~41] {slash} {on_hit} {burn}と{tremor}を8付与し、最終段に{tremor_burst}を起こす",
       "ct": 20
     }
+  },
+  "butlers_briefcase": {
+    "req": "4",
+    "name_en": "Butler's Briefcase",
+    "name_jp": "バトラーのブリーフケース",
+    "type": "slash",
+    "damage": "5",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/butler_briefcase_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/butler_briefcase_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {poise}を4得る\n{before_attack}もし使用する前にsキーを押し続けたのなら、少し後ろに下がる\n{dice1} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice2} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice1} [8~12] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る",
+      "ct": 15
+    }
   }
 }
