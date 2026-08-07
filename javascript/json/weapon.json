@@ -1253,7 +1253,7 @@
     "critical1": {
       "image": "/assets/image/weapon/butler_briefcase_critical.webm",
       "desc": "",
-      "effect": "{on_use} {poise}を4得る\n{before_attack}もし使用する前にsキーを押し続けたのなら、少し後ろに下がる\n{dice1} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice2} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice1} [8~12] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る",
+      "effect": "{on_use} {poise}を4得る\n{before_attack}もし使用する前にsキーを押し続けたのなら、少し後ろに下がる\n{dice1} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice2} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice3} [8~12] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る",
       "ct": 15
     }
   }
