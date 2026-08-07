@@ -1256,5 +1256,24 @@
       "effect": "{on_use} {poise}を4得る\n{before_attack}もし使用する前にsキーを押し続けたのなら、少し後ろに下がる\n{dice1} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice2} [4~6] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る\n{dice3} [8~12] {slash} {unblockable}{hyperarmor}{on_hit} {bind}を1付与し{poise}を2得る",
       "ct": 15
     }
+  },
+  "backstreet_chefs_knife": {
+    "req": "なし",
+    "name_en": "Backstreet Chef's Knife",
+    "name_jp": "裏路地のシェフのナイフ",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.46,
+    "basic": {
+      "image": "/assets/image/weapon/backstreet_chef_knife_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/backstreet_chef_knifecritical.webm",
+      "desc": "",
+      "effect": "{on_use} もしシェフの祝福を持っている場合{appetite}を1得る\n{on_hit}{hyperarmor}\n0.5倍の{damage_modifier} {dice1} [3~6] {pierce}\n0.35倍の{damage_modifier} {dice2} [6~12] {pierce} {on_hit} {bleed}を7付与\n0.35倍の{damage_modifier} {dice3} [9~12] {pierce}\n1倍の{damage_modifier} {dice4} [9~12] {pierce}",
+      "ct": 18
+    }
   }
 }

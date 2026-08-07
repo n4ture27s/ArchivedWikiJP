@@ -416,6 +416,13 @@
         "text": "ユニットが死ぬまで与えられるダメージ量",
         "type": "resource",
         "icon": "HP"
+    },
+
+    "appetite": {
+        "title": "食欲",
+        "text": "シェフの祝福で使われるリソース。",
+        "type": "resource",
+        "icon": "Appetite"
     }
   },
   "combat_module": {
