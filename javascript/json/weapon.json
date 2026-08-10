@@ -1270,7 +1270,7 @@
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/backstreet_chef_knifecritical.webm",
+      "image": "/assets/image/weapon/backstreet_chef_knife_critical.webm",
       "desc": "",
       "effect": "{on_use} もしシェフの祝福を持っている場合{appetite}を1得る\n{on_hit}{hyperarmor}\n0.5倍の{damage_modifier} {dice1} [3~6] {pierce}\n0.35倍の{damage_modifier} {dice2} [6~12] {pierce} {on_hit} {bleed}を7付与\n0.35倍の{damage_modifier} {dice3} [9~12] {pierce}\n1倍の{damage_modifier} {dice4} [9~12] {pierce}",
       "ct": 18
