@@ -1275,5 +1275,49 @@
       "effect": "{on_use} もしシェフの祝福を持っている場合{appetite}を1得る\n{on_hit}{hyperarmor}\n0.5倍の{damage_modifier} {dice1} [3~6] {pierce}\n0.35倍の{damage_modifier} {dice2} [6~12] {pierce} {on_hit} {bleed}を7付与\n0.35倍の{damage_modifier} {dice3} [9~12] {pierce}\n1倍の{damage_modifier} {dice4} [9~12] {pierce}",
       "ct": 18
     }
+  },
+  "mook_workshop": {
+    "req": "1",
+    "name_en": "Mook WorkShop",
+    "name_jp": "ムク工房",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.45,
+    "basic": {
+      "image": "/assets/image/weapon/mook_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/mook_critical1.webm",
+      "desc": "",
+      "effect": "{on_use} 0.75倍の{damage_modifier}を{dice1}に適用する\n{dice1} {slash} [3~7] {guard_break}\n{dice2} {slash} [9~13] {unblockable}{unparriable}",
+      "ct": 18
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/mook_critical2.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [4~7] {QTE}\n{QTE_success}ダイスの値を変更しダイスを再使用、次に別のQTEを発生させる(最大2回まで)\n1回目 {slash} [6~9]\n2回目 {slash} [10~19]\n注意 ダイスを使用するたびに{light}を1減らします",
+      "ct": 18
+    }
+   },
+  "smiling_mass": {
+    "req": "4",
+    "name_en": "Smiling Mass",
+    "name_jp": "笑い",
+    "type": "blunt",
+    "damage": "9",
+    "speed": 0.75,
+    "basic": {
+      "image": "/assets/image/weapon/smile_mass_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/smile_mass_critical.webm",
+      "desc": "",
+      "effect": "{unblockable}{undodgeable}\n{dice1} [5~6] {blunt}\n{dice2} {blunt} [6~9] {on_hit}{bleed}を4付与し、{regen_up}を5得て{health}を5回復する\n{dice3} {blunt} [7~8] {on_hit}{tremor_burst}\n{dice4} {blunt} [5~9] {on_hit} {auto_execute}",
+      "ct": 18
+    }
   }
 }
