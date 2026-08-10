@@ -1316,7 +1316,7 @@
     "critical1": {
       "image": "/assets/image/weapon/smile_mass_critical.webm",
       "desc": "",
-      "effect": "{unblockable}{undodgeable}\n{dice1} [5~6] {blunt}\n{dice2} {blunt} [6~9] {on_hit}{bleed}を4付与し、{regen_up}を5得て{health}を5回復する\n{dice3} {blunt} [7~8] {on_hit}{tremor_burst}\n{dice4} {blunt} [5~9] {on_hit} {auto_execute}",
+      "effect": "{unblockable}{undodgeable}\n{dice1} {blunt} [5~6]\n{dice2} {blunt} [6~9] {on_hit}{bleed}を4付与し、{regen_up}を5得て{health}を5回復する\n{dice3} {blunt} [7~8] {on_hit}{tremor_burst}\n{dice4} {blunt} [5~9] {on_hit} {auto_execute}",
       "ct": 18
     }
   }
