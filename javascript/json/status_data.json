@@ -423,6 +423,20 @@
         "text": "シェフの祝福で使われるリソース。",
         "type": "resource",
         "icon": "Appetite"
+    },
+
+    "strength": {
+        "title": "力",
+        "text": "M1の攻撃力が10%上昇。",
+        "type": "buff",
+        "icon": "Attack_Power_Up"
+    },
+
+    "realization": {
+        "title": "実現",
+        "text": "黒い沈黙の武器から切り替える際に、黒い沈黙の手袋の特異点を使用して得られるステータス効果。",
+        "type": "resource",
+        "icon": "Realization"
     }
   },
   "combat_module": {
