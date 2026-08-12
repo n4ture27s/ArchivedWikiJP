@@ -431,6 +431,18 @@
         "text": "値が7に達した時混乱させる。その後、値を0にする",
         "type": "debuff",
         "icon": "Blooming"
+    },
+    "tremor_everlasting": {
+        "title": "振動 -永続-",
+        "text": "振動爆発時のスタミナダメージ2倍にし、2の振動を付与。振動爆発をする際に、対象が15以上の振動を持っていないと振動爆発を起こせない",
+        "type": "debuff",
+        "icon": "Tremor_Everlasting"
+    },
+    "tremor_hemorrhage": {
+        "title": "振動 -大量出血-",
+        "text": "振動爆発時に失った振動と同じ値分を、出血に変換。この状態異常が付いている間は、出血が減少した量だけスタミナダメージを与える",
+        "type": "debuff",
+        "icon": "Tremor_Everlasting"
     }
   },
   "combat_module": {
