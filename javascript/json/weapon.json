@@ -1398,7 +1398,7 @@
     "critical2": {
       "image": "/assets/image/weapon/atelier_logic_pistol_critical2.webm",
       "desc": "",
-      "effect": "{dice1} {pierce} [6~9] {unblockable}{undodgeable}\n{dice2} {pierce} [7~10] {unblockable}{undodgeable}{on_hit} {knock_back}武器をロジックアトリエ製ショットガンに変更する",
+      "effect": "{dice1} {pierce} [6~9] {unblockable}{undodgeable}\n{dice2} {pierce} [7~10] {unblockable}{undodgeable}{on_hit} {knock_back}{change_weapon}ロジックアトリエ製ショットガンへ",
       "ct": 12
     },
     "custom_reload": {
@@ -1431,7 +1431,7 @@
     "critical": {
       "image": "/assets/image/weapon/atelier_logic_shotgun_critical.webm",
       "desc": "",
-      "effect": "{dice1} {blunt} [12~14] {guard_break}{on_hit} {rupture}を3付与し、武器をロジックアトリエ製ピストルに変更する",
+      "effect": "{dice1} {blunt} [12~14] {guard_break}{on_hit} {rupture}を3付与し、{change_weapon}ロジックアトリエ製ピストルへ",
       "ct": 12
     },
     "custom_reload": {
