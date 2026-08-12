@@ -1486,5 +1486,43 @@
       "effect": "{on_use} {hyperarmor}を得る\nもし15以上の{charge}を持っているなら15の{charge}を消費し、ダイスの値を[18~23]に変更する\n{dice1} {pierce} [10~15] {unblockable}{hit_ground}{auto_execute}{on_hit} {charge}を9得て、{paralyze}を4付与し、{tremor_burst}を2回起こす\n{after_use} {tremor_burst}を1回起こす",
       "ct": 22
     }
+  },
+  "wheels_industry": {
+    "req": "1",
+    "name_en": "Wheel's Industry",
+    "name_jp": "ホイールズ・インダストリー",
+    "type": "blunt",
+    "damage": "10",
+    "speed": 0.7,
+    "basic": {
+      "image": "/assets/image/weapon/wheel_industry_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる\n通常攻撃の最終段が{hit_ground}{guard_break}"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/wheel_industry_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [12~24] {hit_ground}{guard_break}{undodgeable}{on_hit} 対象の{light}を2減らし、{change_weapon}拳に変更",
+      "ct": 17
+    }
+  },
+  "wheel_industry_fist": {
+    "req": "1",
+    "name_en": "Wheel's Industry (Fist)",
+    "name_jp": "ホイールズ・インダストリー(拳)",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/wheel_industry_fist_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/wheel_industry_fist_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {blunt} [4~7] {hit_ground}{undodgeable}{on_hit} 33%の{damage_modifier}と{light}を1得る\n{dice2} {blunt} [7~10] {on_hit}{multi_hit}を2回\n[1回目]0.5倍の{damage_modifier}を得る\n[2回目]0.7倍の{damage_modifier}を得て、{change_weapon}ホイールズ・インダストリーへ",
+      "ct": 17
+    }
   }
 }
