@@ -354,89 +354,83 @@
         "type": "resource",
         "icon": "Artwork_-_fascia"
     },
-
     "ahn": {
         "title": "Ahn",
         "text": "Archived内の通貨。",
         "type": "resource",
         "icon": "Ahn"
     },
-
     "scorch_propellant_round": {
         "title": "灼熱推進弾",
         "text": "親指の特定ページで使用される特殊な弾丸。",
         "type": "resource",
         "icon": "Scorch_Propellant_Round"
     },
-
     "tigermark_round": {
         "title": "虎標弾",
         "text": "Tanglecleaver武器のクリティカルを強化する特殊な弾丸。",
         "type": "resource",
         "icon": "Tigermark_Round"
     },
-
     "savage_tigermark_round": {
         "title": "猛虎標弾",
         "text": "Tanglecleaverのクリティカルを変化させる特殊な弾丸。",
         "type": "resource",
         "icon": "Savage_Tigermark_Round"
     },
-
     "gaze": {
         "title": "注視",
         "text": "[被弾時] 貫通または打撃属性の被ダメージが10%増加する。",
         "type": "debuff",
         "icon": "Gaze"
     },
-
     "value_down": {
         "title": "ダイス値減少",
         "text": "ダイス威力を値だけ減少させる。",
         "type": "debuff",
         "icon": "Value_Power_Down"
     },
-
     "red_plum_blossom": {
         "title": "紅梅",
         "text": "クリティカルヒット率を10%上昇させ、クリティカルダメージを(値x3)%上昇させるユニークな出血効果。[的中時]値と等しい出血を付与する。(最大:10, 減衰:10)",
         "type": "debuff",
         "icon": "Red_Plum_Blossom"
     },
-
     "imitation": {
         "title": "模倣",
         "text": "特定のページや武器などで使われるステータス。",
         "type": "resource",
         "icon": "Empty_Mark"
     },
-
     "health": {
         "title": "体力",
         "text": "ユニットが死ぬまで与えられるダメージ量",
         "type": "resource",
         "icon": "HP"
     },
-
     "appetite": {
         "title": "食欲",
         "text": "シェフの祝福で使われるリソース。",
         "type": "resource",
         "icon": "Appetite"
     },
-
     "strength": {
         "title": "力",
         "text": "M1の攻撃力が10%上昇。",
         "type": "buff",
         "icon": "Attack_Power_Up"
     },
-
     "realization": {
         "title": "実現",
         "text": "黒い沈黙の武器から切り替える際に、黒い沈黙の手袋の特異点を使用して得られるステータス効果。",
         "type": "resource",
         "icon": "Realization"
+    },
+    "blooming": {
+        "title": "開花",
+        "text": "値が7に達した時混乱させる。その後、値を0にする",
+        "type": "debuff",
+        "icon": "Blooming"
     }
   },
   "combat_module": {
