@@ -1467,5 +1467,24 @@
       "effect": "{on_hit} {hyperarmor}を得る\n{dice1} {pierce} [3~7] {on_hit} {bleed}を3付与\n{dice2} {pierce} [3~7] {on_hit} {bleed}を3付与\n{dice3} {pierce} [4~10] {on_hit} {bleed}を2付与\nもし、{realization}を5以上持っている場合、最後のダイスで対象の{bleed}を固定ダメージとして発動させその後、{bleed}を全て消費する(最大20まで)\n \n注意 このクリティカルは折り返し可能です",
       "ct": 15
     }
+  },
+  "thundering_pole": {
+    "req": "3",
+    "name_en": "Thundering Pole",
+    "name_jp": "電信柱",
+    "type": "pierce",
+    "damage": "8",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/thundering_pole_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/thundering_pole_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\nもし15以上の{charge}を持っているなら15の{charge}を消費し、ダイスの値を[18~23]に変更する\n{dice1} {pierce} [10~15] {unblockable}{hit_ground}{auto_execute}{on_hit} {charge}を9得て、{paralyze}を4付与し、{tremor_burst}を2回起こす\n{after_use} {tremor_burst}を1回起こす",
+      "ct": 22
+    }
   }
 }
