@@ -449,6 +449,18 @@
         "text": "ユニットの体力を回復する",
         "type": "buff",
         "icon": "Heal"
+    },
+    "magic_bullet": {
+        "title": "魔法の弾丸",
+        "text": "Magic Bulletから得られるステータス。E.G.O Magic Bulletのページに使う。",
+        "type": "resource",
+        "icon": "Magic_Bullet"
+    },
+    "dark_flame": {
+        "title": "黒炎",
+        "text": "火傷が減衰した時にこの状態異常を1消費し、火傷とともに1.5倍のダメージ修正を与える(最大値7)",
+        "type": "resource",
+        "icon": "Magic_Bullet"
     }
   },
   "combat_module": {

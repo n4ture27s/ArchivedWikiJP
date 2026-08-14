@@ -1544,23 +1544,29 @@
       "ct": 20
     }
   },
-  "regret_hammer": {
-    "req": "3",
-    "name_en": "Reguret Hammer",
-    "name_jp": "後悔",
+  "magic_bullet_rifle": {
+    "req": "6",
+    "name_en": "Magic Bullet Rifle",
+    "name_jp": "魔法の弾丸",
     "type": "blunt",
-    "damage": "7.5",
-    "speed": 0.67,
+    "damage": "6.5",
+    "speed": 0.59,
     "basic": {
-      "image": "/assets/image/weapon/regret_hammer_basic.webm",
+      "image": "/assets/image/weapon/magic_bullet_rifle_basic.webm",
       "desc": "",
       "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical1": {
-      "image": "/assets/image/weapon/regret_hammer_critical.webm",
+      "image": "/assets/image/weapon/magic_bullet_riflecritical.webm",
       "desc": "",
-      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [2~4] {hit_ground}{on_hit} {tremor}を2付与\n{dice2} {blunt} [2~4] {hit_ground}{on_hit} {tremor}を2付与\n{dice3} {blunt} [2~4] {hit_ground}{on_hit} {tremor}を2付与\n{dice4} {blunt} [8~12] {hit_downed}{on_hit} {guard_break}、{tremor}を2付与した後に{tremor_burst}",
+      "effect": "{on_use} {hyperarmor}を得る\n{on_use} {magic_bullet}が1より多い場合、{magic_bullet}1につき最小・最大ダイス威力を増加(最大6)\n{dice1} {pierce} [15~19] {on_hit} 1の{magic_bullet}を得る\n{on_hit} {magic_bullet}と同じ値分、{dark_flame}を付与\n{after_use} 精神力を6減らす\n{after_use}{magic_bullet}が7の時、{magic_bullet}を1にする",
       "ct": 20
+    },
+    "custom_reload": {
+      "image": "/assets/image/weapon/magic_bullet_rifle_reload.webm",
+      "desc": "",
+      "effect": "{magic_bullet}を1得る",
+      "ct": 25
     }
   }
 }
