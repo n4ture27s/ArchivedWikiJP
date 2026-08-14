@@ -1524,5 +1524,24 @@
       "effect": "{dice1} {blunt} [12~16] {auto_execute}{hit_downed}{on_hit} 2の{rupture}を付与し、{health}を10{heal}する\n{auto_execute}に成功した場合、{value_up}2を30秒間得る",
       "ct": 15
     }
+   },
+  "piston_gauntlet": {
+    "req": "3",
+    "name_en": "Piston Gauntlet",
+    "name_jp": "ピストンガントレット",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.64,
+    "basic": {
+      "image": "/assets/image/weapon/piston_gauntlet_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/piston_gauntlet_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{on_use} {charge}が10以上なら消費し、{value_up}を3得る\n{dice1} {blunt} [4~8] {on_hit} {charge}を3得る\n{dice2} {blunt} [4~8] {ground}{on_hit} {multi_hit}を2回\n[1回目]1倍の{damage_modifier}\n[2回目]{on_hit} {charge}を3得る",
+      "ct": 20
+    }
   }
 }
