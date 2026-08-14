@@ -1554,7 +1554,7 @@
     "basic": {
       "image": "/assets/image/weapon/magic_bullet_rifle_basic.webm",
       "desc": "",
-      "effect": "長押しで振り下ろすまでの速度を変更できる"
+      "effect": ""
     },
     "critical1": {
       "image": "/assets/image/weapon/magic_bullet_riflecritical.webm",

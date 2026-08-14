@@ -459,8 +459,8 @@
     "dark_flame": {
         "title": "黒炎",
         "text": "火傷が減衰した時にこの状態異常を1消費し、火傷とともに1.5倍のダメージ修正を与える(最大値7)",
-        "type": "resource",
-        "icon": "Magic_Bullet"
+        "type": "debuff",
+        "icon": "Dark_flame"
     }
   },
   "combat_module": {
