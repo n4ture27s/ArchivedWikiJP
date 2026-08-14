@@ -1543,5 +1543,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{on_use} {charge}が10以上なら消費し、{value_up}を3得る\n{dice1} {blunt} [4~8] {on_hit} {charge}を3得る\n{dice2} {blunt} [4~8] {ground}{on_hit} {multi_hit}を2回\n[1回目]1倍の{damage_modifier}\n[2回目]{on_hit} {charge}を3得る",
       "ct": 20
     }
+  },
+  "regret_hammer": {
+    "req": "3",
+    "name_en": "Reguret Hammer",
+    "name_jp": "後悔",
+    "type": "blunt",
+    "damage": "7.5",
+    "speed": 0.67,
+    "basic": {
+      "image": "/assets/image/weapon/regret_hammer_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/regret_hammer_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [2~4] {hit_ground}{on_hit} {tremor}を2付与\n{dice2} {blunt} [2~4] {hit_ground}{on_hit} {tremor}を2付与\n{dice3} {blunt} [2~4] {hit_ground}{on_hit} {tremor}を2付与\n{dice4} {blunt} [8~12] {hit_downed}{on_hit} {guard_break}、{tremor}を2付与した後に{tremor_burst}",
+      "ct": 20
+    }
   }
 }
