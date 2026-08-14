@@ -443,6 +443,12 @@
         "text": "振動爆発時に失った振動と同じ値分を、出血に変換。この状態異常が付いている間は、出血が減少した量だけスタミナダメージを与える",
         "type": "debuff",
         "icon": "Tremor_Everlasting"
+     },
+    "heal": {
+        "title": "回復",
+        "text": "ユニットの体力を回復する",
+        "type": "buff",
+        "icon": "Heal"
     }
   },
   "combat_module": {
