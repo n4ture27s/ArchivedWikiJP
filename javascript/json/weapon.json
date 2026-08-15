@@ -1568,5 +1568,43 @@
       "effect": "{magic_bullet}を1得る",
       "ct": 25
     }
+  },
+  "crystal_atelier": {
+    "req": "1",
+    "name_en": "Crystal Atlier",
+    "name_jp": "クリスタルアトリエ",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.59,
+    "basic": {
+      "image": "/assets/image/weapon/crystal_atelier_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/crystal_atelier_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [7~11] {unblockable}\n{dice2} {slash} [7~11] {guard_break}{hit_ground}",
+      "ct": 18
+    }
+  },
+  "dieci_association_key": {
+    "req": "4",
+    "name_en": "Dieci Assocation Key",
+    "name_jp": "ディエーチ協会の鍵",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/dieci_key_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/dieci_key_critical.webm",
+      "desc": "",
+      "effect": "{undodgeable}{hit_ground}\n{on_use}0.8倍の{damage_modifier}\n{on_hit} {hyperarmor}\n{dice1} {blunt} [4~4] {on_hit}{sinking}を1付与\n{dice2} {blunt} [4~8] {on_hit} {sinking}を1付与\n{dice3} {blunt} [4~12] {on_hit} {sinking}を1付与\n{dice4} {blunt} [4~16] {knock_back}{on_hit} {sinking}を1付与",
+      "ct": 20
+    }
   }
 }
