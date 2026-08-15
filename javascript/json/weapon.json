@@ -825,7 +825,7 @@
   "blade_lineage_hwando": {
     "req": "5",
     "name_en": "Blade Lineage Hwando",
-    "name_jp": "剣契環刀",
+    "name_jp": "剣契の環刀",
     "type": "slash",
     "damage": "7",
     "speed": 0.59,
@@ -844,7 +844,7 @@
   "blade_lineage_jikdo": {
     "req": "1",
     "name_en": "Blade Lineage Jikdo",
-    "name_jp": "剣契直刀",
+    "name_jp": "剣契の直刀",
     "type": "slash",
     "damage": "8",
     "speed": 0.69,
