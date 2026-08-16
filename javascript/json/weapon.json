@@ -1606,5 +1606,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{on_use} 0.5倍の{damage_modifier}を得る\n{dice1} {blunt} [2~5] {multi_hit}を4回、\n[全てのマルチヒット]\n{on_hit} {tremor}を1付与、0.5倍の{damage_modifier}\n{dice2} {blunt} [7~10] {guard_break}{tracking}{on_hit} {tremor_burst}\n{dice3} {blunt} [9~12] {guard_break}{on_hit} {tremor_burst}\n{dice4} {blunt} [11~14] {guard_break}{ground}{on_hit} {tremor_burst}",
       "ct": 16
     }
+   },
+  "dagger": {
+    "req": "なし",
+    "name_en": "Dagger",
+    "name_jp": "ダガー",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.46,
+    "basic": {
+      "image": "/assets/image/weapon/dagger_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/dagger_critical.webm",
+      "desc": "",
+      "effect": "{combo_starter} {combo_extender}\n{dice1} {slash} [10~15] {on_hit} {bleed}を3付与",
+      "ct": 16
+    }
   }
 }
