@@ -1625,5 +1625,24 @@
       "effect": "{combo_starter} {combo_extender}\n{dice1} {slash} [10~15] {on_hit} {bleed}を3付与",
       "ct": 16
     }
+   },
+  "Tcorp_collection_pickaxe": {
+    "req": "5",
+    "name_en": "T.Corp Collection Pickaxe",
+    "name_jp": "T社級徴収職職員の裁断機",
+    "type": "slash",
+    "damage": "8",
+    "speed": 0.70,
+    "basic": {
+      "image": "/assets/image/weapon/Tcorp_collection_pickaxe_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/Tcorp_collection_pickaxe_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [6~10] {undodgeable}{guard_break}{on_hit} {tremor}を4付与\n{dice2} {slash} [6~7] {on_hit} {tremor}を2付与\n{dice3} {slash} [4~5] 1.3倍の{damage_modifier}{on_hit} もし相手の{tremor}が12以上の場合、{tremor_burst}",
+      "ct": 16
+    }
   }
 }
