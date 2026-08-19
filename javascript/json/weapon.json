@@ -1664,23 +1664,23 @@
       "ct": 16
     }
   },
-  "scrap_bat": {
+  "great_sword": {
     "req": "なし",
-    "name_en": "Scrap Bat",
-    "name_jp": "スクラップバット",
+    "name_en": "Great Sword",
+    "name_jp": "大剣",
     "type": "blunt",
-    "damage": "6.5",
-    "speed": 0.6,
+    "damage": "9.5",
+    "speed": 0.64,
     "basic": {
-      "image": "/assets/image/weapon/scrap_bat_basic.webm",
+      "image": "/assets/image/weapon/great_sword_basic.webm",
       "desc": "",
-      "effect": ""
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical1": {
-      "image": "/assets/image/weapon/scrap_bat_critical.webm",
+      "image": "/assets/image/weapon/great_sword_critical.webm",
       "desc": "",
-      "effect": "{on_hit} {hyperarmor}を得る\n{dice1} {blunt} [6~7] {on_hit} {rupture}を2付与\n{dice2} {blunt} [6~8] {on_hit} {rupture}を2付与\n{dice3} {blunt} [6~9] {on_hit} {rupture}を2付与",
-      "ct": 10
+      "effect": "{on_use} {light}を1得る\n{dice1} {blunt} [3~6]\n{dice2} {blunt} [4~6] {multi_hit}を2回、それぞれの{multi_hit}に{damage_modifier}を100%得る",
+      "ct": 14
     }
   }
 }
