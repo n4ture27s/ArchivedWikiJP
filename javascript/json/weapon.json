@@ -1644,5 +1644,24 @@
       "effect": "{dice1} {slash} [6~10] {undodgeable}{guard_break}{on_hit} {tremor}を4付与\n{dice2} {slash} [6~7] {on_hit} {tremor}を2付与\n{dice3} {slash} [4~5] 1.3倍の{damage_modifier}{on_hit} もし相手の{tremor}が12以上の場合、{tremor_burst}",
       "ct": 16
     }
+  },
+  "index_proxys_shackles": {
+    "req": "6",
+    "name_en": "Index Proxy's Shcakles",
+    "name_jp": "人差し指代行者の枷",
+    "type": "blunt",
+    "damage": "7",
+    "speed": 0.51,
+    "basic": {
+      "image": "/assets/image/weapon/index_proxy_shackles_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/index_proxy_shackles_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}と{poise}を1得る\n{dice1} {blunt} [4~7] {on_hit} {poise}を3得る\n{dice2} {blunt} [5~9] {undodgeable}{on_hit} {rupture}を2付与\n{dice3}{blunt} [11~16] {undodgeable}{guard_break}{hit_ground}{tracking}{on_hit} {rupture}を3付与、{poise}を対象が持ってる{rupture}分得る",
+      "ct": 16
+    }
   }
 }
