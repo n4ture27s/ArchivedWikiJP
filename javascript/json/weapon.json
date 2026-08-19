@@ -1682,5 +1682,30 @@
       "effect": "{on_use} {light}を1得る\n{dice1} {blunt} [3~6]\n{dice2} {blunt} [4~6] {multi_hit}を2回、それぞれの{multi_hit}に{damage_modifier}を100%得る",
       "ct": 14
     }
+  },
+  "brutish_brawler": {
+    "req": "1",
+    "name_en": "Brutish Brawler",
+    "name_jp": "粗暴な喧嘩屋",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.67,
+    "basic": {
+      "image": "/assets/image/weapon/brutish_brawler_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/brutish_brawler_critical1.webm",
+      "desc": "",
+      "effect": "{unblockable}{undodgeable}\n{on_use}前向きに後ろに下がっているならクリティカルが変化する\n{dice1} {blunt} [5~8] {hit_ground}{multi_hit}を2回、0.68倍の{damage_modifier}を得る\n{before_attack}もし対象が{tremor}を持っているならば、{fragile}を5付与\n[1回目] {on_hit} {tremor}を1付与\n[2回目] {on_hit} {tremor}を1付与\n{dice2} {blunt} [5~15] {hit_ground}{multi_hit}を2回、0.35倍の{damage_modifier}、最終段は1倍の{damage_modifier}を得る\n[1回目] {on_hit} {tremor}を1付与\n[2回目] {on_hit} {tremor}を3付与し、対象から{ahn}を盗む",
+      "ct": 18
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/brutish_brawler_critical2.webm",
+      "desc": "",
+      "effect": "{auto_execute}{unblockable}{hit_ground}\n{after_use}{hyperarmor}を得る\n{dice1} {blunt} [8~15] {multi_hit}を2回、0.33倍の{damage_modifier}、最終段に1倍の{damage_modifier}を得る\n{before_attack}もし対象に{tremor}があるなら4の{fragile}を付与\n[1回目] {on_hit} {tremor}を3付与\n[2回目] {on_hit} {tremor}を3付与、もし対象の{tremor}が15以上なら{tremor_burst}",
+      "ct": 18
+    }
   }
 }
