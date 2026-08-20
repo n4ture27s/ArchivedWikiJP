@@ -1726,5 +1726,24 @@
       "effect": "{hyperarmor}を得て、{smoke}を2得る\n{dice1} {blunt} [4~8] {on_hit} {smoke}を1付与\n{dice2} {blunt} [3~7] {guard_break}{knock_back}{QTE}{on_hit} {smoke}を2付与\n{combo_extender}{QTE_success}2倍の{damage_modifier}を得る",
       "ct": 16
     }
+  },
+  "famiry_heir's_sabre": {
+    "req": "4",
+    "name_en": "Famiry Heir's Sabre",
+    "name_jp": "家継承者のサーベル",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/famiry_sabre_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/famiry_sabre_critical.webm",
+      "desc": "",
+      "effect": "0.5倍の{damage_modifier}\n{dice1}{slash} [7~10] {on_hit} {sinking}を1付与\n{dice2} {slash} [10~13] {on_hit} {sinking}を1付与\n{dice3} {slash} [13~16] {on_hit}{sinking}を1付与\n{dice4} {slash} [13~16] {guard_break}{ground}{tracking}{on_hit} {sinking}を3付与\nもし対象の{sinking}が10以上なら10消費して、{value_up}を3得る",
+      "ct": 20
+    }
   }
 }
