@@ -1802,5 +1802,24 @@
       "effect": "{on_use}{light}を1得る\n{dice1} {slash} [2~4] {on_hit} {rupture}を2付与\n{dice2} {slash} [3~6] {on_hit} {rupture}を2付与",
       "ct": 14
     }
+  },
+  "sweeper_hook": {
+    "req": "なし",
+    "name_en": "Sweeper Hook",
+    "name_jp": "掃除屋の鈎",
+    "type": "slash",
+    "damage": "5.5",
+    "speed": 0.42,
+    "basic": {
+      "image": "/assets/image/weapon/sweeper_hook_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/sweeper_hook_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [10~15] {guard_break}{hit_ground}{on_hit} {bleed}を3付与しダイスの値/2{health}を回復する\nこのダイスは{value_up}の影響を受けない",
+      "ct": 21
+    }
   }
 }
