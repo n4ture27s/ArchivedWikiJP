@@ -1764,5 +1764,24 @@
       "effect": "{on_use}{hyperarmor}を得る\n{on_use}もし対象が瀕死の場合{auto_execute}\n{dice1} {blunt} [10~18] {hit_ground}{guard_break}\n{dice2} {blunt} [5~5]{unblockable}{on_hit} {paralyze}を2付与",
       "ct": 18
     }
+  },
+  "index_cleaver": {
+    "req": "4",
+    "name_en": "Index Cleaver",
+    "name_jp": "人差し指の大包丁",
+    "type": "slash",
+    "damage": "8",
+    "speed": 0.73,
+    "basic": {
+      "image": "/assets/image/weapon/index_cleaver_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/index_cleaver_critical.webm",
+      "desc": "",
+      "effect": "{on_use}もしsキーを押し続けている場合、{dice2}は使用されない\n{dice1} {slash} [6~8] {hit_ground}{undodgeable}{on_hit} {hyperarmor}を得る\n{dice2} {slash} [9~14] {guard_break}{auto_execute}{on_hit} {bleed}を6、{defense_down}を5付与",
+      "ct": 16
+    }
   }
 }
