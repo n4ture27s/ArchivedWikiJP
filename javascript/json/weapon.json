@@ -1783,5 +1783,24 @@
       "effect": "{on_use}もしsキーを押し続けている場合、{dice2}は使用されない\n{dice1} {slash} [6~8] {hit_ground}{undodgeable}{on_hit} {hyperarmor}を得る\n{dice2} {slash} [9~14] {guard_break}{auto_execute}{on_hit} {bleed}を6、{defense_down}を5付与",
       "ct": 16
     }
+  },
+  "sharp_greatsword": {
+    "req": "なし",
+    "name_en": "Sharp Greatsword",
+    "name_jp": "鋭い大剣",
+    "type": "slash",
+    "damage": "9.4",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/sharp_great_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/sharp_greatsword_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{light}を1得る\n{dice1} {slash} [2~4] {on_hit} {rupture}を2付与\n{dice2} {slash} [3~6] {on_hit} {rupture}を2付与",
+      "ct": 14
+    }
   }
 }
