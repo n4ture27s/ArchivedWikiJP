@@ -1506,6 +1506,25 @@
       "ct": 17
     }
   },
+  "wheel_industry_fist": {
+    "req": "1",
+    "name_en": "Wheel's Industry (Fist)",
+    "name_jp": "ホイールズ・インダストリー(拳)",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/wheel_industry_fist_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/wheel_industry_fist_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {blunt} [4~7] {hit_ground}{undodgeable}{on_hit} 33%の{damage_modifier}と{light}を1得る\n{dice2} {blunt} [7~10] {on_hit}{multi_hit}を2回\n[1回目]0.5倍の{damage_modifier}を得る\n[2回目]0.7倍の{damage_modifier}を得て、{change_weapon}ホイールズ・インダストリーへ",
+      "ct": 17
+    }
+  },
   "smile_hammer": {
     "req": "3",
     "name_en": "Smile Hammer",
