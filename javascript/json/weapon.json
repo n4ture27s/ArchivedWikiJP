@@ -1935,5 +1935,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{on_use}0.57倍の{damage_modifier}を得る\n{dice1} {slash} [5~9] {on_hit} {bleed}を2付与\n{dice2} {slash} [5~13] {on_hit} {bleed}を3付与\n{dice3} {slash} [5~17] {on_hit} {bleed}を4付与",
       "ct": 16
     }
+   },
+  "kurokumo_gilded_katana": {
+    "req": "6",
+    "name_en": "Kurokumo Gilded Katana",
+    "name_jp": "金色の黒雲刀",
+    "type": "slash",
+    "damage": "7.5",
+    "speed": 0.59,
+    "basic": {
+      "image": "/assets/image/weapon/kurokumo_gilded_katana_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/kurokumo_gilded_katana_critical.webm",
+      "desc": "",
+      "effect": "{on_use}0.66倍の{damage_modifier}を得る\n{on_hit}{dice3}を使用する\n{dice1} {slash} [6~10] {on_hit} {bleed}を2付与\n{dice2} {slash} [7~11] {on_use}{hyperarmor}{on_hit} {bleed}を3付与\n{dice3} {slash} [13~17] {on_hit} 対象の{bleed}を発動させ、{bleed}の1/2に等しい値をダメージとして与える(最大33)",
+      "ct": 16
+    }
   }
 }
