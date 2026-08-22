@@ -1860,28 +1860,22 @@
       "ct": 18
     }
   },
-  "hardblood_polearm": {
-    "req": "4",
-    "name_en": "Hardblood Polearm",
-    "name_jp": "硬血式グレイブ",
-    "type": "slash",
-    "damage": "7",
-    "speed": 0.54,
+  "hardblood_staff": {
+    "req": "5",
+    "name_en": "Hardblood Staff",
+    "name_jp": "硬血式杖",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.55,
     "basic": {
-      "image": "/assets/image/weapon/hardblood_polearm_basic.webm",
+      "image": "/assets/image/weapon/hardblood_staff_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/hardblood_polearm_critical.webm",
+      "image": "/assets/image/weapon/hardblood_staff_critical.webm",
       "desc": "",
-      "effect": "{on_use}もし{blood_feast}が200以上ならクリティカルが変化する\n{on_use} {hyperarmor}を得る\n{on_use}0.5倍の{damage_modifier}を得る\n{dice1} {slash} [15~24] {guard_break}{on_hit} {stored_blood}を1得て、{bleed}を2付与\n{dice2} {slash} [15~25] {guard_break}{knock_back}{on_hit} {stored_blood}を1得て、{bleed}を2付与",
-      "ct": 20
-     },
-    "critical2": {
-      "image": "/assets/image/weapon/hardblood_polearm_critical2.webm",
-      "desc": "",
-      "effect": "{on_use}{blood_feast}を100消費する\n{on_hit}{unblockable}\n{dice1} {slash} [4~8] {on_hit} {bleed}を4付与\n{dice2} {slash} [5~9] {on_hit} {bleed}を2付与\n{dice3} {slash} [6~10] {on_hit} {bleed}を2付与\n{dice4} {slash} [7~11] {on_hit} {bleed}を2付与",
+      "effect": "{on_use}10の{bleed}、20の{blood_feast}を得る。さらに、自身の{bleed}1につき{blood_feast}を得る\n{dice1} {blunt} [5~7] {on_hit} 自身の{bleed}1につき{blood_feast}を得る\n{dice2} {blunt} [7~10] {on_hit} {rupture}を1、{bleed}を3付与\n{dice3} {blunt} [9~13] {knock_back}{on_hit} {bleed}を2、{rupture}を1付与\nその後対象の{bleed}2につき{value_up}を1得る(最大8)\n{on_use}{blood_feast}が250以上なら、{health}を10%{heal}する",
       "ct": 20
     }
   }
