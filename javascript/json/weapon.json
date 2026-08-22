@@ -1856,7 +1856,7 @@
     "critical1": {
       "image": "/assets/image/weapon/hardblood_scissorblades_critical.webm",
       "desc": "",
-      "effect": "{on_use}0.5倍の{damage_modifier}を得る\n{on_use}{blood_feast}を5得る、もし{blood_feast}が150以上なら{value_up}を2得る\n{dice1} {slash} [3~5] {on_hit} {bleed}を4付与、{blood_feast}を{bleed}に等しい値だけ得る\n{dice2} {slash} [5~8] {multi_hit}を3回 {on_hit} {bleed}を1x3付与 0.5倍の{damage_modifier}\n{dice3} {slash} [6~6] {on_hit} {bleed}を1付与",
+      "effect": "{on_use}0.5倍の{damage_modifier}を得る\n{on_use}{blood_feast}を5得る、もし{blood_feast}が150以上なら{value_up}を2得る\n{dice1} {slash} [3~5] {on_hit} {bleed}を4付与、{blood_feast}を相手の{bleed}に等しい値だけ得る\n{dice2} {slash} [5~8] {multi_hit}を3回 {on_hit} {bleed}を1x3付与 0.5倍の{damage_modifier}\n{dice3} {slash} [6~6] {on_hit} {bleed}を1付与",
       "ct": 18
     }
   }
