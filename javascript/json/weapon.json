@@ -1979,5 +1979,38 @@
       "effect": "{on_use}{imitation}を8消費する\n{on_use} {hyperarmor}を得る\n{auto_execute}{unclashable}{unblockable}{hit_ground}\n{on_use}合計1.76倍の{damage_modifier}を得る{multi_hit}を4回(最初の3回は0.22倍{damage_modifier}、最後は1.1倍{damage_modifier})\n{dice1} {slash} [15~26] {on_hit} {bleed}を5付与",
       "ct": 15
     }
+  },
+  "rabbit_rifle": {
+    "req": "5",
+    "name_en": "Rabbit Rifle",
+    "name_jp": "ウサギライフル",
+    "type": "slash",
+    "damage": 5,
+    "speed": 0.4,
+    "basic": {
+      "image": "/assets/image/weapon/rabbit_rifle_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/rabbit_rifle_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{dice4}と{dice5}は0.5倍の{damage_modifier}を得る\n{dice1} {slash} [2~4] {unblockable}{on_hit} {fragile}を3付与\n{dice1} {slash} [2~5] {unblockable}{on_hit} {fragile}を3付与\n{dice3} {slash} [4~5] {unblockable}{on_hit} {fragile}を3付与\n{dice4} {slash} [6~8] {on_hit} {rupture}を2付与\n{dice5} {slash} [6~9] {on_hit} {rupture}を2付与",
+      "ct": 19
+    },
+    "custom_reload": {
+      "title": "reload",
+      "image": "/assets/image/weapon/rabbit_rifle_reload.webm",
+      "desc": "",
+      "effect": "画面右下の弾丸を25消費して、{bullet}を25得る",
+      "ct": 9
+    },
+    "custom_shoot": {
+      "title": "shoot",
+      "image": "/assets/image/weapon/rabbit_rifle_shoot.webm",
+      "desc": "",
+      "effect": "{fracture_bullet}を1消費して、4ダメージを与える",
+      "ct": 0.1
+    }
   }
 }
