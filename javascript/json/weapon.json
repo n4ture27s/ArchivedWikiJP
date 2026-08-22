@@ -1828,7 +1828,7 @@
     "name_jp": "血鬼の爪",
     "type": "slash",
     "damage": "6",
-    "speed": 0.4,
+    "speed": 0.44,
     "basic": {
       "image": "/assets/image/weapon/bloodfined_claws_basic.webm",
       "desc": "",
@@ -1839,6 +1839,25 @@
       "desc": "",
       "effect": "{on_use}自身が{bloof_feast}を100以上持っている場合、消費し{AoE}に変更し、{value_up}を6得る\n{ground}{hit_ground}{unblockable}{auto_execute}\n{dice1} {slash} [5~10] {on_hit} {bleed}を4付与し、{stored_blood}を1得る",
       "ct": 20
+    }
+  },
+  "hardblood_blade": {
+    "req": "なし",
+    "name_en": "Hardblood Blade",
+    "name_jp": "硬血式剣",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_blade_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_blade_critical.webm",
+      "desc": "",
+      "effect": "{auto_execute}{ground}\n{on_use}もし{stored_blood}が5以上ならダイスの値を[13~17]に変更する\n{dice1} {pierce}} [7~12] {multi_hit}を10回、{on_hit}に{bleed}を1付与(10回)\n[10回目]{on_hit}{stored_blood}を1得る",
+      "ct": 16
     }
   }
 }
