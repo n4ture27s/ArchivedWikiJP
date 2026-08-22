@@ -1916,5 +1916,24 @@
       "effect": "{on_use}{blood_feast}を45得る\nさらに自身の{bleed}1につき、追加で{blood_feast}を得る\n{on_hit}{hyperarmor}を得る\n{dice1} {blunt} [5~9] {on_use}{bleed}を10得る\n{dice2} {blunt} [7~12] 0.8倍の{damage_modifier}得る {multi_hit}を8回\n{on_hit}{bleed}を5付与、{rupture}を1付与\nその後、対象の{bleed}1につき{value_up}を1得る(最大10)\n{dice3} {blunt} [12~16] {unparriable}0.625倍の{damage_modifier}得る {multi_hit}を6回\n対象の{bleed}1につき{value_up}を1得る(最大10)\n{dice4} {blunt} [12~16] 0.18倍の{damage_modifier}得る {multi_hit}を2回\n{on_hit}{bleed}を5付与、{rupture}を1付与\n\n{on_use}{blood_feast}が250以上の場合、{health}の15%を{heal}する",
       "ct": 20
     }
+  },
+  "kurokumo_katana": {
+    "req": "6",
+    "name_en": "Kurokumo Katana",
+    "name_jp": "黒雲刀",
+    "type": "slash",
+    "damage": "7.5",
+    "speed": 0.69,
+    "basic": {
+      "image": "/assets/image/weapon/kurokumo_katana_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/kurokumo_katana_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{on_use}0.57倍の{damage_modifier}を得る\n{dice1} {slash} [5~9] {on_hit} {bleed}を2付与\n{dice2} {slash} [5~13] {on_hit} {bleed}を3付与\n{dice3} {slash} [5~17] {on_hit} {bleed}を4付与",
+      "ct": 16
+    }
   }
 }
