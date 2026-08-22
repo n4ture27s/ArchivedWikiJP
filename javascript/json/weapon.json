@@ -1935,24 +1935,30 @@
       "effect": "{on_use} {hyperarmor}を得る\n{on_use}0.57倍の{damage_modifier}を得る\n{dice1} {slash} [5~9] {on_hit} {bleed}を2付与\n{dice2} {slash} [5~13] {on_hit} {bleed}を3付与\n{dice3} {slash} [5~17] {on_hit} {bleed}を4付与",
       "ct": 16
     }
-   },
-  "kurokumo_gilded_katana": {
-    "req": "6",
-    "name_en": "Kurokumo Gilded Katana",
-    "name_jp": "金色の黒雲刀",
-    "type": "slash",
-    "damage": "7.5",
-    "speed": 0.59,
+    },
+  "mimicry_blade": {
+    "req": "1",
+    "name_en": "Mimicry Blade",
+    "name_jp": "ミミクリー",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.5,
     "basic": {
-      "image": "/assets/image/weapon/kurokumo_gilded_katana_basic.webm",
+      "image": "/assets/image/weapon/mimicry_blade_basic.webm",
       "desc": "",
       "effect": ""
     },
-    "critical1": {
-      "image": "/assets/image/weapon/kurokumo_gilded_katana_critical.webm",
+    "critical": {
+      "image": "/assets/image/weapon/mimicry_blade_critical1.webm",
       "desc": "",
-      "effect": "{on_use}0.66倍の{damage_modifier}を得る\n{on_hit}{dice3}を使用する\n{dice1} {slash} [6~10] {on_hit} {bleed}を2付与\n{dice2} {slash} [7~11] {on_use}{hyperarmor}{on_hit} {bleed}を3付与\n{dice3} {slash} [13~17] {on_hit} 対象の{bleed}を発動させ、{bleed}の1/2に等しい値をダメージとして与える(最大33)",
-      "ct": 16
+      "effect": "{on_use} {hyperarmor}を得る\n{on_use}1.1倍の{damage_modifier}を得る\n{on_use}ダイスは{auto_execute}をできる\n{on_use}もし{imitation}が8以上ならクリティカルが変化する\n{dice1} {blunt} [6~10] {on_hit} {bleed}を3付与し、{imitation}を2得る\n{dice2} {blunt} [9~15] {knock_back}{guard_break}{auto_execute}{on_hit} {bleed}を3付与し、{imitation}を2得る\n{clash_win}{imitation}を消費せずに、クリティカルを使用する",
+      "ct": 15
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/mimicry_blade_critical2.webm",
+      "desc": "",
+      "effect": "{on_use}{imitation}を8消費する\n{on_use} {hyperarmor}を得る\n{auto_execute}{unclashable}{unblockable}{hit_ground}\n{on_use}合計1.76倍の{damage_modifier}を得る{multi_hit}を4回(最初の3回は0.22倍{damage_modifier}、最後は1.1倍{damage_modifier})\n{dice1} {slash} [15~26] {on_hit} {bleed}を5付与",
+      "ct": 15
     }
   }
 }
