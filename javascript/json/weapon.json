@@ -1860,6 +1860,25 @@
       "ct": 18
     }
   },
+  "great_hardblood_scissorblades": {
+    "req": "2",
+    "name_en": "Great Hardblood Scissorblades",
+    "name_jp": "強化された硬血式鋏",
+    "type": "slash",
+    "damage": "9",
+    "speed": 0.67,
+    "basic": {
+      "image": "/assets/image/weapon/great_hardblood_scissorblades_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/great_hardblood_scissorblades_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{on_use}{blood_feast}が200以上なら{value_up}を2得る\n{on_hit}対象の{bleed}が10以上ならダイスの値x0.6だけ{heal}\n{dice1} {slash} [?~?] {on_hit} このダイスはダメージを与えない、{bleed}を5付与、対象のパリィをクールダウンに変更\n{dice2} {slash} [5~7] {multi_hit}を4回 {on_hit} {bleed}を1x4付与\n{dice3} {slash} [7~8] 0.5倍の{damage_modifier}{on_hit} {bleed}を1付与、もしこのダイスが当たれば{dice4}が{tracking}する\n{dice4} {slash} [10~12] {undodgeable}{guard_break}{on_hit} {bleed}を5付与",
+      "ct": 20
+    }
+  },
   "hardblood_staff": {
     "req": "5",
     "name_en": "Hardblood Staff",
