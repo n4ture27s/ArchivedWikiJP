@@ -1821,5 +1821,24 @@
       "effect": "{on_use}もし{charge}が11以上ならダイスの値を[20~25]に変更\n{dice1} {slash} [6~12] {multi_hit}を2回\n[1回目] {ground}{guard_break}{on_hit} {rupture}を1付与し、{charge}を3得る\n[2回目] {guard_break}{undodgeable}{hit_ground}",
       "ct": 16
     }
+  },
+  "bloodfined_claws": {
+    "req": "なし",
+    "name_en": "Bloodfined Claws",
+    "name_jp": "血鬼の爪",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.4,
+    "basic": {
+      "image": "/assets/image/weapon/bloodfined_claws_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/bloodfined_claws_critical.webm",
+      "desc": "",
+      "effect": "{on_use}自身が{bloof_feast}を100以上持っている場合、消費し{AoE}に変更し、{value_up}を6得る\n{ground}{hit_ground}{unblockable}{auto_execute}\n{dice1} {slash} [5~10] {on_hit} {bleed}を4付与し、{stored_blood}を1得る",
+      "ct": 20
+    }
   }
 }

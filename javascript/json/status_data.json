@@ -461,6 +461,18 @@
         "text": "火傷が減衰した時にこの状態異常を1消費し、火傷とともに1.5倍のダメージ修正を与える(最大値7)",
         "type": "debuff",
         "icon": "Dark_flame"
+    },
+    "blood_feast": {
+        "title": "血餐",
+        "text": "封印解除ページと血鬼の武器を使用する際に使う\n出血を持つ対象を攻撃した際に得る。",
+        "type": "resource",
+        "icon": "Bloodfeast"
+    },
+    "stored_blood": {
+        "title": "保存血液",
+        "text": "特定の血鬼のページを強化する際に使う。\nM1最終段的中時、チャージ攻撃的中時に1得る\nもし6以上の場合HPを10回復し、負傷を1つ治す",
+        "type": "resource",
+        "icon": "Bloodfeast"
     }
   },
   "combat_module": {
