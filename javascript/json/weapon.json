@@ -2002,14 +2002,14 @@
       "title": "reload",
       "image": "/assets/image/weapon/rabbit_rifle_reload.webm",
       "desc": "",
-      "effect": "画面右下の弾丸を25消費して、{bullet}を25得る",
+      "effect": "画面右下の弾丸を25消費して、{ammo}を25得る",
       "ct": 9
     },
     "custom_shoot": {
       "title": "shoot",
       "image": "/assets/image/weapon/rabbit_rifle_shoot.webm",
       "desc": "",
-      "effect": "{fracture_bullet}を1消費して、4ダメージを与える",
+      "effect": "{ammo}を1消費して、4ダメージを与える",
       "ct": 0.1
     }
   }
