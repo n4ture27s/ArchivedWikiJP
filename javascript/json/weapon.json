@@ -1841,23 +1841,23 @@
       "ct": 20
     }
   },
-  "hardblood_blade": {
-    "req": "なし",
-    "name_en": "Hardblood Blade",
-    "name_jp": "硬血式剣",
+  "hardblood_greatblade": {
+    "req": "1",
+    "name_en": "Hardblood Greatblade",
+    "name_jp": "硬血式大剣",
     "type": "slash",
-    "damage": "7",
-    "speed": 0.57,
+    "damage": "9",
+    "speed": 0.73,
     "basic": {
-      "image": "/assets/image/weapon/hardblood_blade_basic.webm",
+      "image": "/assets/image/weapon/hardblood_greatblade_basic.webm",
       "desc": "",
-      "effect": ""
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical1": {
-      "image": "/assets/image/weapon/hardblood_blade_critical.webm",
+      "image": "/assets/image/weapon/hardblood_greatblade_critical.webm",
       "desc": "",
-      "effect": "{auto_execute}{ground}\n{on_use}もし{stored_blood}が5以上ならダイスの値を[13~17]に変更する\n{dice1} {pierce}} [7~12] {multi_hit}を10回、{on_hit}に{bleed}を1付与(10回)\n[10回目]{on_hit}{stored_blood}を1得る",
-      "ct": 16
+      "effect": "{before_attack}もし{blood_feast}が200以上の場合50消費して、{value_up}を5得る\n{on_use}{stored_blood}を1得る\n{dice1} {slash} [13~15] {undodgeable}{hit_ground}{ground}{on_hit} {bleed}を3付与し、{stored_blood}を1、{blood_feast}を40得る\n{on_parryhit}少しだけダメージを与える",
+      "ct": 17
     }
   }
 }
