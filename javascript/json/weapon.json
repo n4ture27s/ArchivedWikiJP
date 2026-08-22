@@ -2050,5 +2050,24 @@
       "effect": "{on_use}もし{charge}が20以上なら、({charge}÷5)の値だけ{value_up}を得て、{charge}を20消費する\n{dice1} {slash} [7~23] {on_use}{hyperarmor}を得る\n{on_hit}{multi_hit}を2回、{charge}を4得る\n[2回目]{unparriable}\n{combo_extender}{combo_starter}",
       "ct": 16
     }
+   },
+  "stigma_workshop_sword": {
+    "req": "4",
+    "name_en": "Stigma Workshop Sword",
+    "name_jp": "スティグマ工房の剣",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.61,
+    "basic": {
+      "image": "/assets/image/weapon/stigma_sword_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/stigma_sword_critical.webm",
+      "desc": "",
+      "effect": "{on_use}精神力を15消費し、武器を点火させM1的中時に{burn}を1付与\n{on_use}自身の目の前にいる対象を{knock_back}\n{dice1} {pierce} [7~9] {on_hit}{burn}を4付与\n{dice2} {pierce} [8~10] {knock_back}{guard_break}{on_hit} 精神力を15回復し、{burn}を4付与\nもし{guard_break}に成功しなのなら代わりに{burn}を8付与する",
+      "ct": 16
+    }
   }
 }
