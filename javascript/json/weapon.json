@@ -1841,23 +1841,23 @@
       "ct": 20
     }
   },
-  "hardblood_claws": {
-    "req": "なし",
-    "name_en": "Hardblood Claws",
-    "name_jp": "硬血式爪",
+  "hardblood_scissorblades": {
+    "req": "5",
+    "name_en": "Hardblood Scissorblades",
+    "name_jp": "硬血式鋏",
     "type": "slash",
-    "damage": "6",
-    "speed": 0.59,
+    "damage": "7",
+    "speed": 0.54,
     "basic": {
-      "image": "/assets/image/weapon/hardblood_claws_basic.webm",
+      "image": "/assets/image/weapon/hardblood_scissorblades_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/hardblood_claws_critical.webm",
+      "image": "/assets/image/weapon/hardblood_scissorblades_critical.webm",
       "desc": "",
-      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [5~7] {multi_hit}を12回\n[12回目]{guard_break}{ground}{on_hit} {bleed}を12付与",
-      "ct": 20
+      "effect": "{on_use}0.5倍の{damage_modifier}を得る\n{on_use}{blood_feast}を5得る、もし{blood_feast}が150以上なら{value_up}を2得る\n{dice1} {slash} [3~5] {on_hit} {bleed}を4付与、{blood_feast}を{bleed}に等しい値だけ得る\n{dice2} {slash} [5~8] {multi_hit}を3回 {on_hit} {bleed}を1x3付与 0.5倍の{damage_modifier}\n{dice3} {slash} [6~6] {on_hit} {bleed}を1付与",
+      "ct": 18
     }
   }
 }
