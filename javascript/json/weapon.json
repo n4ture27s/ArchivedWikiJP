@@ -2113,5 +2113,24 @@
       "effect": "{on_use}精神力を15減らし{volatile_passion}を1得る\nもし{volatile_passion}が4以上なら追加で2{burn}を付与する\n{dice1} {slash} [5~8] {on_hit} {hyperarmor}を得て、{burn}を2付与\n{dice2} {slash} [6~9] {on_hit} {burn}を2付与\n{dice3} {slash} [7~10] {on_hit} {burn}を2付与し、{volatile_passion}を1付与",
       "ct": 18
     }
+   },
+  "sanguine_desire_axe": {
+    "req": "3",
+    "name_en": "Sanguine Desire Axe",
+    "name_jp": "血色の欲望",
+    "type": "slash",
+    "damage": "8",
+    "speed": 0.75,
+    "basic": {
+      "image": "/assets/image/weapon/saguine_desire_axe_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/saguine_desire_axe_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {slash} [4~8] {hit_downed}{hit_ground}{on_hit} {bleed}を3付与\nこのダイスロールの結果によって{dice1}、{dice2}、{dice3}のロール値が決まる。\nブロックまたは{on_parryhit}された場合、6の{bleed}を付与\n{on_parryhit}[ブロック的中時]少しだけダメージを与える\n{dice2} {slash} [5~9] {hit_ground}{hit_downed}{on_hit} {bleed}を3付与\nブロックまたは{on_parryhit}された場合、6の{bleed}を付与\n{dice3} {slash} [6~10] {hit_downed}{hit_ground}{on_hit} {bleed}を3付与\nブロックまたは{on_parryhit}された場合、6の{bleed}を付与",
+      "ct": 20
+    }
   }
 }
