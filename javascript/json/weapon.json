@@ -2132,5 +2132,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{dice1} {slash} [4~8] {hit_downed}{hit_ground}{on_hit} {bleed}を3付与\nこのダイスロールの結果によって{dice1}、{dice2}、{dice3}のロール値が決まる。\nブロックまたは{on_parryhit}された場合、6の{bleed}を付与\n{on_parryhit}[ブロック的中時]少しだけダメージを与える\n{dice2} {slash} [5~9] {hit_ground}{hit_downed}{on_hit} {bleed}を3付与\nブロックまたは{on_parryhit}された場合、6の{bleed}を付与\n{dice3} {slash} [6~10] {hit_downed}{hit_ground}{on_hit} {bleed}を3付与\nブロックまたは{on_parryhit}された場合、6の{bleed}を付与",
       "ct": 20
     }
+  },
+  "iron_brotherhood_saw": {
+    "req": "3",
+    "name_en": "Iron Brotherhood Saw",
+    "name_jp": "鉄の兄弟のソー",
+    "type": "pierce",
+    "damage": "2.75x3(8.25)",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/iron_brotherhood_saw_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/iron_brotherhood_saw_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{light}を2得る\n{dice1} {pierce} [3~5] {multi_hit}を4回、0.2倍の{damage_modifier}\n{dice2} {pierce} [5~8] {multi_hit}を6回、0.28倍の{damage_modifier}\n{dice3} {pierce} [5~8] {ground}{guard_break} 0.23倍の{damage_modifier}",
+      "ct": 16
+    }
   }
 }
