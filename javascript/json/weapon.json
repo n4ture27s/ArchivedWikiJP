@@ -2134,7 +2134,7 @@
     }
   },
   "iron_brotherhood_saw": {
-    "req": "3",
+    "req": "なし",
     "name_en": "Iron Brotherhood Saw",
     "name_jp": "鉄の兄弟のソー",
     "type": "pierce",
