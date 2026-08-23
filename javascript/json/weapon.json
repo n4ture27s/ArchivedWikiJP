@@ -2151,5 +2151,24 @@
       "effect": "{on_use}{light}を2得る\n{dice1} {pierce} [3~5] {multi_hit}を4回、0.2倍の{damage_modifier}\n{dice2} {pierce} [5~8] {multi_hit}を6回、0.28倍の{damage_modifier}\n{dice3} {pierce} [5~8] {ground}{guard_break} 0.23倍の{damage_modifier}",
       "ct": 16
     }
+  },
+  "fixers_spear": {
+    "req": "なし",
+    "name_en": "Fixer's Spear",
+    "name_jp": "フィクサーの槍",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/fixers_spear_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/fixers_spear_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{light}を1得る\n{dice1} {pierce} [3~6] {on_hit} {rupture}を3付与\n{dice2} {pierce} [2~6] {knock_back}{on_hit} {rupture}を3付与",
+      "ct": 16
+    }
   }
 }
