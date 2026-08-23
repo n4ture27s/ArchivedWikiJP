@@ -473,6 +473,12 @@
         "text": "特定の血鬼のページを強化する際に使う。\nM1最終段的中時、チャージ攻撃的中時に1得る\nもし6以上の場合HPを10回復し、負傷を1つ治す",
         "type": "resource",
         "icon": "Bloodfeast"
+    },
+    "unlocked_blade": {
+        "title": "解禁",
+        "text": "人差し指の長剣のクリティカルを強化し、特定の人差し指のページにバフを与える状態異常",
+        "type": "resource",
+        "icon": "Unlocked_Blade"
     }
   },
   "combat_module": {

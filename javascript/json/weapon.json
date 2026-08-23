@@ -2069,5 +2069,30 @@
       "effect": "{on_use}精神力を15消費し、武器を点火させM1的中時に{burn}を1付与\n{on_use}自身の目の前にいる対象を{knock_back}\n{dice1} {pierce} [7~9] {on_hit}{burn}を4付与\n{dice2} {pierce} [8~10] {knock_back}{guard_break}{on_hit} 精神力を15回復し、{burn}を4付与\nもし{guard_break}に成功しなのなら代わりに{burn}を8付与する",
       "ct": 16
     }
+  },
+  "index_longsword": {
+    "req": "1",
+    "name_en": "Index Longsword",
+    "name_jp": "人差し指の長剣",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/index_longsword_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/index_longsword_critical1.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {slash} [6~12] {on_hit} {rupture}を4付与\n{unlocked_blade}がある場合、クリティカルが変化する",
+      "ct": 18
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/index_longsword_critical2.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [4~10] 0.33倍の{damage_modifier}{multi_hit}を2回 [1回目]{rupture}を2付与\n{dice2} {slash} [4~10] 0.33倍の{damage_modifier}{multi_hit}を2回\n{dice3} {slash} [4~10] 0.33倍の{damage_modifier}\n{dice4} {pierce} [1~4] {on_hit} ダイスロールの5倍のダメージを与える(これは追加の1ヒットとして扱われ、合計で6倍ダメージになる)",
+      "ct": 18
+    }
   }
 }
