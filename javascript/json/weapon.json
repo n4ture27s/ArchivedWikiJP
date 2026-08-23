@@ -2160,34 +2160,34 @@
     "damage": "6",
     "speed": 0.52,
     "basic": {
-      "image": "/assets/image/weapon/fixers_spear_basic.webm",
+      "image": "/assets/image/weapon/hook_cleaver_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/fixers_spear_critical.webm",
+      "image": "/assets/image/weapon/hook_cleaver_critical.webm",
       "desc": "",
       "effect": "{on_use}{light}を1得る\n{dice1} {pierce} [3~6] {on_hit} {rupture}を3付与\n{dice2} {pierce} [2~6] {knock_back}{on_hit} {rupture}を3付与",
       "ct": 16
     }
   },
-  "hook_cleaver": {
+  "scrap_spear": {
     "req": "なし",
-    "name_en": "Hook Cleaver",
-    "name_jp": "鈎包丁",
+    "name_en": "Scrap Spear",
+    "name_jp": "スクラップの槍",
     "type": "pierce",
     "damage": "5",
-    "speed": 0.62,
+    "speed": 0.52,
     "basic": {
-      "image": "/assets/image/weapon/fixers_spear_basic.webm",
+      "image": "/assets/image/weapon/scrap_spear_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/fixers_spear_critical.webm",
+      "image": "/assets/image/weapon/scrap_spear_critical.webm",
       "desc": "",
-      "effect": "{on_hit}{health}を3{heal}する\n{dice1} {slash} [5~8] {undodgeable}{on_hit} {bleed}を2付与\n{dice2} {slash} [6~8] {on_hit} {bleed}を2付与",
-      "ct": 15
+      "effect": "{dice1} {slash} [3~6] {on_hit} {bleed}を2付与",
+      "ct": 13
     }
   }
 }
