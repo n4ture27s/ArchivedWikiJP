@@ -2190,22 +2190,22 @@
       "ct": 13
     }
   },
-  "gas_harpoon": {
+  "pointillist_brush": {
     "req": "6",
-    "name_en": "GasHarpoon",
-    "name_jp": "ガス銛",
+    "name_en": "Pointillist Brush",
+    "name_jp": "点描派のブラシ",
     "type": "pierce",
-    "damage": "6",
-    "speed": 0.57,
+    "damage": "7",
+    "speed": 0.59,
     "basic": {
-      "image": "/assets/image/weapon/gas_harpoon_basic.webm",
+      "image": "/assets/image/weapon/pointillist_brush_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/gas_harpoon_critical.webm",
+      "image": "/assets/image/weapon/pointillist_brush_critical.webm",
       "desc": "",
-      "effect": "{on_hit}にエイハブの装備を着ているなら、{heated_gas_harpoon}を1得る\n{dice1} {pierce} [3~6] {on_hit} {bleed}を3付与\n{dice2} {pierce} [6~9]{guard_break}{hit_ground}{on_hit} {bleed}を3付与\n{on_use}{change_weapon}短い間ブロウラーに切り替える\n{dice3} {pierce} [9~12] {unparriable}{on_hit} 対象の{bleed}に等しい値だけ{burn}を付与",
+      "effect": "{unblockable}{knock_back}\n{on_use}全てのダイスで0.5倍の{damage_modifier}を得る\n{dice1} {pierce} [14~14] {on_hit} {bleed},{burn},{rupture},{sinking},{tremor}の中から2つランダムに付与\nさらにこのダイスを最大2回再使用する確率が40%で、対象の{bleed}5ごとに20%追加\n[再使用1]{pierce} [7~7]\n[再使用2]{pierce} [5~5]",
       "ct": 18
     }
   }
