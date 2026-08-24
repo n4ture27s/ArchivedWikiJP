@@ -2227,5 +2227,38 @@
       "effect": "{guard_break}{undodgeable}\n{dice1} {pierce} [6~8] {on_hit} 5の{fragile}を付与し、{dice2}を使用する\n{dice1}を外した場合数秒間ブロウラーに{change_weapon}する\n{dice2} {blunt} [13~24] {unparriable}{QTE}{on_hit} {fragile}を5付与し、ブロウラーに{change_weapon}\n{QTE_success}\n{on_hit}7の{fragile}を付与し、{dice2}で与えるダメージの半分だけ追加ダメージを与える\nブロウラーに切り替わらない",
       "ct": 15
     }
+  },
+  "the_silver_bullet": {
+    "req": "1",
+    "name_en": "The Sliver Bullet",
+    "name_jp": "銀色の弾丸",
+    "type": "slash",
+    "damage": 6,
+    "speed": 0.58,
+    "basic": {
+      "image": "/assets/image/weapon/the_silver_bullet_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/the_sliver_bullet_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{poise}を6得る\nクリティカルが発動した場合、ダイスを最大2回まで再使用する\n{dice1} {pierce} [2~3] {on_hit}{rupture}を2付与\n[再使用1] {pierce} [4~6] {on_hit} {rupture}を2付与\n[再使用2]{pierce} [6~9] {on_hit} {rupture}を2付与",
+      "ct": 16
+    },
+    "custom_reload": {
+      "title": "reload",
+      "image": "/assets/image/weapon/the_sliver_bullet_reload.webm",
+      "desc": "",
+      "effect": "画面右下の弾丸を6消費して、{ammo}を6得る",
+      "ct": 9
+    },
+    "custom_shoot": {
+      "title": "shoot",
+      "image": "/assets/image/weapon/the_sliver_bullet_shoot.webm",
+      "desc": "",
+      "effect": "{ammo}を1消費して、10ダメージを与える",
+      "ct": 5
+    }
   }
 }
