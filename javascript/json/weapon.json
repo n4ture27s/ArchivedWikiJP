@@ -2208,5 +2208,24 @@
       "effect": "{unblockable}{knock_back}\n{on_use}全てのダイスで0.5倍の{damage_modifier}を得る\n{dice1} {pierce} [14~14] {on_hit} {bleed},{burn},{rupture},{sinking},{tremor}の中から2つランダムに付与\nさらにこのダイスを最大2回再使用する確率が40%で、対象の{bleed}5ごとに20%追加\n[再使用1]{pierce} [7~7]\n[再使用2]{pierce} [5~5]",
       "ct": 18
     }
+   },
+  "molar_boatworks_arm_harpoon": {
+    "req": "4",
+    "name_en": "Molar Boatworks Arm Harpoon",
+    "name_jp": "奥歯ボートセンターの手銛",
+    "type": "pierce",
+    "damage": "3x2(6)",
+    "speed": 0.58,
+    "basic": {
+      "image": "/assets/image/weapon/molar_boatworks_arm_harpoon_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/molar_boatworks_arm_harpoon_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {pierce} [12~18] {unblockable}{multi_hit}を9回\n初段は0.5倍の{damage_modifier}でそのあとの攻撃は0.55倍の{damage_modifier}\n{on_hit}{sinking}を4、{tremor}を8付与した後{tremor_burst}を起こす",
+      "ct": 15
+    }
   }
 }
