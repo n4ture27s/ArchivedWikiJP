@@ -2209,22 +2209,22 @@
       "ct": 18
     }
    },
-  "molar_boatworks_arm_harpoon": {
-    "req": "4",
-    "name_en": "Molar Boatworks Arm Harpoon",
-    "name_jp": "奥歯ボートセンターの手銛",
+  "Ncorp_nail": {
+    "req": "2",
+    "name_en": "N Corp. Nail",
+    "name_jp": "N社の釘",
     "type": "pierce",
-    "damage": "3x2(6)",
-    "speed": 0.58,
+    "damage": "7",
+    "speed": 0.59,
     "basic": {
-      "image": "/assets/image/weapon/molar_boatworks_arm_harpoon_basic.webm",
+      "image": "/assets/image/weapon/Ncorp_nail_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/molar_boatworks_arm_harpoon_critical.webm",
+      "image": "/assets/image/weapon/Ncorp_nauil_critical.webm",
       "desc": "",
-      "effect": "{dice1} {pierce} [12~18] {unblockable}{multi_hit}を9回\n初段は0.5倍の{damage_modifier}でそのあとの攻撃は0.55倍の{damage_modifier}\n{on_hit}{sinking}を4、{tremor}を8付与した後{tremor_burst}を起こす",
+      "effect": "{guard_break}{undodgeable}\n{dice1} {pierce} [6~8] {on_hit} 5の{fragile}を付与し、{dice2}を使用する\n{dice1}を外した場合数秒間ブロウラーに{change_weapon}する\n{dice2} {blunt} [13~24] {unparriable}{QTE}{on_hit} {fragile}を5付与し、ブロウラーに{change_weapon}\n{QTE_success}\n{on_hit}7の{fragile}を付与し、{dice2}で与えるダメージの半分だけ追加ダメージを与える\nブロウラーに切り替わらない",
       "ct": 15
     }
   }
