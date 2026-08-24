@@ -2318,23 +2318,23 @@
       "ct": 5
     }
   },
-  "seraphic_lance": {
-    "req": "6",
-    "name_en": "Seraphic Lance",
-    "name_jp": "セラフィックランス",
+  "executioners_polearm": {
+    "req": "4",
+    "name_en": "Executioner's Polearm",
+    "name_jp": "処刑者のグレイブ",
     "type": "pierce",
-    "damage": "6",
-    "speed": 0.57,
+    "damage": "7.5",
+    "speed": 0.7,
     "basic": {
-      "image": "/assets/image/weapon/seraphic_lance_basic.webm",
+      "image": "/assets/image/weapon/executioner_polearm_basic.webm",
       "desc": "",
-      "effect": ""
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical1": {
-      "image": "/assets/image/weapon/seraphic_lance_critical.webm",
+      "image": "/assets/image/weapon/executioner_polearm_critical.webm",
       "desc": "",
-      "effect": "{on_hit}にエイハブの装備を着ているなら、{heated_gas_harpoon}を1得る\n{dice1} {pierce} [3~6] {on_hit} {bleed}を3付与\n{dice2} {pierce} [6~9]{guard_break}{hit_ground}{on_hit} {bleed}を3付与\n{on_use}{change_weapon}短い間ブロウラーに切り替える\n{dice3} {pierce} [9~12] {unparriable}{on_hit} 対象の{bleed}に等しい値だけ{burn}を付与",
-      "ct": 18
+      "effect": "{dice1} {slash} [4~6] {on_hit} {tremor}を2付与\n{dice2} {slash} [4~7] {on_hit} {tremor}を2付与\n{dice3} {slash} [10~14] {guard_break}{on_hit}もし対象の{tremor}が15以上なら全て消費し、{tremor_decay}として15付与その後、{tremor_burst}",
+      "ct": 20
     }
   }
 }
