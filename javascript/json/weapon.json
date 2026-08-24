@@ -2171,6 +2171,25 @@
       "ct": 16
     }
   },
+  "hook_cleaver": {
+    "req": "なし",
+    "name_en": "Hook Cleaver",
+    "name_jp": "鈎包丁",
+    "type": "pierce",
+    "damage": "5",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/fixers_spear_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/fixers_spear_critical.webm",
+      "desc": "",
+      "effect": "{on_hit}{health}を3{heal}する\n{dice1} {slash} [5~8] {undodgeable}{on_hit} {bleed}を2付与\n{dice2} {slash} [6~8] {on_hit} {bleed}を2付与",
+      "ct": 15
+    }
+  },
   "scrap_spear": {
     "req": "なし",
     "name_en": "Scrap Spear",
@@ -2188,6 +2207,44 @@
       "desc": "",
       "effect": "{dice1} {slash} [3~6] {on_hit} {bleed}を2付与",
       "ct": 13
+    }
+  },
+  "whaling_harpoon": {
+    "req": "8",
+    "name_en": "Whaling Harpoon",
+    "name_jp": "捕鯨用の銛",
+    "type": "pierce",
+    "damage": "7",
+    "speed": 0.55,
+    "basic": {
+      "image": "/assets/image/weapon/whaling_harpoon_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/whaling_harpoon_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {pierce} [15~22] {guard_break}{undodgeable}{hit_ground}{on_hit} {bleed}と{fragile}を5付与",
+      "ct": 18
+    }
+  },
+  "gas_harpoon": {
+    "req": "6",
+    "name_en": "GasHarpoon",
+    "name_jp": "ガス銛",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/gas_harpoon_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/gas_harpoon_critical.webm",
+      "desc": "",
+      "effect": "{on_hit}にエイハブの装備を着ているなら、{heated_gas_harpoon}を1得る\n{dice1} {pierce} [3~6] {on_hit} {bleed}を3付与\n{dice2} {pierce} [6~9]{guard_break}{hit_ground}{on_hit} {bleed}を3付与\n{on_use}{change_weapon}短い間ブロウラーに切り替える\n{dice3} {pierce} [9~12] {unparriable}{on_hit} 対象の{bleed}に等しい値だけ{burn}を付与",
+      "ct": 18
     }
   },
   "pointillist_brush": {
