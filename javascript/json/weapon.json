@@ -2318,6 +2318,25 @@
       "ct": 5
     }
   },
+  "seraphic_lance": {
+    "req": "6",
+    "name_en": "Seraphic Lance",
+    "name_jp": "セラフィックランス",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/seraphic_lance_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/seraphic_lance_critical.webm",
+      "desc": "",
+      "effect": "{on_hit}にエイハブの装備を着ているなら、{heated_gas_harpoon}を1得る\n{dice1} {pierce} [3~6] {on_hit} {bleed}を3付与\n{dice2} {pierce} [6~9]{guard_break}{hit_ground}{on_hit} {bleed}を3付与\n{on_use}{change_weapon}短い間ブロウラーに切り替える\n{dice3} {pierce} [9~12] {unparriable}{on_hit} 対象の{bleed}に等しい値だけ{burn}を付与",
+      "ct": 18
+    }
+  },
   "executioners_polearm": {
     "req": "4",
     "name_en": "Executioner's Polearm",
