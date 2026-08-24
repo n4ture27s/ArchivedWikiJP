@@ -2374,5 +2374,30 @@
       "effect": "{dice1} {pierce} [4~7] {on_hit} {paralyze}を2付与\n{dice2} {pierce} [4~10] {QTE}{on_hit}{knock_back}\n{QTE_success}{dice2}の値を[9~13]に変更し、1.5倍の{damage_modifier}を得る",
       "ct": 15
     }
+  },
+  "eye_gouger": {
+    "req": "1",
+    "name_en": "Eye Gouger",
+    "name_jp": "目潰し",
+    "type": "pierce",
+    "damage": "5",
+    "speed": 0.43,
+    "basic": {
+      "image": "/assets/image/weapon/eye_gouger_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/eye_gouger_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{haste}を3得る\n{on_use}もしsキーを押し続けているならクリティカルが変化する\n{dice1} {slash} [5~8] {multi_hit}を4回  {on_hit}{bleed}を1x4付与\n{dice2} {slash} [8~10] {knock_back}{guard_break}{on_hit} {bleed}を4付与",
+      "ct": 18
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/eye_gouger_critical2.webm",
+      "desc": "",
+      "effect": "{counter}\n{dice1} {pierce} [8~12] {frameone}{on_hit} {haste}を5得て、{bleed}を5付与",
+      "ct": 18
+    }
   }
 }
