@@ -2399,5 +2399,24 @@
       "effect": "{counter}\n{dice1} {pierce} [8~12] {frameone}{on_hit} {haste}を5得て、{bleed}を5付与",
       "ct": 18
     }
+  },
+  "deathseeker_nail": {
+    "req": "1",
+    "name_en": "Deathseeker Nail",
+    "name_jp": "死を求める者の釘",
+    "type": "pierce",
+    "damage": "4",
+    "speed": 0.62,
+    "basic": {
+      "image": "/assets/image/weapon/deathseeker_nail_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/deathseeker_nail_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{sinking}を6、{bleed}を7得る\n{dice1} {pierce} [3~7] {on_hit} {bleed}と{sinking}を4ずつ付与\n{dice2} {pierce} [3~8] {on_hit}{haste}を1得て、Deathseekerを使えるようになる",
+      "ct": 14
+    }
   }
 }
