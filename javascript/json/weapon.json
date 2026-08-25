@@ -2728,7 +2728,7 @@
     "name_en": "Hardblood Claws",
     "name_jp": "硬血式ガントレット",
     "type": "blunt",
-    "damage": "6",
+    "damage": "5.5",
     "speed": 0.55,
     "basic": {
       "image": "/assets/image/weapon/hardblood_gauntlets_basic.webm",
