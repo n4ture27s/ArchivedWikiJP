@@ -2602,5 +2602,24 @@
       "effect": "{dice1} {blunt} [4~6] {on_hit}{burn}を3付与し、3ダメージ受ける\n{dice2} {blunt} [4~6] {on_hit}{burn}を3付与し、3ダメージ受ける\n{after_use}短い間M1攻撃時に{burn}を1付与するようになる\nもしパリィされたのならこの効果は無効になる",
       "ct": 18
     }
+  },
+  "scrap_bat": {
+    "req": "なし",
+    "name_en": "Scrap Bat",
+    "name_jp": "スクラップバット",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.6,
+    "basic": {
+      "image": "/assets/image/weapon/scrap_bat_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/scrap_bat_critical.webm",
+      "desc": "",
+      "effect": "{on_hit} {hyperarmor}を得る\n{dice1} {blunt} [6~7] {on_hit} {rupture}を2付与\n{dice2} {blunt} [6~8] {on_hit} {rupture}を2付与\n{dice3} {blunt} [6~9] {on_hit} {rupture}を2付与",
+      "ct": 10
+    }
   }
 }
