@@ -2512,5 +2512,24 @@
       "effect": "{auto_execute}{undodgeable}\n{on_use} {hyperarmor}を得る\n{dice1} {slash} [8~14]0.5倍の{damage_modifier}{on_hit} {bleed}を1、{tremor}を3付与\n{dice2} {blunt}} [8~14]0.5倍の{damage_modifier}{on_hit} {bleed}を3付与\n{dice3} {blunt} [8~14]1.25倍の{damage_modifier}{on_hit} {fragile}を3付与し、ダイスの値の半分だけ{heal}する\nもしClaw Executionerの服を付けているならば、今装着してる血清によって{dice3}の{on_hit}の効果が追加される\n[血清K]{health}を5{heal}する\n[血清W]{haste}を2得る\n[血清R]{value_up}を2~5得る、この効果は12秒間続く",
       "ct": 23
     }
-   }
+   },
+  "roseate_desire_scissors": {
+    "req": "3",
+    "name_en": "Roseate Desire Scissors",
+    "name_jp": "桃色の欲望",
+    "type": "pierce",
+    "damage": "8",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/roseate_desire_scissors_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/roseate_desire_scissors_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {pierce} [3~8]\n{dice2} {pierce} [3~8]\n{dice3} {pierce} [3~8] {on_hit} {bleed}を2、{value_down}を2付与",
+      "ct": 18
+    }
+  }
 }
