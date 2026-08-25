@@ -2550,5 +2550,38 @@
       "effect": "{dice1} {pierce} [10~14] {multi_hit}を2回\n[1回目]ヒットボックス内に入ってる敵を{dice2}が{tracking}\n[2回目]{on_hit} {blooming}を1、{sinking}を3付与",
       "ct": 18
     }
+  },
+  "fell_bullet_rifle": {
+    "req": "6",
+    "name_en": "Fell Bullet Rifle",
+    "name_jp": "凶弾",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/fell_bullet_rifle_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/fell_bullet_rifle_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{poise}を4得る\n{on_hit}6以上の{poise}がある場合、{poise}を6消費し再使用する(最大2回)\n{dice1} {pierce} [4~5] {on_hit}{bleed}を1付与\n[再使用1回目] {pierce} [8~10] {on_hit} {bleed}を1付与\n[再使用2回目] {pierce} [12~15] {on_hit} {bleed}を1付与",
+      "ct": 12
+    },
+    "custom_reload": {
+      "title": "reload",
+      "image": "/assets/image/weapon/fell_bullet_rifle_reload.webm",
+      "desc": "",
+      "effect": "画面右下にある弾丸から5つ消費して、{ammo}を5得る\n",
+      "ct": 8
+    },
+    "custom_shoot": {
+      "title": "shoot",
+      "image": "/assets/image/weapon/fell_bullet_rifle_shoot.webm",
+      "desc": "",
+      "effect": "{ammo}を1消費して、6x3ダメージを与える",
+      "ct": 8
+    }
   }
 }
