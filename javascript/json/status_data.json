@@ -126,13 +126,13 @@
         "type": "buff",
         "icon": "Heated_Gas_Harpoon"
     },
-    "coagulated blood": {
+    "coagulated_blood": {
         "title": "硬血",
         "text": "血鬼専用のバフで特定のページや武器から得られる。値10/20で+1/+2のダイスアップを得る。",
         "type": "buff",
         "icon": "Coagulated_Blood"
     },
-    "shimmering blood": {
+    "shimmering_blood": {
         "title": "きらめく血",
         "text": "血鬼専用のバフで特定のページや武器から得られる。被ダメージ時に攻撃者に出血1を付与する。",
         "type": "buff",

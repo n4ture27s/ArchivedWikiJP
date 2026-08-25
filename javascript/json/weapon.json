@@ -2443,5 +2443,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{on_use}{blood_feast}を200消費\n{dice1} {pierce} [5~9] {multi_hit}を3回 {on_hit} {bleed}を1x3、{rupture}を3x1付与\n{dice2} {pierce} [5~10] {multi_hit}を3回{on_hit} {bleed}を1x3、{rupture}を4付与\n{dice3} {pierce} [5~10] {multi_hit}を3回 {on_hit} {bleed}を1x3、{rupture}を5付与\n{after_attack}現在の{blood_feast}の1/2を消費し、現在の{blood_feast}の1/20つまり、0.05倍に等しい数だけ{health}を{health}する",
       "ct": 14
     }
+   },
+  "hardblood_lance": {
+    "req": "2",
+    "name_en": "Hardblood Lance",
+    "name_jp": "硬血式ランス",
+    "type": "pierce",
+    "damage": "9",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_lance_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_lance_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{bleed}を10得る\n{on_use}{blood_feast}を20消費し、{coagulated_blood}を1得る(最大5)\n{on_use}{blood_feast}を50以上消費したのなら、回復効果を有効にする\n{dice1} {pierce} [7~10] {on_hit}{stored_blood}を1得る{multi_hit}を4回\n最初の3回は{on_hit}{bleed}を3付与し、{dice1}の0.05倍の値を{heal}する\n[4回目]0.5倍の{damage_modifier}を得る{on_hit}{bleed}を3付与し、{dice1}の0.1倍の値を{heal}する\n{dice2} {pierce} [10~16] {knock_back}{on_hit} {bleed}を3付与し、{blood_feast}を25得て{dice2}の0.2倍の値だけ{heal}する\n{after_use}{coagulated_blood}が10以上の場合、{coagulated_blood}の値の1/2だけ{shimmering_blood}に変換する\n※消費する{coagulated_blood}は最大5までだが、得る{shimmering_blood}は元の{coagulated_blood}の値の1/2に等しい",
+      "ct": 17
+    }
   }
 }
