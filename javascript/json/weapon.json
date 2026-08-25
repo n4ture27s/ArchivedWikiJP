@@ -390,11 +390,17 @@
       "desc": "",
       "effect": ""
     },
-    "critical": {
-      "image": "/assets/image/weapon/lucio_weapon_critical.webm",
+    "critical1": {
+      "image": "/assets/image/weapon/lucio_weapon_critical1.webm",
       "desc": "",
       "effect": "{dice1} [5~7] {slash} {undodgeable} {on_hit}{tremor}を2付与\n {dice2} [5~7] {slash} {undodgeable} {multi_hit}を3回\n {dice3} [7~9] {slash} {undodgeable} {on_hit}{tremor}と{burn}を2付与",
       "ct": 16
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/lucio_weapon_critical2.webm",
+      "desc": "",
+      "effect": "progress logにあるやつ見る限り条件付きのクリティカルとしてセッチォナトゥラ・デル・チェルヴォが来るみたいなので一応",
+      "ct": ""
     }
   },
   "onis_tekko": {
