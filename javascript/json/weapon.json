@@ -2621,5 +2621,106 @@
       "effect": "{on_hit} {hyperarmor}を得る\n{dice1} {blunt} [6~7] {on_hit} {rupture}を2付与\n{dice2} {blunt} [6~8] {on_hit} {rupture}を2付与\n{dice3} {blunt} [6~9] {on_hit} {rupture}を2付与",
       "ct": 10
     }
+  },
+  "hardblood_polearm": {
+    "req": "4",
+    "name_en": "Hardblood Polearm",
+    "name_jp": "硬血式グレイブ",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.54,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_polearm_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_polearm_critical.webm",
+      "desc": "",
+      "effect": "{on_use}もし{blood_feast}が200以上ならクリティカルが変化する\n{on_use} {hyperarmor}を得る\n{on_use}0.5倍の{damage_modifier}を得る\n{dice1} {slash} [15~24] {guard_break}{on_hit} {stored_blood}を1得て、{bleed}を2付与\n{dice2} {slash} [15~25] {guard_break}{knock_back}{on_hit} {stored_blood}を1得て、{bleed}を2付与",
+      "ct": 20
+     },
+    "critical2": {
+      "image": "/assets/image/weapon/hardblood_polearm_critical2.webm",
+      "desc": "",
+      "effect": "{on_use}{blood_feast}を100消費する\n{on_hit}{unblockable}\n{dice1} {slash} [4~8] {on_hit} {bleed}を4付与\n{dice2} {slash} [5~9] {on_hit} {bleed}を2付与\n{dice3} {slash} [6~10] {on_hit} {bleed}を2付与\n{dice4} {slash} [7~11] {on_hit} {bleed}を2付与",
+      "ct": 20
+    }
+  },
+  "sweeper_hook": {
+    "req": "なし",
+    "name_en": "Sweeper Hook",
+    "name_jp": "掃除屋の鈎",
+    "type": "slash",
+    "damage": "5.5",
+    "speed": 0.42,
+    "basic": {
+      "image": "/assets/image/weapon/sweeper_hook_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/sweeper_hook_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {slash} [10~15] {guard_break}{hit_ground}{on_hit} {bleed}を3付与しダイスの値/2{health}を回復する\nこのダイスは{value_up}の影響を受けない",
+      "ct": 21
+    }
+  },
+  "hardblood_blade": {
+    "req": "なし",
+    "name_en": "Hardblood Blade",
+    "name_jp": "硬血式剣",
+    "type": "slash",
+    "damage": "7",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_blade_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_blade_critical.webm",
+      "desc": "",
+      "effect": "{auto_execute}{ground}\n{on_use}もし{stored_blood}が5以上ならダイスの値を[13~17]に変更する\n{dice1} {pierce}} [7~12] {multi_hit}を10回、{on_hit}に{bleed}を1付与(10回)\n[10回目]{on_hit}{stored_blood}を1得る",
+      "ct": 16
+    }
+  },
+  "hardblood_greatblade": {
+    "req": "1",
+    "name_en": "Hardblood Greatblade",
+    "name_jp": "硬血式大剣",
+    "type": "slash",
+    "damage": "9",
+    "speed": 0.73,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_greatblade_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_greatblade_critical.webm",
+      "desc": "",
+      "effect": "{before_attack}もし{blood_feast}が200以上の場合50消費して、{value_up}を5得る\n{on_use}{stored_blood}を1得る\n{dice1} {slash} [13~15] {undodgeable}{hit_ground}{ground}{on_hit} {bleed}を3付与し、{stored_blood}を1、{blood_feast}を40得る\n{on_parryhit}少しだけダメージを与える",
+      "ct": 17
+    }
+  },
+  "hardblood_claws": {
+    "req": "なし",
+    "name_en": "Hardblood Claws",
+    "name_jp": "硬血式爪",
+    "type": "slash",
+    "damage": "6",
+    "speed": 0.59,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_claws_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_claws_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [5~7] {multi_hit}を12回\n[12回目]{guard_break}{ground}{on_hit} {bleed}を12付与",
+      "ct": 20
+    }
   }
 }
