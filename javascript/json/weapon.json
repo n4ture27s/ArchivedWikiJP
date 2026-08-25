@@ -2462,5 +2462,30 @@
       "effect": "{on_use}{bleed}を10得る\n{on_use}{blood_feast}を20消費し、{coagulated_blood}を1得る(最大5)\n{on_use}{blood_feast}を50以上消費したのなら、回復効果を有効にする\n{dice1} {pierce} [7~10] {on_hit}{stored_blood}を1得る{multi_hit}を4回\n最初の3回は{on_hit}{bleed}を3付与し、{dice1}の0.05倍の値を{heal}する\n[4回目]0.5倍の{damage_modifier}を得る{on_hit}{bleed}を3付与し、{dice1}の0.1倍の値を{heal}する\n{dice2} {pierce} [10~16] {knock_back}{on_hit} {bleed}を3付与し、{blood_feast}を25得て{dice2}の0.2倍の値だけ{heal}する\n{after_use}{coagulated_blood}が10以上の場合、{coagulated_blood}の値の1/2だけ{shimmering_blood}に変換する\n※消費する{coagulated_blood}は最大5までだが、得る{shimmering_blood}は元の{coagulated_blood}の値の1/2に等しい",
       "ct": 17
     }
-  }
+   },
+  "hardblood_greatlance": {
+    "req": "2",
+    "name_en": "Hardblood GreatLance",
+    "name_jp": "強化された硬血式ランス",
+    "type": "pierce",
+    "damage": "10",
+    "speed": 0.75,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_greatlance_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_greatlance_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{bleed}を10得る\n{on_use}{blood_feast}を20消費し、{coagulated_blood}を1得る(最大5)\n{on_use}{blood_feast}を50以上消費したのなら、回復効果を有効にする\n{dice1} {pierce} [7~10] {on_hit}{stored_blood}を1得る{multi_hit}を4回\n最初の3回は{on_hit}{bleed}を3付与し、{dice1}の0.05倍の値を{heal}する\n[4回目]0.5倍の{damage_modifier}を得る{on_hit}{bleed}を3付与し、{dice1}の0.1倍の値を{heal}する\n{dice2} {pierce} [10~16] {knock_back}{on_hit} {bleed}を3付与し、{blood_feast}を25得て{dice2}の0.2倍の値だけ{heal}する\n{after_use}{coagulated_blood}が10以上の場合、{coagulated_blood}の値の1/2だけ{shimmering_blood}に変換する\n※消費する{coagulated_blood}は最大5までだが、得る{shimmering_blood}は元の{coagulated_blood}の値の1/2に等しい",
+      "ct": 17
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/hardblood_greatlance_critical2.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {pierce} [5~10] 2倍の{damage_modifier}を得る {multi_hit}を4回\n{on_hit} {bleed}を1x4付与し、ダメージの30%に等しい値を{heal}する\n{dice2} {pierce} [6~12] 2倍の{damage_modifier}を得る {multi_hit}を5回\n{on_hit} {bleed}を1x5付与し、ダメージの30%に等しい値を{heal}する\n{dice3} {pierce} [5~12] 2倍の{damage_modifier}を得る {knock_back}{on_hit} {bleed}を1付与し、ダメージの30%に等しい値を{heal}する\n{dice4} {pierce} [8~16] 1.2倍の{damage_modifier}を得る {knock_back}{on_hit} {bleed}を3付与し、ダメージの30%に等しい値を{heal}する",
+      "ct": 17
+    }
+   }
 }
