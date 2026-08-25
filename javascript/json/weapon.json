@@ -2531,5 +2531,24 @@
       "effect": "{dice1} {pierce} [3~8]\n{dice2} {pierce} [3~8]\n{dice3} {pierce} [3~8] {on_hit} {bleed}を2、{value_down}を2付与",
       "ct": 18
     }
+  },
+  "blooming_staff": {
+    "req": "3",
+    "name_en": "Blooming Staff",
+    "name_jp": "檀香梅",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.6,
+    "basic": {
+      "image": "/assets/image/weapon/blooming_staff_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/blooming_staff_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {pierce} [10~14] {multi_hit}を2回\n[1回目]ヒットボックス内に入ってる敵を{tracking}\n[2回目]{on_hit} {blooming}を1、{sinking}を3付与",
+      "ct": 18
+    }
   }
 }
