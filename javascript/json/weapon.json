@@ -2547,7 +2547,7 @@
     "critical1": {
       "image": "/assets/image/weapon/blooming_staff_critical.webm",
       "desc": "",
-      "effect": "{dice1} {pierce} [10~14] {multi_hit}を2回\n[1回目]ヒットボックス内に入ってる敵を{tracking}\n[2回目]{on_hit} {blooming}を1、{sinking}を3付与",
+      "effect": "{dice1} {pierce} [10~14] {multi_hit}を2回\n[1回目]ヒットボックス内に入ってる敵を{dice2}が{tracking}\n[2回目]{on_hit} {blooming}を1、{sinking}を3付与",
       "ct": 18
     }
   }
