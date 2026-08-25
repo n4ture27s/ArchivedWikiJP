@@ -2583,5 +2583,24 @@
       "effect": "{ammo}を1消費して、6x3ダメージを与える",
       "ct": 8
     }
+  },
+  "flaming_bat": {
+    "req": "なし",
+    "name_en": "Flaming Bat",
+    "name_jp": "ファイヤーバット",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.63,
+    "basic": {
+      "image": "/assets/image/weapon/flaming_bat_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/flaming_bat_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {blunt} [4~6] {on_hit}{burn}を3付与し、3ダメージ受ける\n{dice2} {blunt} [4~6] {on_hit}{burn}を3付与し、3ダメージ受ける\n{after_use}短い間M1攻撃時に{burn}を1付与するようになる\nもしパリィされたのならこの効果は無効になる",
+      "ct": 18
+    }
   }
 }
