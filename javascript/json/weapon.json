@@ -2722,5 +2722,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [5~7] {multi_hit}を12回\n[12回目]{guard_break}{ground}{on_hit} {bleed}を12付与",
       "ct": 20
     }
+  },
+  "hardblood_gauntlets": {
+    "req": "なし",
+    "name_en": "Hardblood Claws",
+    "name_jp": "硬血式ガントレット",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.55,
+    "basic": {
+      "image": "/assets/image/weapon/hardblood_gauntlets_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/hardblood_gauntlets_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [5~7] {multi_hit}を12回\n[12回目]{guard_break}{ground}{on_hit} {bleed}を12付与",
+      "ct": 20
+    }
   }
 }
