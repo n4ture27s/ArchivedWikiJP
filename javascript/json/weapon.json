@@ -2589,7 +2589,7 @@
     "name_en": "Flaming Bat",
     "name_jp": "ファイヤーバット",
     "type": "blunt",
-    "damage": "6",
+    "damage": "7",
     "speed": 0.63,
     "basic": {
       "image": "/assets/image/weapon/flaming_bat_basic.webm",
