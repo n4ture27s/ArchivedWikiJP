@@ -2493,5 +2493,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{dice1} {pierce} [5~10] 2倍の{damage_modifier}を得る {multi_hit}を4回\n{on_hit} {bleed}を1x4付与し、ダメージの30%に等しい値を{heal}する\n{dice2} {pierce} [6~12] 2倍の{damage_modifier}を得る {multi_hit}を5回\n{on_hit} {bleed}を1x5付与し、ダメージの30%に等しい値を{heal}する\n{dice3} {pierce} [5~12] 2倍の{damage_modifier}を得る {knock_back}{on_hit} {bleed}を1付与し、ダメージの30%に等しい値を{heal}する\n{dice4} {pierce} [8~16] 1.2倍の{damage_modifier}を得る {knock_back}{on_hit} {bleed}を3付与し、ダメージの30%に等しい値を{heal}する",
       "ct": 17
     }
+   },
+  "executioners_claw": {
+    "req": "なし",
+    "name_en": "Executioner's Claw",
+    "name_jp": "処刑者の爪",
+    "type": "pierce",
+    "damage": "6",
+    "speed": 0.65,
+    "basic": {
+      "image": "/assets/image/weapon/executioner_claw_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/executioner_claw_critical.webm",
+      "desc": "",
+      "effect": "{auto_execute}{undodgeable}\n{on_use} {hyperarmor}を得る\n{dice1} {slash} [8~14]0.5倍の{damage_modifier}{on_hit} {bleed}を1、{tremor}を3付与\n{dice2} {blunt}} [8~14]0.5倍の{damage_modifier}{on_hit} {bleed}を3付与\n{dice3} {blunt} [8~14]1.25倍の{damage_modifier}{on_hit} {fragile}を3付与し、ダイスの値の半分だけ{heal}する\nもしClaw Executionerの服を付けているならば、今装着してる血清によって{dice3}の{on_hit}の効果が追加される\n[血清K]{health}を5{heal}する\n[血清W]{haste}を2得る\n[血清R]{value_up}を2~5得る、この効果は12秒間続く",
+      "ct": 23
+    }
    }
 }
