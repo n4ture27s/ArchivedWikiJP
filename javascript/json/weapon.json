@@ -2779,5 +2779,30 @@
       "effect": "{on_use}{dice1},{dice2},{dice3}は0.33倍の{damage_modifier}を得る\n{dice1} {blunt} [4~7] {hit_ground}{on_hit} {singleton}を4付与\n{dice2} {blunt} [4~7]\n{dice3} {blunt} [7~10]\n{dice4} {blunt} [10~13] {auto_execute}{on_hit} {sinking}を3付与",
       "ct": 20
     }
+   },
+  "chains_of_loyalty": {
+    "req": "6",
+    "name_en": "Chains Of Loyalty",
+    "name_jp": "義理の鎖",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.6,
+    "basic": {
+      "image": "/assets/image/weapon/chains_of_loyalty_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weaponchains_of_loyalty1_critical.webm",
+      "desc": "",
+      "effect": "{on_use}もしsキーを押し続けている場合、クリティカルが変化する\n{dice1} {blunt} [4~6] {unblockable}\n{dice2} {blunt} [6~8] {on_hit} {fragile}を4付与\n{dice3} {blunt} [7~10] {auto_execute}{ground}{on_hit} {paralyze}を2、{vengeance_mark}を1付与",
+      "ct": 20
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/chains_of_loyalty2_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{frameone}{counter}\n{dice1} {blunt} [4~7]\n{dice2} {blunt} [12~14] {ground}{on_hit} {fragile}を5、{vengeance_mark}を2付与",
+      "ct": 20
+    }
   }
 }

@@ -479,6 +479,12 @@
         "text": "人差し指の長剣のクリティカルを強化し、特定の人差し指のページにバフを与える状態異常",
         "type": "resource",
         "icon": "Unlocked_Blade"
+    },
+    "vengeance_mark": {
+        "title": "仕返し対象",
+        "text": "特定の条件を持つ中指の武器/ページを強化するまたは変更するために使用される状態異常",
+        "type": "buff",
+        "icon": "Vengeance_Mark"
     }
   },
   "combat_module": {
