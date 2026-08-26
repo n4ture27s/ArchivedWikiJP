@@ -2842,5 +2842,30 @@
       "effect": "{dice1} {blunt} [3~7] {ground}{hit_ground}{on_hit} {nail}を2付与し、対象の{nail}の値だけ{value_up}を得る(最大12)\n{dice2} {blunt} [13~18] {hit_ground}",
       "ct": 15
     }
+  },
+  "Rcorp_staff": {
+    "req": "5",
+    "name_en": "Rcorp. Staff",
+    "name_jp": "R社の杖",
+    "type": "blunt",
+    "damage": "8",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/Rcorp_staff_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/Rcorp_staff_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{charge}が8未満の場合、範囲内の対象をランダムに攻撃する\n{dice1} {blunt} [2~3] {unblockable}{on_hit} {sinking}を1付与\n{dice2} {blunt} [2~4] {unblockable}{on_hit} {sinking}を1付与\n{dice3} {blunt} [2~5] {unblockable}{on_hit} {sinking}を1付与\n{dice4} {blunt} [2~6] {unblockable}{on_hit} {sinking}を1付与\n{dice5} {blunt} [2~7] {unblockable}{on_hit} {sinking}を1付与",
+      "ct": 15
+     },
+    "critical2": {
+      "image": "/assets/image/weapon/Rcorp_staff_critical2.webm",
+      "desc": "",
+      "effect": "{on_use}{charge}が8以上の場合、8消費して{AoE}\n{dice1} {blunt} [2~3] {unblockable}{on_hit} {sinking}を1付与\n{dice2} {blunt} [2~4] {unblockable}{on_hit} {sinking}を1付与\n{dice3} {blunt} [2~5] {unblockable}{on_hit} {sinking}を1付与\n{dice4} {blunt} [2~6] {unblockable}{on_hit} {sinking}を1付与\n{dice5} {blunt} [2~7] {unblockable}{on_hit} {sinking}を1付与\n※この攻撃のヒットボックスはかなり細いです",
+      "ct": 15
+    }
   }
 }
