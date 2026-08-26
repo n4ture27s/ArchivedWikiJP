@@ -2867,5 +2867,24 @@
       "effect": "{on_use}{charge}が8以上の場合、8消費して{AoE}\n{dice1} {blunt} [2~3] {unblockable}{on_hit} {sinking}を1付与\n{dice2} {blunt} [2~4] {unblockable}{on_hit} {sinking}を1付与\n{dice3} {blunt} [2~5] {unblockable}{on_hit} {sinking}を1付与\n{dice4} {blunt} [2~6] {unblockable}{on_hit} {sinking}を1付与\n{dice5} {blunt} [2~7] {unblockable}{on_hit} {sinking}を1付与\n※この攻撃のヒットボックスはかなり細いです",
       "ct": 15
     }
+   },
+  "Wcorp_gauntlets": {
+    "req": "3",
+    "name_en": "WARP Corp. Gauntlets",
+    "name_jp": "W社のガントレット",
+    "type": "blunt",
+    "damage": "6.5",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/Ncorp_inquisitor_hammer_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/Ncorp_inquisitor_hammer_critical.webm",
+      "desc": "",
+      "effect": "{auto_execute}{hit_ground}\n{on_use}{charge}が15以上の場合{charge}を15消費し、{value_up}を5得る\nさらに元のダイスの値の2倍のダメージを与える\n{dice1} {slash} [12~16] {unblockable}{on_hit} {rupture}を2付与し、{charge}を3得る\n{charge}が15以上の場合は{rupture}を4付与する\n※{charge}が15以上の状態で発動するクリティカルには、{dice1}のステータスを使用したダメージ用の隠しダイスがもう1つ存在する。",
+      "ct": 15
+    }
   }
 }
