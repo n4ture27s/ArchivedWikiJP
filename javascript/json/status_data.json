@@ -485,6 +485,12 @@
         "text": "特定の条件を持つ中指の武器/ページを強化するまたは変更するために使用される状態異常",
         "type": "debuff",
         "icon": "Vengeance_Mark"
+    },
+    "warp_dash": {
+        "title": "ワープダッシュ",
+        "text": "血清W、爪の服から得られるバフ。回避を強化し、1消費したのなら充電を1得る",
+        "type": "buff",
+        "icon": "Warp_Dash"
     }
   },
   "combat_module": {
