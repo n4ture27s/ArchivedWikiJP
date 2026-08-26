@@ -2987,5 +2987,24 @@
       "effect": "{on_use}{smoke}を4得る\n{dice1} {blunt} [2~6]\n{dice2} {blunt} [2~6] {on_use}{hyperarmor}を得る\n{dice3} {blunt} [2~3] {on_hit} {smoke}を2付与\n{dice4} {blunt} [2~3] {on_hit} {smoke}を2付与",
       "ct": 16
     }
+  },
+  "worn_sledgehammer": {
+    "req": "なし",
+    "name_en": "Worn Sledgehammer",
+    "name_jp": "使い古されたスレッジハンマー",
+    "type": "blunt",
+    "damage": "8.5",
+    "speed": 0.6,
+    "basic": {
+      "image": "/assets/image/weapon/worn_sledgehammer_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/worn_sledgehammer_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{hyperarmor}\n{dice1} {blunt} [7~12] {hit_ground}{hit_downed}{on_hit} {bind}を2付与\n{on_hit}もし対象の{bind}が5以上なら足を骨折させる\n{on_parryhit}少しダメージを与える",
+      "ct": 19
+    }
   }
 }
