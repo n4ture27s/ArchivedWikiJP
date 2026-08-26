@@ -2886,5 +2886,30 @@
       "effect": "{auto_execute}{hit_ground}\n{on_use}{charge}が15以上の場合{charge}を15消費し、{value_up}を5得る\nさらに元のダイスの値の2倍のダメージを与える\n{dice1} {slash} [12~16] {unblockable}{on_hit} {rupture}を2付与し、{charge}を3得る\n{charge}が15以上の場合は{rupture}を4付与する\n※{charge}が15以上の状態で発動するクリティカルには、{dice1}のステータスを使用したダメージ用の隠しダイスがもう1つ存在する。",
       "ct": 15
     }
-  }
+  },
+  "dragons_bite": {
+    "req": "1",
+    "name_en": "Dragon's Bite",
+    "name_jp": "ドラゴンの一口",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/dragons_bite_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/dragons_bite_critical.webm",
+      "desc": "",
+      "effect": "{dice1} {blunt} [4~6]\n{dice2} {blunt} [4~6]\n{dice3} {blunt} [4~6]\n{dice1} {blunt} [5~7]\n{after_use}クリティカルをもう一度使用する際にクリティカルが変化する",
+      "ct": 15
+     },
+    "critical2": {
+      "image": "/assets/image/weapon/dragons_bite_critical2.webm\n{after_use}クリティカルをもう一度使用する際にクリティカルが変化する",
+      "desc": "",
+      "effect": "{on_use}{counter}\n{dice1} {blunt} [12~15]",
+      "ct": 15
+    }
+   }
 }
