@@ -3045,5 +3045,49 @@
       "effect": "{ammo}を1消費して、6ダメージを与える",
       "ct": 0.4
     }
+  },
+  "blue_star_orb": {
+    "req": "3",
+    "name_en": "Blue Star Orb",
+    "name_jp": "星の音",
+    "type": "blunt",
+    "damage": "5",
+    "speed": 0.57,
+    "basic": {
+      "image": "/assets/image/weapon/blue_star_orb_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/blue_star_orb_critical.webm",
+      "desc": "",
+      "effect": "{undodgeable}0.8倍の{damage_modifier}\n{dice1} {blunt} [4~5] {on_hit} {sinking}を1付与\n{dice2} {blunt} [5~6] {on_hit} {sinking}を1付与\n{dice3} {blunt} [6~7] {on_hit} {sinking}を1付与\n{dice4} {blunt} [7~8] {on_hit} {sinking}を1付与\n{dice5} {blunt} [8~9] {on_hit} {sinking}を1付与",
+      "ct": 15
+    }
+  },
+  "furnace_workshop_hammer": {
+    "req": "4",
+    "name_en": "Furnace Workshop Hammer",
+    "name_jp": "竈工房のハンマー",
+    "type": "blunt",
+    "damage": "9",
+    "speed": 0.78,
+    "basic": {
+      "image": "/assets/image/weapon/furnace_workshop_hammer_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/furnace_workshop_hammer_critical.webm",
+      "desc": "",
+      "effect": "{on_use} {hyperarmor}を得る\n{hit_ground}{auto_execute}{guard_break}\n{dice1} {blunt} [9~17] {on_hit} {burn}を7付与\nもしこのダイスが当たっているのなら、武器を点火し通常攻撃時に火傷を1付与するようになる",
+      "ct": 16
+    },
+    "custom_reload": {
+      "image": "/assets/image/weapon/furnace_workshop_hammer_reload.webm",
+      "desc": "",
+      "effect": "{on_use}武器を9秒間点火する、通常攻撃時に{burn}を1付与するようになる",
+      "ct": 25
+    }
   }
 }
