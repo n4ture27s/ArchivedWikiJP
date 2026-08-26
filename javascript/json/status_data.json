@@ -94,7 +94,7 @@
         "title": "強化入れ墨",
         "text": "[被ダメージ時]値に等しい分だけダメージを軽減 / [的中時]値1につきダメージ+10%。",
         "type": "buff",
-        "icon": ""
+        "icon": "Enhancement_Tattoos"
     },
     "fluorescence_shard": {
         "title": "蛍光灯の破片",
