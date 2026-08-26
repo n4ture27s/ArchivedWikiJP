@@ -2930,5 +2930,24 @@
       "effect": "{on_use}{counter}\n{dice1} {blunt} [12~15]",
       "ct": 15
     }
-   }
+   },
+  "l_h_eure_du_loup": {
+    "req": "1",
+    "name_en": "L'Heure du Loup",
+    "name_jp": "狼の時間",
+    "type": "blunt",
+    "damage": "7",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/ookaminojikan_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/ookaminojikan_critical.webm",
+      "desc": "",
+      "effect": "{unclashable}{unblockable}{hit_ground}0.503倍の{damage_modifier}\n{dice1} {blunt} [15~35] {multi_hit}を2回\n[1回目]{on_hit} {paralyze}を1付与し{tremor_burst}を起こす\n[2回目]{on_hit} {paralyze}を1付与し{tremor_burst}を起こす",
+      "ct": 25
+    }
+  }
 }
