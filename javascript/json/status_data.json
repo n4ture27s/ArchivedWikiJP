@@ -483,7 +483,7 @@
     "vengeance_mark": {
         "title": "仕返し対象",
         "text": "特定の条件を持つ中指の武器/ページを強化するまたは変更するために使用される状態異常",
-        "type": "buff",
+        "type": "debuff",
         "icon": "Vengeance_Mark"
     }
   },
