@@ -2968,5 +2968,24 @@
       "effect": "{on_use}精神力を15減らす\n{dice1} {pierce} [7~18] {guard_break}{on_hit} {burn}を7付与\n2つの部分に分かれており、2つ目の攻撃を確実に当てるための小さいヒットボックスがある",
       "ct": 14
     }
+  },
+  "leaflet_workshop_steamgun": {
+    "req": "3",
+    "name_en": "Leaflet Workshop Steamgun",
+    "name_jp": "木の葉工房のスチームガン",
+    "type": "blunt",
+    "damage": "7.5",
+    "speed": 0.52,
+    "basic": {
+      "image": "/assets/image/weapon/leaflet_workshop_steamgun_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/leaflet_workshop_steamgun_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{smoke}を4得る\n{dice1} {blunt} [2~6]\n{dice2} {blunt} [2~6] {on_use}{hyperarmor}を得る\n{dice3} {blunt} [2~3] {on_hit} {smoke}を2付与\n{dice4} {blunt} [2~3] {on_hit} {smoke}を2付与",
+      "ct": 16
+    }
   }
 }
