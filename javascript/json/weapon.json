@@ -2947,7 +2947,26 @@
       "image": "/assets/image/weapon/ookaminojikan_critical.webm",
       "desc": "",
       "effect": "{unclashable}{unblockable}{hit_ground}0.503倍の{damage_modifier}\n{dice1} {blunt} [15~35] {multi_hit}を2回\n[1回目]{on_hit} {paralyze}を1付与し{tremor_burst}を起こす\n[2回目]{on_hit} {paralyze}を1付与し{tremor_burst}を起こす",
-      "ct": 25
+      "ct": 15
+    }
+  },
+  "the_crying_children": {
+    "req": "1",
+    "name_en": "The Crying Children",
+    "name_jp": "泣く子",
+    "type": "blunt",
+    "damage": "6",
+    "speed": 0.49,
+    "basic": {
+      "image": "/assets/image/weapon/the_crying_children_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/the_crying_children_critical.webm",
+      "desc": "",
+      "effect": "{on_use}精神力を15減らす\n{dice1} {pierce} [7~18] {guard_break}{on_hit} {burn}を7付与\n2つの部分に分かれており、2つ目の攻撃を確実に当てるための小さいヒットボックスがある",
+      "ct": 14
     }
   }
 }
