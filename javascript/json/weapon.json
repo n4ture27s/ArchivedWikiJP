@@ -2741,5 +2741,24 @@
       "effect": "{on_use} {hyperarmor}を得る\n{dice1} {blunt} [5~7] {multi_hit}を12回\n[12回目]{guard_break}{ground}{on_hit} {bleed}を12付与",
       "ct": 20
     }
+  },
+  "multicrack_charged_blades": {
+    "req": "6",
+    "name_en": "Multicrack Charged Blades",
+    "name_jp": "マルチクラックの電流双剣",
+    "type": "blunt",
+    "damage": "10",
+    "speed": 0.79,
+    "basic": {
+      "image": "/assets/image/weapon/multicrack_charged_blades_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/multicrack_charged_blades_critical.webm",
+      "desc": "",
+      "effect": "{on_use}{charge}が5~9の場合、最大{health}の2x10÷今の{charge}の値%だけダメージを受けその後、{charge}を10得る\n{on_use}{charge}が10以上の場合、15消費してダイスの値を全て[10~12]に変更する\n{dice1} {blunt} [6~7] {unblockable}{hit_ground}{on_hit} {hyperarmor}を得る\n{dice2} {blunt} [4~6] {unblockable}\n{dice3} {blunt} [4~6] {unblockable}{knock_back}",
+      "ct": 20
+    }
   }
 }
