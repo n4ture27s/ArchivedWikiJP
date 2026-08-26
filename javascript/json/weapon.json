@@ -2635,7 +2635,7 @@
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/hardblood_polearm_critical.webm",
+      "image": "/assets/image/weapon/hardblood_polearm_critical1.webm",
       "desc": "",
       "effect": "{on_use}もし{blood_feast}が200以上ならクリティカルが変化する\n{on_use} {hyperarmor}を得る\n{on_use}0.5倍の{damage_modifier}を得る\n{dice1} {slash} [15~24] {guard_break}{on_hit} {stored_blood}を1得て、{bleed}を2付与\n{dice2} {slash} [15~25] {guard_break}{knock_back}{on_hit} {stored_blood}を1得て、{bleed}を2付与",
       "ct": 20
@@ -2725,7 +2725,7 @@
   },
   "hardblood_gauntlets": {
     "req": "なし",
-    "name_en": "Hardblood Claws",
+    "name_en": "Hardblood Gauntlets",
     "name_jp": "硬血式ガントレット",
     "type": "blunt",
     "damage": "5.5",
