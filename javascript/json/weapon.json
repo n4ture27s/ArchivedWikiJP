@@ -1876,7 +1876,7 @@
     "basic": {
       "image": "/assets/image/weapon/hardblood_scissorblades_basic.webm",
       "desc": "",
-      "effect": ""
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical1": {
       "image": "/assets/image/weapon/hardblood_scissorblades_critical.webm",
@@ -1895,7 +1895,7 @@
     "basic": {
       "image": "/assets/image/weapon/great_hardblood_scissorblades_basic.webm",
       "desc": "",
-      "effect": ""
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
     },
     "critical1": {
       "image": "/assets/image/weapon/great_hardblood_scissorblades_critical.webm",
