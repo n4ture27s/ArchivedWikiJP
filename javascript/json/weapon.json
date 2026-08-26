@@ -3006,5 +3006,44 @@
       "effect": "{on_use}{hyperarmor}\n{dice1} {blunt} [7~12] {hit_ground}{hit_downed}{on_hit} {bind}を2付与\n{on_hit}もし対象の{bind}が5以上なら足を骨折させる\n{on_parryhit}少しダメージを与える",
       "ct": 19
     }
+  },
+  "hell_and_heaven": {
+    "req": "1",
+    "name_en": "Hell And Heaven",
+    "name_jp": "黒と白",
+    "type": "pierce",
+    "damage": "5.5",
+    "speed": 0.49,
+    "basic": {
+      "image": "/assets/image/weapon/hell_and_heaven_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/hell_and_heaven_critical1.webm",
+      "desc": "",
+      "effect": "{dice1} {pierce} [6~9] {unblockable}{undodgeable}\n{dice2} {pierce} [7~10] {unblockable}{undodgeable} {on_hit}{knock_back}\n{after_use}自身が3の{haste}を持っている場合、的中した対象の後ろにテレポート",
+      "ct": 12
+    },
+    "critical2": {
+      "image": "/assets/image/weapon/hell_and_heaven_critical2.webm",
+      "desc": "",
+      "effect": "{dice1} {pierce} [6~9] {unblockable}{undodgeable}\n{dice2} {pierce} [7~10] {unblockable}{undodgeable}{on_hit} {knock_back}",
+      "ct": 12
+    },
+    "custom_reload": {
+      "title": "reload",
+      "image": "/assets/image/weapon/hell_and_heaven_reload.webm",
+      "desc": "",
+      "effect": "画面右下にある弾丸から6つ消費して、{ammo}を6得る\n",
+      "ct": 8
+     },
+    "custom_shoot": {
+      "title": "shoot",
+      "image": "/assets/image/weapon/hell_and_heaven_shoot.webm",
+      "desc": "",
+      "effect": "{ammo}を1消費して、6ダメージを与える",
+      "ct": 0.4
+    }
   }
 }
