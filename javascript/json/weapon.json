@@ -2761,22 +2761,22 @@
       "ct": 20
     }
   },
-  "dieci_association_key": {
-    "req": "4",
-    "name_en": "Dieci Assocation Key",
-    "name_jp": "ディエーチ協会の鍵",
+  "dieci_association_kata": {
+    "req": "6",
+    "name_en": "Dieci Assocation Kata",
+    "name_jp": "ディエーチ協会の拳",
     "type": "blunt",
     "damage": "6",
-    "speed": 0.62,
+    "speed": 0.74,
     "basic": {
-      "image": "/assets/image/weapon/dieci_key_basic.webm",
+      "image": "/assets/image/weapon/dieci_kata_basic.webm",
       "desc": "",
       "effect": ""
     },
     "critical1": {
-      "image": "/assets/image/weapon/dieci_key_critical.webm",
+      "image": "/assets/image/weapon/dieci_kata_critical.webm",
       "desc": "",
-      "effect": "{undodgeable}{hit_ground}\n{on_use}0.8倍の{damage_modifier}\n{on_hit} {hyperarmor}\n{dice1} {blunt} [4~4] {on_hit}{sinking}を1付与\n{dice2} {blunt} [4~8] {on_hit} {sinking}を1付与\n{dice3} {blunt} [4~12] {on_hit} {sinking}を1付与\n{dice4} {blunt} [4~16] {knock_back}{on_hit} {sinking}を1付与",
+      "effect": "{on_use}{dice1},{dice2},{dice3}は0.33倍の{damage_modifier}を得る\n{dice1} {blunt} [4~7] {hit_ground}{on_hit} {singleton}を4付与\n{dice2} {blunt} [4~7]\n{dice3} {blunt} [7~10]\n{dice4} {blunt} [10~13] {auto_execute}{on_hit} {sinking}を3付与",
       "ct": 20
     }
   }
