@@ -2804,5 +2804,24 @@
       "effect": "{on_use}{frameone}{counter}\n{dice1} {blunt} [4~7]\n{dice2} {blunt} [12~14] {ground}{on_hit} {fragile}を5、{vengeance_mark}を2付与",
       "ct": 20
     }
-  }
+  },
+  "rosespanner_crusher": {
+    "req": "4",
+    "name_en": "Rosespanner Crusher",
+    "name_jp": "バラのスパナ工房の粉砕機",
+    "type": "blunt",
+    "damage": "8",
+    "speed": 0.56,
+    "basic": {
+      "image": "/assets/image/weapon/rosespanner_crusher_basic.webm",
+      "desc": "",
+      "effect": "長押しで振り下ろすまでの速度を変更できる"
+    },
+    "critical1": {
+      "image": "/assets/image/weapon/rosespanner_crusher_critical.webm",
+      "desc": "",
+      "effect": "{auto_execute}\n{dice1} {blunt} [2~3] {on_hit} {tremor}を2付与し、{charge}を3得る\n{dice2} {blunt} [1~1] {guard_break}{on_hit} {tremor}を2付与\nもし{charge}が15以上なら全てのダイスに{value_up}を3得る\n{dice3} {blunt} [1~2] {on_hit} {tremor}を1付与\n{dice4} {blunt} [1~3] {on_hit} {tremor}を1付与\n{dice5} {blunt} [1~4] {on_hit} {tremor}を1付与\n{dice6} {blunt} [1~5] {on_hit} {tremor}を1付与\n{dice8} {blunt} [1~3] {on_hit} {tremor}を2付与\nもし{charge}を消費していたのなら{tremor_burst}を2回起こす",
+      "ct": 20
+    }
+   }
 }
