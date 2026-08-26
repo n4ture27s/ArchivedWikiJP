@@ -491,6 +491,12 @@
         "text": "血清W、爪の服から得られるバフ。回避を強化し、1消費したのなら充電を1得る",
         "type": "buff",
         "icon": "Warp_Dash"
+    },
+    "chained": {
+        "title": "鎖",
+        "text": "全てのページに光の消費量を1追加し、対象の罪悪共鳴を妨げる",
+        "type": "debuff",
+        "icon": "Chained"
     }
   },
   "combat_module": {
