@@ -3089,5 +3089,38 @@
       "effect": "{on_use}武器を9秒間点火する、通常攻撃時に{burn}を1付与するようになる",
       "ct": 25
     }
+  },
+  "full-stop_pistol": {
+    "req": "なし",
+    "name_en": "Full-Stop Pistol",
+    "name_jp": "終止符のピストル",
+    "type": "pierce",
+    "damage": 4,
+    "speed": 0.71,
+    "basic": {
+      "image": "/assets/image/weapon/full_stop_pistol_basic.webm",
+      "desc": "",
+      "effect": ""
+    },
+    "critical": {
+      "image": "/assets/image/weapon/full_stop_pistol_critical.webm",
+      "desc": "",
+      "effect": "{on_use}もし{ammo}が十分でない場合、{dice2}はでない\n{dice1} {slash} [5~9] {on_hit} {hyperarmor}を得る\n{dice2} {pierce} [9~13] 0.5倍の{damage_modifier}{multi_hit}を3回、{ammo}を3消費する\n[最終段]{on_hit} {knock_back}{dice3}が{tracking}する\n{dice3} {slash} [13~17] {on_hit} {guard_break}",
+      "ct": 11
+    },
+    "custom_reload": {
+      "title": "reload",
+      "image": "/assets/image/weapon/full_stop_pistol_reload.webm",
+      "desc": "",
+      "effect": "画面右下にある弾丸から20つ消費して、{ammo}を6得る\n",
+      "ct": 8
+    },
+    "custom_shoot": {
+      "title": "shoot",
+      "image": "/assets/image/weapon/full_stop_pistol_shoot.webm",
+      "desc": "",
+      "effect": "{ammo}を1消費して、4ダメージを与える",
+      "ct": 0.5
+    }
   }
 }
